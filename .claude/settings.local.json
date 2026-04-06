@@ -1,3 +1,10 @@
 {
-  "enabledMcpjsonServers": ["beeper"]
+  "enabledMcpjsonServers": [
+    "beeper"
+  ],
+  "permissions": {
+    "allow": [
+      "Bash(curl -s \"https://api.open-meteo.com/v1/forecast?latitude=35.7&longitude=-86.9&daily=temperature_2m_max,temperature_2m_min,weathercode&hourly=temperature_2m,weathercode&temperature_unit=fahrenheit&timezone=America/Chicago&forecast_days=1\")"
+    ]
+  }
 }
