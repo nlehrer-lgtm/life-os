@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/blue-collar-content/prospects/music-city-outdoor-lighting.md",
+                "file": "work/blue-collar-content/prospects/brewer-lawn-care.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "music-city-outdoor-lighting"
+              "title": "brewer-lawn-care"
             }
           }
         ]
@@ -183,16 +183,23 @@
       "bases:Create new base": false
     }
   },
-  "active": "d2ae28b281bcad05",
+  "active": "6de0e933ef4685e0",
   "lastOpenFiles": [
-    "journal/entries/2026-04-07.md",
-    "work/blue-collar-content/prospects/brewer-lawn-care.md",
-    "CLAUDE.md",
+    "scripts/auto-commit.sh",
+    "work/blue-collar-content/Ben Frank Packs/2026-04-07-brewer-lawn-care-landscape/pack.md",
+    "work/blue-collar-content/Ben Frank Packs/2026-04-07-brewer-lawn-care-landscape-video-prospect.md",
+    "work/blue-collar-content/Ben Frank Packs/2026-04-07-brewer-lawn-care-landscape",
+    "work/blue-collar-content/Ben Frank Packs",
+    "scripts/video_prospect.py",
+    "scripts/set_keys.sh",
     "work/blue-collar-content/prospects/second-nature-lawn-care.md",
     "work/blue-collar-content/prospects/music-city-outdoor-lighting.md",
+    "work/blue-collar-content/prospects/brewer-lawn-care.md",
+    "work/blue-collar-content/cold-call-framework.md",
+    "journal/entries/2026-04-07.md",
+    "CLAUDE.md",
     "work/blue-collar-content/prospects",
     "work/blue-collar-content/levi-smith-notes.md",
-    "work/blue-collar-content/cold-call-framework.md",
     "work/blue-collar-content",
     "identity/profile.md",
     "digests/2026-04-07.md",
