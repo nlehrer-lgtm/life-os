@@ -5,10 +5,18 @@ Video Prospect System
 Paste a business URL. This script:
 1. Scrapes the website for key business info
 2. Builds a 30-second social proof video production package
-3. Drafts a personalized cold email with watermark pitch
+3. Generates voiceover MP3 via ElevenLabs
+4. Downloads stock footage clips via Pexels
+5. Drafts a personalized cold email with watermark pitch
 
 Usage:
   python3 scripts/video_prospect.py https://theirbusiness.com
+  python3 scripts/video_prospect.py --demo
+
+Required env vars (add to ~/.zshrc):
+  export ANTHROPIC_API_KEY="sk-ant-..."
+  export ELEVENLABS_API_KEY="..."
+  export PEXELS_API_KEY="..."
 """
 
 import sys
@@ -24,23 +32,32 @@ import anthropic
 
 # ── Config ────────────────────────────────────────────────────────────────────
 
-ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
+def load_key(env_var: str, fallback_file: str = None) -> str:
+    val = os.environ.get(env_var, "")
+    if not val and fallback_file:
+        path = os.path.expanduser(fallback_file)
+        if os.path.exists(path):
+            with open(path) as f:
+                val = f.read().strip()
+    return val
 
-# Fallback: read from ~/.anthropic_key if env var not set
-if not ANTHROPIC_API_KEY:
-    key_file = os.path.expanduser("~/.anthropic_key")
-    if os.path.exists(key_file):
-        with open(key_file) as f:
-            ANTHROPIC_API_KEY = f.read().strip()
+ANTHROPIC_API_KEY  = load_key("ANTHROPIC_API_KEY", "~/.anthropic_key")
+ELEVENLABS_API_KEY = load_key("ELEVENLABS_API_KEY")
+PEXELS_API_KEY     = load_key("PEXELS_API_KEY")
+
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "..", "work", "blue-collar-content", "Ben Frank Packs")
 MODEL = "claude-sonnet-4-6"
+
+# ElevenLabs voice — Adam (warm, professional American male)
+ELEVENLABS_VOICE_ID = "pNInz6obpgDQGcFmaJgB"
+ELEVENLABS_URL = f"https://api.elevenlabs.io/v1/text-to-speech/{ELEVENLABS_VOICE_ID}"
+
+PEXELS_VIDEO_URL = "https://api.pexels.com/videos/search"
 
 # ── Web Scraper ────────────────────────────────────────────────────────────────
 
 def scrape_website(url: str) -> dict:
-    """Fetch and parse a business website. Returns structured raw content."""
     print(f"  Scraping {url}...")
-
     headers = {
         "User-Agent": (
             "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
@@ -48,17 +65,14 @@ def scrape_website(url: str) -> dict:
             "Chrome/120.0.0.0 Safari/537.36"
         )
     }
-
     try:
         resp = requests.get(url, headers=headers, timeout=15)
         resp.raise_for_status()
     except requests.RequestException as e:
-        print(f"  Warning: Could not fully load {url} — {e}")
+        print(f"  Warning: Could not load {url} — {e}")
         return {"url": url, "text": "", "title": "", "meta_desc": "", "error": str(e)}
 
     soup = BeautifulSoup(resp.text, "html.parser")
-
-    # Remove noise
     for tag in soup(["script", "style", "nav", "footer", "header", "noscript"]):
         tag.decompose()
 
@@ -68,25 +82,20 @@ def scrape_website(url: str) -> dict:
     meta = soup.find("meta", attrs={"name": "description"})
     meta_desc = meta.get("content", "") if meta else ""
 
-    # Grab visible text — truncate to avoid token bloat
     body_text = soup.get_text(separator="\n", strip=True)
-    body_text = "\n".join(line for line in body_text.splitlines() if len(line.strip()) > 20)
-    body_text = body_text[:6000]  # ~1500 tokens max
+    body_text = "\n".join(l for l in body_text.splitlines() if len(l.strip()) > 20)
+    body_text = body_text[:6000]
 
-    # Pull phone numbers
     phone_pattern = r'(\(?\d{3}\)?[\s\-\.]?\d{3}[\s\-\.]?\d{4})'
     phones = list(set(re.findall(phone_pattern, resp.text)))
 
-    # Pull email addresses
     email_pattern = r'[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}'
     emails = list(set(re.findall(email_pattern, resp.text)))
-    emails = [e for e in emails if not any(skip in e for skip in ["example", "sentry", "pixel", "google", "facebook"])]
-
-    domain = urlparse(url).netloc.replace("www.", "")
+    emails = [e for e in emails if not any(s in e for s in ["example", "sentry", "pixel", "google", "facebook"])]
 
     return {
         "url": url,
-        "domain": domain,
+        "domain": urlparse(url).netloc.replace("www.", ""),
         "title": title_text,
         "meta_desc": meta_desc,
         "body_text": body_text,
@@ -98,9 +107,7 @@ def scrape_website(url: str) -> dict:
 # ── Claude Analysis ────────────────────────────────────────────────────────────
 
 def analyze_business(scraped: dict, client: anthropic.Anthropic) -> dict:
-    """Use Claude to extract structured business info from raw scraped data."""
     print("  Analyzing business...")
-
     prompt = f"""
 You are analyzing a local business website to prepare a video sales prospect sheet.
 
@@ -135,31 +142,29 @@ Extract the following as a JSON object:
 
 Return only valid JSON. No markdown fences.
 """
-
     resp = client.messages.create(
         model=MODEL,
         max_tokens=800,
         messages=[{"role": "user", "content": prompt}]
     )
-
     raw = resp.content[0].text.strip()
     try:
         return json.loads(raw)
     except json.JSONDecodeError:
-        # Try to extract JSON block
         match = re.search(r'\{.*\}', raw, re.DOTALL)
         if match:
             return json.loads(match.group())
         raise ValueError(f"Could not parse Claude response as JSON:\n{raw}")
 
 
-def generate_video_package(biz: dict, client: anthropic.Anthropic) -> str:
-    """Generate a complete 30-second video production package."""
+def generate_video_package(biz: dict, client: anthropic.Anthropic) -> tuple[str, str, list[str]]:
+    """
+    Returns: (markdown_package, clean_voiceover_script, footage_search_terms)
+    """
     print("  Building video production package...")
-
     prompt = f"""
 You are a video producer creating a 30-second social proof ad for a local business.
-This will be produced entirely with AI tools (voiceover AI, stock footage, text overlays).
+This will be produced with AI voiceover (ElevenLabs), stock footage (Pexels), and edited in Final Cut Pro.
 
 Business info:
 {json.dumps(biz, indent=2)}
@@ -174,43 +179,55 @@ The full voiceover script. Mark [PAUSE] where natural breaks go.
 Keep it tight — roughly 75-85 words for 30 seconds.
 
 ## Text Overlays
-A numbered list of the on-screen text that appears over the visuals (not the voiceover).
-Include timing cue (e.g., "0:00–0:05 — [Business Name] | [City], [State]").
+A numbered list of on-screen text with timing cues (e.g., "0:00–0:05 — Business Name | City, State").
 
 ## Stock Footage Direction
-3–4 bullet points describing the visual style and what footage to search for.
-Be specific — what scenes, what mood, what colors.
+3–4 bullet points describing what to search for on Pexels. Be specific — scenes, mood, colors.
+At the end of this section, add a line: SEARCH_TERMS: ["term 1", "term 2", "term 3", "term 4"]
+(These will be used to auto-download footage — make them short, searchable Pexels queries.)
 
 ## Voiceover Direction
-- Tone: (e.g., warm, confident, trustworthy)
-- Pace: (e.g., conversational, measured)
-- Suggested AI voice style: (e.g., "male, mid-30s, Southern warmth" for ElevenLabs)
+- Tone:
+- Pace:
+- Suggested AI voice style for ElevenLabs:
 
 ## Music Direction
-One sentence on the background music feel + a suggested search term for a royalty-free track.
+One sentence on background music feel + a suggested Uppbeat/Pixabay search term.
 
-## Recommended AI Tools
-Bullet list of tools to produce this specific video end-to-end.
-
-Keep the entire output focused and practical. This package should be copy-paste ready.
+Keep the output focused and practical.
 """
-
     resp = client.messages.create(
         model=MODEL,
         max_tokens=1200,
         messages=[{"role": "user", "content": prompt}]
     )
+    package = resp.content[0].text.strip()
 
-    return resp.content[0].text.strip()
+    # Extract clean voiceover script (strip [PAUSE] markers and markdown)
+    script_match = re.search(r'## Script.*?\n(.*?)(?=\n##|\Z)', package, re.DOTALL)
+    raw_script = script_match.group(1).strip() if script_match else ""
+    # Remove markdown quote formatting and [PAUSE] tags
+    clean_script = re.sub(r'\[PAUSE\]', '', raw_script)
+    clean_script = re.sub(r'^>\s*', '', clean_script, flags=re.MULTILINE)
+    clean_script = re.sub(r'\*\*(.+?)\*\*', r'\1', clean_script)
+    clean_script = clean_script.strip()
+
+    # Extract Pexels search terms
+    terms_match = re.search(r'SEARCH_TERMS:\s*(\[.*?\])', package, re.DOTALL)
+    footage_terms = []
+    if terms_match:
+        try:
+            footage_terms = json.loads(terms_match.group(1))
+        except json.JSONDecodeError:
+            pass
+    if not footage_terms:
+        footage_terms = [biz.get("industry", "lawn care"), "before after yard transformation", "suburban home curb appeal"]
+
+    return package, clean_script, footage_terms
 
 
 def generate_cold_email(biz: dict, client: anthropic.Anthropic) -> str:
-    """Draft a cold email pitching the watermarked video sample."""
     print("  Drafting cold email...")
-
-    owner = biz.get("owner_name") or "there"
-    salutation = f"Hi {owner.split()[0]}," if owner and owner != "null" else "Hi there,"
-
     prompt = f"""
 You are Nathaniel Lehrer, a video producer based in Spring Hill, Tennessee.
 You've created a 30-second social proof video for a local business as a sample.
@@ -234,28 +251,105 @@ Subject: [subject line]
 
 [email body]
 """
-
     resp = client.messages.create(
         model=MODEL,
         max_tokens=400,
         messages=[{"role": "user", "content": prompt}]
     )
-
     return resp.content[0].text.strip()
 
 
-# ── Output ─────────────────────────────────────────────────────────────────────
+# ── ElevenLabs Voiceover ───────────────────────────────────────────────────────
 
-def save_output(biz: dict, video_package: str, email_draft: str, scraped: dict) -> str:
-    """Save the full prospect package to a markdown file."""
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
+def generate_voiceover(script: str, output_path: str) -> bool:
+    if not ELEVENLABS_API_KEY:
+        print("  Skipping voiceover — ELEVENLABS_API_KEY not set")
+        return False
 
-    slug = re.sub(r'[^a-z0-9]+', '-', (biz.get("business_name") or scraped["domain"]).lower()).strip('-')
+    print("  Generating voiceover (ElevenLabs)...")
+    payload = {
+        "text": script,
+        "model_id": "eleven_monolingual_v1",
+        "voice_settings": {
+            "stability": 0.60,
+            "similarity_boost": 0.75
+        }
+    }
+    headers = {
+        "xi-api-key": ELEVENLABS_API_KEY,
+        "Content-Type": "application/json",
+        "Accept": "audio/mpeg"
+    }
+    try:
+        resp = requests.post(ELEVENLABS_URL, json=payload, headers=headers, timeout=60)
+        resp.raise_for_status()
+        with open(output_path, "wb") as f:
+            f.write(resp.content)
+        print(f"  Voiceover saved → {os.path.basename(output_path)}")
+        return True
+    except requests.RequestException as e:
+        print(f"  Voiceover failed: {e}")
+        return False
+
+
+# ── Pexels Footage Download ────────────────────────────────────────────────────
+
+def download_footage(search_terms: list[str], footage_dir: str) -> list[str]:
+    if not PEXELS_API_KEY:
+        print("  Skipping footage — PEXELS_API_KEY not set")
+        return []
+
+    os.makedirs(footage_dir, exist_ok=True)
+    downloaded = []
+    headers = {"Authorization": PEXELS_API_KEY}
+
+    for i, term in enumerate(search_terms[:4]):
+        print(f"  Downloading footage: \"{term}\"...")
+        try:
+            resp = requests.get(
+                PEXELS_VIDEO_URL,
+                headers=headers,
+                params={"query": term, "per_page": 1, "size": "medium", "orientation": "landscape"},
+                timeout=15
+            )
+            resp.raise_for_status()
+            data = resp.json()
+            videos = data.get("videos", [])
+            if not videos:
+                print(f"    No results for \"{term}\"")
+                continue
+
+            # Pick the best quality file under 50MB
+            video = videos[0]
+            files = sorted(video.get("video_files", []), key=lambda f: f.get("width", 0), reverse=True)
+            chosen = next((f for f in files if f.get("width", 0) <= 1920), files[0] if files else None)
+            if not chosen or not chosen.get("link"):
+                continue
+
+            filename = f"clip_{i+1:02d}_{re.sub(r'[^a-z0-9]+', '_', term.lower())}.mp4"
+            filepath = os.path.join(footage_dir, filename)
+
+            video_resp = requests.get(chosen["link"], stream=True, timeout=60)
+            video_resp.raise_for_status()
+            with open(filepath, "wb") as f:
+                for chunk in video_resp.iter_content(chunk_size=1024 * 1024):
+                    f.write(chunk)
+            print(f"    Saved → {filename}")
+            downloaded.append(filepath)
+
+        except requests.RequestException as e:
+            print(f"    Failed \"{term}\": {e}")
+
+    return downloaded
+
+
+# ── Save Output ────────────────────────────────────────────────────────────────
+
+def save_pack(biz: dict, package: str, script: str, email: str, scraped: dict, pack_dir: str) -> str:
     date_str = datetime.now().strftime("%Y-%m-%d")
-    filename = f"{date_str}-{slug}-video-prospect.md"
-    filepath = os.path.join(OUTPUT_DIR, filename)
+    filepath = os.path.join(pack_dir, "pack.md")
 
-    content = f"""# {biz.get('business_name', scraped['domain'])} — Video Prospect
+    content = f"""# {biz.get('business_name', scraped['domain'])} — Ben Frank Pack
 **Generated:** {date_str}
 **URL:** {scraped['url']}
 **Industry:** {biz.get('industry', '—')}
@@ -280,24 +374,38 @@ def save_output(biz: dict, video_package: str, email_draft: str, scraped: dict) 
 
 ---
 
+## Voiceover Script (clean)
+
+{script}
+
+---
+
 ## Video Production Package
 
-{video_package}
+{package}
 
 ---
 
 ## Cold Email Draft
 
-{email_draft}
+{email}
+
+---
+
+## Final Cut Pro Assembly Notes
+
+1. Import all clips from `footage/` — arrange in order matching Text Overlays timing
+2. Drop `voiceover.mp3` on audio track — sync to clip start
+3. Add text overlays per the timing cues above
+4. Color grade: boost green saturation, warm highlights
+5. Export at 1080p — add watermark before sending, remove after sale
 
 ---
 
 *Generated by video_prospect.py*
 """
-
     with open(filepath, "w") as f:
         f.write(content)
-
     return filepath
 
 
@@ -326,59 +434,67 @@ def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
 
     if not args and not demo_mode:
-        print("Usage: python3 scripts/video_prospect.py <business_url> [--demo]")
-        print("       python3 scripts/video_prospect.py --demo   (test without a real URL)")
+        print("Usage: python3 scripts/video_prospect.py <business_url>")
+        print("       python3 scripts/video_prospect.py --demo")
         sys.exit(1)
 
     if not ANTHROPIC_API_KEY:
         print("Error: ANTHROPIC_API_KEY not set.")
-        print("  Option 1: export ANTHROPIC_API_KEY=sk-ant-...")
-        print("  Option 2: echo 'sk-ant-...' > ~/.anthropic_key")
+        print("  Add to ~/.zshrc: export ANTHROPIC_API_KEY='sk-ant-...'")
         sys.exit(1)
 
-    if demo_mode:
-        url = "https://demo.greenvalleylawn.com"
-    else:
-        url = args[0]
-        if not url.startswith("http"):
-            url = "https://" + url
+    url = "https://demo.greenvalleylawn.com" if demo_mode else args[0]
+    if not url.startswith("http"):
+        url = "https://" + url
 
     client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
 
-    print(f"\nVideo Prospect System")
+    print(f"\nBen Frank Pack Generator")
     print(f"{'─' * 40}")
     print(f"Target: {url}\n")
 
+    # ── Scrape + Analyze ──
     if demo_mode:
-        print("  [DEMO MODE — using mock business data]")
+        print("  [DEMO MODE]")
         scraped = {"url": url, "domain": "greenvalleylawn.com", "phones": [], "emails": []}
         biz = DEMO_BIZ
-        print(f"  Found: {biz['business_name']} ({biz['city']}, {biz['state']})")
     else:
-        # Step 1: Scrape
         scraped = scrape_website(url)
-
-        # Step 2: Analyze
         biz = analyze_business(scraped, client)
+
     print(f"  Found: {biz.get('business_name', 'Unknown')} ({biz.get('city', '?')}, {biz.get('state', '?')})")
 
-    # Step 3: Video package
-    video_package = generate_video_package(biz, client)
+    # ── Generate Content ──
+    package, clean_script, footage_terms = generate_video_package(biz, client)
+    email = generate_cold_email(biz, client)
 
-    # Step 4: Cold email
-    email_draft = generate_cold_email(biz, client)
+    # ── Create Pack Folder ──
+    slug = re.sub(r'[^a-z0-9]+', '-', (biz.get("business_name") or scraped["domain"]).lower()).strip('-')
+    date_str = datetime.now().strftime("%Y-%m-%d")
+    pack_dir = os.path.join(OUTPUT_DIR, f"{date_str}-{slug}")
+    os.makedirs(pack_dir, exist_ok=True)
 
-    # Step 5: Save
-    filepath = save_output(biz, video_package, email_draft, scraped)
+    # ── Save Markdown Pack ──
+    pack_path = save_pack(biz, package, clean_script, email, scraped, pack_dir)
 
+    # ── Voiceover ──
+    vo_path = os.path.join(pack_dir, "voiceover.mp3")
+    generate_voiceover(clean_script, vo_path)
+
+    # ── Footage ──
+    footage_dir = os.path.join(pack_dir, "footage")
+    clips = download_footage(footage_terms, footage_dir)
+
+    # ── Summary ──
     print(f"\n{'─' * 40}")
-    print(f"Done. Saved to:\n  {filepath}")
+    print(f"Pack saved to: {pack_dir}")
+    print(f"  pack.md       ✓")
+    print(f"  voiceover.mp3 {'✓' if os.path.exists(vo_path) else '✗ (add ELEVENLABS_API_KEY)'}")
+    print(f"  footage/      {len(clips)} clips {'✓' if clips else '✗ (add PEXELS_API_KEY)'}")
     print()
-
-    # Print the email immediately for quick review
-    print("COLD EMAIL DRAFT:")
+    print("COLD EMAIL:")
     print("─" * 40)
-    print(email_draft)
+    print(email)
     print()
 
 
