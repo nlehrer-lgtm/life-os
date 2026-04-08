@@ -10,7 +10,7 @@ Nathaniel Lehrer. Lives in Spring Hill, Tennessee. Director of Video Production 
 
 - **Ellie (Eliana) Lehrer** — Wife. [[people/eliana-lehrer|Ellie]]
 - **Shepard Lehrer** — Son. [[people/shepard-lehrer|Shepard]]
-- **Sailor Lehrer** — Kid. [[people/sailor-lehrer|Sailor]]
+- **Sailor Lehrer** — Son. [[people/sailor-lehrer|Sailor]]
 - **Keith Lehrer** — Birth father. [[people/keith-lehrer|Keith]]
 - **Julie Lehrer** — Birth mother. [[people/julie-lehrer|Julie]]
 - **Rose Lehrer** — Stepmom. [[people/rose-lehrer|Rose]]

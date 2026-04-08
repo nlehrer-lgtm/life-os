@@ -1,3 +1,3 @@
-# Shepard Lehrer
+# Shepherd Lehrer
 
 **Relationship:** Son

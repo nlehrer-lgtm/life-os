@@ -1,3 +1,3 @@
-# Sailor Lehrer
+# Saylor Lehrer
 
 **Relationship:** Kid
