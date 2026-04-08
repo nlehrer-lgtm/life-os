@@ -32,7 +32,7 @@ if not ANTHROPIC_API_KEY:
     if os.path.exists(key_file):
         with open(key_file) as f:
             ANTHROPIC_API_KEY = f.read().strip()
-OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "..", "work", "blue-collar-content", "prospects")
+OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "..", "work", "blue-collar-content", "Ben Frank Packs")
 MODEL = "claude-sonnet-4-6"
 
 # ── Web Scraper ────────────────────────────────────────────────────────────────
