@@ -157,7 +157,7 @@ Return only valid JSON. No markdown fences.
         raise ValueError(f"Could not parse Claude response as JSON:\n{raw}")
 
 
-def generate_video_package(biz: dict, client: anthropic.Anthropic) -> tuple[str, str, list[str]]:
+def generate_video_package(biz: dict, client: anthropic.Anthropic):
     """
     Returns: (markdown_package, clean_voiceover_script, footage_search_terms)
     """
@@ -269,7 +269,7 @@ def generate_voiceover(script: str, output_path: str) -> bool:
     print("  Generating voiceover (ElevenLabs)...")
     payload = {
         "text": script,
-        "model_id": "eleven_monolingual_v1",
+        "model_id": "eleven_turbo_v2_5",
         "voice_settings": {
             "stability": 0.60,
             "similarity_boost": 0.75
@@ -294,7 +294,7 @@ def generate_voiceover(script: str, output_path: str) -> bool:
 
 # ── Pexels Footage Download ────────────────────────────────────────────────────
 
-def download_footage(search_terms: list[str], footage_dir: str) -> list[str]:
+def download_footage(search_terms, footage_dir: str):
     if not PEXELS_API_KEY:
         print("  Skipping footage — PEXELS_API_KEY not set")
         return []
