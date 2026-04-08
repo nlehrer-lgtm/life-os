@@ -26,5 +26,4 @@ git commit -m "$MSG
 
 Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>" --quiet
 
-git pull origin master --rebase --quiet 2>/dev/null || true
-git push origin master --quiet 2>&1 | grep -v "Everything up-to-date" || true
+# Changes are committed locally. Say "push" in chat to push to GitHub.
