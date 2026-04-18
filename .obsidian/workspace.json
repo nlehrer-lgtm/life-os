@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CLAUDE.md",
+                "file": "work/blue-collar-content/prospects/moodys-tire.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CLAUDE"
+              "title": "moodys-tire"
             }
           }
         ]
@@ -185,9 +185,9 @@
   },
   "active": "6de0e933ef4685e0",
   "lastOpenFiles": [
+    "CLAUDE.md",
     "README.md",
     "work/one-on-one-growth-plan-ideology.pdf",
-    "CLAUDE.md",
     "people/levann-anthony.md",
     "people/josh-kendrick.md",
     "people/annie-duda.md",

@@ -1,3 +1,4 @@
+]
 ---
 business: Moody's Tire & Auto Service
 website: https://www.moodystire.com/
