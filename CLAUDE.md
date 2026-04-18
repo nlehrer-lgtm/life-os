@@ -26,7 +26,7 @@ Details and notes live in `people/` and `identity/profile.md`.
 
 1. **Faith** — Relationship with God. Being a Christian shapes everything.
 2. **Marriage** — Patient, present, intentional husband to Ellie.
-3. **Fatherhood** — Patient, present, intentional dad to Shepard and Sailor.
+3. **Fatherhood** — Patient, present, intentional dad to Shepard and Saylor.
 4. **Relationships** — Friends, coworkers, mentors, mentees — stewarding people well.
 5. **Joy & Rest** — Living with joy, peace, and rest. Doing what restores the soul.
 
