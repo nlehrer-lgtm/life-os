@@ -54,6 +54,7 @@ Details and notes live in `people/` and `identity/profile.md`.
 - Don't over-organize: simple is better than neat
 - Keep this CLAUDE.md updated as I share new information
 - When in doubt, ask
+- Do not make any changes until you have 95% confidence in what you need to build. Ask follow-up questions until you reach that confidence.
 
 ## File Structure
 
