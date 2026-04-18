@@ -29,6 +29,8 @@ Extract whatever is provided: business name, website URL, Instagram handle/URL, 
 
 **Google / web search** if needed to fill gaps: "[Business Name] [city] TN" to find reviews, news, or additional contact info.
 
+**Revenue estimate** — search for signals that suggest annual revenue: number of employees (LinkedIn, website, Google Business), years in business, size of fleet or equipment, number of locations, Google review volume, and any press or awards. Use these to make a rough estimate. $1M+/year is a strong signal they have budget to invest in marketing. Under $1M is still worth a call but flag it — smaller operations may not prioritize marketing spend yet.
+
 ### 3. Score the Fit (1–10)
 
 Use this rubric:
@@ -36,6 +38,8 @@ Use this rubric:
 - Located in or near Franklin/Spring Hill/Brentwood/Columbia TN: +2 points
 - Social media is weak, inconsistent, or impersonal (no faces, no video, rare posts): +3 points
 - No professional video content visible: +2 points
+
+- Estimated revenue $1M+/year (signals budget and growth mindset): +1 point
 
 Deduct points if:
 - They already have strong, consistent video content with personality: -4
@@ -90,6 +94,12 @@ fit-score: [X/10]
 | Facebook | | | | | |
 
 [2–3 sentence honest summary of their social presence and what's missing.]
+
+## Revenue Estimate
+
+**Estimated annual revenue:** [e.g. $500K–$1M / $1M–$3M / unclear]
+
+[2–3 sentences on what signals led to the estimate — employees, fleet size, years in business, review volume, etc. Note whether this suggests they have budget to invest in marketing.]
 
 ## Fit Assessment
 
