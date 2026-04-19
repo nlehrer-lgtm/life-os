@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/blue-collar-content/prospects/moodys-tire.md",
+                "file": "work/blue-collar-content/prospects/franklin-driveby-auto-detailing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "moodys-tire"
+              "title": "franklin-driveby-auto-detailing"
             }
           }
         ]
@@ -185,6 +185,8 @@
   },
   "active": "6de0e933ef4685e0",
   "lastOpenFiles": [
+    "work/blue-collar-content/prospects/corsair-detailing.md",
+    "work/blue-collar-content/prospects/moodys-tire.md",
     "work/blue-collar-content/prospects/moodys-lift-shop.md",
     "work/blue-collar-content/prospects/touchstone-detailing.md",
     "work/blue-collar-content/prospects/reflections-perfection.md",
@@ -192,7 +194,6 @@
     "work/blue-collar-content/prospects/franklin-driveby-auto-detailing.md",
     "work/blue-collar-content/prospects/wolfe-customs.md",
     "work/blue-collar-content/prospects/melton-auto-styling.md",
-    "work/blue-collar-content/prospects/corsair-detailing.md",
     "CLAUDE.md",
     "README.md",
     "work/one-on-one-growth-plan-ideology.pdf",
@@ -217,7 +218,6 @@
     "scripts/video_prospect.py",
     "scripts/set_keys.sh",
     "scripts/auto-commit.sh",
-    "work/blue-collar-content/Ben Frank Packs/2026-04-07-brewer-lawn-care-landscape/pack.md",
     "work/blue-collar-content/Ben Frank Packs/2026-04-07-brewer-lawn-care-landscape",
     "work/blue-collar-content/Ben Frank Packs",
     "scripts/video_prospect.py"
