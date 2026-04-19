@@ -6,25 +6,29 @@
   <title>Corsair Detail — Franklin, TN</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --black:   #080808;
-      --surface: #111111;
-      --border:  #1e1e1e;
-      --gold:    #C8A96E;
-      --gold-dim: #8B6F3F;
-      --silver:  #9EA3A8;
-      --white:   #F0EDE8;
-      --muted:   #5a5a5a;
-      --mono: 'Space Grotesk', sans-serif;
+      --black:   #06060a;
+      --surface: #0d0d11;
+      --surface2: #111116;
+      --border:  #1c1c24;
+      --border2: #252530;
+      --red:     #D42B2B;
+      --red-bright: #FF3333;
+      --red-dim: #7A1A1A;
+      --red-glow: rgba(212,43,43,0.18);
+      --silver:  #7A808A;
+      --white:   #E4E4EE;
+      --muted:   #42424e;
+      --head: 'Rajdhani', sans-serif;
+      --mono: 'Share Tech Mono', monospace;
       --sans: 'Inter', sans-serif;
     }
 
     html { scroll-behavior: smooth; }
-
     body {
       background: var(--black);
       color: var(--white);
@@ -35,341 +39,431 @@
       -webkit-font-smoothing: antialiased;
     }
 
-    /* ── NAV ── */
+    /* ─── SCANLINE OVERLAY ─── */
+    body::after {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background: repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 2px,
+        rgba(0,0,0,0.03) 2px,
+        rgba(0,0,0,0.03) 4px
+      );
+      pointer-events: none;
+      z-index: 9999;
+    }
+
+    /* ─── NAV ─── */
     nav {
       position: fixed;
       top: 0; left: 0; right: 0;
-      z-index: 100;
+      z-index: 500;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 0 4rem;
-      height: 72px;
-      background: rgba(8,8,8,0.85);
+      padding: 0 3.5rem;
+      height: 68px;
+      background: rgba(6,6,10,0.9);
       backdrop-filter: blur(20px);
-      border-bottom: 1px solid rgba(200,169,110,0.08);
-      transition: background 0.3s;
+      border-bottom: 1px solid var(--border);
+    }
+    nav::after {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--red), transparent);
+      opacity: 0.4;
     }
 
     .nav-logo {
-      font-family: var(--mono);
-      font-size: 1rem;
-      font-weight: 600;
-      letter-spacing: 0.18em;
+      font-family: var(--head);
+      font-size: 1.3rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
       text-transform: uppercase;
       color: var(--white);
       text-decoration: none;
     }
-    .nav-logo span { color: var(--gold); }
+    .nav-logo span { color: var(--red); }
 
-    .nav-links {
-      display: flex;
-      gap: 2.5rem;
-      list-style: none;
-    }
+    .nav-links { display: flex; gap: 2.5rem; list-style: none; }
     .nav-links a {
       font-family: var(--mono);
-      font-size: 0.72rem;
-      font-weight: 500;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
+      font-size: 0.7rem;
+      letter-spacing: 0.12em;
       color: var(--silver);
       text-decoration: none;
+      text-transform: uppercase;
       transition: color 0.2s;
+      position: relative;
     }
-    .nav-links a:hover { color: var(--gold); }
+    .nav-links a::after {
+      content: '';
+      position: absolute;
+      bottom: -4px; left: 0; right: 0;
+      height: 1px;
+      background: var(--red);
+      transform: scaleX(0);
+      transition: transform 0.2s;
+    }
+    .nav-links a:hover { color: var(--white); }
+    .nav-links a:hover::after { transform: scaleX(1); }
 
     .nav-cta {
       font-family: var(--mono);
-      font-size: 0.72rem;
-      font-weight: 600;
+      font-size: 0.7rem;
       letter-spacing: 0.14em;
       text-transform: uppercase;
-      color: var(--black);
-      background: var(--gold);
-      padding: 0.6rem 1.4rem;
+      color: var(--white);
+      border: 1px solid var(--red);
+      padding: 0.55rem 1.4rem;
       text-decoration: none;
-      transition: background 0.2s, transform 0.2s;
+      transition: background 0.2s, box-shadow 0.2s;
+      clip-path: polygon(8px 0%, 100% 0%, calc(100% - 8px) 100%, 0% 100%);
     }
-    .nav-cta:hover { background: #dbbe84; transform: translateY(-1px); }
+    .nav-cta:hover {
+      background: var(--red);
+      box-shadow: 0 0 20px var(--red-glow);
+    }
 
-    /* ── HERO ── */
+    /* ─── HERO ─── */
     .hero {
       position: relative;
       min-height: 100vh;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      padding: 0 4rem;
+      padding: 0 3.5rem;
       overflow: hidden;
     }
 
-    /* geometric grid background */
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      background-image: url('https://lirp.cdn-website.com/8dad1a29/dms3rep/multi/opt/_A9S8733-2880w.JPG');
+      background-size: cover;
+      background-position: center 40%;
+      filter: brightness(0.25) saturate(0.4);
+    }
+
+    /* grid overlay */
     .hero::before {
       content: '';
       position: absolute;
       inset: 0;
       background-image:
-        linear-gradient(rgba(200,169,110,0.03) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(200,169,110,0.03) 1px, transparent 1px);
-      background-size: 80px 80px;
+        linear-gradient(rgba(212,43,43,0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(212,43,43,0.04) 1px, transparent 1px);
+      background-size: 60px 60px;
+      z-index: 1;
+    }
+
+    /* red glow orb */
+    .hero-glow {
+      position: absolute;
+      top: 20%; right: 15%;
+      width: 600px; height: 600px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(212,43,43,0.12) 0%, transparent 70%);
+      z-index: 1;
       pointer-events: none;
     }
 
-    /* radial glow */
-    .hero::after {
-      content: '';
-      position: absolute;
-      top: 30%; left: 60%;
-      width: 700px; height: 700px;
-      border-radius: 50%;
-      background: radial-gradient(circle, rgba(200,169,110,0.06) 0%, transparent 70%);
-      pointer-events: none;
-    }
+    .hero-content { position: relative; z-index: 2; }
 
     .hero-tag {
       font-family: var(--mono);
-      font-size: 0.68rem;
-      font-weight: 500;
+      font-size: 0.7rem;
       letter-spacing: 0.22em;
       text-transform: uppercase;
-      color: var(--gold);
-      margin-bottom: 2rem;
+      color: var(--red);
+      margin-bottom: 1.8rem;
       display: flex;
       align-items: center;
       gap: 1rem;
     }
-    .hero-tag::before {
-      content: '';
-      display: block;
-      width: 40px;
-      height: 1px;
-      background: var(--gold);
-    }
+    .hero-tag::before { content: '//'; color: var(--muted); }
 
     .hero h1 {
-      font-family: var(--mono);
-      font-size: clamp(3rem, 7vw, 7rem);
-      font-weight: 300;
-      line-height: 1.02;
-      letter-spacing: -0.02em;
-      max-width: 14ch;
-      position: relative;
-      z-index: 1;
+      font-family: var(--head);
+      font-size: clamp(3.5rem, 8vw, 8rem);
+      font-weight: 700;
+      line-height: 0.95;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
     }
-    .hero h1 em {
-      font-style: normal;
-      color: var(--gold);
+    .hero h1 .line-accent { color: var(--red); display: block; }
+    .hero h1 .line-outline {
+      display: block;
+      color: transparent;
+      -webkit-text-stroke: 1px rgba(228,228,238,0.25);
     }
 
     .hero-sub {
-      font-size: 0.95rem;
+      font-size: 0.9rem;
       font-weight: 300;
       color: var(--silver);
-      max-width: 38ch;
+      max-width: 42ch;
       margin-top: 2rem;
-      line-height: 1.8;
-      position: relative;
-      z-index: 1;
+      line-height: 1.9;
+      border-left: 2px solid var(--red-dim);
+      padding-left: 1.2rem;
     }
 
     .hero-actions {
       display: flex;
       align-items: center;
       gap: 2rem;
-      margin-top: 3rem;
-      position: relative;
-      z-index: 1;
+      margin-top: 2.5rem;
     }
 
     .btn-primary {
       font-family: var(--mono);
       font-size: 0.75rem;
-      font-weight: 600;
       letter-spacing: 0.14em;
       text-transform: uppercase;
-      color: var(--black);
-      background: var(--gold);
-      padding: 1rem 2.2rem;
+      color: var(--white);
+      background: var(--red);
+      padding: 0.9rem 2rem;
       text-decoration: none;
-      display: inline-block;
-      transition: background 0.2s, transform 0.2s;
+      clip-path: polygon(10px 0%, 100% 0%, calc(100% - 10px) 100%, 0% 100%);
+      transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
     }
-    .btn-primary:hover { background: #dbbe84; transform: translateY(-2px); }
+    .btn-primary:hover {
+      background: var(--red-bright);
+      box-shadow: 0 0 30px rgba(212,43,43,0.5);
+      transform: translateY(-2px);
+    }
 
     .btn-ghost {
       font-family: var(--mono);
       font-size: 0.75rem;
-      font-weight: 500;
       letter-spacing: 0.14em;
       text-transform: uppercase;
       color: var(--silver);
       text-decoration: none;
       display: flex;
       align-items: center;
-      gap: 0.5rem;
+      gap: 0.6rem;
       transition: color 0.2s;
     }
-    .btn-ghost:hover { color: var(--gold); }
+    .btn-ghost:hover { color: var(--red); }
     .btn-ghost::after { content: '→'; }
 
-    /* hero stats */
     .hero-stats {
       position: absolute;
-      bottom: 4rem;
-      right: 4rem;
-      display: flex;
-      gap: 3rem;
-      z-index: 1;
+      bottom: 4rem; right: 3.5rem;
+      display: flex; gap: 3rem;
+      z-index: 2;
     }
     .stat-item { text-align: right; }
     .stat-num {
-      font-family: var(--mono);
-      font-size: 2rem;
-      font-weight: 300;
+      font-family: var(--head);
+      font-size: 2.5rem;
+      font-weight: 700;
       color: var(--white);
       line-height: 1;
     }
-    .stat-num span { color: var(--gold); font-size: 1.2rem; }
+    .stat-num span { color: var(--red); font-size: 1.4rem; }
     .stat-label {
       font-family: var(--mono);
-      font-size: 0.62rem;
-      font-weight: 500;
-      letter-spacing: 0.16em;
+      font-size: 0.58rem;
+      letter-spacing: 0.18em;
       text-transform: uppercase;
       color: var(--muted);
-      margin-top: 0.4rem;
+      margin-top: 0.3rem;
     }
 
-    /* scroll indicator */
-    .scroll-line {
+    .scroll-indicator {
       position: absolute;
-      bottom: 0;
-      left: 4rem;
+      bottom: 3rem; left: 3.5rem;
+      z-index: 2;
       display: flex;
       flex-direction: column;
       align-items: center;
       gap: 0.8rem;
-      padding-bottom: 3rem;
     }
-    .scroll-line span {
+    .scroll-indicator span {
       font-family: var(--mono);
-      font-size: 0.6rem;
+      font-size: 0.58rem;
       letter-spacing: 0.2em;
       text-transform: uppercase;
       color: var(--muted);
       writing-mode: vertical-rl;
     }
-    .scroll-line::after {
+    .scroll-indicator::after {
       content: '';
-      display: block;
       width: 1px;
-      height: 60px;
-      background: linear-gradient(to bottom, var(--gold), transparent);
-      animation: scrollPulse 2s ease-in-out infinite;
+      height: 50px;
+      background: linear-gradient(to bottom, var(--red), transparent);
+      animation: pulse 2s ease-in-out infinite;
     }
-    @keyframes scrollPulse {
-      0%, 100% { opacity: 0.3; transform: scaleY(1); }
-      50% { opacity: 1; transform: scaleY(1.1); }
+    @keyframes pulse { 0%,100%{opacity:0.3} 50%{opacity:1} }
+
+    /* diagonal cut at bottom of hero */
+    .hero-cut {
+      position: absolute;
+      bottom: -1px; left: 0; right: 0;
+      height: 80px;
+      background: var(--black);
+      clip-path: polygon(0 100%, 100% 0, 100% 100%);
+      z-index: 3;
     }
 
-    /* ── SECTION BASE ── */
-    section { padding: 8rem 4rem; }
+    /* ─── TICKER ─── */
+    .ticker {
+      background: var(--red);
+      padding: 0.65rem 0;
+      overflow: hidden;
+      white-space: nowrap;
+      position: relative;
+      z-index: 4;
+    }
+    .ticker-inner {
+      display: inline-flex;
+      animation: ticker 28s linear infinite;
+    }
+    .ticker-item {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--white);
+      padding: 0 2.5rem;
+    }
+    .ticker-sep { color: rgba(255,255,255,0.35); align-self: center; }
+    @keyframes ticker { 0%{transform:translateX(0)} 100%{transform:translateX(-50%)} }
+
+    /* ─── SECTION SHARED ─── */
+    section { padding: 7rem 3.5rem; }
 
     .section-label {
       font-family: var(--mono);
-      font-size: 0.62rem;
-      font-weight: 500;
+      font-size: 0.65rem;
       letter-spacing: 0.22em;
       text-transform: uppercase;
-      color: var(--gold);
-      margin-bottom: 1rem;
+      color: var(--red);
+      margin-bottom: 0.8rem;
       display: flex;
       align-items: center;
-      gap: 1rem;
+      gap: 0.8rem;
     }
     .section-label::before {
       content: attr(data-num);
-      font-size: 0.7rem;
       color: var(--muted);
+      font-size: 0.65rem;
+    }
+    .section-label::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+      max-width: 60px;
     }
 
     .section-title {
-      font-family: var(--mono);
-      font-size: clamp(2rem, 4vw, 3.5rem);
-      font-weight: 300;
-      line-height: 1.1;
-      letter-spacing: -0.01em;
+      font-family: var(--head);
+      font-size: clamp(2rem, 4.5vw, 4rem);
+      font-weight: 700;
+      line-height: 1;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
     }
 
-    .divider {
-      width: 100%;
-      height: 1px;
-      background: var(--border);
-    }
-
-    /* ── ABOUT STRIP ── */
-    .about-strip {
+    /* ─── ABOUT SPLIT ─── */
+    .about-section {
       background: var(--surface);
-      padding: 5rem 4rem;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 6rem;
-      align-items: center;
+      padding: 0;
       border-top: 1px solid var(--border);
       border-bottom: 1px solid var(--border);
+      display: grid;
+      grid-template-columns: 1fr 1fr;
     }
 
-    .about-strip p {
-      font-size: 1.15rem;
+    .about-img {
+      position: relative;
+      overflow: hidden;
+      min-height: 500px;
+    }
+    .about-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      filter: grayscale(60%) brightness(0.6);
+      display: block;
+    }
+    .about-img-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(212,43,43,0.15) 0%, transparent 60%);
+    }
+    .about-img-tag {
+      position: absolute;
+      bottom: 2rem; left: 2rem;
+      font-family: var(--mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--red);
+      border: 1px solid var(--red-dim);
+      padding: 0.4rem 0.8rem;
+      background: rgba(6,6,10,0.7);
+    }
+
+    .about-content {
+      padding: 5rem 4rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 2rem;
+    }
+    .about-content p {
+      font-size: 0.95rem;
       font-weight: 300;
       color: var(--silver);
       line-height: 1.9;
     }
-    .about-strip p strong { color: var(--white); font-weight: 500; }
+    .about-content p strong { color: var(--white); font-weight: 500; }
 
-    .about-values {
-      display: flex;
-      flex-direction: column;
-      gap: 1.5rem;
-    }
+    .about-values { display: flex; flex-direction: column; gap: 1.2rem; margin-top: 1rem; }
     .value-row {
-      display: flex;
-      align-items: flex-start;
-      gap: 1.5rem;
-      padding-bottom: 1.5rem;
+      display: flex; gap: 1.2rem; align-items: flex-start;
+      padding-bottom: 1.2rem;
       border-bottom: 1px solid var(--border);
     }
     .value-row:last-child { border-bottom: none; padding-bottom: 0; }
     .value-num {
       font-family: var(--mono);
-      font-size: 0.65rem;
-      color: var(--gold);
-      font-weight: 600;
-      letter-spacing: 0.1em;
-      padding-top: 0.2rem;
+      font-size: 0.62rem;
+      color: var(--red);
       min-width: 2rem;
+      padding-top: 0.15rem;
     }
     .value-text h4 {
-      font-family: var(--mono);
-      font-size: 0.85rem;
+      font-family: var(--head);
+      font-size: 0.95rem;
       font-weight: 600;
-      letter-spacing: 0.06em;
-      margin-bottom: 0.3rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 0.2rem;
     }
     .value-text p {
-      font-size: 0.82rem !important;
+      font-size: 0.78rem !important;
       color: var(--muted) !important;
-      line-height: 1.6 !important;
+      line-height: 1.7 !important;
     }
 
-    /* ── SERVICES ── */
+    /* ─── SERVICES ─── */
     .services-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 1px;
       background: var(--border);
-      margin-top: 4rem;
+      margin-top: 3.5rem;
       border: 1px solid var(--border);
     }
 
@@ -379,83 +473,69 @@
       position: relative;
       overflow: hidden;
       transition: background 0.3s;
-      cursor: default;
     }
     .service-card::before {
       content: '';
       position: absolute;
-      inset: 0;
-      background: linear-gradient(135deg, rgba(200,169,110,0.04) 0%, transparent 60%);
-      opacity: 0;
-      transition: opacity 0.3s;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      background: var(--red);
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.35s;
     }
-    .service-card:hover { background: #0f0f0f; }
-    .service-card:hover::before { opacity: 1; }
-
-    .service-card:hover .service-num { color: var(--gold); }
-    .service-card:hover .service-line { width: 40px; }
+    .service-card:hover { background: var(--surface); }
+    .service-card:hover::before { transform: scaleX(1); }
+    .service-card:hover .service-num { color: var(--red); }
+    .service-card:hover .s-line { width: 36px; }
 
     .service-num {
       font-family: var(--mono);
-      font-size: 0.62rem;
-      font-weight: 600;
+      font-size: 0.6rem;
       letter-spacing: 0.2em;
       color: var(--muted);
       margin-bottom: 1.5rem;
       transition: color 0.3s;
     }
-
-    .service-icon {
-      width: 44px;
-      height: 44px;
-      margin-bottom: 1.5rem;
-      color: var(--gold);
-      opacity: 0.7;
-    }
-
     .service-card h3 {
-      font-family: var(--mono);
-      font-size: 1.1rem;
-      font-weight: 500;
-      margin-bottom: 0.8rem;
-      letter-spacing: 0.02em;
+      font-family: var(--head);
+      font-size: 1.25rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin-bottom: 0.6rem;
     }
-
-    .service-line {
-      width: 24px;
-      height: 1px;
-      background: var(--gold-dim);
-      margin-bottom: 1.2rem;
+    .s-line {
+      width: 20px; height: 1px;
+      background: var(--red-dim);
+      margin-bottom: 1rem;
       transition: width 0.3s;
     }
-
-    .service-card p {
-      font-size: 0.82rem;
-      color: var(--silver);
-      line-height: 1.8;
-    }
-
+    .service-card p { font-size: 0.82rem; color: var(--silver); line-height: 1.8; }
     .service-tag {
       display: inline-block;
       margin-top: 1.5rem;
       font-family: var(--mono);
-      font-size: 0.62rem;
-      font-weight: 600;
+      font-size: 0.58rem;
       letter-spacing: 0.14em;
       text-transform: uppercase;
-      color: var(--gold-dim);
-      border: 1px solid var(--border);
-      padding: 0.35rem 0.8rem;
+      color: var(--red);
+      border: 1px solid var(--red-dim);
+      padding: 0.3rem 0.7rem;
+      clip-path: polygon(6px 0%, 100% 0%, calc(100% - 6px) 100%, 0% 100%);
     }
 
-    /* ── PROCESS ── */
-    .process-section { background: var(--surface); }
-
+    /* ─── PROCESS ─── */
+    .process-section {
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+    }
     .process-steps {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       gap: 0;
-      margin-top: 4rem;
+      margin-top: 3.5rem;
+      border: 1px solid var(--border);
     }
     .process-step {
       padding: 2.5rem;
@@ -464,181 +544,234 @@
     }
     .process-step:last-child { border-right: none; }
     .process-step::after {
-      content: '→';
+      content: '›';
       position: absolute;
-      right: -0.7rem;
-      top: 2.5rem;
-      color: var(--gold-dim);
-      font-size: 1rem;
+      right: -0.6rem; top: 2.4rem;
+      color: var(--red-dim);
+      font-size: 1.2rem;
       z-index: 1;
     }
     .process-step:last-child::after { display: none; }
 
     .step-num {
-      font-family: var(--mono);
-      font-size: 3rem;
-      font-weight: 300;
-      color: rgba(200,169,110,0.12);
+      font-family: var(--head);
+      font-size: 4rem;
+      font-weight: 700;
+      color: rgba(212,43,43,0.08);
       line-height: 1;
-      margin-bottom: 1.5rem;
+      margin-bottom: 1.2rem;
     }
     .process-step h4 {
-      font-family: var(--mono);
-      font-size: 0.9rem;
+      font-family: var(--head);
+      font-size: 1rem;
       font-weight: 600;
-      letter-spacing: 0.06em;
-      margin-bottom: 0.8rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 0.6rem;
+      color: var(--white);
     }
-    .process-step p {
-      font-size: 0.8rem;
-      color: var(--silver);
-      line-height: 1.8;
-    }
+    .process-step p { font-size: 0.8rem; color: var(--silver); line-height: 1.8; }
 
-    /* ── TEAM ── */
+    /* ─── TEAM ─── */
     .team-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 2rem;
-      margin-top: 4rem;
+      gap: 2px;
+      background: var(--border);
+      margin-top: 3.5rem;
     }
 
     .team-card {
       background: var(--surface);
-      border: 1px solid var(--border);
-      padding: 2.5rem;
       position: relative;
       overflow: hidden;
     }
-    .team-card::after {
+    .team-photo {
+      width: 100%;
+      aspect-ratio: 3/4;
+      object-fit: cover;
+      object-position: top center;
+      filter: grayscale(80%) brightness(0.65);
+      display: block;
+      transition: filter 0.4s, transform 0.4s;
+    }
+    .team-card:hover .team-photo {
+      filter: grayscale(40%) brightness(0.75);
+      transform: scale(1.03);
+    }
+    .team-photo-wrap {
+      overflow: hidden;
+      position: relative;
+    }
+    .team-photo-wrap::after {
       content: '';
       position: absolute;
-      bottom: 0; left: 0; right: 0;
-      height: 2px;
-      background: linear-gradient(90deg, var(--gold), transparent);
-      transform: scaleX(0);
-      transform-origin: left;
-      transition: transform 0.4s;
+      inset: 0;
+      background: linear-gradient(to top, var(--surface) 0%, transparent 50%);
     }
-    .team-card:hover::after { transform: scaleX(1); }
-
-    .team-avatar {
-      width: 64px;
-      height: 64px;
-      border-radius: 50%;
-      background: var(--border);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-family: var(--mono);
-      font-size: 1.2rem;
-      font-weight: 600;
-      color: var(--gold);
-      margin-bottom: 1.5rem;
-      border: 1px solid rgba(200,169,110,0.2);
+    .team-photo-wrap::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(212,43,43,0.12) 0%, transparent 50%);
+      z-index: 1;
     }
 
+    .team-info { padding: 1.8rem 2rem 2rem; }
     .team-card h3 {
-      font-family: var(--mono);
-      font-size: 1rem;
-      font-weight: 600;
-      margin-bottom: 0.3rem;
+      font-family: var(--head);
+      font-size: 1.4rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin-bottom: 0.2rem;
     }
     .team-role {
       font-family: var(--mono);
-      font-size: 0.65rem;
-      font-weight: 500;
-      letter-spacing: 0.16em;
+      font-size: 0.62rem;
+      letter-spacing: 0.18em;
       text-transform: uppercase;
-      color: var(--gold);
-      margin-bottom: 1rem;
+      color: var(--red);
+      margin-bottom: 0.9rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
     }
-    .team-card p {
-      font-size: 0.82rem;
-      color: var(--silver);
-      line-height: 1.8;
-    }
+    .team-role::before { content: '//'; color: var(--muted); }
+    .team-card p { font-size: 0.8rem; color: var(--silver); line-height: 1.8; }
 
-    /* ── SERVICE AREAS ── */
+    /* glitch bar on hover */
+    .team-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--red), var(--red-bright), var(--red));
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.4s;
+      z-index: 10;
+    }
+    .team-card:hover::before { transform: scaleX(1); }
+
+    /* ─── AREAS ─── */
     .areas-section {
       background: var(--black);
-      padding: 6rem 4rem;
+      padding: 5rem 3.5rem;
       border-top: 1px solid var(--border);
     }
     .areas-list {
       display: flex;
-      gap: 0;
       margin-top: 3rem;
       border: 1px solid var(--border);
     }
     .area-item {
       flex: 1;
-      padding: 2.5rem;
+      padding: 2.5rem 2rem;
       border-right: 1px solid var(--border);
       text-align: center;
+      position: relative;
+      transition: background 0.3s;
     }
     .area-item:last-child { border-right: none; }
+    .area-item:hover { background: var(--surface); }
+    .area-item:hover h4 { color: var(--red); }
     .area-item h4 {
-      font-family: var(--mono);
-      font-size: 1.4rem;
-      font-weight: 300;
-      letter-spacing: 0.04em;
-      margin-bottom: 0.5rem;
+      font-family: var(--head);
+      font-size: 1.8rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      transition: color 0.3s;
     }
     .area-item span {
       font-family: var(--mono);
-      font-size: 0.62rem;
+      font-size: 0.6rem;
       letter-spacing: 0.18em;
       text-transform: uppercase;
-      color: var(--gold);
+      color: var(--muted);
+      display: block;
+      margin-top: 0.4rem;
     }
 
-    /* ── CONTACT ── */
+    /* ─── GALLERY STRIP ─── */
+    .gallery-strip {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      height: 420px;
+      border-top: 1px solid var(--border);
+    }
+    .gallery-panel {
+      overflow: hidden;
+      position: relative;
+    }
+    .gallery-panel img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: grayscale(50%) brightness(0.55);
+      transition: transform 0.6s ease;
+    }
+    .gallery-panel:hover img { transform: scale(1.04); }
+    .gallery-panel-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(6,6,10,0.6) 0%, transparent 60%);
+    }
+    .gallery-panel-label {
+      position: absolute;
+      bottom: 1.5rem; left: 1.5rem;
+      font-family: var(--mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--red);
+      border-left: 2px solid var(--red);
+      padding-left: 0.7rem;
+    }
+
+    /* ─── CONTACT ─── */
     .contact-section {
       background: var(--surface);
-      padding: 8rem 4rem;
       border-top: 1px solid var(--border);
     }
     .contact-grid {
       display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 6rem;
-      margin-top: 4rem;
+      grid-template-columns: 1fr 1.4fr;
+      gap: 5rem;
+      margin-top: 3.5rem;
     }
-
-    .contact-info {
-      display: flex;
-      flex-direction: column;
-      gap: 2.5rem;
+    .contact-info { display: flex; flex-direction: column; gap: 2rem; }
+    .contact-row {
+      padding-bottom: 1.8rem;
+      border-bottom: 1px solid var(--border);
     }
-    .contact-row { border-bottom: 1px solid var(--border); padding-bottom: 2rem; }
     .contact-row:last-child { border-bottom: none; padding-bottom: 0; }
     .contact-row label {
       font-family: var(--mono);
-      font-size: 0.62rem;
-      font-weight: 600;
+      font-size: 0.6rem;
       letter-spacing: 0.2em;
       text-transform: uppercase;
-      color: var(--gold);
+      color: var(--red);
       display: block;
       margin-bottom: 0.5rem;
     }
     .contact-row p, .contact-row a {
-      font-size: 1rem;
-      font-weight: 300;
+      font-family: var(--head);
+      font-size: 1.15rem;
+      font-weight: 500;
+      letter-spacing: 0.04em;
       color: var(--white);
       text-decoration: none;
-      line-height: 1.6;
     }
-    .contact-row a:hover { color: var(--gold); }
+    .contact-row a:hover { color: var(--red); }
 
-    .contact-form { display: flex; flex-direction: column; gap: 1.2rem; }
-
-    .form-field { display: flex; flex-direction: column; gap: 0.5rem; }
+    .contact-form { display: flex; flex-direction: column; gap: 1rem; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    .form-field { display: flex; flex-direction: column; gap: 0.4rem; }
     .form-field label {
       font-family: var(--mono);
-      font-size: 0.62rem;
-      font-weight: 600;
+      font-size: 0.6rem;
       letter-spacing: 0.18em;
       text-transform: uppercase;
       color: var(--muted);
@@ -647,142 +780,121 @@
     .form-field select,
     .form-field textarea {
       background: var(--black);
-      border: 1px solid var(--border);
+      border: 1px solid var(--border2);
       color: var(--white);
-      padding: 0.9rem 1rem;
+      padding: 0.8rem 1rem;
       font-family: var(--sans);
-      font-size: 0.9rem;
+      font-size: 0.88rem;
       outline: none;
-      transition: border-color 0.2s;
+      transition: border-color 0.2s, box-shadow 0.2s;
       resize: vertical;
+      clip-path: polygon(6px 0%, 100% 0%, calc(100% - 6px) 100%, 0% 100%);
       -webkit-appearance: none;
     }
     .form-field input:focus,
     .form-field select:focus,
-    .form-field textarea:focus { border-color: var(--gold); }
+    .form-field textarea:focus {
+      border-color: var(--red);
+      box-shadow: 0 0 12px rgba(212,43,43,0.15);
+    }
     .form-field select option { background: var(--black); }
+    .form-field textarea { clip-path: none; }
 
     .form-submit {
       font-family: var(--mono);
-      font-size: 0.75rem;
-      font-weight: 600;
-      letter-spacing: 0.14em;
+      font-size: 0.72rem;
+      letter-spacing: 0.16em;
       text-transform: uppercase;
-      color: var(--black);
-      background: var(--gold);
+      color: var(--white);
+      background: var(--red);
       border: none;
-      padding: 1rem 2.2rem;
+      padding: 0.9rem 2rem;
       cursor: pointer;
-      margin-top: 0.5rem;
       align-self: flex-start;
-      transition: background 0.2s, transform 0.2s;
+      margin-top: 0.5rem;
+      clip-path: polygon(10px 0%, 100% 0%, calc(100% - 10px) 100%, 0% 100%);
+      transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
     }
-    .form-submit:hover { background: #dbbe84; transform: translateY(-2px); }
+    .form-submit:hover {
+      background: var(--red-bright);
+      box-shadow: 0 0 24px rgba(212,43,43,0.45);
+      transform: translateY(-2px);
+    }
 
-    /* ── FOOTER ── */
+    /* ─── FOOTER ─── */
     footer {
-      background: #040404;
-      padding: 3rem 4rem;
+      background: #030305;
+      padding: 2.5rem 3.5rem;
       border-top: 1px solid var(--border);
       display: flex;
       align-items: center;
       justify-content: space-between;
     }
+    footer::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--red), transparent);
+      opacity: 0.3;
+    }
+    footer { position: relative; }
 
     .footer-logo {
-      font-family: var(--mono);
-      font-size: 0.9rem;
-      font-weight: 600;
-      letter-spacing: 0.18em;
+      font-family: var(--head);
+      font-size: 1.1rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
       text-transform: uppercase;
-      color: var(--white);
     }
-    .footer-logo span { color: var(--gold); }
-
-    .footer-links {
-      display: flex;
-      gap: 2rem;
-      list-style: none;
-    }
+    .footer-logo span { color: var(--red); }
+    .footer-links { display: flex; gap: 2rem; list-style: none; }
     .footer-links a {
       font-family: var(--mono);
-      font-size: 0.65rem;
-      font-weight: 500;
+      font-size: 0.62rem;
       letter-spacing: 0.14em;
       text-transform: uppercase;
       color: var(--muted);
       text-decoration: none;
       transition: color 0.2s;
     }
-    .footer-links a:hover { color: var(--gold); }
-
+    .footer-links a:hover { color: var(--red); }
     .footer-copy {
       font-family: var(--mono);
-      font-size: 0.62rem;
+      font-size: 0.58rem;
       color: var(--muted);
       letter-spacing: 0.1em;
     }
 
-    /* ── TICKER ── */
-    .ticker {
-      background: var(--gold);
-      padding: 0.7rem 0;
-      overflow: hidden;
-      white-space: nowrap;
-    }
-    .ticker-inner {
-      display: inline-flex;
-      gap: 0;
-      animation: ticker 30s linear infinite;
-    }
-    .ticker-item {
-      font-family: var(--mono);
-      font-size: 0.65rem;
-      font-weight: 700;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      color: var(--black);
-      padding: 0 3rem;
-    }
-    .ticker-dot {
-      font-size: 0.5rem;
-      opacity: 0.5;
-      align-self: center;
-    }
-    @keyframes ticker {
-      0% { transform: translateX(0); }
-      100% { transform: translateX(-50%); }
-    }
-
-    /* ── ENTRANCE ANIMATIONS ── */
+    /* ─── ANIMATIONS ─── */
     .fade-up {
       opacity: 0;
-      transform: translateY(30px);
-      transition: opacity 0.7s ease, transform 0.7s ease;
+      transform: translateY(24px);
+      transition: opacity 0.65s ease, transform 0.65s ease;
     }
-    .fade-up.visible {
-      opacity: 1;
-      transform: translateY(0);
-    }
+    .fade-up.visible { opacity: 1; transform: translateY(0); }
 
-    /* stagger children */
-    .stagger > * { transition-delay: calc(var(--i, 0) * 0.1s); }
-
+    /* ─── RESPONSIVE ─── */
     @media (max-width: 900px) {
       nav { padding: 0 1.5rem; }
       .nav-links { display: none; }
       section { padding: 5rem 1.5rem; }
       .hero { padding: 0 1.5rem; }
-      .hero h1 { font-size: 2.8rem; }
+      .hero h1 { font-size: 3rem; }
       .hero-stats { display: none; }
-      .about-strip { grid-template-columns: 1fr; gap: 3rem; padding: 3rem 1.5rem; }
+      .about-section { grid-template-columns: 1fr; }
+      .about-img { min-height: 300px; }
+      .about-content { padding: 3rem 2rem; }
       .services-grid { grid-template-columns: 1fr; }
       .process-steps { grid-template-columns: 1fr 1fr; }
+      .process-step::after { display: none; }
       .team-grid { grid-template-columns: 1fr; }
       .areas-list { flex-direction: column; }
       .area-item { border-right: none; border-bottom: 1px solid var(--border); }
-      .area-item:last-child { border-bottom: none; }
+      .gallery-strip { grid-template-columns: 1fr; height: auto; }
+      .gallery-panel { height: 280px; }
       .contact-grid { grid-template-columns: 1fr; gap: 3rem; }
+      .form-row { grid-template-columns: 1fr; }
       footer { flex-direction: column; gap: 1.5rem; text-align: center; }
       .footer-links { flex-wrap: wrap; justify-content: center; }
     }
@@ -790,385 +902,369 @@
 </head>
 <body>
 
-  <!-- NAV -->
-  <nav>
-    <a class="nav-logo" href="#">Corsair<span>.</span>Detail</a>
-    <ul class="nav-links">
-      <li><a href="#services">Services</a></li>
-      <li><a href="#process">Process</a></li>
-      <li><a href="#team">Team</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-    <a href="#contact" class="nav-cta">Book Now</a>
-  </nav>
+<!-- NAV -->
+<nav>
+  <a class="nav-logo" href="#">CORSAIR<span>.</span>DETAIL</a>
+  <ul class="nav-links">
+    <li><a href="#services">Services</a></li>
+    <li><a href="#process">Process</a></li>
+    <li><a href="#team">Team</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="#contact" class="nav-cta">Book Now</a>
+</nav>
 
-  <!-- HERO -->
-  <section class="hero">
-    <p class="hero-tag fade-up" style="--i:0">Franklin, Brentwood &amp; Nashville, TN</p>
-    <h1 class="fade-up" style="--i:1">
-      Precision<br />
-      Detailing<br />
-      <em>Perfected.</em>
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-content">
+    <p class="hero-tag fade-up">Franklin · Brentwood · Nashville, TN</p>
+    <h1 class="fade-up">
+      <span class="line-outline">PRECISION</span>
+      <span class="line-accent">DETAILING</span>
+      <span>PERFECTED.</span>
     </h1>
-    <p class="hero-sub fade-up" style="--i:2">
+    <p class="hero-sub fade-up">
       Professional-grade ceramic coatings, PPF, and detailing services — engineered to protect what you drive.
     </p>
-    <div class="hero-actions fade-up" style="--i:3">
+    <div class="hero-actions fade-up">
       <a href="#contact" class="btn-primary">Request a Quote</a>
       <a href="#services" class="btn-ghost">View Services</a>
     </div>
-
-    <div class="hero-stats fade-up" style="--i:4">
-      <div class="stat-item">
-        <div class="stat-num">4–5<span>h</span></div>
-        <div class="stat-label">Avg. Detail Time</div>
-      </div>
-      <div class="stat-item">
-        <div class="stat-num">6<span>+</span></div>
-        <div class="stat-label">Service Types</div>
-      </div>
-      <div class="stat-item">
-        <div class="stat-num">3</div>
-        <div class="stat-label">Service Areas</div>
-      </div>
+  </div>
+  <div class="hero-stats fade-up">
+    <div class="stat-item">
+      <div class="stat-num">4–5<span>h</span></div>
+      <div class="stat-label">Detail Time</div>
     </div>
-
-    <div class="scroll-line"><span>Scroll</span></div>
-  </section>
-
-  <!-- TICKER -->
-  <div class="ticker" aria-hidden="true">
-    <div class="ticker-inner">
-      <span class="ticker-item">Ceramic Coatings</span><span class="ticker-dot">◆</span>
-      <span class="ticker-item">Paint Protection Film</span><span class="ticker-dot">◆</span>
-      <span class="ticker-item">Ceramic Tint</span><span class="ticker-dot">◆</span>
-      <span class="ticker-item">Ice Blasting</span><span class="ticker-dot">◆</span>
-      <span class="ticker-item">Auto Detailing</span><span class="ticker-dot">◆</span>
-      <span class="ticker-item">Window Tinting</span><span class="ticker-dot">◆</span>
-      <span class="ticker-item">Ceramic Coatings</span><span class="ticker-dot">◆</span>
-      <span class="ticker-item">Paint Protection Film</span><span class="ticker-dot">◆</span>
-      <span class="ticker-item">Ceramic Tint</span><span class="ticker-dot">◆</span>
-      <span class="ticker-item">Ice Blasting</span><span class="ticker-dot">◆</span>
-      <span class="ticker-item">Auto Detailing</span><span class="ticker-dot">◆</span>
-      <span class="ticker-item">Window Tinting</span><span class="ticker-dot">◆</span>
+    <div class="stat-item">
+      <div class="stat-num">6<span>+</span></div>
+      <div class="stat-label">Services</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">3</div>
+      <div class="stat-label">Areas</div>
     </div>
   </div>
+  <div class="scroll-indicator"><span>Scroll</span></div>
+  <div class="hero-cut"></div>
+</section>
 
-  <!-- ABOUT STRIP -->
-  <div class="about-strip">
+<!-- TICKER -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-inner">
+    <span class="ticker-item">Ceramic Coatings</span><span class="ticker-sep">◆</span>
+    <span class="ticker-item">Paint Protection Film</span><span class="ticker-sep">◆</span>
+    <span class="ticker-item">Ceramic Tint</span><span class="ticker-sep">◆</span>
+    <span class="ticker-item">Ice Blasting</span><span class="ticker-sep">◆</span>
+    <span class="ticker-item">Auto Detailing</span><span class="ticker-sep">◆</span>
+    <span class="ticker-item">Window Tinting</span><span class="ticker-sep">◆</span>
+    <span class="ticker-item">Ceramic Coatings</span><span class="ticker-sep">◆</span>
+    <span class="ticker-item">Paint Protection Film</span><span class="ticker-sep">◆</span>
+    <span class="ticker-item">Ceramic Tint</span><span class="ticker-sep">◆</span>
+    <span class="ticker-item">Ice Blasting</span><span class="ticker-sep">◆</span>
+    <span class="ticker-item">Auto Detailing</span><span class="ticker-sep">◆</span>
+    <span class="ticker-item">Window Tinting</span><span class="ticker-sep">◆</span>
+  </div>
+</div>
+
+<!-- GALLERY STRIP -->
+<div class="gallery-strip">
+  <div class="gallery-panel">
+    <img src="https://lirp.cdn-website.com/8dad1a29/dms3rep/multi/opt/_A9S8733-2880w.JPG" alt="Corsair Detail work" />
+    <div class="gallery-panel-overlay"></div>
+    <div class="gallery-panel-label">Studio Work</div>
+  </div>
+  <div class="gallery-panel">
+    <img src="https://lirp.cdn-website.com/8dad1a29/dms3rep/multi/opt/_A9S9829-763a26c0-2880w.JPG" alt="Corsair Detail vehicle" />
+    <div class="gallery-panel-overlay"></div>
+    <div class="gallery-panel-label">Fleet &amp; Detail</div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<div class="about-section">
+  <div class="about-img">
+    <img src="https://lirp.cdn-website.com/8dad1a29/dms3rep/multi/opt/_A9S9829-763a26c0-2880w.JPG" alt="Corsair Detail" />
+    <div class="about-img-overlay"></div>
+    <div class="about-img-tag">// Est. Brentwood, TN</div>
+  </div>
+  <div class="about-content">
     <div>
       <p class="section-label fade-up" data-num="00">About Corsair</p>
-      <p class="fade-up" style="margin-top:1.2rem">
-        Corsair Detail is a <strong>professional automotive protection studio</strong> serving the Greater Nashville area. We bring meticulous attention to detail and premium-grade products to every vehicle that comes through our doors.
-      </p>
-      <p class="fade-up" style="margin-top:1.5rem">
-        By appointment only — because every vehicle deserves our <strong>full, undivided attention</strong>. We recommend professional detailing every 4–6 months to preserve your vehicle's finish and protect your investment.
-      </p>
+      <h2 class="section-title fade-up" style="margin-bottom:1.5rem">Who<br/>We Are</h2>
     </div>
+    <p class="fade-up">
+      Corsair Detail is a <strong>professional automotive protection studio</strong> serving the Greater Nashville area. We bring meticulous attention to detail and premium-grade products to every vehicle.
+    </p>
+    <p class="fade-up">
+      By <strong>appointment only</strong> — because every vehicle deserves our full, undivided attention.
+    </p>
     <div class="about-values fade-up">
       <div class="value-row">
         <div class="value-num">01</div>
         <div class="value-text">
           <h4>Appointment-Only</h4>
-          <p>No walk-ins. Every booking is dedicated time reserved exclusively for your vehicle.</p>
+          <p>Dedicated time reserved exclusively for your vehicle. No walk-ins.</p>
         </div>
       </div>
       <div class="value-row">
         <div class="value-num">02</div>
         <div class="value-text">
           <h4>Pro-Grade Products</h4>
-          <p>We use only top-tier professional products — no shortcuts, no compromises.</p>
+          <p>Top-tier professional products only — no shortcuts, no compromises.</p>
         </div>
       </div>
       <div class="value-row">
         <div class="value-num">03</div>
         <div class="value-text">
           <h4>Full Protection Suite</h4>
-          <p>Ceramic coatings, PPF, tint, and detailing — one studio for complete vehicle care.</p>
+          <p>Ceramic, PPF, tint, and detailing — one studio for complete vehicle care.</p>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <!-- SERVICES -->
-  <section id="services">
-    <p class="section-label fade-up" data-num="01">What We Do</p>
-    <h2 class="section-title fade-up">Our Services</h2>
+<!-- SERVICES -->
+<section id="services">
+  <p class="section-label fade-up" data-num="01">What We Do</p>
+  <h2 class="section-title fade-up">Services</h2>
+  <div class="services-grid">
 
-    <div class="services-grid stagger">
-
-      <div class="service-card fade-up" style="--i:0">
-        <div class="service-num">01 — Detailing</div>
-        <svg class="service-icon" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="1.2">
-          <circle cx="22" cy="22" r="18"/>
-          <circle cx="22" cy="22" r="10"/>
-          <line x1="22" y1="4" x2="22" y2="40"/>
-          <line x1="4" y1="22" x2="40" y2="22"/>
-        </svg>
-        <h3>Auto Detailing</h3>
-        <div class="service-line"></div>
-        <p>Comprehensive interior and exterior treatment — washing, polishing, waxing, deep carpet and upholstery cleaning, and engine bay detailing. Typically 4–5 hours.</p>
-        <span class="service-tag">Interior &amp; Exterior</span>
-      </div>
-
-      <div class="service-card fade-up" style="--i:1">
-        <div class="service-num">02 — Protection</div>
-        <svg class="service-icon" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="1.2">
-          <path d="M22 4L6 12v14c0 9 7.2 15.4 16 18 8.8-2.6 16-9 16-18V12L22 4z"/>
-          <polyline points="15,22 20,27 30,17"/>
-        </svg>
-        <h3>Ceramic Coatings</h3>
-        <div class="service-line"></div>
-        <p>A nano-ceramic protective layer that bonds to your paint — delivering scratch resistance, UV protection, and a hydrophobic self-cleaning finish with enhanced gloss.</p>
-        <span class="service-tag">Long-Term Protection</span>
-      </div>
-
-      <div class="service-card fade-up" style="--i:2">
-        <div class="service-num">03 — Film</div>
-        <svg class="service-icon" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="1.2">
-          <rect x="6" y="6" width="32" height="32" rx="1"/>
-          <rect x="12" y="12" width="20" height="20" rx="1"/>
-          <line x1="12" y1="6" x2="12" y2="2"/>
-          <line x1="22" y1="6" x2="22" y2="2"/>
-          <line x1="32" y1="6" x2="32" y2="2"/>
-        </svg>
-        <h3>Paint Protection Film</h3>
-        <div class="service-line"></div>
-        <p>Transparent, self-healing urethane film that guards against rock chips, road debris, and scratches. Customizable coverage from partial front-end to full wrap.</p>
-        <span class="service-tag">Self-Healing PPF</span>
-      </div>
-
-      <div class="service-card fade-up" style="--i:3">
-        <div class="service-num">04 — Tint</div>
-        <svg class="service-icon" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="1.2">
-          <rect x="6" y="14" width="32" height="20" rx="2"/>
-          <path d="M12 14V10a2 2 0 012-2h16a2 2 0 012 2v4"/>
-          <line x1="6" y1="22" x2="38" y2="22"/>
-        </svg>
-        <h3>Ceramic Window Tint</h3>
-        <div class="service-line"></div>
-        <p>Premium ceramic tint that blocks heat, glare, and UV radiation — without signal interference. Enhanced privacy and interior comfort for daily driving.</p>
-        <span class="service-tag">Heat &amp; UV Block</span>
-      </div>
-
-      <div class="service-card fade-up" style="--i:4">
-        <div class="service-num">05 — Eco Clean</div>
-        <svg class="service-icon" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="1.2">
-          <path d="M22 38c-8-4-14-10-14-18a14 14 0 0128 0c0 8-6 14-14 18z"/>
-          <path d="M22 20v10M18 24l4-4 4 4"/>
-        </svg>
-        <h3>Ice Blasting</h3>
-        <div class="service-line"></div>
-        <p>Eco-friendly, non-abrasive dry ice blasting that removes grime, grease, and residue from hard-to-reach areas without chemicals or water damage.</p>
-        <span class="service-tag">Eco-Friendly</span>
-      </div>
-
-      <div class="service-card fade-up" style="--i:5">
-        <div class="service-num">06 — Commercial</div>
-        <svg class="service-icon" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="1.2">
-          <rect x="4" y="10" width="36" height="28" rx="1"/>
-          <line x1="4" y1="18" x2="40" y2="18"/>
-          <line x1="16" y1="10" x2="16" y2="38"/>
-          <path d="M10 6h24"/>
-        </svg>
-        <h3>Commercial &amp; Residential Tint</h3>
-        <div class="service-line"></div>
-        <p>Professional window film installation for homes and commercial spaces — reducing energy costs, blocking UV, and enhancing privacy and aesthetics.</p>
-        <span class="service-tag">Buildings &amp; Homes</span>
-      </div>
-
+    <div class="service-card fade-up">
+      <div class="service-num">01 // DETAILING</div>
+      <h3>Auto Detailing</h3>
+      <div class="s-line"></div>
+      <p>Comprehensive interior and exterior treatment — washing, polishing, waxing, deep carpet and upholstery cleaning, and engine bay detailing. Typically 4–5 hours.</p>
+      <span class="service-tag">Interior &amp; Exterior</span>
     </div>
-  </section>
 
-  <!-- PROCESS -->
-  <section id="process" class="process-section">
-    <p class="section-label fade-up" data-num="02">How It Works</p>
-    <h2 class="section-title fade-up">Our Process</h2>
-
-    <div class="process-steps stagger">
-      <div class="process-step fade-up" style="--i:0">
-        <div class="step-num">01</div>
-        <h4>Book an Audit</h4>
-        <p>Request a quote online or call us. We assess your vehicle's needs and recommend the right service package.</p>
-      </div>
-      <div class="process-step fade-up" style="--i:1">
-        <div class="step-num">02</div>
-        <h4>Drop-Off</h4>
-        <p>Bring your vehicle to our Brentwood studio at your scheduled appointment time. No waiting, no walk-ins.</p>
-      </div>
-      <div class="process-step fade-up" style="--i:2">
-        <div class="step-num">03</div>
-        <h4>Precision Work</h4>
-        <p>Our specialists treat your vehicle with professional-grade products and meticulous technique. Typically 4–5 hours.</p>
-      </div>
-      <div class="process-step fade-up" style="--i:3">
-        <div class="step-num">04</div>
-        <h4>Delivery</h4>
-        <p>We walk you through the results and provide maintenance guidance to keep your finish protected long-term.</p>
-      </div>
+    <div class="service-card fade-up">
+      <div class="service-num">02 // PROTECTION</div>
+      <h3>Ceramic Coatings</h3>
+      <div class="s-line"></div>
+      <p>A nano-ceramic protective layer bonded to your paint — scratch resistance, UV protection, and a hydrophobic self-cleaning finish with enhanced gloss.</p>
+      <span class="service-tag">Long-Term Protection</span>
     </div>
-  </section>
 
-  <!-- TEAM -->
-  <section id="team">
-    <p class="section-label fade-up" data-num="03">The People</p>
-    <h2 class="section-title fade-up">Meet the Team</h2>
+    <div class="service-card fade-up">
+      <div class="service-num">03 // FILM</div>
+      <h3>Paint Protection Film</h3>
+      <div class="s-line"></div>
+      <p>Transparent, self-healing urethane film guarding against rock chips, debris, and scratches. Customizable from partial front-end to full wrap.</p>
+      <span class="service-tag">Self-Healing PPF</span>
+    </div>
 
-    <div class="team-grid">
-      <div class="team-card fade-up" style="--i:0">
-        <div class="team-avatar">JL</div>
+    <div class="service-card fade-up">
+      <div class="service-num">04 // TINT</div>
+      <h3>Ceramic Window Tint</h3>
+      <div class="s-line"></div>
+      <p>Premium ceramic tint blocking heat, glare, and UV radiation — without signal interference. Enhanced privacy and comfort for daily driving.</p>
+      <span class="service-tag">Heat &amp; UV Block</span>
+    </div>
+
+    <div class="service-card fade-up">
+      <div class="service-num">05 // ECO CLEAN</div>
+      <h3>Ice Blasting</h3>
+      <div class="s-line"></div>
+      <p>Eco-friendly dry ice blasting that removes grime, grease, and residue from hard-to-reach areas without chemicals or water damage.</p>
+      <span class="service-tag">Eco-Friendly</span>
+    </div>
+
+    <div class="service-card fade-up">
+      <div class="service-num">06 // COMMERCIAL</div>
+      <h3>Commercial &amp; Residential Tint</h3>
+      <div class="s-line"></div>
+      <p>Professional window film for homes and businesses — reducing energy costs, blocking UV, and enhancing privacy and aesthetics.</p>
+      <span class="service-tag">Buildings &amp; Homes</span>
+    </div>
+
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process" class="process-section">
+  <p class="section-label fade-up" data-num="02">How It Works</p>
+  <h2 class="section-title fade-up">Our Process</h2>
+  <div class="process-steps">
+    <div class="process-step fade-up">
+      <div class="step-num">01</div>
+      <h4>Book an Audit</h4>
+      <p>Request a quote. We assess your vehicle's needs and recommend the right service package.</p>
+    </div>
+    <div class="process-step fade-up">
+      <div class="step-num">02</div>
+      <h4>Drop-Off</h4>
+      <p>Bring your vehicle to our Brentwood studio at your scheduled appointment. No walk-ins.</p>
+    </div>
+    <div class="process-step fade-up">
+      <div class="step-num">03</div>
+      <h4>Precision Work</h4>
+      <p>Our specialists treat your vehicle with professional-grade products and meticulous technique. 4–5 hours.</p>
+    </div>
+    <div class="process-step fade-up">
+      <div class="step-num">04</div>
+      <h4>Delivery</h4>
+      <p>We walk you through the results and provide maintenance guidance to protect your finish long-term.</p>
+    </div>
+  </div>
+</section>
+
+<!-- TEAM -->
+<section id="team">
+  <p class="section-label fade-up" data-num="03">The People</p>
+  <h2 class="section-title fade-up">Meet the Team</h2>
+  <div class="team-grid">
+
+    <div class="team-card fade-up">
+      <div class="team-photo-wrap">
+        <img class="team-photo" src="https://lirp.cdn-website.com/8dad1a29/dms3rep/multi/opt/DSC05605_edited-1920w.jpg" alt="Janis Lasmanis" />
+      </div>
+      <div class="team-info">
         <h3>Janis Lasmanis</h3>
         <p class="team-role">Founder &amp; CEO</p>
-        <p>The vision behind Corsair Detail. Janis built this studio around one principle: do the work right, every time. Reachable at <a href="mailto:Janis@Corsairdetail.com" style="color:var(--gold);text-decoration:none">Janis@Corsairdetail.com</a>.</p>
+        <p>The vision behind Corsair Detail. Built this studio on one principle: do the work right, every time. Contact: <a href="mailto:Janis@Corsairdetail.com" style="color:var(--red);text-decoration:none">Janis@Corsairdetail.com</a></p>
       </div>
-      <div class="team-card fade-up" style="--i:1">
-        <div class="team-avatar">RC</div>
+    </div>
+
+    <div class="team-card fade-up">
+      <div class="team-photo-wrap">
+        <img class="team-photo" src="https://lirp.cdn-website.com/8dad1a29/dms3rep/multi/opt/JPEG-image-4720-8DB2-EB-0-1920w.jpeg" alt="Rob Craven" />
+      </div>
+      <div class="team-info">
         <h3>Rob Craven</h3>
         <p class="team-role">Manager — Franklin</p>
-        <p>Overseeing day-to-day operations at the Franklin location, Rob ensures every vehicle leaves the studio meeting Corsair's exacting standard.</p>
+        <p>Overseeing operations at the Franklin location, Rob ensures every vehicle leaves meeting Corsair's exacting standard.</p>
       </div>
-      <div class="team-card fade-up" style="--i:2">
-        <div class="team-avatar">JA</div>
+    </div>
+
+    <div class="team-card fade-up">
+      <div class="team-photo-wrap">
+        <img class="team-photo" src="https://lirp.cdn-website.com/8dad1a29/dms3rep/multi/opt/DSC05902-2-1920w.JPG" alt="James Andrew" />
+      </div>
+      <div class="team-info">
         <h3>James Andrew</h3>
         <p class="team-role">Tint Master</p>
-        <p>Our resident window film specialist — ceramic auto tint, commercial glass, residential installs. James brings precision to every panel.</p>
+        <p>Our window film specialist — ceramic auto tint, commercial glass, residential installs. James brings precision to every panel.</p>
       </div>
     </div>
-  </section>
 
-  <!-- SERVICE AREAS -->
-  <div class="areas-section">
-    <p class="section-label fade-up" data-num="04">Where We Serve</p>
-    <h2 class="section-title fade-up">Service Areas</h2>
-    <div class="areas-list fade-up">
-      <div class="area-item">
-        <h4>Franklin</h4>
-        <span>Primary Location</span>
-      </div>
-      <div class="area-item">
-        <h4>Brentwood</h4>
-        <span>Studio Address</span>
-      </div>
-      <div class="area-item">
-        <h4>Nashville</h4>
-        <span>Metro Coverage</span>
-      </div>
-      <div class="area-item">
-        <h4>Mobile</h4>
-        <span>On-Site Available</span>
-      </div>
-    </div>
   </div>
+</section>
 
-  <!-- CONTACT -->
-  <section id="contact" class="contact-section">
-    <p class="section-label fade-up" data-num="05">Get In Touch</p>
-    <h2 class="section-title fade-up">Request a Quote</h2>
+<!-- AREAS -->
+<div class="areas-section">
+  <p class="section-label fade-up" data-num="04">Where We Serve</p>
+  <h2 class="section-title fade-up">Service Areas</h2>
+  <div class="areas-list fade-up">
+    <div class="area-item"><h4>Franklin</h4><span>Primary Location</span></div>
+    <div class="area-item"><h4>Brentwood</h4><span>Studio Address</span></div>
+    <div class="area-item"><h4>Nashville</h4><span>Metro Coverage</span></div>
+    <div class="area-item"><h4>Mobile</h4><span>On-Site Available</span></div>
+  </div>
+</div>
 
-    <div class="contact-grid">
-      <div class="contact-info fade-up">
-        <div class="contact-row">
-          <label>Phone</label>
-          <a href="tel:6155932356">615-593-2356</a>
-        </div>
-        <div class="contact-row">
-          <label>Email</label>
-          <a href="mailto:Janis@Corsairdetail.com">Janis@Corsairdetail.com</a>
-        </div>
-        <div class="contact-row">
-          <label>Studio Address</label>
-          <p>1651 Mallory Ln.<br />Brentwood, TN 37027</p>
-        </div>
-        <div class="contact-row">
-          <label>Hours</label>
-          <p>By Appointment Only<br /><span style="font-size:0.8rem;color:var(--muted)">No walk-ins accepted</span></p>
-        </div>
-        <div class="contact-row">
-          <label>Maintenance Tip</label>
-          <p style="font-size:0.85rem;color:var(--silver)">We recommend professional detailing every <span style="color:var(--gold)">4–6 months</span> to maintain your vehicle's protection and finish.</p>
-        </div>
+<!-- CONTACT -->
+<section id="contact" class="contact-section">
+  <p class="section-label fade-up" data-num="05">Get In Touch</p>
+  <h2 class="section-title fade-up">Request a Quote</h2>
+  <div class="contact-grid">
+    <div class="contact-info fade-up">
+      <div class="contact-row">
+        <label>// Phone</label>
+        <a href="tel:6155932356">615-593-2356</a>
       </div>
-
-      <form class="contact-form fade-up" onsubmit="return false;">
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.2rem">
-          <div class="form-field">
-            <label>First Name</label>
-            <input type="text" placeholder="John" />
-          </div>
-          <div class="form-field">
-            <label>Last Name</label>
-            <input type="text" placeholder="Smith" />
-          </div>
+      <div class="contact-row">
+        <label>// Email</label>
+        <a href="mailto:Janis@Corsairdetail.com">Janis@Corsairdetail.com</a>
+      </div>
+      <div class="contact-row">
+        <label>// Studio</label>
+        <p>1651 Mallory Ln.<br />Brentwood, TN 37027</p>
+      </div>
+      <div class="contact-row">
+        <label>// Hours</label>
+        <p>By Appointment Only</p>
+      </div>
+      <div class="contact-row">
+        <label>// Maintenance</label>
+        <p style="font-family:var(--sans);font-size:0.85rem;color:var(--silver);font-weight:300">Recommend detailing every <span style="color:var(--red)">4–6 months</span> to preserve your vehicle's finish.</p>
+      </div>
+    </div>
+    <form class="contact-form fade-up" onsubmit="return false;">
+      <div class="form-row">
+        <div class="form-field">
+          <label>// First Name</label>
+          <input type="text" placeholder="John" />
         </div>
         <div class="form-field">
-          <label>Phone</label>
+          <label>// Last Name</label>
+          <input type="text" placeholder="Smith" />
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-field">
+          <label>// Phone</label>
           <input type="tel" placeholder="(615) 000-0000" />
         </div>
         <div class="form-field">
-          <label>Email</label>
+          <label>// Email</label>
           <input type="email" placeholder="you@email.com" />
         </div>
-        <div class="form-field">
-          <label>Service Interested In</label>
-          <select>
-            <option value="">— Select a service —</option>
-            <option>Auto Detailing</option>
-            <option>Ceramic Coating</option>
-            <option>Paint Protection Film (PPF)</option>
-            <option>Ceramic Window Tint</option>
-            <option>Ice Blasting</option>
-            <option>Commercial / Residential Tint</option>
-            <option>Multiple / Not Sure</option>
-          </select>
-        </div>
-        <div class="form-field">
-          <label>Vehicle (Year / Make / Model)</label>
-          <input type="text" placeholder="2023 Porsche 911" />
-        </div>
-        <div class="form-field">
-          <label>Additional Notes</label>
-          <textarea rows="4" placeholder="Tell us about your vehicle's current condition or any specific concerns..."></textarea>
-        </div>
-        <button type="submit" class="form-submit">Submit Request</button>
-      </form>
-    </div>
-  </section>
+      </div>
+      <div class="form-field">
+        <label>// Service</label>
+        <select>
+          <option value="">— Select a service —</option>
+          <option>Auto Detailing</option>
+          <option>Ceramic Coating</option>
+          <option>Paint Protection Film (PPF)</option>
+          <option>Ceramic Window Tint</option>
+          <option>Ice Blasting</option>
+          <option>Commercial / Residential Tint</option>
+          <option>Multiple / Not Sure</option>
+        </select>
+      </div>
+      <div class="form-field">
+        <label>// Vehicle</label>
+        <input type="text" placeholder="2024 Porsche 911" />
+      </div>
+      <div class="form-field">
+        <label>// Notes</label>
+        <textarea rows="4" placeholder="Tell us about your vehicle's condition or any specific concerns..."></textarea>
+      </div>
+      <button type="submit" class="form-submit">Submit Request</button>
+    </form>
+  </div>
+</section>
 
-  <!-- FOOTER -->
-  <footer>
-    <div class="footer-logo">Corsair<span>.</span>Detail</div>
-    <ul class="footer-links">
-      <li><a href="#services">Services</a></li>
-      <li><a href="#process">Process</a></li>
-      <li><a href="#team">Team</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-    <div class="footer-copy">&copy; 2025 Corsair Detail LLC. Brentwood, TN.</div>
-  </footer>
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">CORSAIR<span>.</span>DETAIL</div>
+  <ul class="footer-links">
+    <li><a href="#services">Services</a></li>
+    <li><a href="#process">Process</a></li>
+    <li><a href="#team">Team</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="footer-copy">&copy; 2025 Corsair Detail LLC — Brentwood, TN</div>
+</footer>
 
-  <script>
-    // Intersection Observer for fade-up animations
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(el => {
-        if (el.isIntersecting) {
-          el.target.classList.add('visible');
-        }
-      });
-    }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+<script>
+  // Scroll animations
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(el => { if (el.isIntersecting) el.target.classList.add('visible'); });
+  }, { threshold: 0.1, rootMargin: '0px 0px -30px 0px' });
 
-    document.querySelectorAll('.fade-up').forEach((el, i) => {
-      // apply stagger delay from --i custom property or index
-      const delay = el.style.getPropertyValue('--i');
-      if (delay !== '') {
-        el.style.transitionDelay = (parseFloat(delay) * 0.12) + 's';
-      }
-      observer.observe(el);
-    });
+  document.querySelectorAll('.fade-up').forEach((el, i) => observer.observe(el));
 
-    // Trigger hero elements immediately
-    document.querySelectorAll('.hero .fade-up').forEach(el => {
-      setTimeout(() => el.classList.add('visible'), 100 + parseFloat(el.style.getPropertyValue('--i') || 0) * 150);
-    });
-  </script>
+  // Hero immediate reveal with stagger
+  const heroEls = document.querySelectorAll('.hero .fade-up');
+  heroEls.forEach((el, i) => {
+    setTimeout(() => el.classList.add('visible'), 200 + i * 180);
+  });
+</script>
 </body>
 </html>
