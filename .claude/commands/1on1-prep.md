@@ -38,9 +38,9 @@ If ever unsure: **care → clarity → direction.**
 
 1. **Identify who the 1:1 is with** — Andrew or Lindy (from the user's prompt).
 
-2. **Pull the last 2 Granola transcripts** from their folder in parallel:
-   - Use `list_meetings` with the person's Granola folder ID (use a wide custom range like 6 months to catch all notes)
-   - Use `query_granola_meetings` with their meeting IDs to extract: topics discussed, action items (Nathaniel's and theirs), emotional/personal state, anything unresolved
+2. **Pull the last 2 Granola transcripts** by searching all meetings (do NOT use the folder ID — meetings are not consistently filed there):
+   - For **Lindy**: use `query_granola_meetings` searching for meetings titled "Pre boxing out the week" or "1:1 | Lindy & Nathaniel" — extract topics discussed, action items (Nathaniel's and theirs), emotional/personal state, anything unresolved
+   - For **Andrew**: use `query_granola_meetings` searching for meetings titled "Pre boxing out the week" or "1:1 | Andrew & Nathaniel" — same extraction
 
 3. **Pull their Asana growth plan milestones** using `get_tasks` with their Growth Plan project ID. For each milestone, note: name, description, completion status, and any notes.
 
