@@ -44,7 +44,10 @@ If ever unsure: **care → clarity → direction.**
 
 3. **Pull their Asana growth plan milestones** using `get_tasks` with their Growth Plan project ID. For each milestone, note: name, description, completion status, and any notes.
 
-4. **Write the briefing** — output directly, do not save to file.
+4. **Write the briefing** and save it to file:
+   - For **Lindy**: save to `/Users/nlehrer/Desktop/life-os/work/lindy-wood/1on1-prep-[YYYY-MM-DD].md`
+   - For **Andrew**: save to `/Users/nlehrer/Desktop/life-os/work/andrew-1on1-prep-[YYYY-MM-DD].md`
+   - Also output the briefing directly in the conversation so Nathaniel sees it immediately.
 
 ---
 
