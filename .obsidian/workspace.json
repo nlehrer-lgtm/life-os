@@ -11,10 +11,14 @@
             "id": "6de0e933ef4685e0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "digests/2026-04-13.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2026-04-13"
             }
           }
         ]
@@ -181,17 +185,28 @@
   },
   "active": "d2ae28b281bcad05",
   "lastOpenFiles": [
+    "work/messenger intl/2026 projects/2026 m cup/messenger_cup_event_context_brief (2).docx",
+    "work/messenger intl/2026 projects/2026 m cup/Brandguide-March3-V8-Pending-VT.pdf",
+    "work/messenger intl/2026 projects/2026 m cup",
+    "work/messenger intl/2026 projects",
+    "untitled folder",
+    "work/messenger intl/2026_projects/2026_mcup",
+    "work/messenger intl/2026_projects/2026_MCUP",
+    "work/messenger intl/2026_projects",
+    "work/messenger intl/2026 projects/2026_MCUP",
+    "2026_MCUP",
+    "work/Personal Projects/prospects/moodys-tire.md",
+    "work/messenger intl/video-team/andrew-mcIntosh/andrew-1on1-prep-2026-04-16.md",
+    "work/messenger intl/video-team/lindy-wood/lindy-90-day-review.md",
+    "work/messenger intl/video-team/lindy-wood/1on1-prep-2026-04-21.md",
+    "work/messenger intl/video-team/lindy-wood/1on1-prep-2026-04-16.md",
+    "work/messenger intl/video-team/lindy-wood",
     "work/messenger intl/messenger-team/staff-directory.md",
-    "work/messenger intl/messenger-team",
     "work/messenger intl/New MD file/staff-directory.md",
-    "work/messenger intl/New MD file",
     "work/messenger intl/my-team/andrew-mcIntosh/andrew-1on1-prep-2026-04-16.md",
-    "work/messenger intl/my-team/andrew-mcIntosh",
     "work/messenger intl/my-team/lindy-wood/lindy-90-day-review.md",
     "work/messenger intl/my-team/lindy-wood/1on1-prep-2026-04-21.md",
     "work/messenger intl/my-team/lindy-wood/1on1-prep-2026-04-16.md",
-    "work/messenger intl/my-team/lindy-wood",
-    "work/messenger intl/my-team",
     "work/personal-projects/blue-collar-content/Ben Frank Packs/2026-04-07-brewer-lawn-care-landscape/pack.md",
     "work/personal-projects/blue-collar-content/prospects/wolfe-customs.md",
     "work/personal-projects/blue-collar-content/prospects/touchstone-detailing.md",
@@ -205,17 +220,6 @@
     "work/personal-projects/blue-collar-content/prospects/hudby-wheel-solutions.md",
     "work/personal-projects/blue-collar-content/prospects/franklin-driveby-auto-detailing.md",
     "work/personal-projects/blue-collar-content/prospects/corsair-detailing.md",
-    "work/personal-projects/blue-collar-content/prospects/brewer-lawn-care.md",
-    "work/personal-projects/blue-collar-content/prospects/beechcroft-automotive.md",
-    "work/personal-projects/blue-collar-content/Ben Frank Packs/2026-04-07-brewer-lawn-care-landscape-video-prospect.md",
-    "work/personal-projects/blue-collar-content/Ben Frank Packs/2026-04-07-brewer-lawn-care-landscape",
-    "work/personal-projects/blue-collar-content/prospects",
-    "work/personal-projects/blue-collar-content/levi-smith-notes.md",
-    "work/personal-projects/blue-collar-content/cold-call-framework.md",
-    "work/personal-projects/blue-collar-content/Ben Frank Packs",
-    "work/personal-projects/corsair-detail-redesign.html",
-    "work/personal-projects/blue-collar-content",
-    "work/messenger intl/lindy-wood/lindy-90-day-review.md",
-    "work/messenger intl/lindy-wood/1on1-prep-2026-04-21.md"
+    "work/personal-projects/blue-collar-content/prospects/brewer-lawn-care.md"
   ]
 }
