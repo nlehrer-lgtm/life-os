@@ -22,6 +22,9 @@ async function api(path) {
 // ── HTML escape ───────────────────────────────────────────────────────────────
 function esc(str) {
   return String(str || '')
+    .replace(/&amp;/g, '&')   // decode Slack's pre-encoded entities first
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
