@@ -158,8 +158,8 @@ app.get('/api/slack/channel/:channelId', async (req, res) => {
   try {
     const { channelId } = req.params;
     const [histData, infoData] = await Promise.all([
-      slackFetch(`/conversations.history?channel=${channelId}&limit=12`),
-      slackFetch(`/conversations.info?channel=${channelId}`),
+      slackFetch(`/conversations.history?channel=${channelId}&limit=12`, true),
+      slackFetch(`/conversations.info?channel=${channelId}`, true),
     ]);
 
     const messages = histData.messages || [];
