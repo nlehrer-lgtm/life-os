@@ -121,12 +121,12 @@ async function slackFetch(path, useUserToken = false) {
 
 app.get('/api/slack/mentions', async (req, res) => {
   try {
-    const dmsData = await slackFetch('/conversations.list?types=im&limit=8');
+    const dmsData = await slackFetch('/conversations.list?types=im&limit=8', true);
     const dmChannels = (dmsData.channels || []).slice(0, 8);
 
     const [dmMessages, dmInfos] = await Promise.all([
-      Promise.all(dmChannels.map(c => slackFetch(`/conversations.history?channel=${c.id}&limit=3`))),
-      Promise.all(dmChannels.map(c => slackFetch(`/conversations.info?channel=${c.id}`))),
+      Promise.all(dmChannels.map(c => slackFetch(`/conversations.history?channel=${c.id}&limit=3`, true))),
+      Promise.all(dmChannels.map(c => slackFetch(`/conversations.info?channel=${c.id}`, true))),
     ]);
 
     const userIds = [...new Set(dmChannels.map(c => c.user).filter(Boolean))];
