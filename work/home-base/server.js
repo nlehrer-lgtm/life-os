@@ -164,7 +164,7 @@ app.get('/api/slack/channel/:channelId', async (req, res) => {
 
     const messages = histData.messages || [];
     const userIds = [...new Set(messages.map(m => m.user).filter(Boolean))];
-    const users = await Promise.all(userIds.map(id => slackFetch(`/users.info?user=${id}`)));
+    const users = await Promise.all(userIds.map(id => slackFetch(`/users.info?user=${id}`, true)));
     const userMap = Object.fromEntries(
       users.map(u => [u.user?.id, u.user?.real_name || u.user?.name])
     );
