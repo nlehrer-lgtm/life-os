@@ -108,10 +108,13 @@ app.get('/api/calendar', async (req, res) => {
 // ── Slack ─────────────────────────────────────────────────────────────────────
 const SLACK_BASE = 'https://slack.com/api';
 
-async function slackFetch(path) {
+async function slackFetch(path, useUserToken = false) {
   const { default: fetch } = await import('node-fetch');
+  const token = useUserToken
+    ? process.env.SLACK_USER_TOKEN
+    : process.env.SLACK_BOT_TOKEN;
   const res = await fetch(`${SLACK_BASE}${path}`, {
-    headers: { Authorization: `Bearer ${process.env.SLACK_BOT_TOKEN}` },
+    headers: { Authorization: `Bearer ${token}` },
   });
   return res.json();
 }
