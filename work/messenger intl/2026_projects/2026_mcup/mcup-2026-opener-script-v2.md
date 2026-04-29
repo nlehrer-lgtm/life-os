@@ -19,7 +19,7 @@ She feels it. Something is on the other side.
 
 Smoke. Chaos. A crowd pressing outward in panic.
 
-A man moves against the current — into the chaos, not away from it. Shoulder down. Eyes forward. To persevere here is to move when everything says stop.
+A man moves against the current — into the chaos, not away from it. Shoulder down. Eyes forward. 
 
 A church is burning in the background. People scatter.
 
@@ -43,13 +43,11 @@ Narrow streets. Nighttime. A woman moves fast, low against a wall.
 
 Soldiers ahead. She freezes. Waits. They pass.
 
-She turns a corner.
+She turns a corner. Persevering through the danger.
 
-The same door. Different wall. Same grain.
+STanding before her is a similar door. Different wall. Same grain.
 
 She checks behind her. Faces it.
-
-To persevere here is to keep moving when everything demands you stay hidden.
 
 She stands before it.
 
@@ -81,9 +79,7 @@ Torrential rain. A flooded street. Water rushing hard.
 
 A woman presses forward — knees against the current, arms out for balance. People around her are retreating. She's not.
 
-To persevere here is to keep moving when the whole world is flowing the other direction.
-
-Ahead, against the wall: the door.
+Ahead, against the wall stands...the door.
 
 She fights through the current. Reaches it.
 
@@ -93,17 +89,17 @@ She stands before it.
 
 [MASSIVE LIGHTNING — THUNDER]
 
-The sky cracks open above her.
+Lighting flashes above.
 
-A single, shattering bolt. A peal of thunder that rolls and rolls.
+A single, shattering bolt.
 
 She doesn't flinch.
 
 ---
 
-[MATCH CUT — THE ABSTRACT ROOM]
+[MATCH CUT — THE DARK ROOM]
 
-The flash hits the woman's face.
+A flash is seen through the door illuminating the woman's face.
 
 She pulls back from the door, startled.
 
@@ -113,57 +109,51 @@ The thunder fades.
 
 [RAPID SEQUENCE — ~15 shots, building hard]
 
-The first hand raises.
+The man from Nigeria raises his hand and knocks.
 
-Knock.
-
-Another.
-
-Knock. Knock.
+The woman from the middle east knocks
 
 Face after face. Hand after hand.
 
-Mongolia. Iran. Cuba. Tanzania. Nigeria. Brazil. United States.
+Mongolia. Iran. Cuba. Tanzania. Brazil. United States.
 
 Same wood. Same grain. Same knock.
 
 The knocking multiplies — faster, louder. It becomes music. The rhythm locks in, driving, urgent, building to a wall of sound.
 
-Floods. Fire. Persecution. Silence. Fear.
-
-Nation after nation — they persevered through all of it.
+Nation after nation — they have persevered through all of it.
 
 And now they knock.
 
 ---
 
-[THE ABSTRACT ROOM]
+[THE DARK ROOM]
 
-The woman presses her ear against the door.
-
-Knock. Knock. Knock. Knock.
+The woman hears knocking build on the opposite side of her door.
 
 She steps back.
 
-A sliver of warm light cuts across the floor.
-
 The door is opening.
 
-Not by her hand.
+But not by her hand.
+
+Warm light cuts across the floor.
 
 ---
 
 [THE DOOR OPENS — LIGHT POURS IN]
 
-The light grows.
+The light grows illuminating the room the woman has been standing in.
 
-Tables emerge from the darkness. Candles flicker to life. Paddles rest on every seat.
+Tables emerge from the darkness. Candles flicker to life.
 
-The camera pulls back slowly — and the room comes into focus.
+The camera pulls back slowly
 
-She's already here.
+She's been in the Broadmoor the whole time. Paddles rest on every seat.
 
-She's been in the Broadmoor the whole time.
+The room is overcome by the warm light transitioning into..
+
+B-roll of nations holding resources is seen intermixing with paddles being raised.
 
 ---
 
