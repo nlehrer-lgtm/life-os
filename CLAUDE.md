@@ -13,7 +13,7 @@ See `identity/profile.md` for the full profile.
 ## Family & Key People
 
 - Ellie (Eliana) — Wife
-- Shepard — Son
+- Shepherd — Son
 - Saylor — Kid
 - Keith & Julie Lehrer — Birth parents
 - Rose Lehrer — Stepmom
@@ -26,7 +26,7 @@ Details and notes live in `people/` and `identity/profile.md`.
 
 1. **Faith** — Relationship with God. Being a Christian shapes everything.
 2. **Marriage** — Patient, present, intentional husband to Ellie.
-3. **Fatherhood** — Patient, present, intentional dad to Shepard and Saylor.
+3. **Fatherhood** — Patient, present, intentional dad to Shepherd and Saylor.
 4. **Relationships** — Friends, coworkers, mentors, mentees — stewarding people well.
 5. **Joy & Rest** — Living with joy, peace, and rest. Doing what restores the soul.
 
