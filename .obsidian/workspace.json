@@ -11,10 +11,14 @@
             "id": "21a6692e4f63b37f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "work/messenger-intl/video-team/1on1s/lindy-wood/1on1-prep-2026-05-04.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "1on1-prep-2026-05-04"
             }
           }
         ]
@@ -179,8 +183,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "d2ae28b281bcad05",
+  "active": "21a6692e4f63b37f",
   "lastOpenFiles": [
+    "work/messenger-intl/2026-projects/2026-mcup/STATUS.md",
+    "work/messenger-intl/video-team/1on1s/lindy-wood/1on1-prep-2026-05-04.md",
     "work/messenger-intl/2026-projects/2026-mcup/mcup-2026.md",
     "work/messenger-intl/2026-projects/2026-mcup/CONTEXT.md",
     "work/messenger-intl/2026-projects/2026-mcup/brief.md",
@@ -188,7 +194,6 @@
     "CLAUDE.md",
     "notes/inbox.md",
     "notes",
-    "work/messenger-intl/2026-projects/2026-mcup/STATUS.md",
     "CONTEXT.md",
     "work/messenger-intl/2026-projects/2026-mcup/event-info.md",
     "work/messenger-intl/2026-projects/2026-mcup/opener-concept.md",
@@ -209,7 +214,6 @@
     "digests/2026-04-05.md",
     "digests",
     "work/messenger-intl/2026-projects/2026-mcup/lisa-creative-notes.md",
-    "work/messenger-intl/video-team/1on1s/andrew-mcintosh/andrew-1on1-prep-2026-04-27.md",
     "work/messenger-intl/video-team/1on1s/lindy-wood",
     "work/messenger-intl/video-team/1on1s/andrew-mcintosh",
     "work/messenger-intl/2026-projects/2026-mcup/messenger_cup_event_context_brief (2).docx",
