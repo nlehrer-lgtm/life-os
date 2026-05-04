@@ -127,9 +127,9 @@ Generate an end-of-day digest and save it to `digests/`.
 
     Only write STATUS.md changes after the user responds. If nothing changed, skip this step entirely.
 
-11. **Send a Beeper notification.** If Beeper is connected, search for the "Note to self" chat using `search_chats`, then send a concise summary using `send_message`. Keep it under 500 characters: key wins, open loops count, and a one-line vibe check on the day. Skip this step if Beeper isn't available.
+12. **Send a Beeper notification.** If Beeper is connected, search for the "Note to self" chat using `search_chats`, then send a concise summary using `send_message`. Keep it under 500 characters: key wins, open loops count, and a one-line vibe check on the day. Skip this step if Beeper isn't available.
 
-11. **Show the digest** and ask if anything is missing or needs correction. Be direct, highlight open loops and anything that looks like a dropped ball.
+13. **Show the digest** and ask if anything is missing or needs correction. Be direct, highlight open loops and anything that looks like a dropped ball.
 
 ## Important
 
