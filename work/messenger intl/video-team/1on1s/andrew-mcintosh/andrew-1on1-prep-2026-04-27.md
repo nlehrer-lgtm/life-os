@@ -22,7 +22,7 @@ _(April 16, 2026 — [Andrew / Nathaniel 1:1](granola://meeting/074a1a76-70c8-4c
 
 **Their open items:**
 - [x] Create opener storyboard/pitch for Lisa _(you, Andrew, and Lindy; assigned Apr 16 — the Apr 21 brainstorm happened, but did it produce a pitch deck?)_
-- [ ] MCUP auction transitions — **deadline May 1** (in 4 days) [[MCUP Kick-Off, Apr 20]](granola://search?q=MCUP+Kick-Off)
+- [ ] MCUP auction transitions — **deadline May 1** (in 4 days) [[mcup kick-off, apr 20]](granola://search?q=MCUP+Kick-Off)
 - [x] Run Cling AI production tests for opener concept [[MCUP Opener Storyboard, Apr 21]](granola://search?q=MCUP+opener+storyboard)
 - [ ] Research Resolume / interactive wall picture-in-picture _(assigned Apr 2 — any movement?)_
 - [ ] Think about what feedback to bring to 1:1s — Nathaniel invited him to surface things you could do better or communicate more clearly [[Apr 16]](granola://meeting/074a1a76-70c8-4c76-91f1-15fedc980206)
@@ -86,7 +86,7 @@ _(April 16, 2026 — [Andrew / Nathaniel 1:1](granola://meeting/074a1a76-70c8-4c
 
 ## 5. Open Projects to Check On
 
-- **MCUP Auction Transitions** — deadline May 1 (4 days out) [[MCUP Kick-Off, Apr 20]](granola://search?q=MCUP+Kick-Off)
+- **MCUP Auction Transitions** — deadline May 1 (4 days out) [[mcup kick-off, apr 20]](granola://search?q=MCUP+Kick-Off)
 - **MCUP Opener — Lisa pitch** — must happen before her Italy trip in early May; does a pitch deck exist yet? [[Apr 21 Brainstorm]](granola://search?q=MCUP+opener+storyboard)
 - **Cling AI tests** — was this completed? It was listed as an action item going into the week of Apr 21 [[Apr 21]](granola://search?q=MCUP+opener+storyboard)
 - **Studio rental** — raised Apr 2, waiting on Tom + Arden; any movement with Arden back?

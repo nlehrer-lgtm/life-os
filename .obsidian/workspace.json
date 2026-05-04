@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_CLAUDE.md",
+                "file": "work/messenger intl/video-team/1on1s/lindy-wood/1on1-prep-2026-04-28.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00_CLAUDE"
+              "title": "1on1-prep-2026-04-28"
             }
           }
         ]
@@ -183,19 +183,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "6de0e933ef4685e0",
+  "active": "d2ae28b281bcad05",
   "lastOpenFiles": [
+    "work/messenger intl/video-team/1on1s",
     "work/messenger intl/director-of-video-production/one-on-one-growth-plan-ideology.pdf",
     "people/lindy-wood.md",
     "people/andrew-mcintosh.md",
-    "work/messenger intl/video-team/lindy-wood/1on1-prep-2026-04-28.md",
-    "work/messenger intl/video-team/lindy-wood/1on1-prep-2026-04-16.md",
-    "work/messenger intl/video-team/lindy-wood/1on1-prep-2026-04-21.md",
+    "work/messenger intl/video-team/1on1s/lindy-wood/1on1-prep-2026-04-28.md",
+    "work/messenger intl/video-team/1on1s/lindy-wood/1on1-prep-2026-04-16.md",
+    "work/messenger intl/video-team/1on1s/lindy-wood/1on1-prep-2026-04-21.md",
     "work/messenger intl/2026_projects/2026_mcup/mcup-2026-opener-script-v2.md",
     "work/lindy-wood/1on1-prep-2026-04-28.md",
     "work/mcup-opener-lisa-requests.md",
     "work/messenger intl/2026_projects/2026_mcup/mcup-2026-opener-script-v2.pdf",
-    "work/messenger intl/video-team/lindy-wood/lindy-90-day-review.md",
+    "work/messenger intl/video-team/1on1s/lindy-wood/lindy-90-day-review.md",
     "work/messenger intl/video-team/andrew-mcIntosh/andrew-1on1-prep-2026-04-27.md",
     "work/lindy-wood",
     "people/chris-pace.md",
@@ -219,7 +220,6 @@
     "work/messenger intl/2026_projects/2026_mcup",
     "work/messenger intl/2026_projects/2026 m cup/messenger_cup_event_context_brief (2).docx",
     "work/messenger intl/2026_projects/2026 m cup",
-    "work/messenger intl/2026_projects",
-    "work/messenger intl/2026 projects/2026 m cup/messenger_cup_event_context_brief (2).docx"
+    "work/messenger intl/2026_projects"
   ]
 }
