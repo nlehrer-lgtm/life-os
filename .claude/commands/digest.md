@@ -20,6 +20,9 @@ Generate an end-of-day digest and save it to `digests/`.
    - **Google Calendar**: Fetch today's events from all configured calendars. Merge and deduplicate.
    - **Gmail (received)**: Search `is:anywhere after:YYYY/M/D -label:spam -label:promotions`. Use `is:anywhere` not `in:inbox`, many people archive emails quickly. Read full threads for context.
    - **Gmail (sent)**: Search `in:sent after:YYYY/M/D`. Critical for knowing what's already been responded to. Read content, not just subject lines.
+   - **Slack**: Search today's messages using `slack_search_public_and_private` for messages from today. Also read any DMs or channels that were active. Focus on work-relevant conversations — skip noise and banter.
+   - **Granola**: Use `list_meeting_folders` to find today's meetings, then `get_meeting_transcript` for each one. Surface: key decisions made, action items assigned (to Nathaniel or his team), and anything that affects active projects.
+   - **Asana**: Use `get_my_tasks` to pull tasks assigned to Nathaniel. Note anything completed today, anything newly assigned, and anything overdue.
    - **Beeper**: Search chats for today's messages. Paginate through all results, don't stop at the first page. Read message content for context.
    - **Reminders**: Read `reminders/reminders.md`. Only note unchecked items.
    - **Journal**: Read any entries from `journal/entries/` for today (matching `YYYY-MM-DD*`).
