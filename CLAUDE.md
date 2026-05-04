@@ -60,14 +60,28 @@ Details and notes live in `people/` and `identity/profile.md`.
 
 ```
 journal/entries/  — daily freeform journal entries
-digests/          — end-of-day structured recaps
-people/           — notes on people in your life
+digests/          — end-of-day structured recaps (all digests live here — no split)
+people/           — everyone who matters: family, colleagues, friends, mentors, mentees
 identity/         — living profile (profile.md is the single source of truth)
 goals/            — goal tracking and progress
+notes/inbox.md    — quick-capture inbox for ideas, reminders, and fleeting thoughts
 reminders/        — simple checklist of things to remember
-work/             — work-related notes and tasks
+work/             — work documents only: projects, 1:1 prep, team notes (NOT a place to categorize people)
 health/           — health metrics and logs
 ```
+
+## Project File Standard
+
+Every project folder under `work/` gets two files:
+
+- **CONTEXT.md** — ~300 word brief: what the project is, current phase, key people, open decisions, where to find creative/reference docs. Update when the phase changes or major context shifts.
+- **STATUS.md** — live open decisions and blockers. Update after every significant meeting or decision.
+
+These two files make any project folder loadable as context into any AI tool — paste CONTEXT.md into any chat window and the AI has full project context instantly.
+
+## People Philosophy
+
+`people/` is for everyone — not just personal contacts. Family, direct reports, mentors, friends, and mentees all live here. Relationship type is a field inside the file, not a folder. The `work/` folder is for documents, never for categorizing people.
 
 ## Workflows
 
