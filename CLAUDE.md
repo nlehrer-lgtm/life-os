@@ -13,7 +13,7 @@ See `identity/profile.md` for the full profile.
 ## Family & Key People
 
 - Ellie (Eliana) — Wife
-- Shepherd — Son
+- Shepard — Son
 - Saylor — Kid
 - Keith & Julie Lehrer — Birth parents
 - Rose Lehrer — Stepmom
