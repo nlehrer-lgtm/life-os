@@ -3,7 +3,7 @@ Prepare a people-first 1:1 briefing for Andrew McIntosh or Lindy Wood, grounded 
 ## Trigger
 Use this command whenever Nathaniel asks to "prepare a 1:1", "prep for my 1:1", or "get ready for a one-on-one" with Andrew or Lindy.
 
-## Philosophy (from One-on-Ones & Growth Plans doc)
+## Philosophy
 One-on-ones are **people-first**, not performance reviews. In priority order, they exist to:
 1. Check in on how someone is actually doing — mentally, emotionally, and with workload
 2. Give them space to talk — questions, concerns, ideas, frustrations
@@ -38,15 +38,26 @@ If ever unsure: **care → clarity → direction.**
 
 1. **Identify who the 1:1 is with** — Andrew or Lindy (from the user's prompt).
 
-2. **Pull the last 2 Granola transcripts** by searching all meetings (do NOT use the folder ID — meetings are not consistently filed there):
-   - For **Lindy**: use `query_granola_meetings` searching for meetings titled "Pre boxing out the week" or "1:1 | Lindy & Nathaniel" — extract topics discussed, action items (Nathaniel's and theirs), emotional/personal state, anything unresolved
-   - For **Andrew**: use `query_granola_meetings` searching for meetings titled "Pre boxing out the week" or "1:1 | Andrew & Nathaniel" — same extraction
+2. **Pull the last 3 Granola transcripts** using their folder ID:
+   - Call `list_meetings` with the person's Granola folder ID
+   - From the returned list, identify the 3 most recent meetings that match:
+     - **Lindy**: titles containing "1:1 | Lindy" OR "Pre boxing out the week"
+     - **Andrew**: titles containing "1:1 | Andrew" OR "Pre boxing out the week"
+   - Call `get_meeting_transcript` for each of those 3 meetings
+   - **Fallback only:** if `list_meetings` returns nothing or the folder appears empty, use `query_granola_meetings` with the person's name as a search term
 
-3. **Pull their Asana growth plan milestones** using `get_tasks` with their Growth Plan project ID. For each milestone, note: name, description, completion status, and any notes.
+3. **Cross-compare the 3 transcripts before writing anything:**
+   - Extract all action items from each transcript, noting who owns them and which meeting they came from
+   - Mark items as resolved if a later transcript confirms they were completed or are no longer relevant
+   - Flag items that appear unresolved across 2 or more meetings — these are recurring/stuck and need explicit attention (mark with ⚠️)
+   - Drop one-time topics that were clearly resolved with no lingering thread
+   - Note the date range the 3 transcripts cover
 
-4. **Write the briefing** and save it to file:
-   - For **Lindy**: save to `/Users/nlehrer/Desktop/life-os/work/lindy-wood/1on1-prep-[YYYY-MM-DD].md`
-   - For **Andrew**: save to `/Users/nlehrer/Desktop/life-os/work/andrew-1on1-prep-[YYYY-MM-DD].md`
+4. **Pull their Asana growth plan milestones** using `get_tasks` with their Growth Plan project ID. For each milestone, note: name, description, completion status, and any notes.
+
+5. **Write the briefing** and save it to file:
+   - For **Lindy**: save to `/Users/nlehrer/Desktop/life-os/work/messenger-intl/video-team/1on1s/lindy-wood/1on1-prep-[YYYY-MM-DD].md`
+   - For **Andrew**: save to `/Users/nlehrer/Desktop/life-os/work/messenger-intl/video-team/1on1s/andrew-mcintosh/1on1-prep-[YYYY-MM-DD].md`
    - Also output the briefing directly in the conversation so Nathaniel sees it immediately.
 
 ---
@@ -55,48 +66,45 @@ If ever unsure: **care → clarity → direction.**
 
 ```
 # 1:1 Prep — [Name] — [Today's Date]
-_Last 1:1: [date] | Previous: [date if available]_
+_Covers: [earliest transcript date] → [most recent transcript date]_
 
 ---
 
 ## 1. How Are They Doing?
-[1-2 warm, human check-in questions based on what you know about them right now — their energy, recent workload, anything personal that's come up in past meetings. Not generic. Make it feel like you've been paying attention.]
+[1-2 warm, specific check-in questions based on what you know right now — their energy, recent workload, anything personal that's come up in recent meetings. Not generic. Make it feel like you've been paying attention.]
 
 ---
 
-## 2. Follow-Up from Last Time
+## 2. Follow-Up + Wins
 **Your open items:**
-- [ ] [Action Nathaniel committed to]
+- [ ] [Action Nathaniel committed to — with source transcript date]
 
 **Their open items:**
-- [ ] [Action they committed to]
+- [ ] [Action they committed to — with source transcript date]
+- ⚠️ [Flag any item open across 2+ meetings with a note that it's been recurring]
 
-[Include source citations from Granola]
+**Wins to name:**
+- [Specific, real win from transcripts — not generic praise. Make it land.]
+
+[Include Granola citation links so Nathaniel can click through to source notes]
 
 ---
 
 ## 3. Growth Plan — Milestone Check-In
-[Go through each milestone one by one. For each one:]
+[Go through each milestone one by one]
 
 ### [Milestone Name]
 > [Brief description of what this milestone is about — 1 sentence]
 
-**Where things stand:** [What the Granola transcripts tell you about progress here. If nothing, say so honestly.]
+**Where things stand:** [What the 3 transcripts tell you about progress here. If nothing, say so honestly.]
 **Check-in angle:** [A warm, directional question to ask — not "did you do X" but "how does this area feel right now?"]
 
----
-
-## 4. Things to Affirm
-[Specific, real wins to name from the transcripts. Not generic praise. Make it land.]
+**Other Active Work:**
+- [Any open projects or decisions surfaced in transcripts that aren't tied to a specific milestone — include status and whether a decision is needed]
 
 ---
 
-## 5. Open Projects to Check On
-[Any active work items or decisions surfaced in recent transcripts that need a status or decision — separate from growth milestones.]
-
----
-
-## 6. Questions to Leave Space For
+## 4. Questions to Leave Space For
 - What's energizing you most right now?
 - Anything feeling stuck or unclear that I can help unblock?
 - What do you need from me that you haven't asked for yet?
@@ -111,3 +119,4 @@ _Last 1:1: [date] | Previous: [date if available]_
 - The "How Are They Doing?" section is the most important part — don't skip it or make it generic.
 - Include Granola citation links so Nathaniel can click through to the source notes.
 - Keep bullets scannable. No long paragraphs.
+- The cross-comparison step is critical — surface what's actually current, not just the raw dump from each transcript.
