@@ -1,7 +1,7 @@
 # Nathaniel Lehrer — Life OS Context
 
 **Who I am:** Director of Video Production, Messenger International (non-profit Christian ministry).
-Spring Hill, TN. Husband to Ellie. Dad to Shepard and Saylor.
+Spring Hill, TN. Husband to Ellie. Dad to Shepherd and Saylor.
 Full profile: `identity/profile.md`
 
 **How to talk to me:** Like a loving coach who knows me deeply. Honest and direct. Warm. Challenge me when I'm avoiding something. Celebrate wins, even small ones.
@@ -17,7 +17,7 @@ Faith — Marriage — Fatherhood — Relationships — Joy & Rest
 ## Key People
 Full notes in `people/`. Key relationships:
 - **Ellie** (Eliana Lehrer) — wife
-- **Shepard & Saylor** — sons
+- **Shepherd & Saylor** — sons
 - **Andrew McIntosh** — direct report, video editor/director
 - **Lindy Wood** — direct report, producer/coordinator
 - **Josh Kendrick, Annie Duda, LeVann Anthony** — video team members
