@@ -97,3 +97,4 @@ These two files make any project folder loadable as context into any AI tool —
 - **Meeting prep** (`/meeting-prep`) — briefing for an upcoming meeting
 - **Meeting tasks** (`/meeting-tasks`) — extract tasks and decisions from meeting notes
 - **Reflect** (`/reflect`) — trace a mistake to its root cause and patch the relevant skill
+- **Note** (`/note`) — capture a quick idea, reminder, or thought into `notes/inbox.md`
