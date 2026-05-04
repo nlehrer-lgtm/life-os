@@ -112,7 +112,22 @@ Generate an end-of-day digest and save it to `digests/`.
 
 9. **Save** the file to `digests/YYYY-MM-DD.md`.
 
-10. **Send a Beeper notification.** If Beeper is connected, search for the "Note to self" chat using `search_chats`, then send a concise summary using `send_message`. Keep it under 500 characters: key wins, open loops count, and a one-line vibe check on the day. Skip this step if Beeper isn't available.
+10. **Propose active project STATUS.md updates.** For each project that has a `STATUS.md` file (look in `work/` for any `STATUS.md` files), check if today's meetings, Slack, Asana, or email contain information that should update it — decisions made, open items resolved, new blockers surfaced.
+
+    Show proposed changes in a numbered list and wait for explicit approval before writing:
+
+    ```
+    Based on today's activity, proposed STATUS.md updates:
+
+    1. [Project name] — [what changed and why]
+    2. [Project name] — [what changed and why]
+
+    Enter numbers to accept (e.g. "1,2"), "all", or "none":
+    ```
+
+    Only write STATUS.md changes after the user responds. If nothing changed, skip this step entirely.
+
+11. **Send a Beeper notification.** If Beeper is connected, search for the "Note to self" chat using `search_chats`, then send a concise summary using `send_message`. Keep it under 500 characters: key wins, open loops count, and a one-line vibe check on the day. Skip this step if Beeper isn't available.
 
 11. **Show the digest** and ask if anything is missing or needs correction. Be direct, highlight open loops and anything that looks like a dropped ball.
 
