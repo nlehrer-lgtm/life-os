@@ -1,88 +1,78 @@
-Morning briefing. Review yesterday, see today's schedule, surface what needs attention.
+Morning brief. Review last night's digest, check the weather and calendar, and surface what needs attention today.
 
 ## Steps
 
-1. **Get today's date** and determine if it's a weekday or weekend.
+1. **Get today's date** (day of week, month, day, year). Determine if it's a weekday or weekend.
 
-2. **Check for yesterday's digest.** If `digests/YYYY-MM-DD.md` exists for yesterday, read it. Note any open loops.
+2. **Review last night's digest.** Read `digests/YYYY-MM-DD.md` for yesterday. Surface:
+   - Any open loops that carried forward
+   - Any decisions or context worth remembering today
+   - Anything that was saved last night that looks wrong or needs a correction
 
-   **CRITICAL CHECK**: If yesterday's digest does NOT exist, say this FIRST: "**Yesterday's digest is missing. Running /digest for yesterday now.**" Then run the digest for yesterday before proceeding.
+   If yesterday's digest doesn't exist, note it and skip this section.
 
-3. **Pull available data.** Check each source and use whatever is available. If pre-fetched data is provided in the prompt (headless run), use that instead of calling MCP tools.
+3. **Pull today's data.** Run in parallel where possible.
 
-   - **Weather**: Detect timezone via `readlink /etc/localtime | sed 's|.*/zoneinfo/||'` (fallback: "America/New_York"). Fetch: `curl -s "https://api.open-meteo.com/v1/forecast?latitude=LAT&longitude=LON&daily=temperature_2m_max,temperature_2m_min,weathercode&hourly=temperature_2m,weathercode&temperature_unit=fahrenheit&timezone={TZ}&forecast_days=1"`. Weather codes: 0=clear, 1-3=partly cloudy/overcast, 45-48=fog, 51-55=drizzle, 61-65=rain, 71-75=snow, 80-82=showers, 95=thunderstorm.
-   - **Google Calendar**: Fetch today's events from all configured calendars. Merge and deduplicate.
-   - **Gmail (received)**: Search `is:anywhere after:YYYY/M/D -label:spam -label:promotions`. Read full threads.
-   - **Gmail (sent)**: Search `in:sent after:YYYY/M/D`. Critical for knowing what's already been replied to.
-   - **Beeper**: Search recent chats for messages from the last 24 hours. Paginate fully.
-   - **Reminders**: Read `reminders/reminders.md`. Only note unchecked items.
-   - **Yesterday's digest**: Read open loops section.
-   - **Git**: Run `git log --since="yesterday" --oneline`.
+   - **Weather**: Detect timezone via `readlink /etc/localtime | sed 's|.*/zoneinfo/||'`. Fetch from Open-Meteo API using Spring Hill, TN coordinates (lat=35.7512, lon=-86.9300): `curl -s "https://api.open-meteo.com/v1/forecast?latitude=35.7512&longitude=-86.9300&daily=temperature_2m_max,temperature_2m_min,weathercode&hourly=temperature_2m,weathercode&temperature_unit=fahrenheit&timezone=America/Chicago&forecast_days=1"`. Weather codes: 0=clear, 1-3=partly cloudy/overcast, 45-48=fog, 51-55=drizzle, 61-65=rain, 71-75=snow, 80-82=showers, 95=thunderstorm.
+   - **Google Calendar**: Fetch all of today's events from all configured calendars. Merge and deduplicate.
+   - **Asana**: Use `get_my_tasks` to pull Nathaniel's open tasks. Note anything due today or overdue.
+   - **Reminders**: Read `reminders/reminders.md`. Only include unchecked items.
+   - **Active project STATUS files**: Read `STATUS.md` for any active projects (look in `work/` for STATUS.md files). Note open decisions and blockers.
 
-   If a source isn't connected or returns an error, skip it gracefully.
+   If a source isn't connected, skip it gracefully.
 
-4. **Cross-reference before writing.**
-   - For any inbound email, check if a reply was already sent. Don't mark as "needs a reply" if handled.
-   - **If an email is archived (no INBOX label), treat it as resolved.**
-   - For any message, check if a reply was sent in the same chat.
-   - Never assume something is an open loop just because an inbound message exists.
+4. **Identify pressing priorities.** Before writing, scan everything and ask: what genuinely can't wait today? Flag anything with a hard deadline, a blocked teammate waiting on Nathaniel, or an open decision that needs to close soon.
 
-5. **Verify open loops before including them.** For EVERY item from yesterday's digest:
-   - Check sent email, sent messages for a response
-   - **If you already did your part, it's not your open loop**
-   - Each loop gets "CARRY FORWARD" or "RESOLVED (evidence)". No silent drops.
-
-6. **Write the briefing.** Use **bold text** for section labels, not # headings. No em dashes or en dashes.
+5. **Write the briefing.** Use bold text for section labels, not # headings. Keep it tight and scannable. No em dashes or en dashes.
 
 ### Weekday format:
 
 ```
-**[Day of week], [Month Day]**
-[Conversational weather summary. High/low, conditions, what to wear.]
+**[Day of week], [Month Day, Year]**
+[One sentence weather summary. High/low and conditions. Keep it conversational — "Upper 70s, sunny all day" not a weather report.]
 
-**Schedule**
+**Last Night's Digest**
+[2-3 bullet points from yesterday's digest worth knowing this morning — open loops, key context, anything that looks off or needs a correction. Omit if digest is missing or there's nothing notable.]
+
+**Today's Schedule**
 - [Time]: [Event], [brief context if notable]
-- Skip recurring meetings unless something unusual is happening
-- Highlight what stands out: new people, first meetings, deadlines
+- List all events chronologically
+- Call out anything that stands out: first meetings with someone, hard deadlines, back-to-backs
 
-**Reminders**
-- [Unchecked reminders only]
-- Omit this section if there are no unchecked reminders
+**Pressing Priorities**
+[Only include if something genuinely can't wait. 1-3 items max. These are things with real consequences if they slip today.]
+1. [Item — why it's pressing]
 
-**On your plate**
-1. [Open loops where you have a direct action]
-2. [Anything from email or messages that needs YOUR response]
-- Use a numbered list so items feel prioritized
-- If you already did your part, it's not on your plate
+**Today's Tasks**
+[Pull from Asana, open loops, and reminders. These are the things worth working on today — not exhaustive, just the right focus.]
+- [ ] [Task — brief context]
+
+**Open Projects**
+[List active projects with their current status pulled from STATUS.md files. One line per project.]
+- **[Project name]** — [current phase] / [most pressing open item]
 ```
 
 ### Weekend format:
 
 ```
-**[Day of week], [Month Day]**
-[Conversational weather summary. High/low, conditions.]
+**[Day of week], [Month Day, Year]**
+[Weather summary.]
 
 **This weekend**
-- [Only personal and family events]
-- [Skip all work items]
+[Personal and family events only. Skip all work items entirely.]
 ```
 
-7. **Omit empty sections.** If there's nothing for a section, leave it out entirely.
+6. **Omit empty sections.** If there's nothing for a section, leave it out.
 
-8. **Send a Beeper notification.** If Beeper is connected, search for the "Note to self" chat using `search_chats`, then send the full briefing using `send_message`. Skip this step if Beeper isn't available.
+7. **Show the briefing.** Don't save to a file.
 
-9. **Show the briefing** directly. Don't save to a file.
-
-10. **Ask**: "Anything you want to adjust for today?"
+8. **Ask**: "Anything you want to add or change before you dive in?"
 
 ## Important
 
-- **Never fabricate anything.** Every claim must be traceable to a specific source.
-- **Always cross-reference.** Check sent emails and messages before saying something needs a reply.
-- **Archived email = resolved.** No INBOX label means it's been handled.
-- **If you already did your part, it's not your open loop.**
-- **If a data source isn't connected**, skip it gracefully.
+- **Never fabricate anything.** Every item must come from a real source.
+- **Weather is hardcoded to Spring Hill, TN.** Don't ask for location.
+- **Weekends are personal only.** No work items, tasks, or projects on weekends.
+- **Pressing Priorities is not a task list.** Only things with real urgency go there. If nothing is urgent, omit the section.
 - **No em dashes or en dashes.** Use commas, periods, or colons.
-- **Weekends are personal.** No work items, no professional open loops.
-- **Deduplicate.** Don't repeat items across sections.
-- Keep it tight and scannable.
+- **Keep it short enough to read in 60 seconds.** Dense is good. Exhaustive is not.
