@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/messenger intl/video-team/1on1s/lindy-wood/1on1-prep-2026-04-28.md",
+                "file": "CLAUDE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1on1-prep-2026-04-28"
+              "title": "CLAUDE"
             }
           }
         ]
@@ -183,13 +183,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "d2ae28b281bcad05",
+  "active": "6de0e933ef4685e0",
   "lastOpenFiles": [
+    "00_ai agent.md",
+    "CLAUDE.md",
+    "work/messenger intl/video-team/1on1s/lindy-wood/1on1-prep-2026-04-28.md",
     "work/messenger intl/video-team/1on1s",
     "work/messenger intl/director-of-video-production/one-on-one-growth-plan-ideology.pdf",
     "people/lindy-wood.md",
     "people/andrew-mcintosh.md",
-    "work/messenger intl/video-team/1on1s/lindy-wood/1on1-prep-2026-04-28.md",
     "work/messenger intl/video-team/1on1s/lindy-wood/1on1-prep-2026-04-16.md",
     "work/messenger intl/video-team/1on1s/lindy-wood/1on1-prep-2026-04-21.md",
     "work/messenger intl/2026_projects/2026_mcup/mcup-2026-opener-script-v2.md",
@@ -215,11 +217,9 @@
     "work/personal-projects/blue-collar-content/prospects/corsair-detailing.md",
     "work/personal-projects/blue-collar-content/prospects/brewer-lawn-care.md",
     "work/personal-projects/blue-collar-content/prospects/beechcroft-automotive.md",
-    "work/personal-projects/blue-collar-content/prospects/hudby-wheel-solutions.md",
     "work/messenger intl/2026_projects/2026_mcup/messenger_cup_event_context_brief (2).docx",
     "work/messenger intl/2026_projects/2026_mcup",
     "work/messenger intl/2026_projects/2026 m cup/messenger_cup_event_context_brief (2).docx",
-    "work/messenger intl/2026_projects/2026 m cup",
-    "work/messenger intl/2026_projects"
+    "work/messenger intl/2026_projects/2026 m cup"
   ]
 }
