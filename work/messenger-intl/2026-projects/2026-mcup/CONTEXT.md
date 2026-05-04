@@ -43,11 +43,7 @@ Full people notes: `people/andrew-mcintosh.md`, `people/lindy-wood.md`
 **Final screen text:** *"I have placed before you an open door that no one can shut." — Revelation 3:8 / The nations are knocking. Tonight — we step through.*
 
 **Creative files:**
-- Opener concept (master doc): `opener-concept.md`
-- Current script (v2): `opener-script-v2.md`
-- Earlier script version: `opener-script-v1.md`
-- Lisa's creative directives from Apr 8 meeting: `lisa-creative-notes.md`
-- Brand guide: `brand-guide.md`
+- All creative content (brand guide, Lisa's notes, opener concept, scripts v1 and v2): `mcup-2026.md`
 - Event logistics: `event-info.md`
 - Event brief: `brief.md`
 
