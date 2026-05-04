@@ -44,9 +44,10 @@ Generate an end-of-day digest and save it to `digests/`.
    **7b — List new candidates.** From today's data, identify any NEW potential open loops (unanswered messages, promises made, decisions pending). Add them to the list.
 
    **7c — Verify EVERY candidate.** For each item, check available sources in order. Record what you checked and what you found:
-   - Did you send a reply? (Gmail sent, Beeper outbound)
+   - Did you send a reply? (Gmail sent, Slack, Beeper outbound)
    - Is the email archived? (no INBOX label = resolved)
    - Did you already follow up in another channel?
+   - Was it resolved in a Granola meeting transcript today?
 
    Rules:
    - **If ANY source shows you responded, it is RESOLVED. Do not include.**
