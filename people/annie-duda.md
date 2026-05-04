@@ -5,7 +5,7 @@
 **Slack:** @Annie Duda (U077GD0RHC3)
 
 ## Last Contact
-2026-04-16 — Active in #the-lisa-bevere-podcast Slack channel: shared a first-pass color-corrected episode for review, explained the color limitations (set color/lighting/outfit differ from what they worked on with Lisa in studio that week). Nathaniel backed her up by approving the color as the best achievable for this episode.
+2026-05-04 — Accepted "Video Team Skill Gaps - Branding/Brand Implementation" session scheduled for Tue May 12, 2026 11am–12pm CDT.
 
 ## Notes
 - Does color grading and editing for podcast episodes
