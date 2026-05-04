@@ -9,7 +9,7 @@ Nathaniel Lehrer. Lives in Spring Hill, Tennessee. Director of Video Production 
 ## Family & Key People
 
 - **Ellie (Eliana) Lehrer** — Wife. [[people/eliana-lehrer|Ellie]]
-- **Shepard Lehrer** — Son. [[people/shepard-lehrer|Shepard]]
+- **Shepherd Lehrer** — Son. [[people/shepard-lehrer|Shepherd]]
 - **Sailor Lehrer** — Son. [[people/sailor-lehrer|Sailor]]
 - **Keith Lehrer** — Birth father. [[people/keith-lehrer|Keith]]
 - **Julie Lehrer** — Birth mother. [[people/julie-lehrer|Julie]]
@@ -22,7 +22,7 @@ Nathaniel Lehrer. Lives in Spring Hill, Tennessee. Director of Video Production 
 
 1. **Faith** — Relationship with God. Being a Christian shapes everything.
 2. **Marriage** — Being a patient, present, and intentional husband to Ellie.
-3. **Fatherhood** — Being a patient, present, and intentional dad to Shepard and Sailor.
+3. **Fatherhood** — Being a patient, present, and intentional dad to Shepherd and Sailor.
 4. **Relationships** — Friends, coworkers, mentors, mentees — stewarding the people around him well.
 5. **Joy & Rest** — Living with joy, peace, and rest. Doing things that restore the soul.
 
