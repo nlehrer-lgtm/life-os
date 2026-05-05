@@ -5,7 +5,7 @@
 **Slack:** @Annie Duda (U077GD0RHC3)
 
 ## Last Contact
-2026-05-04 — Accepted "Video Team Skill Gaps - Branding/Brand Implementation" session scheduled for Tue May 12, 2026 11am–12pm CDT.
+2026-05-05 — Accepted AI Discernment — Full Team session (May 12, 1–1:45pm CDT).
 
 ## Notes
 - Does color grading and editing for podcast episodes
