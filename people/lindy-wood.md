@@ -5,7 +5,7 @@
 **Slack:** @Lindy Wood (U01B0GYHA7K)
 
 ## Last Contact
-2026-05-04 — Accepted "Video Team Skill Gaps - Branding/Brand Implementation" session scheduled for Tue May 12, 2026 11am–12pm CDT.
+2026-05-05 — 1:1 with Nathaniel at 1:30pm (May 5). Also accepted AI Discernment — Full Team session (May 12, 1–1:45pm CDT). Sent updated invitation for DFH Podcast Recording on May 11, 9am–2pm CDT.
 
 ## Contact History
 2026-04-16 — Highly active organizing day: kicked off MCUP Opener Brainstorm Meeting (10am), coordinated MXDaily recordings (AK @ 1pm, CP @ 3:30pm), scheduled LB Podcast Recording for Jun 16, updated Record MXDaily with Arden (Apr 23) and Addison (Apr 28), canceled Record MXDaily with Allie (Allie was sick), and set up a quick meeting with Nathaniel to discuss in-house pod edits (Jared/DFH editor rates going up). Completed first MXDaily recording of the day.
