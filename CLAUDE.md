@@ -56,6 +56,14 @@ Details and notes live in `people/` and `identity/profile.md`.
 - When in doubt, ask
 - Do not make any changes until you have 95% confidence in what you need to build. Ask follow-up questions until you reach that confidence.
 
+## Scheduling Preferences
+
+When blocking time on the calendar, avoid these windows on Monday, Tuesday, and Thursday:
+- 10:30am — 11:00am (morning break)
+- 3:00pm — 3:30pm (afternoon break)
+
+Only schedule in these windows if there is genuinely no other available time.
+
 ## File Structure
 
 ```
