@@ -1,11 +1,14 @@
 # M Cup 2026 — Status
 
-**Last updated:** 2026-05-04
+**Last updated:** 2026-05-05
 **Current phase:** Pre-production / Script approval
 
 ## Open Decisions
-- [ ] **Production method** — AI motion transfer (Cling01 + Sora/SolidID) vs. traditional filming. Andrew running tests. Deadline: before ~May 6 (Lisa leaves for Italy).
-- [ ] **Script v2 sign-off** — Lisa Bevere needs to approve before production begins. Deadline: before ~May 6.
+- [ ] **Script v3 sign-off** — Nathaniel drafting v3 today (May 5). Must be sent to Lisa Bevere and approved before production begins. Deadline: before ~May 6 (Lisa leaves for Italy).
+- [ ] **AI complex shots — final test** — Andrew verifying AI (Cling01/Sora) can handle complex motion and action scenes. Report due EOD May 5.
+
+## Production Method — Decided
+- **Hybrid:** In-house footage for most scenes. AI-generated for complex motion/action shots that are too difficult to film traditionally. Andrew running final feasibility tests on the most demanding shots.
 
 ## Open Loops
 - [ ] Confirm final list of nations/scenes for Act 2 and the rapid montage sequence
