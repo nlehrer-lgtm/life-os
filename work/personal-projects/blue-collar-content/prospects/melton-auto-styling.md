@@ -65,3 +65,5 @@ The quality and range of services — PPF and ceramic coating are high-skill, hi
 
 ## Interaction Log
 - 2026-04-18 — Researched
+- May 2026 — Called Adam. He expressed interest. Said to reconnect after his vacation (currently on vacation as of 2026-05-05).
+- Next step: Follow up when he's back.
