@@ -314,7 +314,7 @@ def build_story(styles):
             Paragraph("Date", styles["sig_label"]),
         ]
 
-    sig_data = [[sig_block("Nathaniel Lehrer"), sig_block("Zac Musgrove — HUSHED Lawn Care")]]
+    sig_data = [[sig_block("Nathaniel Lehrer"), sig_block("Zac Musgrove — HUSHED | All-Electric Lawncare")]]
 
     sig_table = Table(sig_data, colWidths=[col, col])
     sig_table.setStyle(TableStyle([
