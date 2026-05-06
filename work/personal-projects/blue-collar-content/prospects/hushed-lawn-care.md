@@ -59,3 +59,4 @@ Their concept is genuinely interesting — electric equipment, quiet service, in
 
 ## Interaction Log
 - 2026-04-09 — Researched
+- May 2026 — Initial call: Zac is interested. Currently nailing down details of what a partnership could look like.
