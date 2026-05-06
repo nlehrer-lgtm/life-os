@@ -189,7 +189,8 @@ def build_story(styles):
     to_block = [
         Paragraph("PREPARED FOR", styles["section_label"]),
         Paragraph("Zac Musgrove", styles["party_name"]),
-        Paragraph("HUSHED Lawn Care", styles["party_detail"]),
+        Paragraph("HUSHED | All-Electric Lawncare", styles["party_detail"]),
+        Paragraph("Franklin, TN", styles["party_detail"]),
         Paragraph("615-996-9479  ·  zac@hushedlawncare.com", styles["party_detail"]),
     ]
 
