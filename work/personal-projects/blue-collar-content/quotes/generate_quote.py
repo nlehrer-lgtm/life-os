@@ -297,34 +297,32 @@ def build_story(styles):
         "By signing below, both parties agree to the scope of work and terms outlined in this document.",
         styles["body"]
     ))
-    story.append(Spacer(1, 0.22 * inch))
+    story.append(Spacer(1, 0.3 * inch))
 
-    sig_line = "_" * 42
-    col = W / 2 - 0.15 * inch
+    col = W / 2 - 0.2 * inch
+    gap = 0.4 * inch
 
-    sig_data = [
-        [
-            [
-                Paragraph("Nathaniel Lehrer", styles["sig_name"]),
-                Paragraph(sig_line, styles["body"]),
-                Paragraph("Signature &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Date", styles["sig_label"]),
-            ],
-            [
-                Paragraph("Zac Musgrove — HUSHED Lawn Care", styles["sig_name"]),
-                Paragraph(sig_line, styles["body"]),
-                Paragraph("Signature &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Date", styles["sig_label"]),
-            ],
+    def sig_block(name):
+        return [
+            Paragraph(name, styles["sig_name"]),
+            Spacer(1, 0.45 * inch),
+            HRFlowable(width="100%", thickness=0.5, color=DARK, spaceAfter=4),
+            Paragraph("Signature", styles["sig_label"]),
+            Spacer(1, 0.25 * inch),
+            HRFlowable(width="40%", thickness=0.5, color=DARK, spaceAfter=4),
+            Paragraph("Date", styles["sig_label"]),
         ]
-    ]
+
+    sig_data = [[sig_block("Nathaniel Lehrer"), sig_block("Zac Musgrove — HUSHED Lawn Care")]]
 
     sig_table = Table(sig_data, colWidths=[col, col])
     sig_table.setStyle(TableStyle([
         ("VALIGN", (0, 0), (-1, -1), "TOP"),
         ("LEFTPADDING", (0, 0), (-1, -1), 0),
-        ("RIGHTPADDING", (0, 0), (-1, -1), 0),
+        ("RIGHTPADDING", (0, 0), (0, -1), gap),
+        ("RIGHTPADDING", (1, 0), (1, -1), 0),
         ("TOPPADDING", (0, 0), (-1, -1), 0),
         ("BOTTOMPADDING", (0, 0), (-1, -1), 0),
-        ("RIGHTPADDING", (0, 0), (0, -1), 20),
     ]))
     story.append(sig_table)
 
