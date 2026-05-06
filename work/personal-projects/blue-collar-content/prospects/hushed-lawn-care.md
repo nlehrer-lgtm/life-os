@@ -6,7 +6,7 @@ facebook: N/A (linked on site, URL unknown)
 phone: 615-996-9479
 email: zac@hushedlawncare.com
 owner: Zac (last name unknown)
-status: researched
+status: in-talks
 date-added: 2026-04-09
 fit-score: 9/10
 ---
