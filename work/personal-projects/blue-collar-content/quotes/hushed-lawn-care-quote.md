@@ -75,6 +75,6 @@ Signature: _____________________________ &nbsp;&nbsp; Date: ___________
 
 &nbsp;
 
-**Zac — HUSHED Lawn Care**
+**Zac Musgrove — HUSHED | All-Electric Lawncare**
 
 Signature: _____________________________ &nbsp;&nbsp; Date: ___________
