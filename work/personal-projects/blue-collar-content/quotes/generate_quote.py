@@ -342,7 +342,7 @@ def main():
         rightMargin=1.0 * inch,
         topMargin=0.9 * inch,
         bottomMargin=0.9 * inch,
-        title="Service Quote — HUSHED Lawn Care",
+        title="Service Quote — HUSHED | All-Electric Lawncare",
         author="Nathaniel Lehrer",
     )
 
