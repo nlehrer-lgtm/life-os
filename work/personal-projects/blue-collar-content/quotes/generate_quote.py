@@ -303,20 +303,61 @@ def build_story(styles):
     col = W / 2 - 0.2 * inch
     gap = 0.4 * inch
 
-    def sig_block(name):
-        return [
-            Paragraph(name, styles["sig_name"]),
-            Spacer(1, 0.45 * inch),
-            HRFlowable(width="100%", thickness=0.5, color=DARK, spaceAfter=4),
-            Paragraph("Signature", styles["sig_label"]),
-            Spacer(1, 0.25 * inch),
-            HRFlowable(width="40%", thickness=0.5, color=DARK, spaceAfter=4),
-            Paragraph("Date", styles["sig_label"]),
-        ]
+    def sig_block(name, col_w):
+        sig_w = col_w - gap / 2
+        date_w = sig_w * 0.42
 
-    sig_data = [[sig_block("Nathaniel Lehrer"), sig_block("Zac Musgrove — HUSHED | All-Electric Lawncare")]]
+        # Signature line row: bottom border acts as the line
+        sig_line_table = Table(
+            [[""], [""]],
+            colWidths=[sig_w],
+            rowHeights=[0.5 * inch, 0.02 * inch],
+        )
+        sig_line_table.setStyle(TableStyle([
+            ("LINEBELOW", (0, 0), (0, 0), 0.5, DARK),
+            ("TOPPADDING", (0, 0), (-1, -1), 0),
+            ("BOTTOMPADDING", (0, 0), (-1, -1), 0),
+            ("LEFTPADDING", (0, 0), (-1, -1), 0),
+            ("RIGHTPADDING", (0, 0), (-1, -1), 0),
+        ]))
 
-    sig_table = Table(sig_data, colWidths=[col, col])
+        date_line_table = Table(
+            [[""], [""]],
+            colWidths=[date_w],
+            rowHeights=[0.3 * inch, 0.02 * inch],
+        )
+        date_line_table.setStyle(TableStyle([
+            ("LINEBELOW", (0, 0), (0, 0), 0.5, DARK),
+            ("TOPPADDING", (0, 0), (-1, -1), 0),
+            ("BOTTOMPADDING", (0, 0), (-1, -1), 0),
+            ("LEFTPADDING", (0, 0), (-1, -1), 0),
+            ("RIGHTPADDING", (0, 0), (-1, -1), 0),
+        ]))
+
+        block = Table(
+            [
+                [Paragraph(name, styles["sig_name"])],
+                [sig_line_table],
+                [Paragraph("Signature", styles["sig_label"])],
+                [Spacer(1, 0.12 * inch)],
+                [date_line_table],
+                [Paragraph("Date", styles["sig_label"])],
+            ],
+            colWidths=[sig_w],
+        )
+        block.setStyle(TableStyle([
+            ("VALIGN", (0, 0), (-1, -1), "TOP"),
+            ("TOPPADDING", (0, 0), (-1, -1), 0),
+            ("BOTTOMPADDING", (0, 0), (-1, -1), 2),
+            ("LEFTPADDING", (0, 0), (-1, -1), 0),
+            ("RIGHTPADDING", (0, 0), (-1, -1), 0),
+        ]))
+        return block
+
+    n_block = sig_block("Nathaniel Lehrer", col)
+    z_block = sig_block("Zac Musgrove — HUSHED | All-Electric Lawncare", col)
+
+    sig_table = Table([[n_block, z_block]], colWidths=[col, col])
     sig_table.setStyle(TableStyle([
         ("VALIGN", (0, 0), (-1, -1), "TOP"),
         ("LEFTPADDING", (0, 0), (-1, -1), 0),
