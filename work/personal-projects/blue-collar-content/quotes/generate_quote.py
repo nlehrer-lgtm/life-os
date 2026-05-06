@@ -7,180 +7,92 @@ from reportlab.platypus import (
     SimpleDocTemplate, Paragraph, Spacer, HRFlowable,
     Table, TableStyle, KeepTogether
 )
-from reportlab.pdfbase import pdfmetrics
-from reportlab.pdfbase.ttfonts import TTFont
 
 OUTPUT = "hushed-lawn-care-quote.pdf"
 
-# Color palette — clean, professional, dark
+# Color palette
 DARK = colors.HexColor("#1A1A1A")
 MID = colors.HexColor("#555555")
 LIGHT = colors.HexColor("#999999")
-ACCENT = colors.HexColor("#2C6E49")   # deep green — nods to lawn care
+ACCENT = colors.HexColor("#2C6E49")
 RULE = colors.HexColor("#DDDDDD")
 BG_LIGHT = colors.HexColor("#F7F9F7")
 
-def build_styles():
-    base = getSampleStyleSheet()
 
+def build_styles():
     styles = {}
 
     styles["doc_title"] = ParagraphStyle(
-        "doc_title",
-        fontName="Helvetica-Bold",
-        fontSize=22,
-        textColor=DARK,
-        spaceAfter=2,
-        leading=26,
+        "doc_title", fontName="Helvetica-Bold", fontSize=22,
+        textColor=DARK, spaceAfter=2, leading=26,
     )
-
     styles["doc_subtitle"] = ParagraphStyle(
-        "doc_subtitle",
-        fontName="Helvetica",
-        fontSize=10,
-        textColor=LIGHT,
-        spaceAfter=0,
-        leading=14,
+        "doc_subtitle", fontName="Helvetica", fontSize=10,
+        textColor=LIGHT, spaceAfter=0, leading=14,
     )
-
     styles["section_label"] = ParagraphStyle(
-        "section_label",
-        fontName="Helvetica-Bold",
-        fontSize=7,
-        textColor=ACCENT,
-        spaceBefore=0,
-        spaceAfter=4,
-        leading=10,
-        letterSpacing=1.2,
+        "section_label", fontName="Helvetica-Bold", fontSize=7,
+        textColor=ACCENT, spaceBefore=0, spaceAfter=4, leading=10, letterSpacing=1.2,
     )
-
     styles["party_name"] = ParagraphStyle(
-        "party_name",
-        fontName="Helvetica-Bold",
-        fontSize=11,
-        textColor=DARK,
-        spaceAfter=1,
-        leading=14,
+        "party_name", fontName="Helvetica-Bold", fontSize=11,
+        textColor=DARK, spaceAfter=1, leading=14,
     )
-
     styles["party_detail"] = ParagraphStyle(
-        "party_detail",
-        fontName="Helvetica",
-        fontSize=9,
-        textColor=MID,
-        spaceAfter=1,
-        leading=13,
+        "party_detail", fontName="Helvetica", fontSize=9,
+        textColor=MID, spaceAfter=1, leading=13,
     )
-
-    styles["section_heading"] = ParagraphStyle(
-        "section_heading",
-        fontName="Helvetica-Bold",
-        fontSize=10,
-        textColor=DARK,
-        spaceBefore=16,
-        spaceAfter=6,
-        leading=14,
-    )
-
     styles["body"] = ParagraphStyle(
-        "body",
-        fontName="Helvetica",
-        fontSize=9.5,
-        textColor=DARK,
-        spaceAfter=6,
-        leading=15,
+        "body", fontName="Helvetica", fontSize=9.5,
+        textColor=DARK, spaceAfter=6, leading=15,
     )
-
     styles["body_bold"] = ParagraphStyle(
-        "body_bold",
-        fontName="Helvetica-Bold",
-        fontSize=9.5,
-        textColor=DARK,
-        spaceAfter=4,
-        leading=15,
+        "body_bold", fontName="Helvetica-Bold", fontSize=9.5,
+        textColor=DARK, spaceAfter=4, leading=15,
     )
-
     styles["bullet"] = ParagraphStyle(
-        "bullet",
-        fontName="Helvetica",
-        fontSize=9.5,
-        textColor=DARK,
-        spaceAfter=4,
-        leading=15,
-        leftIndent=14,
-        bulletIndent=0,
+        "bullet", fontName="Helvetica", fontSize=9.5, textColor=DARK,
+        spaceAfter=4, leading=15, leftIndent=14, bulletIndent=0,
     )
-
     styles["rate_label"] = ParagraphStyle(
-        "rate_label",
-        fontName="Helvetica-Bold",
-        fontSize=9.5,
-        textColor=MID,
-        spaceAfter=0,
-        leading=14,
+        "rate_label", fontName="Helvetica-Bold", fontSize=9.5,
+        textColor=MID, spaceAfter=0, leading=14,
     )
-
     styles["rate_value"] = ParagraphStyle(
-        "rate_value",
-        fontName="Helvetica-Bold",
-        fontSize=18,
-        textColor=ACCENT,
-        spaceAfter=0,
-        leading=22,
+        "rate_value", fontName="Helvetica-Bold", fontSize=18,
+        textColor=ACCENT, spaceAfter=0, leading=22,
     )
-
     styles["sig_name"] = ParagraphStyle(
-        "sig_name",
-        fontName="Helvetica-Bold",
-        fontSize=9.5,
-        textColor=DARK,
-        spaceAfter=2,
-        leading=14,
+        "sig_name", fontName="Helvetica-Bold", fontSize=9.5,
+        textColor=DARK, spaceAfter=0, leading=14,
     )
-
     styles["sig_label"] = ParagraphStyle(
-        "sig_label",
-        fontName="Helvetica",
-        fontSize=8,
-        textColor=LIGHT,
-        spaceAfter=0,
-        leading=12,
-    )
-
-    styles["footer"] = ParagraphStyle(
-        "footer",
-        fontName="Helvetica",
-        fontSize=7.5,
-        textColor=LIGHT,
-        alignment=TA_CENTER,
-        leading=11,
+        "sig_label", fontName="Helvetica", fontSize=8,
+        textColor=LIGHT, spaceAfter=0, leading=12,
     )
 
     return styles
 
 
-def rule(color=RULE, thickness=0.5, spaceAfter=12, spaceBefore=0):
+def hrule(color=RULE, thickness=0.5, spaceAfter=12, spaceBefore=0):
     return HRFlowable(
-        width="100%",
-        thickness=thickness,
-        color=color,
-        spaceAfter=spaceAfter,
-        spaceBefore=spaceBefore,
+        width="100%", thickness=thickness, color=color,
+        spaceAfter=spaceAfter, spaceBefore=spaceBefore,
     )
 
 
 def build_story(styles):
     story = []
-    W = 6.5 * inch  # usable width
+    W = 6.5 * inch
 
     # ── HEADER ──────────────────────────────────────────────────────────────
     story.append(Spacer(1, 0.1 * inch))
     story.append(Paragraph("SERVICE QUOTE", styles["doc_title"]))
     story.append(Paragraph("May 5, 2026", styles["doc_subtitle"]))
     story.append(Spacer(1, 0.18 * inch))
-    story.append(rule(color=ACCENT, thickness=1.5, spaceAfter=16))
+    story.append(hrule(color=ACCENT, thickness=1.5, spaceAfter=16))
 
-    # ── FROM / PREPARED FOR (two-column) ────────────────────────────────────
+    # ── FROM / PREPARED FOR ──────────────────────────────────────────────────
     from_block = [
         Paragraph("FROM", styles["section_label"]),
         Paragraph("Nathaniel Lehrer", styles["party_name"]),
@@ -194,10 +106,7 @@ def build_story(styles):
         Paragraph("615-996-9479  ·  zac@hushedlawncare.com", styles["party_detail"]),
     ]
 
-    party_table = Table(
-        [[from_block, to_block]],
-        colWidths=[W * 0.45, W * 0.55],
-    )
+    party_table = Table([[from_block, to_block]], colWidths=[W * 0.45, W * 0.55])
     party_table.setStyle(TableStyle([
         ("VALIGN", (0, 0), (-1, -1), "TOP"),
         ("LEFTPADDING", (0, 0), (-1, -1), 0),
@@ -207,36 +116,32 @@ def build_story(styles):
     ]))
     story.append(party_table)
     story.append(Spacer(1, 0.2 * inch))
-    story.append(rule())
+    story.append(hrule())
 
     # ── SCOPE OF WORK ────────────────────────────────────────────────────────
     story.append(Paragraph("SCOPE OF WORK", styles["section_label"]))
     story.append(Paragraph(
         "Nathaniel Lehrer will supply social media content that includes both professional "
-        "photos and videos, and will manage HUSHED Lawn Care’s social media platforms by "
+        "photos and videos, and will manage HUSHED Lawn Care's social media platforms by "
         "capturing, curating, and posting unique content on a monthly basis, scheduled out weekly.",
         styles["body"]
     ))
     story.append(Spacer(1, 6))
     story.append(Paragraph("Deliverables include:", styles["body_bold"]))
 
-    bullets = [
+    for b in [
         "Professional on-location photo and video content shot at HUSHED Lawn Care job sites",
         "Monthly content cycle with fresh, original material produced each month",
         "Content curation and scheduling — posted weekly across agreed social media platforms",
-    ]
-    for b in bullets:
+    ]:
         story.append(Paragraph(f"•  {b}", styles["bullet"]))
 
-    # Rate callout box
+    # Rate callout
     story.append(Spacer(1, 10))
-    rate_data = [
-        [
-            Paragraph("MONTHLY RATE", styles["rate_label"]),
-            Paragraph("$750", styles["rate_value"]),
-        ]
-    ]
-    rate_table = Table(rate_data, colWidths=[W * 0.5, W * 0.5])
+    rate_table = Table(
+        [[Paragraph("MONTHLY RATE", styles["rate_label"]), Paragraph("$750", styles["rate_value"])]],
+        colWidths=[W * 0.5, W * 0.5],
+    )
     rate_table.setStyle(TableStyle([
         ("BACKGROUND", (0, 0), (-1, -1), BG_LIGHT),
         ("BOX", (0, 0), (-1, -1), 0.5, RULE),
@@ -250,7 +155,7 @@ def build_story(styles):
     ]))
     story.append(rate_table)
     story.append(Spacer(1, 0.18 * inch))
-    story.append(rule())
+    story.append(hrule())
 
     # ── CONTENT OWNERSHIP ────────────────────────────────────────────────────
     story.append(Paragraph("CONTENT OWNERSHIP", styles["section_label"]))
@@ -265,7 +170,7 @@ def build_story(styles):
         styles["body"]
     ))
     story.append(Spacer(1, 4))
-    story.append(rule())
+    story.append(hrule())
 
     # ── PAYMENT TERMS ────────────────────────────────────────────────────────
     story.append(Paragraph("PAYMENT TERMS", styles["section_label"]))
@@ -275,11 +180,11 @@ def build_story(styles):
         styles["body"]
     ))
     story.append(Paragraph(
-        "Accepted payment methods: &nbsp; Venmo · Zelle · Cash",
+        "Accepted payment methods:   Venmo · Zelle · Cash",
         styles["body"]
     ))
     story.append(Spacer(1, 4))
-    story.append(rule())
+    story.append(hrule())
 
     # ── AGREEMENT TERMS ──────────────────────────────────────────────────────
     story.append(Paragraph("AGREEMENT TERMS", styles["section_label"]))
@@ -290,81 +195,57 @@ def build_story(styles):
         styles["body"]
     ))
     story.append(Spacer(1, 4))
-    story.append(rule())
+    story.append(hrule())
 
-    # ── SIGNATURES ───────────────────────────────────────────────────────────
+    # ── SIGNATURES — flat table, no nesting ──────────────────────────────────
     story.append(Paragraph("SIGNATURES", styles["section_label"]))
     story.append(Paragraph(
         "By signing below, both parties agree to the scope of work and terms outlined in this document.",
         styles["body"]
     ))
-    story.append(Spacer(1, 0.3 * inch))
+    story.append(Spacer(1, 0.25 * inch))
 
-    col = W / 2 - 0.2 * inch
-    gap = 0.4 * inch
+    P = Paragraph
+    cL = W * 0.46
+    cG = W * 0.08
+    cR = W * 0.46
 
-    def sig_block(name, col_w):
-        sig_w = col_w - gap / 2
-        date_w = sig_w * 0.42
+    sig_rows = [
+        # Row 0 — names
+        [P("Nathaniel Lehrer", styles["sig_name"]), "", P("Zac Musgrove", styles["sig_name"])],
+        # Row 1 — Zac company (left stays empty)
+        ["", "", P("HUSHED | All-Electric Lawncare", styles["party_detail"])],
+        # Row 2 — signing space (tall; LINEBELOW = signature line)
+        ["", "", ""],
+        # Row 3 — "Signature" labels
+        [P("Signature", styles["sig_label"]), "", P("Signature", styles["sig_label"])],
+        # Row 4 — small gap
+        ["", "", ""],
+        # Row 5 — date space (LINEBELOW = date line)
+        ["", "", ""],
+        # Row 6 — "Date" labels
+        [P("Date", styles["sig_label"]), "", P("Date", styles["sig_label"])],
+    ]
 
-        # Signature line row: bottom border acts as the line
-        sig_line_table = Table(
-            [[""], [""]],
-            colWidths=[sig_w],
-            rowHeights=[0.5 * inch, 0.02 * inch],
-        )
-        sig_line_table.setStyle(TableStyle([
-            ("LINEBELOW", (0, 0), (0, 0), 0.5, DARK),
-            ("TOPPADDING", (0, 0), (-1, -1), 0),
-            ("BOTTOMPADDING", (0, 0), (-1, -1), 0),
-            ("LEFTPADDING", (0, 0), (-1, -1), 0),
-            ("RIGHTPADDING", (0, 0), (-1, -1), 0),
-        ]))
-
-        date_line_table = Table(
-            [[""], [""]],
-            colWidths=[date_w],
-            rowHeights=[0.3 * inch, 0.02 * inch],
-        )
-        date_line_table.setStyle(TableStyle([
-            ("LINEBELOW", (0, 0), (0, 0), 0.5, DARK),
-            ("TOPPADDING", (0, 0), (-1, -1), 0),
-            ("BOTTOMPADDING", (0, 0), (-1, -1), 0),
-            ("LEFTPADDING", (0, 0), (-1, -1), 0),
-            ("RIGHTPADDING", (0, 0), (-1, -1), 0),
-        ]))
-
-        block = Table(
-            [
-                [Paragraph(name, styles["sig_name"])],
-                [sig_line_table],
-                [Paragraph("Signature", styles["sig_label"])],
-                [Spacer(1, 0.12 * inch)],
-                [date_line_table],
-                [Paragraph("Date", styles["sig_label"])],
-            ],
-            colWidths=[sig_w],
-        )
-        block.setStyle(TableStyle([
-            ("VALIGN", (0, 0), (-1, -1), "TOP"),
-            ("TOPPADDING", (0, 0), (-1, -1), 0),
-            ("BOTTOMPADDING", (0, 0), (-1, -1), 2),
-            ("LEFTPADDING", (0, 0), (-1, -1), 0),
-            ("RIGHTPADDING", (0, 0), (-1, -1), 0),
-        ]))
-        return block
-
-    n_block = sig_block("Nathaniel Lehrer", col)
-    z_block = sig_block("Zac Musgrove — HUSHED | All-Electric Lawncare", col)
-
-    sig_table = Table([[n_block, z_block]], colWidths=[col, col])
+    sig_table = Table(
+        sig_rows,
+        colWidths=[cL, cG, cR],
+        rowHeights=[None, None, 0.45 * inch, None, 0.12 * inch, 0.28 * inch, None],
+    )
     sig_table.setStyle(TableStyle([
-        ("VALIGN", (0, 0), (-1, -1), "TOP"),
-        ("LEFTPADDING", (0, 0), (-1, -1), 0),
-        ("RIGHTPADDING", (0, 0), (0, -1), gap),
-        ("RIGHTPADDING", (1, 0), (1, -1), 0),
+        ("VALIGN", (0, 0), (-1, -1), "BOTTOM"),
         ("TOPPADDING", (0, 0), (-1, -1), 0),
-        ("BOTTOMPADDING", (0, 0), (-1, -1), 0),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), 3),
+        ("LEFTPADDING", (0, 0), (-1, -1), 0),
+        ("RIGHTPADDING", (0, 0), (-1, -1), 0),
+        # Signature lines on row 2
+        ("LINEBELOW", (0, 2), (0, 2), 0.5, DARK),
+        ("LINEBELOW", (2, 2), (2, 2), 0.5, DARK),
+        # Date lines on row 5
+        ("LINEBELOW", (0, 5), (0, 5), 0.5, DARK),
+        ("LINEBELOW", (2, 5), (2, 5), 0.5, DARK),
+        # Name rows top-aligned
+        ("VALIGN", (0, 0), (-1, 1), "TOP"),
     ]))
     story.append(sig_table)
 
@@ -389,7 +270,6 @@ def main():
 
     styles = build_styles()
     story = build_story(styles)
-
     doc.build(story)
     print(f"PDF saved to: {out_path}")
 
