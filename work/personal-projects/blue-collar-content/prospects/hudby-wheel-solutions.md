@@ -6,7 +6,7 @@ facebook: https://www.facebook.com/hudbysolutions/
 phone: (615) 881-0590
 email: hudbysolutions@gmail.com
 owner: Richard Hayward
-status: researched
+status: no-answer
 date-added: 2026-04-18
 fit-score: 8/10
 ---
