@@ -6,7 +6,7 @@ facebook: https://www.facebook.com/BeechcroftAutoSH/
 phone: 931-486-1983
 email: N/A
 owner: David Fitzgerald
-status: researched
+status: stalled
 date-added: 2026-04-20
 fit-score: 9/10
 ---
