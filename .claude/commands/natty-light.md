@@ -55,5 +55,5 @@ After copying, confirm both files exist in the destination and report their size
 
 ## Volume not found
 
-- If `/Volumes/DJI Mike 1` is not mounted: tell the user to plug in the DJI mic and make sure it's named "DJI Mike 1"
+- If `/Volumes/DJI Mic 1` is not mounted: tell the user to plug in the DJI mic and make sure it's named "DJI Mic 1"
 - If `/Volumes/Gopro` is not mounted: tell the user to plug in the GoPro SD card
