@@ -25,7 +25,7 @@ Run these bash commands:
 TODAY=$(date +%Y-%m-%d)
 
 # Define paths
-DJI_VOLUME="/Volumes/DJI Mike 1"
+DJI_VOLUME="/Volumes/DJI Mic 1"
 GOPRO_DCIM="/Volumes/Gopro/DCIM"
 DEST="$HOME/Desktop/Natty Light/assets/footage/$TODAY"
 
