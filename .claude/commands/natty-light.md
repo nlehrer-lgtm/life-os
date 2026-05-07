@@ -27,7 +27,7 @@ TODAY=$(date +%Y-%m-%d)
 # Define paths
 DJI_VOLUME="/Volumes/DJI Mic 1"
 GOPRO_DCIM="/Volumes/Gopro/DCIM"
-DEST="$HOME/Desktop/Natty Light/assets/footage/$TODAY"
+DEST="$HOME/Desktop/2026_Natty-Lite/02 Assets/01 Footage/$TODAY"
 
 # Create destination folder
 mkdir -p "$DEST"
