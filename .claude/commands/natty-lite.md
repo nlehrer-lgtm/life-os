@@ -57,3 +57,55 @@ After copying, confirm both files exist in the destination and report their size
 
 - If `/Volumes/DJI Mic 1` is not mounted: tell the user to plug in the DJI mic and make sure it's named "DJI Mic 1"
 - If `/Volumes/Gopro` is not mounted: tell the user to plug in the GoPro SD card
+
+---
+
+## Step 5 — Enhance audio with Adobe Podcast
+
+After both files are confirmed in the destination folder, enhance the DJI audio file using Adobe Podcast.
+
+The source file is:
+```
+$DEST/Natty-Light_Audio_${TODAY}.wav
+```
+
+The enhanced output should be saved as:
+```
+$DEST/natty-light-audio-enhanced-${TODAY}.wav
+```
+
+### Browser automation steps
+
+Use the Chrome MCP tools (`mcp__Claude_in_Chrome__*`) for all browser interaction.
+
+1. **Get a tab** — call `tabs_context_mcp` with `createIfEmpty: true`, then use the tab ID for all subsequent calls.
+
+2. **Navigate** to `https://podcast.adobe.com/en/enhance`
+
+3. **Take a screenshot** to confirm the page loaded and the user is logged in. If there's a login wall, stop and tell the user they need to be logged into Adobe Podcast in Chrome.
+
+4. **Upload the file** — use `find` to locate the file input:
+   - Call `find` with query `"file upload input"` to get its ref
+   - Call `file_upload` with `paths: ["/Users/nlehrer/Desktop/2026_Natty-Lite/02 Assets/01 Footage/YYYY-MM-DD/Natty-Light_Audio_YYYY-MM-DD.wav"]` (substitute real date) and the ref from above
+
+5. **Wait for processing** — take a screenshot every 15 seconds and check whether the file card on the left shows a duration (meaning upload + processing is complete). The file is ready when the card shows a time like "07:51" and the **Download** button at the bottom is active (black, not grayed out). Wait up to 5 minutes before timing out.
+
+6. **Confirm download** — tell the user: "Adobe Podcast has finished enhancing the audio. Ready to download the enhanced file to your project folder — confirm with 'yes' to proceed." Wait for explicit confirmation before continuing.
+
+7. **Note pre-download timestamp** — run `date` in bash and store the current time so you can identify the newly downloaded file.
+
+8. **Click Download** — use `find` with query `"Download button"` to get the ref, then click it.
+
+9. **Locate the downloaded file** — after ~5 seconds, run:
+   ```bash
+   ls -t ~/Downloads/*.wav ~/Downloads/*.mp3 2>/dev/null | head -3
+   ```
+   Identify the most recently modified audio file that appeared after your pre-download timestamp.
+
+10. **Move and rename** — run:
+    ```bash
+    mv "<downloaded_file_path>" "$DEST/natty-light-audio-enhanced-${TODAY}.wav"
+    ```
+    Preserve the `.wav` extension. If Adobe Podcast downloads an `.mp3` instead, keep `.mp3` in the output filename.
+
+11. **Confirm** — report the final file path and size to the user.
