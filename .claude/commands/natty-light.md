@@ -6,7 +6,7 @@ Pull the most recent footage and audio from connected devices into the Natty Lig
 
 1. Finds the most recent `.wav` file on the DJI mic volume (`/Volumes/DJI Mic 1`)
 2. Finds the most recent `.mp4` file in the GoPro folder on the GoPro volume (`/Volumes/Gopro/DCIM/` — look for a subfolder with "GOPRO" in its name, e.g. `102GOPRO`)
-3. Creates a dated folder at `~/Desktop/Natty Light/assets/footage/YYYY-MM-DD/` using today's date
+3. Creates a dated folder at `~/Desktop/2026_Natty-Lite/02 Assets/01 Footage/YYYY-MM-DD/` using today's date
 4. Copies both files into that folder with standardized names
 
 ## Naming convention
