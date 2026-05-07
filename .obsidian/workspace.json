@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/personal-projects/blue-collar-content/new_prospects_report.md",
+                "file": "CLAUDE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "new_prospects_report"
+              "title": "CLAUDE"
             }
           }
         ]
@@ -183,13 +183,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "21a6692e4f63b37f",
+  "active": "d2ae28b281bcad05",
   "lastOpenFiles": [
+    "reminders/reminders.md",
+    "reminders",
+    "digests/2026-05-05.md",
+    "work/personal-projects/blue-collar-content/new_prospects_report.md",
     "work/personal-projects/blue-collar-content/quotes/hushed-lawn-care-quote.pdf",
     "work/personal-projects/blue-collar-content/quotes/hushed-lawn-care-quote.md",
-    "work/personal-projects/blue-collar-content/new_prospects_report.md",
     "work/personal-projects/blue-collar-content/quotes/generate_quote.py",
-    "digests/2026-05-05.md",
     "work/messenger-intl/video-team/1on1s/lindy-wood/1on1-prep-2026-05-04.md",
     "work/personal-projects/blue-collar-content/quotes",
     "people/lindy-wood.md",
@@ -218,7 +220,6 @@
     "digests",
     "work/messenger-intl/video-team/1on1s/lindy-wood",
     "work/messenger-intl/video-team/1on1s/andrew-mcintosh",
-    "work/messenger-intl/2026-projects/2026-mcup/messenger_cup_event_context_brief (2).docx",
-    "work/messenger-intl/2026-projects/2026-mcup/mcup-2026-opener-script-v2.pdf"
+    "work/messenger-intl/2026-projects/2026-mcup/messenger_cup_event_context_brief (2).docx"
   ]
 }
