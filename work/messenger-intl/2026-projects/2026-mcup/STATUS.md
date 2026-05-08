@@ -1,10 +1,10 @@
 # M Cup 2026 — Status
 
-**Last updated:** 2026-05-05
+**Last updated:** 2026-05-08
 **Current phase:** Pre-production / Script approval
 
 ## Open Decisions
-- [ ] **Script v3 sign-off** — Nathaniel drafting v3 today (May 5). Must be sent to Lisa Bevere and approved before production begins. Deadline: before ~May 6 (Lisa leaves for Italy).
+- [ ] **Script v3 sign-off** — Nathaniel finishing v3 and sending to Lisa Bevere today (May 8). Awaiting her approval before production begins.
 - [ ] **AI complex shots — final test** — Andrew verifying AI (Cling01/Sora) can handle complex motion and action scenes. Report due EOD May 5.
 
 ## Production Method — Decided
