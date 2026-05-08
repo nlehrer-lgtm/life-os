@@ -66,3 +66,4 @@ Moody's Franklin location is on Columbia Ave — you drive that road constantly.
 
 ## Interaction Log
 - 2026-04-18 — Researched
+- 2026-05-07 — Called. Jimmy didn't answer. Spoke with a receptionist who said she would leave a note for Jimmy. Follow-up: call again tomorrow (2026-05-08).
