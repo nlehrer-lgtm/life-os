@@ -6,7 +6,7 @@ facebook: https://www.facebook.com/touchstonemobiledetailing/
 phone: (615) 240-6240
 email: mrtouchstone615@gmail.com
 owner: Maurice Gayle
-status: researched
+status: low-interest
 date-added: 2026-04-18
 fit-score: 7/10
 ---
