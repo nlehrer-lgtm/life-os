@@ -67,3 +67,4 @@ Touchstone has a specific "Franklin, TN" service page and reviews from Franklin/
 
 ## Interaction Log
 - 2026-04-18 — Researched
+- 2026-05-07 — Spoke with Maurice. Low interest — not very engaged on the marketing angle and confirmed he is not the one who handles posting. Directed Nathaniel to email his marketing person. Research found the main business contact email is mrtouchstone615@gmail.com (also confirmed on their website). Low priority — don't push hard.
