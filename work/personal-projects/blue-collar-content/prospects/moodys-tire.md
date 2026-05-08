@@ -7,7 +7,7 @@ facebook: https://www.facebook.com/MoodysFranklin/
 phone: (615) 794-1504 (Franklin) / (615) 835-2184 (Brentwood)
 email: [email protected] (Franklin) / [email protected] (Brentwood)
 owner: Jimmy Moody (Co-Owner) — ask for Jimmy
-status: researched
+status: message-left
 date-added: 2026-04-18
 fit-score: 10/10
 ---
