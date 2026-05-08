@@ -4,7 +4,7 @@ website: https://touchstonedetailing.com/
 instagram: @touchstonedetailing
 facebook: https://www.facebook.com/touchstonemobiledetailing/
 phone: (615) 240-6240
-email: N/A
+email: mrtouchstone615@gmail.com
 owner: Maurice Gayle
 status: researched
 date-added: 2026-04-18
