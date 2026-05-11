@@ -1,20 +1,22 @@
-# Natty Light Ingest
+# Natty Lght Podcast Ingest
 
-Pull the most recent footage and audio from connected devices into the Natty Light project folder.
+Pull the most recent footage, audio, and screen recording into the Natty Lght project folder.
 
 ## What this skill does
 
 1. Finds the most recent `.wav` file on the DJI mic volume (`/Volumes/DJI Mic 1`)
 2. Finds the most recent `.mp4` file in the GoPro folder on the GoPro volume (`/Volumes/Gopro/DCIM/` — look for a subfolder with "GOPRO" in its name, e.g. `102GOPRO`)
-3. Creates a dated folder at `~/Desktop/2026_Natty-Lite/02 Assets/01 Footage/YYYY-MM-DD/` using today's date
-4. Copies both files into that folder with standardized names
+3. Finds the most recent screen recording MP4 in `~/Downloads` matching `Screen Recording*.mp4`
+4. Creates a dated folder at `~/Desktop/2026_Natty-Lght/02 Assets/01 Footage/YYYY-MM-DD/` using today's date
+5. Copies the available files into that folder with standardized names
 
 ## Naming convention
 
 Use today's date in `YYYY-MM-DD` format.
 
-- DJI audio: `Natty-Light_Audio_YYYY-MM-DD.wav`
-- GoPro footage: `Natty-Light_GoPro-Footage_YYYY-MM-DD.mp4`
+- DJI audio: `Natty-Lght_Audio_YYYY-MM-DD.wav`
+- GoPro footage: `Natty-Lght_GoPro-Footage_YYYY-MM-DD.mp4`
+- Screen recording: `Natty-Lght_screen_recording_YYYY-MM-DD.mp4`
 
 ## Steps to execute
 
@@ -27,7 +29,8 @@ TODAY=$(date +%Y-%m-%d)
 # Define paths
 DJI_VOLUME="/Volumes/DJI Mic 1"
 GOPRO_DCIM="/Volumes/Gopro/DCIM"
-DEST="$HOME/Desktop/2026_Natty-Lite/02 Assets/01 Footage/$TODAY"
+DOWNLOADS="$HOME/Downloads"
+DEST="$HOME/Desktop/2026_Natty-Lght/02 Assets/01 Footage/$TODAY"
 
 # Create destination folder
 mkdir -p "$DEST"
@@ -40,18 +43,28 @@ GOPRO_FOLDER=$(find "$GOPRO_DCIM" -type d -iname "*GOPRO*" | head -1)
 
 # Find most recent MP4 in GoPro folder (by modification date)
 GOPRO_FILE=$(find "$GOPRO_FOLDER" -iname "*.mp4" -type f | xargs ls -t 2>/dev/null | head -1)
+
+# Find most recent screen recording MP4 in Downloads (matches "Screen Recording*.mp4")
+SCREEN_FILE=$(find "$DOWNLOADS" -maxdepth 1 -iname "Screen Recording*.mp4" -type f | xargs ls -t 2>/dev/null | head -1)
 ```
 
 Then copy with renamed filenames:
 
 ```bash
-cp "$DJI_FILE" "$DEST/Natty-Light_Audio_${TODAY}.wav"
-cp "$GOPRO_FILE" "$DEST/Natty-Light_GoPro-Footage_${TODAY}.mp4"
+cp "$DJI_FILE" "$DEST/Natty-Lght_Audio_${TODAY}.wav"
+cp "$GOPRO_FILE" "$DEST/Natty-Lght_GoPro-Footage_${TODAY}.mp4"
+
+# Copy screen recording if one was found; otherwise warn and continue
+if [ -n "$SCREEN_FILE" ]; then
+  cp "$SCREEN_FILE" "$DEST/Natty-Lght_screen_recording_${TODAY}.mp4"
+else
+  echo "No 'Screen Recording*.mp4' found in ~/Downloads — skipping screen recording copy."
+fi
 ```
 
 ## Validation
 
-After copying, confirm both files exist in the destination and report their sizes. If either volume is not found, tell the user which one is missing and stop — don't proceed with a partial ingest.
+After copying, confirm the available files exist in the destination and report their sizes. If a volume is not found, tell the user which one is missing and stop — don't proceed with a partial ingest. If no screen recording is found in `~/Downloads`, warn the user and continue with the rest of the ingest.
 
 ## Volume not found
 
@@ -60,18 +73,18 @@ After copying, confirm both files exist in the destination and report their size
 
 ---
 
-## Step 5 — Enhance audio with Adobe Podcast
+## Step 6 — Enhance audio with Adobe Podcast
 
-After both files are confirmed in the destination folder, enhance the DJI audio file using Adobe Podcast.
+After all files are confirmed in the destination folder, enhance the DJI audio file using Adobe Podcast.
 
 The source file is:
 ```
-$DEST/Natty-Light_Audio_${TODAY}.wav
+$DEST/Natty-Lght_Audio_${TODAY}.wav
 ```
 
 The enhanced output should be saved as:
 ```
-$DEST/natty-light-audio-enhanced-${TODAY}.wav
+$DEST/natty-lght-audio-enhanced-${TODAY}.wav
 ```
 
 ### Browser automation steps
@@ -86,7 +99,7 @@ Use the Chrome MCP tools (`mcp__Claude_in_Chrome__*`) for all browser interactio
 
 4. **Upload the file** — use `find` to locate the file input:
    - Call `find` with query `"file upload input"` to get its ref
-   - Call `file_upload` with `paths: ["/Users/nlehrer/Desktop/2026_Natty-Lite/02 Assets/01 Footage/YYYY-MM-DD/Natty-Light_Audio_YYYY-MM-DD.wav"]` (substitute real date) and the ref from above
+   - Call `file_upload` with `paths: ["/Users/nlehrer/Desktop/2026_Natty-Lght/02 Assets/01 Footage/YYYY-MM-DD/Natty-Lght_Audio_YYYY-MM-DD.wav"]` (substitute real date) and the ref from above
 
 5. **Wait for processing** — take a screenshot every 15 seconds and check whether the file card on the left shows a duration (meaning upload + processing is complete). The file is ready when the card shows a time like "07:51" and the **Download** button at the bottom is active (black, not grayed out). Wait up to 5 minutes before timing out.
 
@@ -104,7 +117,7 @@ Use the Chrome MCP tools (`mcp__Claude_in_Chrome__*`) for all browser interactio
 
 10. **Move and rename** — run:
     ```bash
-    mv "<downloaded_file_path>" "$DEST/natty-light-audio-enhanced-${TODAY}.wav"
+    mv "<downloaded_file_path>" "$DEST/natty-lght-audio-enhanced-${TODAY}.wav"
     ```
     Preserve the `.wav` extension. If Adobe Podcast downloads an `.mp3` instead, keep `.mp3` in the output filename.
 
