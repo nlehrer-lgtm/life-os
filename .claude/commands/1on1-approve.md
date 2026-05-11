@@ -129,7 +129,7 @@ If the trigger task isn't found (e.g., Nathaniel already completed it manually),
 Output a short final line:
 
 ```
-Approved. Created [N] tasks in [Name]'s growth plan project ([X] for you, [Y] for [Name]). Review + trigger tasks marked complete.
+Approved. Created [N] tasks ([X] in your My Tasks, [Y] in [Name]'s My Tasks). Review + trigger tasks in Leadership OS – 2026 marked complete.
 ```
 
 ## Important
