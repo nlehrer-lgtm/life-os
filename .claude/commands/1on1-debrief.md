@@ -114,14 +114,16 @@ _Observations, moments, and items captured between 1:1s. These feed into the nex
 ```
 
 ### Step 7 — Create the two Asana tasks for Nathaniel
-Resolve Nathaniel's Asana GID via `get_me`. Then call `create_tasks` to create **two** tasks in the person's growth plan project. Both assigned to Nathaniel.
+Both reminder tasks live in Nathaniel's **Leadership OS – 2026** project (GID `1212708795030806`), assigned to Nathaniel. They are *not* in Lindy's or Andrew's growth plan projects — those projects are for them.
+
+Call `create_tasks` to create **two** tasks:
 
 **Task A — the review task** (Nathaniel reads + edits the draft action items here):
 
 - **Name:** `Review 1:1 action items — [Name] — [YYYY-MM-DD]`
-- **Assignee:** Nathaniel (`me`)
+- **Assignee:** `me`
 - **Due date:** Today (or tomorrow if it's late in the day)
-- **Project:** the person's growth plan project ID
+- **Project:** `1212708795030806` (Leadership OS – 2026)
 - **Notes (description):**
 
   ```
