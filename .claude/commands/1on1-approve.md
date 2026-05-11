@@ -39,9 +39,9 @@ The growth plan projects are reserved for growth milestones, not weekly action i
 Resolve Andrew or Lindy from Nathaniel's prompt.
 
 ### Step 2 — Find the review task
-Use `search_tasks` (or `get_tasks` on the growth plan project filtered by incomplete tasks) to find the most recent **incomplete** task whose name starts with `Review 1:1 action items — [Name] —`.
+Use `get_tasks` on Nathaniel's **Leadership OS – 2026** project (GID `1212708795030806`), filtered by incomplete tasks. Find the most recent **incomplete** task whose name starts with `Review 1:1 action items — [Name] —`.
 
-If there is no matching open task, stop and tell Nathaniel: `No open review task found for [Name] — did you run /1on1-debrief already? Or has it been approved already?`
+If there is no matching open task, stop and tell Nathaniel: `No open review task found for [Name] in Leadership OS – 2026 — did you run /1on1-debrief already? Or has it been approved already?`
 
 If more than one open review task exists (rare), pick the most recently created one and mention this in the final confirmation.
 
