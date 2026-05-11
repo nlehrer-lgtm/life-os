@@ -14,15 +14,24 @@ Use this command whenever Nathaniel asks to "approve the action items", "create 
 ## Known People & Resources
 
 ### Andrew McIntosh
-- **Asana Growth Plan project ID:** `1211631456933613`
 - **Asana user GID:** `1209716385781630`
 
 ### Lindy Wood
-- **Asana Growth Plan project ID:** `1212886997625190`
 - **Asana user GID:** `1209634024000757`
 
 ### Nathaniel
-- Resolved via `get_me` or just use `"me"` as the assignee identifier.
+- Use `"me"` as the assignee identifier.
+- **Personal project (Leadership OS – 2026):** `1212708795030806` — where the review + trigger tasks live.
+- **Asana workspace:** `1208467900542489`
+
+## Task Placement Rules
+
+When this skill creates the individual action item tasks, **none of them go in a growth plan project.** Instead:
+
+- **Nathaniel's items** → no project; assigned to `me`. They land in Nathaniel's My Tasks (general upcoming).
+- **Lindy's / Andrew's items** → no project; assigned to their GID. They land in *their* My Tasks. They'll see them; no growth plan attachment.
+
+The growth plan projects are reserved for growth milestones, not weekly action items.
 
 ## Steps
 
