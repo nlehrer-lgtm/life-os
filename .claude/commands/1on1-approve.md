@@ -95,22 +95,28 @@ Creating now.
 Do not pause for further confirmation — the review task IS the gate, and Nathaniel approved by running this skill.
 
 ### Step 6 — Create the individual tasks
-Use `create_tasks` with one call containing all the parsed action items.
+Do **two separate `create_tasks` calls**, one per assignee group. Neither call attaches the tasks to a project — they land in the assignee's My Tasks.
 
-For **Nathaniel's items:**
-- **project_id:** the person's growth plan project ID
-- **name:** the commitment, phrased as an imperative if it isn't already
-- **assignee:** `me`
-- **due_on:** the parsed date if present, otherwise omit
-- **notes:** `From 1:1 on [meeting date]. Action item approved via /1on1-approve.`
+**Call A — Nathaniel's items** (one `create_tasks` invocation):
+- Top-level params: `default_assignee: "me"`. Omit `default_project`.
+- Each task in the array:
+  - **name:** the commitment, phrased as an imperative if it isn't already
+  - **due_on:** the parsed date if present, otherwise omit
+  - **notes:** `From 1:1 with [Name] on [meeting date]. Action item approved via /1on1-approve.`
+  - Do NOT set `project_id`. Do NOT set per-task `assignee` (inherits from default).
 
-For **[Name]'s items:**
-- **project_id:** the same growth plan project ID
-- **name:** the commitment
-- **assignee:** Lindy's GID (`1209634024000757`) or Andrew's GID (`1209716385781630`)
-- **due_on:** the parsed date if present, otherwise omit
-- **notes:** `From 1:1 on [meeting date]. Action item approved via /1on1-approve.`
-- **followers:** `me` — so Nathaniel sees activity on their tasks
+**Call B — [Name]'s items** (one `create_tasks` invocation):
+- Top-level params: `default_assignee: "<Lindy GID>"` or `"<Andrew GID>"`. Omit `default_project`.
+- Each task in the array:
+  - **name:** the commitment
+  - **due_on:** the parsed date if present, otherwise omit
+  - **notes:** `From 1:1 with Nathaniel on [meeting date]. Action item approved via /1on1-approve.`
+  - **followers:** `me` — so Nathaniel sees activity on their tasks
+  - Do NOT set `project_id`. Do NOT set per-task `assignee` (inherits from default).
+
+If either group is empty, skip that call.
+
+**If `create_tasks` errors because workspace is required when no project is set**, retry the same call adding `workspace: "1208467900542489"` to each task object. The Asana API needs a workspace anchor when a task isn't in a project; the MCP usually infers this from auth context, but explicit fallback is safer.
 
 ### Step 7 — Mark the reminder tasks complete
 Use `update_tasks` (or the appropriate completion call) to mark:
