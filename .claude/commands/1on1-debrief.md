@@ -143,9 +143,9 @@ Call `create_tasks` to create **two** tasks:
 **Task B — the trigger reminder** (Nathaniel's signal to come tell Claude):
 
 - **Name:** `Tell Claude: /1on1-approve [Name] — to create action item tasks`
-- **Assignee:** Nathaniel (`me`)
+- **Assignee:** `me`
 - **Due date:** Today (or tomorrow), same as Task A
-- **Project:** the person's growth plan project ID
+- **Project:** `1212708795030806` (Leadership OS – 2026)
 - **Notes (description):**
 
   ```
