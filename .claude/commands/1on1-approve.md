@@ -119,9 +119,9 @@ If either group is empty, skip that call.
 **If `create_tasks` errors because workspace is required when no project is set**, retry the same call adding `workspace: "1208467900542489"` to each task object. The Asana API needs a workspace anchor when a task isn't in a project; the MCP usually infers this from auth context, but explicit fallback is safer.
 
 ### Step 7 — Mark the reminder tasks complete
-Use `update_tasks` (or the appropriate completion call) to mark:
-- The **review task** (Task A) complete
-- The **trigger reminder task** (Task B) complete — find it via `search_tasks` filtered by name starting with `Tell Claude: /1on1-approve [Name]` and incomplete; mark it complete too
+Both reminder tasks live in **Leadership OS – 2026** (`1212708795030806`). Use `update_tasks` to mark them complete:
+- The **review task** (Task A) — the one you just read from
+- The **trigger reminder task** (Task B) — find it via `get_tasks` on `1212708795030806` filtered by incomplete, name starting with `Tell Claude: /1on1-approve [Name]`; mark it complete
 
 If the trigger task isn't found (e.g., Nathaniel already completed it manually), don't error — just note it.
 
