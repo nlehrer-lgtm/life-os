@@ -113,17 +113,19 @@ _Observations, moments, and items captured between 1:1s. These feed into the nex
 ---
 ```
 
-### Step 7 — Create the Asana review task for Nathaniel
-Resolve Nathaniel's Asana GID via `get_me`. Then call `create_tasks` to create **one** task in the person's growth plan project:
+### Step 7 — Create the two Asana tasks for Nathaniel
+Resolve Nathaniel's Asana GID via `get_me`. Then call `create_tasks` to create **two** tasks in the person's growth plan project. Both assigned to Nathaniel.
+
+**Task A — the review task** (Nathaniel reads + edits the draft action items here):
 
 - **Name:** `Review 1:1 action items — [Name] — [YYYY-MM-DD]`
-- **Assignee:** Nathaniel
+- **Assignee:** Nathaniel (`me`)
 - **Due date:** Today (or tomorrow if it's late in the day)
 - **Project:** the person's growth plan project ID
-- **Notes (description):** A clean markdown block with the draft action items in the same structure as the summary:
+- **Notes (description):**
 
   ```
-  Draft action items from the 1:1 on [date]. Review, edit, or approve — once you say "approved" or "create the tasks", I'll create each item as its own Asana task with the right assignee.
+  Draft action items from the 1:1 on [date]. Review and edit this list in place — when you're satisfied, do not create individual tasks here. Instead, complete the companion task "Tell Claude to run /1on1-approve" and follow its instructions.
 
   NATHANIEL'S ITEMS:
   - [ ] [Commitment] — due: [date]
@@ -136,19 +138,41 @@ Resolve Nathaniel's Asana GID via `get_me`. Then call `create_tasks` to create *
   Full summary: work/messenger-intl/video-team/1on1s/[folder]/1on1-summary-[date].md
   ```
 
+**Task B — the trigger reminder** (Nathaniel's signal to come tell Claude):
+
+- **Name:** `Tell Claude: /1on1-approve [Name] — to create action item tasks`
+- **Assignee:** Nathaniel (`me`)
+- **Due date:** Today (or tomorrow), same as Task A
+- **Project:** the person's growth plan project ID
+- **Notes (description):**
+
+  ```
+  Once you've reviewed and edited the action items in the companion task ("Review 1:1 action items — [Name] — [date]"), open Claude Code and run:
+
+      /1on1-approve [Name]
+
+  Claude will:
+  • Re-read the edited action items from the review task
+  • Create one Asana task per action item, with the right assignee and due date
+  • Mark both this task and the review task complete
+
+  Do not create the individual tasks manually — let /1on1-approve do it so the action items stay traceable and consistent.
+  ```
+
 ### Step 8 — Tell Nathaniel what happened
 Output a short message in the conversation:
 
 ```
-Debrief done for [Name] (2026-XX-XX).
+Debrief done for [Name] (YYYY-MM-DD).
 • Summary saved: 1on1-summary-[date].md
 • Running notes archived and reset
-• Review task in Asana: "Review 1:1 action items — [Name] — [date]"
+• Asana — review task: "Review 1:1 action items — [Name] — [date]"
+• Asana — trigger task: "Tell Claude: /1on1-approve [Name]"
 
-Open the review task, edit anything you want, then come back and say "approved" or "create the tasks" and I'll create the individual Asana tasks with the right assignees.
+Open the review task, edit the draft action items, then complete the trigger task by running /1on1-approve [Name] in Claude Code.
 ```
 
-Also surface the action items inline in the conversation so Nathaniel can scan them without switching to Asana.
+Also surface the draft action items inline in the conversation so Nathaniel can scan them without switching to Asana.
 
 ### Step 9 — Save, commit, push
 - Write to `/Users/nlehrer/Desktop/life-os/` (not any worktree path)
