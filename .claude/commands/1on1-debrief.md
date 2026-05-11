@@ -181,20 +181,12 @@ Also surface the draft action items inline in the conversation so Nathaniel can 
 
 ---
 
-## When Nathaniel says "approved" / "create the tasks"
-This is a follow-up turn, not a re-run of `/1on1-debrief`. When Nathaniel approves (verbally — "approved", "create them", "go ahead", "looks good — create the tasks"):
+## After debrief
+The actual creation of individual action-item tasks happens via the **separate `/1on1-approve [Name]` skill**, not in this conversation. That skill reads the (possibly edited) review task from Asana, creates the individual tasks with the right assignees, and marks the review + trigger tasks complete.
 
-1. Read the review task's current description from Asana (in case Nathaniel edited it).
-2. For each action item, call `create_tasks` to create an individual task in the **same growth plan project** (Lindy's or Andrew's):
-   - **Name:** the commitment phrased as a clear imperative
-   - **Assignee:** Nathaniel for his items; the team member for theirs
-   - **Due date:** as listed, or leave blank if not specified
-   - **Notes:** optionally include a short reference like "From 1:1 on [date]"
-3. After creating, mark the review task complete (or comment "Tasks created" on it — confirm with Nathaniel which he prefers if unclear).
-4. Tell Nathaniel: `Created [N] tasks. [Count] for you, [Count] for [Name].`
+This separation exists so the approval step works cleanly across sessions and can pick up Nathaniel's edits made in Asana.
 
 ## Important
-- **Never create the individual action-item tasks before Nathaniel approves.** The review task is the gate.
+- **Never create the individual action-item tasks inside `/1on1-debrief`.** Only the two Asana reminder tasks (review + trigger). The gate is `/1on1-approve`.
 - Never fabricate action items or topics. If the transcript is thin, the summary is thin — that's fine.
-- Assigning tasks to Lindy or Andrew is a shared-state action they'll see. Surface the list to Nathaniel in conversation before creating individual tasks so he has a final look.
 - Write all markdown files to `/Users/nlehrer/Desktop/life-os/` (not any worktree path).
