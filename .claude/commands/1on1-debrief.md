@@ -1,7 +1,7 @@
-Debrief a 1:1 right after it happens. Pull the meeting transcript, extract action items and key moments, archive the running notes, and stage a single Asana review task for Nathaniel to approve before any individual action-item tasks get created.
+Debrief a 1:1 right after it happens (1–3 days post-meeting is fine). Pull the meeting transcript from Granola, extract action items + key moments into a structured summary file, archive the running notes, and show the action items inline so Nathaniel can decide which ones to schedule as Asana tasks.
 
 ## Trigger
-Use this command whenever Nathaniel asks to "debrief the 1:1", "1:1 debrief", "process the 1:1", or "wrap up the 1:1" with Andrew or Lindy. Run within hours of the meeting ending — this is the post-meeting capture step.
+Use this command whenever Nathaniel asks to "debrief the 1:1", "1:1 debrief", "process the 1:1", or "wrap up the 1:1" with Andrew or Lindy.
 
 ## Philosophy
 Per the *Developing Messengers — The Weekly 1:1* guide (see `work/messenger-intl/director-of-video-production/developing-messengers-weekly-1on1.pdf`):
@@ -16,18 +16,19 @@ This skill exists so 1:1s stop revisiting the same topics week after week. Actio
 
 ### Andrew McIntosh
 - **Granola folder ID:** `922bfeb5-829e-4842-b7a0-db436e289aaf`
-- **Asana Growth Plan project ID:** `1211631456933613`
+- **Asana user GID:** `1209716385781630`
 - **1:1 folder:** `/Users/nlehrer/Desktop/life-os/work/messenger-intl/video-team/1on1s/andrew-mcintosh/`
 - **Running notes file:** `running-notes.md` in that folder
 
 ### Lindy Wood
 - **Granola folder ID:** `5184fb61-141f-42e4-a52f-263f39c9ab6b`
-- **Asana Growth Plan project ID:** `1212886997625190`
+- **Asana user GID:** `1209634024000757`
 - **1:1 folder:** `/Users/nlehrer/Desktop/life-os/work/messenger-intl/video-team/1on1s/lindy-wood/`
 - **Running notes file:** `running-notes.md` in that folder
 
-### Nathaniel's Asana user
-- Use `get_me` to resolve Nathaniel's Asana GID when assigning the review task.
+### Nathaniel
+- Use `"me"` as the assignee identifier when creating tasks.
+- **Asana workspace:** `1208467900542489`
 
 ## Steps
 
@@ -39,7 +40,7 @@ Resolve Andrew or Lindy from Nathaniel's prompt. If ambiguous, ask once.
 - Find the single most recent meeting whose title contains "1:1 | [Name]" (for Lindy, also accept "Pre boxing out the week")
 - Call `get_meeting_transcript` for that meeting
 
-If `list_meetings` returns nothing relevant, fall back to `query_granola_meetings` with the person's name.
+If `list_meetings` returns nothing relevant or the folder is empty, fall back to `query_granola_meetings` with a search for the person's email or name.
 
 ### Step 3 — Read the running notes
 Read the person's `running-notes.md`. These were the mid-week observations that fed into the prep.
@@ -51,7 +52,6 @@ Build a structured pass over the transcript and capture:
   - Owner: Nathaniel OR [Name]
   - The commitment in clear, specific language
   - Due date if mentioned (otherwise leave blank)
-  - The moment in the meeting where it came up (one-line quote or context)
 - **Key topics discussed** — short bullets of what got real airtime
 - **Decisions made** — anything that was settled
 - **Wins / things to celebrate** — moments of progress, growth, or strong work
@@ -61,17 +61,17 @@ Build a structured pass over the transcript and capture:
 Never fabricate. If something didn't come up in the transcript, leave the section empty rather than padding it.
 
 ### Step 5 — Save the meeting summary
-Save to the person's 1:1 folder as `1on1-summary-YYYY-MM-DD.md` using today's date.
+Save to the person's 1:1 folder as `1on1-summary-YYYY-MM-DD.md` using **the meeting date** (not today's date — the summary belongs to the meeting it describes).
 
 **Format:**
 
 ```markdown
-# 1:1 Summary — [Name] — [Today's Date]
-_Transcript source: Granola • Debriefed by Nathaniel + Claude_
+# 1:1 Summary — [Name] — [Meeting Date]
+_Transcript source: Granola (meeting ID `...`) • Debriefed on [today's date]_
 
 ---
 
-## Action Items (Draft — Pending Review)
+## Action Items
 
 **Nathaniel's items:**
 - [ ] [Commitment] — _due: [date or blank]_
@@ -113,82 +113,58 @@ _Observations, moments, and items captured between 1:1s. These feed into the nex
 ---
 ```
 
-### Step 7 — Create the two Asana tasks for Nathaniel
-Both reminder tasks live in Nathaniel's **Leadership OS – 2026** project (GID `1212708795030806`), assigned to Nathaniel. They are *not* in Lindy's or Andrew's growth plan projects — those projects are for them.
+### Step 7 — Output the summary and action items inline
+Show Nathaniel the full structured summary in the conversation so he can read it without opening the file. Lead with the action items front and center, then topics / decisions / wins / parking lot / connection moments below.
 
-Call `create_tasks` to create **two** tasks:
-
-**Task A — the review task** (Nathaniel reads + edits the draft action items here):
-
-- **Name:** `Review 1:1 action items — [Name] — [YYYY-MM-DD]`
-- **Assignee:** `me`
-- **Due date:** Today (or tomorrow if it's late in the day)
-- **Project:** `1212708795030806` (Leadership OS – 2026)
-- **Notes (description):**
-
-  ```
-  Draft action items from the 1:1 on [date]. Review and edit this list in place — when you're satisfied, do not create individual tasks here. Instead, complete the companion task "Tell Claude to run /1on1-approve" and follow its instructions.
-
-  NATHANIEL'S ITEMS:
-  - [ ] [Commitment] — due: [date]
-  - [ ] ...
-
-  [NAME]'S ITEMS:
-  - [ ] [Commitment] — due: [date]
-  - [ ] ...
-
-  Full summary: work/messenger-intl/video-team/1on1s/[folder]/1on1-summary-[date].md
-  ```
-
-**Task B — the trigger reminder** (Nathaniel's signal to come tell Claude):
-
-- **Name:** `Tell Claude: /1on1-approve [Name] — to create action item tasks`
-- **Assignee:** `me`
-- **Due date:** Today (or tomorrow), same as Task A
-- **Project:** `1212708795030806` (Leadership OS – 2026)
-- **Notes (description):**
-
-  ```
-  Once you've reviewed and edited the action items in the companion task ("Review 1:1 action items — [Name] — [date]"), open Claude Code and run:
-
-      /1on1-approve [Name]
-
-  Claude will:
-  • Re-read the edited action items from the review task
-  • Create one Asana task per action item, with the right assignee and due date
-  • Mark both this task and the review task complete
-
-  Do not create the individual tasks manually — let /1on1-approve do it so the action items stay traceable and consistent.
-  ```
-
-### Step 8 — Tell Nathaniel what happened
-Output a short message in the conversation:
+Use clear numbering on action items so he can reference them by number:
 
 ```
-Debrief done for [Name] (YYYY-MM-DD).
-• Summary saved: 1on1-summary-[date].md
-• Running notes archived and reset
-• Asana — review task: "Review 1:1 action items — [Name] — [date]"
-• Asana — trigger task: "Tell Claude: /1on1-approve [Name]"
+ACTION ITEMS — review these
 
-Open the review task, edit the draft action items, then complete the trigger task by running /1on1-approve [Name] in Claude Code.
+For you (Nathaniel):
+  N1. [Commitment] — due [date]
+  N2. ...
+
+For [Name]:
+  L1. [Commitment] — due [date]
+  L2. ...
 ```
 
-Also surface the draft action items inline in the conversation so Nathaniel can scan them without switching to Asana.
+(Use `A1, A2...` for Andrew and `L1, L2...` for Lindy so the prefix is unambiguous.)
 
-### Step 9 — Save, commit, push
-- Write to `/Users/nlehrer/Desktop/life-os/` (not any worktree path)
+### Step 8 — Ask which items to schedule
+After surfacing the summary, ask:
+
+> "Which of these should I schedule as Asana tasks? Tell me by number (e.g. 'N1, L2, L3') or just say 'all' / 'none'. You can also edit, add, or rephrase any item in your reply — I'll use your version."
+
+Wait for Nathaniel's response. Do not create any tasks until he names which ones.
+
+### Step 9 — Create the selected tasks
+When Nathaniel responds:
+- If he says "none" — confirm and stop.
+- Otherwise, take the items he selected (and any edits / additions he made), and create them in Asana via `create_tasks`.
+
+**Two separate `create_tasks` calls** if both groups have items:
+
+**Call A — Nathaniel's items** (his go to his My Tasks, no project):
+- Top-level: `default_assignee: "me"`. Omit `default_project`.
+- Each task: `name`, `due_on` (if specified), `notes: "From 1:1 with [Name] on [meeting date]."`
+
+**Call B — [Name]'s items** (theirs go to their My Tasks, no project):
+- Top-level: `default_assignee: "<their GID>"`. Omit `default_project`.
+- Each task: `name`, `due_on` (if specified), `notes: "From 1:1 with Nathaniel on [meeting date]."`, `followers: "me"`.
+
+If `create_tasks` errors because workspace is required when no project is set, retry adding `workspace: "1208467900542489"` to each task object.
+
+Confirm with a short line: `Scheduled [N] tasks. [X] in your My Tasks, [Y] in [Name]'s.`
+
+### Step 10 — Save, commit, push
+- Write the summary file and updated running-notes.md to `/Users/nlehrer/Desktop/life-os/` (not any worktree path)
 - Commit: `git commit -m "1:1 debrief for [Name] — YYYY-MM-DD"`
 - Push to GitHub
 
----
-
-## After debrief
-The actual creation of individual action-item tasks happens via the **separate `/1on1-approve [Name]` skill**, not in this conversation. That skill reads the (possibly edited) review task from Asana, creates the individual tasks with the right assignees, and marks the review + trigger tasks complete.
-
-This separation exists so the approval step works cleanly across sessions and can pick up Nathaniel's edits made in Asana.
-
 ## Important
-- **Never create the individual action-item tasks inside `/1on1-debrief`.** Only the two Asana reminder tasks (review + trigger). The gate is `/1on1-approve`.
+- **Never create Asana tasks for action items before Nathaniel selects which ones.** The conversational selection IS the gate.
 - Never fabricate action items or topics. If the transcript is thin, the summary is thin — that's fine.
-- Write all markdown files to `/Users/nlehrer/Desktop/life-os/` (not any worktree path).
+- Use the **meeting date** for the summary filename, not today's date.
+- Surface the full summary inline so Nathaniel can review without opening the file.
