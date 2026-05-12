@@ -16,6 +16,7 @@
 - [ ] April 20 kick-off notes — not captured yet
 
 ## Recently Closed
+- [x] Music decision: "Kiss the Ring" as primary (2026-05-12)
 - [x] Script v3 sign-off from Lisa Bevere — approved. Direction: make the "doors" in the script feel like opportunities (2026-05-12)
 - [x] AI complex shots final test (Andrew, Cling01/Sora) — complete, hybrid route confirmed (2026-05-12)
 - [x] Creative direction meeting with Lisa Bevere — Apr 8, 2026
