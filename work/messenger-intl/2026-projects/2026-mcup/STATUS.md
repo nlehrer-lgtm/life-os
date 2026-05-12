@@ -2,9 +2,10 @@
 
 **Last updated:** 2026-05-12
 **Current phase:** Pre-production / Production prep
+**Working script:** v5 — "The Door" (Updated per Nathaniel edits, May 2026). Source PDF: `MCUP_2026_Opener_v5_The_Same_Door.pdf`
 
 ## Open Decisions
-- [ ] Confirm final list of nations/scenes for Act 2 hero shots (Nigeria locked; Somalia pending John) and the Act 3 rapid montage (~12-15 nations)
+_(none currently)_
 
 ## Production Method — Decided
 - **Hybrid:** In-house footage for most scenes. AI-generated for complex motion/action shots that are too difficult to film traditionally. Andrew's final feasibility tests complete; hybrid approach confirmed.
