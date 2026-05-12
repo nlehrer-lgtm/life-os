@@ -2,7 +2,7 @@
 
 **Last updated:** 2026-05-12
 **Current phase:** Pre-production / Production prep
-**Working script:** v5 — "The Door" (Updated per Nathaniel edits, May 2026). Source PDF: `MCUP_2026_Opener_v5_The_Same_Door.pdf`
+**Working script:** v5 — "The Door" (`opener-script.md`). Source PDF in Downloads: `MCUP_2026_Opener_v5_The_Same_Door.pdf`
 
 ## Open Decisions
 _(none currently)_
