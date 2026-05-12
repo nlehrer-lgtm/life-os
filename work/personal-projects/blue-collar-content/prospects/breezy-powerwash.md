@@ -30,3 +30,4 @@ Facebook: 902 followers, active. Instagram present but limited.
 
 ## Interaction Log
 - 2026-05-07 — Added from Manus prospect research report (May 2026)
+- 2026-05-11 — Skipping for now.
