@@ -67,4 +67,5 @@ His reputation is real and hard-earned. 4.9 stars, people in reviews calling him
 - 2026-04-20 — Researched
 - May 2026 — First call: David picked up. Call went well; he said he'd call back.
 - May 2026 — Second call: Spoke with receptionist. She left a note for David. Still no callback.
+- 2026-05-11 — Still waiting on response from David.
 - Next step: Possible in-person visit within the next couple of weeks.
