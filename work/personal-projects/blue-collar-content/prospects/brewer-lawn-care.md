@@ -6,7 +6,7 @@ facebook: https://www.facebook.com/p/Brewer-Lawn-Care-61558456899945/
 phone: 615-809-4704
 email: Brewerlawncare97@gmail.com
 owner: N/A
-status: researched
+status: attempted
 date-added: 2026-04-07
 fit-score: 9/10
 ---
