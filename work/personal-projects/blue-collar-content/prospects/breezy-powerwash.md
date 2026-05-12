@@ -6,7 +6,7 @@ facebook: https://facebook.com (902 followers, active)
 phone: (615) 502-5525
 email: 
 owner: 
-status: not-contacted
+status: skipped
 date-added: 2026-05-07
 fit-score: 8/10
 tier: 2
