@@ -30,3 +30,4 @@ Facebook exists but limited/private. No Instagram.
 
 ## Interaction Log
 - 2026-05-07 — Added from Manus prospect research report (May 2026)
+- 2026-05-11 — Called. Spoke with someone at the shop (didn't catch his name). Decision-maker is **Robby** — left a voicemail for him. May try calling again.
