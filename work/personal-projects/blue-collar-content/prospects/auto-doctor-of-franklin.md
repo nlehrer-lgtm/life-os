@@ -48,3 +48,4 @@ Textbook prospect. Established shop, zero social media, blue-collar trade work, 
 
 ## Interaction Log
 - 2026-05-07 — Added from Manus prospect research report (May 2026)
+- 2026-05-11 — Called. Spoke with Eddie. He gave me billo@autodoctoroffranklin.com — emailed the pitch. Awaiting response.
