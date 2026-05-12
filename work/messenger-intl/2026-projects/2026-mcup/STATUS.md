@@ -17,6 +17,7 @@ _(none currently)_
 - [ ] April 20 kick-off notes — not captured yet
 
 ## Recently Closed
+- [x] Nations locked for Act 2 hero scenes: Nigeria (church burning), Iran (woman past soldiers), First World Nation (man through protest crowd in rain). Act 3 "rapid sequence" now intercuts those same three protagonists opening their latches, not a 12-15 nation montage (2026-05-12, per Script v5)
 - [x] Music decision: "Kiss the Ring" as primary (2026-05-12)
 - [x] Script v3 sign-off from Lisa Bevere — approved. Direction: make the "doors" in the script feel like opportunities (2026-05-12)
 - [x] AI complex shots final test (Andrew, Cling01/Sora) — complete, hybrid route confirmed (2026-05-12)
