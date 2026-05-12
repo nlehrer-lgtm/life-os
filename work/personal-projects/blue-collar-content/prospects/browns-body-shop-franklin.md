@@ -6,7 +6,7 @@ facebook: https://facebook.com (limited/private)
 phone: (615) 794-1959
 email: 
 owner: 
-status: not-contacted
+status: voicemail-left
 date-added: 2026-05-07
 fit-score: 8/10
 tier: 2
