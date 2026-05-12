@@ -4,8 +4,7 @@
 **Current phase:** Pre-production / Production prep
 
 ## Open Decisions
-- [ ] Confirm final list of nations/scenes for Act 2 and the rapid montage sequence
-- [ ] Music decision: "Kiss the Ring" as primary, or mashup with Oppenheimer track for the crescendo?
+- [ ] Confirm final list of nations/scenes for Act 2 hero shots (Nigeria locked; Somalia pending John) and the Act 3 rapid montage (~12-15 nations)
 
 ## Production Method — Decided
 - **Hybrid:** In-house footage for most scenes. AI-generated for complex motion/action shots that are too difficult to film traditionally. Andrew's final feasibility tests complete; hybrid approach confirmed.
