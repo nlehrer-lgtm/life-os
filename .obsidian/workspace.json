@@ -11,10 +11,14 @@
             "id": "21a6692e4f63b37f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "work/messenger-intl/video-team/1on1s/andrew-mcintosh/1on1-prep-2026-05-12.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "1on1-prep-2026-05-12"
             }
           }
         ]
