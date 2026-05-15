@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" role="img" aria-label="Jobsite Social">
+  <title>Jobsite Social — Wordmark Color</title>
+  <defs>
+    <style>
+      .yellow { fill: #FEBD17; }
+      .black  { fill: #1A1A1A; }
+      .word { font-family: "Anton", "Oswald", "Arial Black", "Helvetica Neue", sans-serif; font-weight: 400; letter-spacing: 0.02em; }
+    </style>
+  </defs>
+
+  <g class="word" font-size="220" text-anchor="middle" dominant-baseline="middle">
+    <text x="500" y="170">
+      <tspan class="black">JOBSITE </tspan><tspan class="yellow">SOCIAL</tspan>
+    </text>
+  </g>
+</svg>
