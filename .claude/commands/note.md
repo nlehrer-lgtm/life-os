@@ -15,15 +15,16 @@ Capture a quick note, idea, or reminder into the inbox. No organization required
 
    Append after the last entry (or after the `---` header divider if the file is empty). Never rewrite existing entries.
 
-4. **Detect 1:1 routing.** Check whether the note is about Lindy or Andrew:
-   - **Lindy:** the note mentions "Lindy" or "Wood"
-   - **Andrew:** the note mentions "Andrew" or "McIntosh"
+4. **Detect routing.** Check whether the note matches any of the following destinations. Multiple can apply — route to all that match. If none apply, skip routing.
 
-   If both names appear, route to both. If neither appears, skip routing.
+   - **Lindy** (1:1 running notes): the note mentions "Lindy" or "Wood"
+   - **Andrew** (1:1 running notes): the note mentions "Andrew" or "McIntosh"
+   - **Get REC'D meeting** (talking points): the note contains "Get REC'D" (case-insensitive — also match `get recd`, `get rec'd`, `getrecd`, etc.)
 
-   When routing, **also** append the note verbatim to the matching running-notes file:
+   When routing, **also** append the note verbatim to the matching file:
    - Lindy → `/Users/nlehrer/Desktop/life-os/work/messenger-intl/video-team/1on1s/lindy-wood/running-notes.md`
    - Andrew → `/Users/nlehrer/Desktop/life-os/work/messenger-intl/video-team/1on1s/andrew-mcintosh/running-notes.md`
+   - Get REC'D → `/Users/nlehrer/Desktop/life-os/work/messenger-intl/video-team/Get REC'D Meeting/agendas/_talking-points.md`
 
    Use the same format:
 
@@ -34,9 +35,11 @@ Capture a quick note, idea, or reminder into the inbox. No organization required
 
    Append after the last entry (or after the `---` header divider if the file is empty). Never rewrite existing entries.
 
-5. **Confirm** with a single short line:
-   - If routed: `Saved. Also added to [Name]'s 1:1 running notes.`
-   - If not routed: `Saved.`
+5. **Confirm** with a single short line. Examples:
+   - `Saved.`
+   - `Saved. Also added to Lindy's 1:1 running notes.`
+   - `Saved. Also added to Get REC'D talking points.`
+   - `Saved. Also added to Andrew's 1:1 running notes and Get REC'D talking points.`
 
    No summary, no elaboration.
 
