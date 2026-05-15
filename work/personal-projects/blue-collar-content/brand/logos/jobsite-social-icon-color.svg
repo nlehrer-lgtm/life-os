@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" role="img" aria-label="Jobsite Social">
+  <title>Jobsite Social — Icon (Color)</title>
+  <defs>
+    <style>
+      .yellow { fill: #FEBD17; }
+      .black  { fill: #1A1A1A; }
+      .mono { font-family: "Anton", "Oswald", "Arial Black", "Helvetica Neue", sans-serif; font-weight: 400; letter-spacing: 0.04em; }
+    </style>
+  </defs>
+
+  <!-- Top-left yellow bracket -->
+  <g class="yellow">
+    <rect x="60" y="60" width="32" height="160"/>
+    <rect x="60" y="60" width="160" height="32"/>
+  </g>
+
+  <!-- Monogram JS -->
+  <g class="mono" font-size="260" text-anchor="middle" dominant-baseline="middle">
+    <text x="250" y="260" class="black">JS</text>
+  </g>
+
+  <!-- Bottom-right black bracket -->
+  <g class="black">
+    <rect x="408" y="280" width="32" height="160"/>
+    <rect x="280" y="408" width="160" height="32"/>
+  </g>
+</svg>
