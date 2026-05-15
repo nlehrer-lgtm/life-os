@@ -66,8 +66,17 @@ These are non-negotiable. They reflect the **Discipline** pillar:
 
 Get REC'D is the only meeting each week with enough room to talk **vision and calendar together**. It anchors the team in the RECD pillars, keeps the calendar visible, and gives Nathaniel the platform to cast vision and shepherd the team. Missing it or treating it casually breaks the rhythm the whole team relies on.
 
+## Prep workflow
+
+Talking points for Nathaniel's Section 3 are captured continuously and compiled before the meeting:
+
+1. **During the week:** when Nathaniel runs `/note` and the note mentions **"Get REC'D"**, a copy lands in `agendas/_talking-points.md` (the rolling list).
+2. **Before the meeting** (Monday or Tuesday morning): Nathaniel runs `/get-recd-prep`. The skill compiles the rolling list into a clean line-item prep doc at `agendas/YYYY-MM-DD.md`, then clears the rolling file so the next week starts fresh.
+
+The prep doc only covers Section 3 (Nathaniel's team-wide updates). The icebreaker rotation and Lindy's calendar section are not prepped here.
+
 ## Related context
 
 - Team pillars and the broader 2030 vision are documented in `work/video-team-identity.md` (Video Team 20.30 kickoff).
 - Direct reports: Lindy Wood, Andrew McIntosh. Full team: Annie, Josh, Andrew, Lindy, LeVann.
-- Agendas for each upcoming Get REC'D meeting live in `agendas/` in this folder. A skill builds out talking points week-to-week.
+- Agendas live in `agendas/` (see `agendas/README.md` for the full workflow).
