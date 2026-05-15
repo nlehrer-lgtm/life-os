@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/messenger-intl/video-team/1on1s/andrew-mcintosh/1on1-prep-2026-05-12.md",
+                "file": "work/messenger-intl/video-team/1on1s/andrew-mcintosh/1on1-prep-2026-05-11.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1on1-prep-2026-05-12"
+              "title": "1on1-prep-2026-05-11"
             }
           }
         ]
@@ -183,8 +183,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "21a6692e4f63b37f",
+  "active": "d2ae28b281bcad05",
   "lastOpenFiles": [
+    "work/personal-projects/blue-collar-content/brand/logos",
+    "work/personal-projects/blue-collar-content/brand",
+    "work/messenger-intl/video-team/1on1s/andrew-mcintosh/1on1-prep-2026-05-12.md",
+    "work/messenger-intl/video-team/1on1s/lindy-wood/1on1-prep-2026-05-14.md",
     "work/messenger-intl/video-team/1on1s/andrew-mcintosh/1on1-final-2026-05-14.md",
     "people/bryson-liu.md",
     "people/bryce-liu.md",
@@ -208,9 +212,6 @@
     "work/personal-projects/blue-collar-content/prospects/auto-and-detailing/touchstone-detailing.md",
     "work/personal-projects/blue-collar-content/prospects/auto-and-detailing/stagecoach-auto-repair.md",
     "work/personal-projects/blue-collar-content/prospects/auto-and-detailing/spring-hill-automotive-center.md",
-    "work/personal-projects/blue-collar-content/prospects/auto-and-detailing/southern-shine.md",
-    "work/personal-projects/blue-collar-content/prospects/auto-and-detailing/rykers-mobile-service.md",
-    "work/personal-projects/blue-collar-content/prospects/auto-and-detailing/rhea-little-tire-auto.md",
     "work/personal-projects/blue-collar-content/prospects/pressure-washing",
     "work/personal-projects/blue-collar-content/prospects/roofing",
     "work/personal-projects/blue-collar-content/prospects/electricians",
@@ -219,7 +220,6 @@
     "work/personal-projects/blue-collar-content/prospects/auto-and-detailing",
     "work/personal-projects/blue-collar-content/prospects/archive",
     "work/personal-projects/corsair-detail-redesign.html",
-    "reminders",
-    "work/personal-projects/blue-collar-content/quotes/hushed-lawn-care-quote.pdf"
+    "reminders"
   ]
 }
