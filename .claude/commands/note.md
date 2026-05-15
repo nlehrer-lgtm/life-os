@@ -1,4 +1,4 @@
-Capture a quick note, idea, or reminder into the inbox. No organization required — just get it down. If the note is clearly about Lindy or Andrew, also route a copy to their 1:1 running notes file.
+Capture a quick note, idea, or reminder into the inbox. No organization required — just get it down. If the note is clearly about Lindy or Andrew, also route a copy to their 1:1 running notes file. If the note is for the Get REC'D meeting, also route a copy to the Get REC'D talking points file.
 
 ## Steps
 
