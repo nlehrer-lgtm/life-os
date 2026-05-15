@@ -103,7 +103,7 @@ _Last summary: [date of last 1on1-summary file]_
 
 _Pulled from Asana — the team member owns this section._
 
-[If filled: render their agenda verbatim — top priorities, challenges, questions, feedback, wins.]
+[If filled: render their agenda verbatim — Top Priority, Progress (moved/stalled), Current Challenge/Frustrations, Questions to Discuss, Feedback for Nathaniel, Wins. Use bold field labels matching the new template structure.]
 
 [If empty: "⚠️ Agenda not yet filled out. Consider pinging them before the meeting — they own this part."]
 
