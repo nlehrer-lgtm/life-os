@@ -49,6 +49,14 @@ Resolve Andrew or Lindy from Nathaniel's prompt.
 ### Step 2 — Pull the team member's own agenda from Asana
 Use `get_tasks` (or `search_tasks`) on the person's growth plan project to find the upcoming **"1:1 Agenda — Fill out before our 1:1"** task (the most recent due / about-to-be-due instance). Read its description — that is the team member's prepared agenda.
 
+The current Asana agenda template has these fields (updated 2026-05-15):
+- **🔝 MY TOP PRIORITY THIS WEEK** — single priority, not a list
+- **📅 PROGRESS SINCE LAST 1:1** — What moved forward? / What stalled? (open-ended, however many bullets)
+- **🧗 CURRENT CHALLENGE / FRUSTRATIONS** — what's frustrating or heavy right now
+- **❓ QUESTIONS / TOPICS I WANT TO DISCUSS** — open list
+- **💬 FEEDBACK FOR NATHANIEL** — *How could the video team grow? How could Nathaniel grow as a leader?*
+- **🎉 WINS / THINGS I'M PROUD OF**
+
 If the agenda task is empty or hasn't been filled out:
 - Surface that in the prep doc clearly ("Agenda not yet filled out — ping them.")
 - Still build the rest of the prep with what's available
