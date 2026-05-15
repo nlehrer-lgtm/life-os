@@ -156,15 +156,22 @@ _The growth plan is a compass, not a checklist. One directional question per mil
 
 ---
 
-## 7. Questions to Leave Space For
+## 7. Name the Win
 
-_Their space. Don't fill it — leave it open so they do._
+_The most important sentence to walk in with. Specific, concrete, and named out loud — not buried in the closing._
 
-- What's energizing you most right now?
-- What's the hardest thing on your plate right now?
-- Anything feeling stuck or unclear I can help unblock?
-- What do you need from me that you haven't asked for yet?
-- [+ 1-2 person-specific questions based on what surfaced this cycle]
+**Call out specifically:** "[A specific, observed win from this cycle — concrete behavior, not generic praise. Tie it to what you saw or what they reported.]"
+
+[If there's no clear win to name this cycle, write: "No clear win to call out this cycle — but stay alert during the meeting; small wins often surface in real time."]
+
+---
+
+## Optional — Person-Specific Questions Worth Leaving Space For
+
+_Only include this section if 1-2 concrete, person-specific questions surfaced from the cycle. Skip the generic check-in list — it doesn't earn its space. If nothing person-specific is on your mind, delete this whole section._
+
+- [Person-specific question 1, if any]
+- [Person-specific question 2, if any]
 
 ---
 
