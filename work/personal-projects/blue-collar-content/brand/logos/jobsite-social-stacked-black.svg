@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Jobsite Social">
+  <title>Jobsite Social — Stacked All-Black</title>
+  <defs>
+    <style>
+      .black { fill: #1A1A1A; }
+      .word { font-family: "Anton", "Oswald", "Arial Black", "Helvetica Neue", sans-serif; font-weight: 400; letter-spacing: 0.02em; }
+    </style>
+  </defs>
+
+  <g class="black">
+    <rect x="130" y="120" width="28" height="160"/>
+    <rect x="130" y="120" width="100" height="28"/>
+  </g>
+
+  <g class="word black" font-size="200" text-anchor="middle" dominant-baseline="middle">
+    <text x="400" y="240">JOBSITE</text>
+    <text x="400" y="400">SOCIAL</text>
+  </g>
+
+  <g class="black">
+    <rect x="642" y="320" width="28" height="160"/>
+    <rect x="570" y="452" width="100" height="28"/>
+  </g>
+</svg>
