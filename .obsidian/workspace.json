@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_readme.md",
+                "file": "work/messenger-intl/video-team/1on1s/lindy-wood/1on1-prep-2026-05-14.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01_readme"
+              "title": "1on1-prep-2026-05-14"
             }
           }
         ]
@@ -183,8 +183,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "d2ae28b281bcad05",
+  "active": "21a6692e4f63b37f",
   "lastOpenFiles": [
+    "work/messenger-intl/video-team/Get REC'D Meeting/agendas",
+    "work/messenger-intl/video-team/Get REC'D Meeting",
+    "01_readme.md",
     "work/personal-projects/blue-collar-content/brand/README.md",
     "work/personal-projects/blue-collar-content/brand/logos/jobsite-social-wordmark-black.svg",
     "work/personal-projects/blue-collar-content/brand/logos/jobsite-social-wordmark-color.svg",
@@ -221,14 +224,11 @@
     "work/personal-projects/blue-collar-content/prospects/electricians/southern-electric-tn.md",
     "work/personal-projects/blue-collar-content/prospects/electricians/kennewick-electric.md",
     "work/personal-projects/blue-collar-content/prospects/electricians/kedron-electric.md",
-    "work/personal-projects/blue-collar-content/prospects/electricians/delta-south-electric.md",
-    "work/personal-projects/blue-collar-content/prospects/flooring-epoxy/rs-flooring.md",
     "work/personal-projects/blue-collar-content/prospects/pressure-washing",
     "work/personal-projects/blue-collar-content/prospects/roofing",
     "work/personal-projects/blue-collar-content/prospects/electricians",
     "work/personal-projects/blue-collar-content/prospects/flooring-epoxy",
     "work/personal-projects/blue-collar-content/prospects/landscaping-lawn",
-    "work/personal-projects/blue-collar-content/prospects/auto-and-detailing",
-    "work/personal-projects/blue-collar-content/prospects/archive"
+    "work/personal-projects/blue-collar-content/prospects/auto-and-detailing"
   ]
 }
