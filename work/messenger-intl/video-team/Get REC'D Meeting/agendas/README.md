@@ -1,23 +1,31 @@
 # Get REC'D Meeting Agendas
 
-This folder holds weekly agendas for the **Get REC'D Meeting** (Tuesdays, 8:00 AM).
+This folder holds the rolling talking points and weekly prep docs for the **Get REC'D Meeting** (Tuesdays, 8:00 AM).
+
+## Workflow
+
+```
+  /note  ──►  _talking-points.md  ──►  /get-recd-prep  ──►  YYYY-MM-DD.md
+  (week)      (rolling list)            (Mon or Tue AM)      (prep doc)
+```
+
+### During the week
+
+When Nathaniel runs `/note` and the note mentions **"Get REC'D"**, the `/note` skill routes a copy of that note into `_talking-points.md`. Items accumulate there through the week.
+
+### Before the meeting
+
+When Nathaniel runs `/get-recd-prep`, the skill:
+
+1. Compiles everything in `_talking-points.md` into a clean line-item prep doc.
+2. Saves the prep doc to `YYYY-MM-DD.md` (date of the upcoming Tuesday).
+3. **Clears `_talking-points.md`** so the next week starts fresh.
+
+The prep doc covers **Section 3 of the meeting** (Nathaniel's team-wide updates) — the part he leads. It does not prep the rotating icebreaker or Lindy's calendar section.
 
 ## File naming
 
-Use the meeting date in ISO format:
+- `_talking-points.md` — the single rolling capture file (always present, sorted to top of folder by the underscore prefix).
+- `YYYY-MM-DD.md` — one prep doc per meeting date, e.g. `2026-05-19.md`.
 
-```
-YYYY-MM-DD.md
-```
-
-Example: `2026-05-19.md` for the May 19, 2026 meeting.
-
-## How agendas are built
-
-A skill builds the talking points week-to-week. Nathaniel feeds the skill the topics he wants to cover (e.g. active listening, a Leif Babin video he assigned, calendar items), and the skill produces a structured agenda following the standard Get REC'D format:
-
-1. **Icebreaker / Opener** — whose turn it is in the alphabetical rotation
-2. **Updates** — Lindy's calendar walkthrough and big-ticket items
-3. **Team-wide updates / vision** — Nathaniel's talking points
-
-See `../CONTEXT.md` for full meeting format and standards.
+See `../CONTEXT.md` for the full meeting format and standards.
