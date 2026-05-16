@@ -1,10 +1,54 @@
 # Nathaniel Lehrer — Identity Profile
 
-*Last updated: 2026-04-02*
+*Last updated: 2026-05-16*
 
 ## Who You Are
 
 Nathaniel Lehrer. Lives in Spring Hill, Tennessee. Director of Video Production at Messenger International, a non-profit Christian ministry. A creative, a leader, a husband, and a dad — in that order of what he cares about most.
+
+## How You're Wired
+
+### Working Genius (Enablement + Invention)
+
+*Assessed via the official 6 Types of Working Genius assessment.*
+
+| | |
+|---|---|
+| 🟢 **Genius #1: Enablement** | You provide encouragement, support, and assistance for others' ideas and projects. You love showing up for people. |
+| 🟢 **Genius #2: Invention** | You generate original, novel ideas and solutions. Music, storytelling, creative projects — your brain produces ideas faster than your hands can build them. |
+| 🟡 Competency: Tenacity | You can push things to completion, but it doesn't refuel you. |
+| 🟡 Competency: Wonder | You can sit with big questions, but you don't naturally live there. |
+| 🔴 Frustration: Discernment | Gut-checking ideas drains you. **This is Ellie's #1 genius — lean on her here.** |
+| 🔴 Frustration: Galvanizing | Rallying and mobilizing groups isn't your gift. Don't expect it of yourself. |
+
+**Plain-English summary:** You're a creative encourager — wired to dream up ideas and serve the people around you while you do it. You'll burn out fast when forced to evaluate, decide, or rally people through pressure. See [[identity/marriage-map]] for how this plays with Ellie's wiring.
+
+### Enneagram — 9 (The Peacemaker), Introverted
+
+- **Peace-seeking & harmony-keeping** — you avoid conflict; you want everyone okay.
+- **Slow inner processing** — ideas and feelings form internally before you say them out loud. You need quiet time to think.
+- **"Merging" tendency** — you can lose track of what *you* want by defaulting to what others want. Especially with Ellie. Watch for it.
+- **9's inertia** — combined with low Tenacity, projects drift. Build accountability where finishing matters.
+- **Introverted** — refills alone. Solitude isn't optional; it's how you function.
+
+### Love Languages
+
+1. **Words of affirmation** — specific, sincere words about who you are and what you're doing well.
+2. **Physical touch** — hand on the back, sitting close, real hugs. Especially from Ellie.
+
+### Personality & Tempo
+
+- **Highly creative** — music, storytelling, ideas. This is core to who you are, not a side hobby.
+- **ADHD tendencies** — easily distracted, brain runs in many directions, quirky. This is a feature *and* a thing to manage.
+- **Grounded by Ellie.** She's the keel; you're the sail. Without her steadiness, you'd drift. Without your creativity, life would be safer but less alive.
+
+### Practical Implications
+
+- **Bring Ellie your ideas early.** Her Discernment covers your Frustration. It's a gift, not a burden to her.
+- **Schedule solo recharge time** — you're an introvert. Protect it.
+- **Outsource Tenacity** for projects that *must* finish — accountability partners, deadlines, paid help. Don't expect yourself to grind.
+- **Build reflective rhythms intentionally** — Sabbath, journaling, mentors. Neither you nor Ellie has Wonder, so this won't happen by accident.
+- **Find creative collaborators outside the marriage** for the *making.* Bring Ellie the *deciding.*
 
 ## Family & Key People
 
