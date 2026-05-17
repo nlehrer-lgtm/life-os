@@ -10,8 +10,10 @@ Recurring tasks split by category:
 - **vehicles.md** — tire rotation, oil changes, registration, inspections, brake checks
 - **relationships.md** — date nights with Ellie, kid 1:1 time, calls to parents, mentor check-ins
 - **personal.md** — haircut, dentist, doctor, eye exam, annual physical
-- **gifts.md** — birthdays, anniversaries, Valentine's Day, Christmas, Mother's/Father's Day prep
-- **_index.md** — auto-generated master view, next 30 days, chronological
+- **gifts.md** — Valentine's Day, Christmas, Mother's/Father's Day prep (birthdays + anniversaries live in `people/*.md`, NOT here)
+- **_index.md** — auto-generated master view, sorted by next-due
+- **_config.md** — defaults: target calendar ID, prep packet email, default prep leads by category, cleanup nudge cadence
+- **_prep-log.md** — auto-managed: tracks which prep packets have been sent (avoids duplicates for person-derived events)
 
 Plus people-derived events: birthdays and anniversaries pulled directly from `people/*.md` files — those don't get duplicated here.
 
