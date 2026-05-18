@@ -6,7 +6,7 @@ facebook: Exists (small)
 phone: Not found
 email: 
 owner: 
-status: not-contacted
+status: archived-no-fit
 date-added: 2026-05-07
 fit-score: 8/10
 tier: 2
