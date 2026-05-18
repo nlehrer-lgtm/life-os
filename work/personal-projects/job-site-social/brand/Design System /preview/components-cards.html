@@ -1,0 +1,38 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Step Cards</title>
+<link rel="stylesheet" href="_card.css">
+<style>
+  .grid { display:grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  .c { padding: 20px; display:flex; flex-direction:column; gap: 8px; position:relative; background:#fff; border:1px solid #D4D4D4; }
+  .accent-top { position:absolute; top:0; left:0; right:0; height:3px; background:#F4C046; }
+  .accent-left { position:absolute; top:0; left:0; bottom:0; width:3px; background:#F4C046; }
+  .eyebrow { font-family:var(--font-heading); font-weight:600; font-size:11px; letter-spacing:0.14em; text-transform:uppercase; color:#D9A52E; }
+  .ttl { font-family:var(--font-heading); font-weight:700; font-size:20px; text-transform:uppercase; line-height:1.1; color:#221E1F; }
+  .p { font-family:var(--font-body); font-size:13px; line-height:1.55; color:#4A4A4A; }
+  .num { font-family:var(--font-display); font-size:36px; line-height:0.9; color:#221E1F; }
+</style></head>
+<body>
+<!-- Surrounding "section" is cream so white cards pop clearly -->
+<div class="card" style="padding:24px; background:#EAEAE4;">
+  <div class="grid">
+    <div class="c">
+      <span class="accent-top"></span>
+      <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+        <div class="eyebrow">Step 01</div>
+        <span class="num">01</span>
+      </div>
+      <div class="ttl">We Show Up</div>
+      <div class="p">Recurring on-site shoots at your shop, your truck, your jobsite.</div>
+    </div>
+    <div class="c">
+      <span class="accent-top"></span>
+      <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+        <div class="eyebrow">Step 02</div>
+        <span class="num">02</span>
+      </div>
+      <div class="ttl">We Create</div>
+      <div class="p">Edit footage, write captions, build the calendar.</div>
+    </div>
+  </div>
+</div>
+</body></html>

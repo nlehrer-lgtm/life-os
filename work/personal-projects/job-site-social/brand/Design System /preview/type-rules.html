@@ -1,0 +1,33 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Type Rules</title>
+<link rel="stylesheet" href="_card.css">
+<style>
+  .row2 { display:grid; grid-template-columns:1fr 1fr; gap: 14px; }
+  .box { padding: 16px; }
+  .do { background:#F2F2F0; border-left: 4px solid #27AE60; }
+  .dont { background:#F2F2F0; border-left: 4px solid #C0392B; }
+  .tag { font-family: var(--font-heading); font-weight:700; font-size:11px; letter-spacing:0.14em; text-transform:uppercase; margin-bottom:8px; }
+  .do .tag{ color:#27AE60; } .dont .tag{ color:#C0392B; }
+</style></head>
+<body>
+<div class="card" style="padding:24px;">
+  <div class="row2">
+    <div class="box do">
+      <div class="tag">Do — Headlines all caps</div>
+      <div style="font-family:var(--font-display); font-size:32px; line-height:1; text-transform:uppercase;">Get back to work</div>
+    </div>
+    <div class="box dont">
+      <div class="tag">Don't — Mixed case display</div>
+      <div style="font-family:var(--font-display); font-size:32px; line-height:1;">Get Back To Work</div>
+    </div>
+    <div class="box do">
+      <div class="tag">Do — Tight tracking</div>
+      <div style="font-family:var(--font-display); font-size:28px; letter-spacing:-0.01em; text-transform:uppercase;">REAL WORK. REAL CONTENT.</div>
+    </div>
+    <div class="box dont">
+      <div class="tag">Don't — Light weights, serifs</div>
+      <div style="font-family: Georgia, serif; font-weight:300; font-size:24px;">Get back to work today</div>
+    </div>
+  </div>
+</div>
+</body></html>

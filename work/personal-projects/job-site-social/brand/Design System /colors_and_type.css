@@ -1,0 +1,253 @@
+/* =============================================================
+   JOBSITE SOCIAL — Core Tokens
+   Colors, typography, spacing. Import this once at the top of
+   any HTML file in this design system.
+   ============================================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;500;600;700&family=Source+Sans+3:wght@400;600;700&display=swap');
+
+:root {
+  /* ---------- BRAND COLORS ---------- */
+  --color-brand-gold: #F4C046;     /* Jobsite Gold — the accent */
+  --color-brand-black: #221E1F;    /* Jobsite Black — primary */
+
+  /* ---------- NEUTRALS ---------- */
+  --color-true-black: #000000;     /* Slab Black */
+  --color-gray-900: #1A1A1A;       /* Asphalt — dark surfaces */
+  --color-gray-700: #4A4A4A;       /* Concrete — body on light */
+  --color-gray-500: #888888;       /* Dust — captions, meta */
+  --color-gray-300: #D4D4D4;       /* Wire — borders, dividers */
+  --color-gray-100: #F2F2F0;       /* Drywall — light canvas */
+  --color-white: #FFFFFF;          /* Clean White */
+
+  /* ---------- STATES ---------- */
+  --color-gold-hover: #F7CE6A;
+  --color-gold-active: #D9A52E;
+  --color-error: #C0392B;
+  --color-success: #27AE60;
+  --color-info: #2980B9;
+
+  /* ---------- SEMANTIC (LIGHT SURFACE) ---------- */
+  --bg-canvas: var(--color-gray-100);
+  --bg-surface: var(--color-white);
+  --fg-primary: var(--color-brand-black);
+  --fg-secondary: var(--color-gray-700);
+  --fg-muted: var(--color-gray-500);
+  --border-default: var(--color-gray-300);
+  --accent: var(--color-brand-gold);
+
+  /* ---------- SEMANTIC (DARK SURFACE) — apply with .dark ---------- */
+
+  /* ---------- TYPOGRAPHY ---------- */
+  --font-display: 'Bebas Neue', 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+  --font-heading: 'Oswald', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-body: 'Source Sans 3', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --line-height-body: 1.6;
+  --line-height-heading: 1.15;
+  --line-height-display: 1.0;
+
+  --letter-spacing-display: -0.01em;
+  --letter-spacing-heading: 0.01em;
+  --letter-spacing-button: 0.08em;
+  --letter-spacing-eyebrow: 0.16em;
+
+  /* ---------- SEMANTIC TYPE TOKENS ---------- */
+  --type-h1-size: clamp(42px, 6vw, 72px);
+  --type-h1-family: var(--font-display);
+  --type-h1-weight: 400;
+  --type-h1-lh: var(--line-height-display);
+  --type-h1-tracking: var(--letter-spacing-display);
+
+  --type-h2-size: clamp(28px, 4vw, 40px);
+  --type-h2-family: var(--font-heading);
+  --type-h2-weight: 700;
+  --type-h2-lh: var(--line-height-heading);
+
+  --type-h3-size: clamp(20px, 2.4vw, 28px);
+  --type-h3-family: var(--font-heading);
+  --type-h3-weight: 600;
+  --type-h3-lh: var(--line-height-heading);
+
+  --type-body-size: 16px;
+  --type-body-family: var(--font-body);
+  --type-body-weight: 400;
+  --type-body-lh: var(--line-height-body);
+
+  --type-small-size: 13px;
+  --type-button-size: 14px;
+  --type-nav-size: 14px;
+  --type-stat-size: clamp(48px, 6vw, 80px);
+
+  /* ---------- SPACING ---------- */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+  --space-4xl: 80px;
+  --space-5xl: 100px;
+  --space-6xl: 120px;
+
+  /* ---------- LAYOUT ---------- */
+  --max-width: 1200px;
+  --gutter: 20px;
+
+  /* ---------- RADII (sharp on purpose) ---------- */
+  --radius-none: 0px;
+  --radius-sm: 2px;
+  --radius-md: 4px;
+
+  /* ---------- SHADOWS (subtle, industrial — flat) ---------- */
+  --shadow-none: none;
+  --shadow-flat: 0 1px 0 rgba(0, 0, 0, 0.04);
+  --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.06);
+  --shadow-lift: 0 8px 24px rgba(0, 0, 0, 0.10);
+  --shadow-press: inset 0 2px 4px rgba(0, 0, 0, 0.18);
+
+  /* ---------- BORDERS ---------- */
+  --border-hairline: 1px solid var(--color-gray-300);
+  --border-strong: 2px solid var(--color-brand-black);
+  --border-gold: 2px solid var(--color-brand-gold);
+
+  /* ---------- MOTION ---------- */
+  --transition-fast: 200ms ease-out;
+  --transition-normal: 300ms ease-out;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* =============================================================
+   ELEMENT DEFAULTS — opt in by importing this file.
+   ============================================================= */
+
+html, body {
+  font-family: var(--font-body);
+  font-size: var(--type-body-size);
+  line-height: var(--type-body-lh);
+  color: var(--fg-primary);
+  background: var(--bg-canvas);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, .h1 {
+  font-family: var(--type-h1-family);
+  font-weight: var(--type-h1-weight);
+  font-size: var(--type-h1-size);
+  line-height: var(--type-h1-lh);
+  letter-spacing: var(--type-h1-tracking);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h2, .h2 {
+  font-family: var(--type-h2-family);
+  font-weight: var(--type-h2-weight);
+  font-size: var(--type-h2-size);
+  line-height: var(--type-h2-lh);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-heading);
+  margin: 0;
+}
+
+h3, .h3 {
+  font-family: var(--type-h3-family);
+  font-weight: var(--type-h3-weight);
+  font-size: var(--type-h3-size);
+  line-height: var(--type-h3-lh);
+  margin: 0;
+}
+
+p, .body {
+  font-family: var(--type-body-family);
+  font-size: var(--type-body-size);
+  line-height: var(--type-body-lh);
+  color: var(--fg-secondary);
+  margin: 0;
+}
+
+.eyebrow {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: var(--letter-spacing-eyebrow);
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.caption, small {
+  font-family: var(--font-body);
+  font-size: var(--type-small-size);
+  color: var(--fg-muted);
+  line-height: 1.5;
+}
+
+.stat {
+  font-family: var(--font-display);
+  font-size: var(--type-stat-size);
+  line-height: 1;
+  color: var(--accent);
+  letter-spacing: -0.01em;
+}
+
+/* Buttons — sharp, uppercase, wide-tracked */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 32px;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: var(--type-button-size);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-button);
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  transition: background-color var(--transition-fast), color var(--transition-fast), border-color var(--transition-fast);
+  text-decoration: none;
+  line-height: 1;
+}
+.btn--primary {
+  background: var(--color-brand-gold);
+  color: var(--color-brand-black);
+}
+.btn--primary:hover { background: var(--color-gold-hover); }
+.btn--primary:active { background: var(--color-gold-active); }
+
+.btn--secondary {
+  background: transparent;
+  color: var(--color-brand-black);
+  border: 2px solid var(--color-brand-black);
+  padding: 12px 30px;
+}
+.btn--secondary:hover { background: var(--color-brand-black); color: var(--color-white); }
+
+.btn--ondark {
+  background: transparent;
+  color: var(--color-white);
+  border: 2px solid var(--color-white);
+  padding: 12px 30px;
+}
+.btn--ondark:hover { background: var(--color-white); color: var(--color-brand-black); }
+
+.btn--dark {
+  background: var(--color-brand-black);
+  color: var(--color-white);
+}
+.btn--dark:hover { background: #333; }
+
+/* Surface helpers */
+.surface-dark {
+  background: var(--color-true-black);
+  color: var(--color-white);
+}
+.surface-dark p { color: rgba(255,255,255,0.78); }
+.surface-dark .caption { color: var(--color-gray-500); }

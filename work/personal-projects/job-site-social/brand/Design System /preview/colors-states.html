@@ -1,0 +1,24 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>State Colors</title>
+<link rel="stylesheet" href="_card.css">
+<style>
+  .grid { display:grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+  .s { padding: 14px; display:flex; flex-direction:column; gap:6px; }
+  .s .nm { font-family: var(--font-heading); font-weight:700; font-size:12px; text-transform:uppercase; letter-spacing:0.1em; }
+  .s .hx { font-family: ui-monospace, Menlo, monospace; font-size: 11px; opacity:.85; }
+  .s .ex { font-family: var(--font-body); font-size: 12px; opacity:.85; }
+</style></head>
+<body>
+<div class="card" style="padding:24px; gap:14px;">
+  <div class="row" style="gap:10px;">
+    <div class="s" style="background:#F7CE6A; color:#221E1F; flex:1;"><div class="nm">Gold Hover</div><div class="hx">#F7CE6A</div><div class="ex">Buttons / links hover</div></div>
+    <div class="s" style="background:#F4C046; color:#221E1F; flex:1;"><div class="nm">Gold</div><div class="hx">#F4C046</div><div class="ex">Default state</div></div>
+    <div class="s" style="background:#D9A52E; color:#221E1F; flex:1;"><div class="nm">Gold Active</div><div class="hx">#D9A52E</div><div class="ex">Pressed / active</div></div>
+  </div>
+  <div class="grid">
+    <div class="s" style="background:#C0392B; color:#fff;"><div class="nm">Error</div><div class="hx">#C0392B</div><div class="ex">Form errors</div></div>
+    <div class="s" style="background:#27AE60; color:#fff;"><div class="nm">Success</div><div class="hx">#27AE60</div><div class="ex">Confirmation</div></div>
+    <div class="s" style="background:#2980B9; color:#fff;"><div class="nm">Info</div><div class="hx">#2980B9</div><div class="ex">Use sparingly</div></div>
+  </div>
+</div>
+</body></html>

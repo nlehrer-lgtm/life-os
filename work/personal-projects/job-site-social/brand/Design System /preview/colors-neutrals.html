@@ -1,0 +1,26 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Neutrals</title>
+<link rel="stylesheet" href="_card.css">
+<style>
+  .neutrals { display: grid; grid-template-columns: repeat(7, 1fr); gap: 0; }
+  .n { aspect-ratio: 1 / 1.1; padding: 10px; box-sizing: border-box; display:flex; flex-direction:column; justify-content:space-between; }
+  .n .nm { font-family: var(--font-heading); font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; }
+  .n .hx { font-family: ui-monospace, Menlo, monospace; font-size: 10px; }
+</style></head>
+<body>
+<div class="card" style="padding:24px; gap:14px;">
+  <div class="neutrals">
+    <div class="n" style="background:#000; color:#fff;"><div class="nm">True Black</div><div class="hx">#000000</div></div>
+    <div class="n" style="background:#1A1A1A; color:#fff;"><div class="nm">Asphalt</div><div class="hx">#1A1A1A</div></div>
+    <div class="n" style="background:#221E1F; color:#fff;"><div class="nm">Jobsite</div><div class="hx">#221E1F</div></div>
+    <div class="n" style="background:#4A4A4A; color:#fff;"><div class="nm">Concrete</div><div class="hx">#4A4A4A</div></div>
+    <div class="n" style="background:#888; color:#fff;"><div class="nm">Dust</div><div class="hx">#888888</div></div>
+    <div class="n" style="background:#D4D4D4; color:#221E1F;"><div class="nm">Wire</div><div class="hx">#D4D4D4</div></div>
+    <div class="n" style="background:#F2F2F0; color:#221E1F; border:1px solid #D4D4D4;"><div class="nm">Drywall</div><div class="hx">#F2F2F0</div></div>
+  </div>
+  <div style="display:flex; gap:8px; align-items:center;">
+    <span class="label">Body text</span>
+    <span style="font-size:14px; color:#4A4A4A;">Concrete on Clean White is the default for paragraphs.</span>
+  </div>
+</div>
+</body></html>

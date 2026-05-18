@@ -1,0 +1,39 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Layout Grid</title>
+<link rel="stylesheet" href="_card.css">
+<style>
+  .frame { background:#F2F2F0; border:1px solid #D4D4D4; padding: 14px 80px; height: 200px; position: relative; }
+  .cols { display:grid; grid-template-columns: repeat(10, 1fr); gap: 8px; height: 100%; }
+  .c { background: rgba(244, 192, 70, 0.18); border-top: 2px solid #F4C046; }
+  .gutter-lbl {
+    position: absolute; top: 50%; transform: translateY(-50%);
+    font-family: var(--font-heading); font-weight: 600; font-size: 9px;
+    letter-spacing: 0.16em; text-transform: uppercase; color: #888;
+    writing-mode: vertical-rl;
+  }
+  .gutter-lbl.l { left: 14px; }
+  .gutter-lbl.r { right: 14px; transform: translateY(-50%) rotate(180deg); }
+  .margin-tag {
+    position: absolute; top: 6px; left: 50%; transform: translateX(-50%);
+    font-family: var(--font-heading); font-weight: 600; font-size: 10px;
+    letter-spacing: 0.14em; text-transform: uppercase; color: #888;
+  }
+</style></head>
+<body>
+<div class="card" style="padding:24px;">
+  <div style="display:flex; justify-content:space-between; align-items:baseline;">
+    <div class="label">10-column grid · 1200 max · generous side margins</div>
+    <div class="mono" style="color:#888;">desktop</div>
+  </div>
+  <div class="frame">
+    <div class="margin-tag">max-width 1200px</div>
+    <div class="gutter-lbl l">Side margin</div>
+    <div class="gutter-lbl r">Side margin</div>
+    <div class="cols">
+      <div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div>
+      <div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div>
+      <div class="c"></div><div class="c"></div>
+    </div>
+  </div>
+</div>
+</body></html>

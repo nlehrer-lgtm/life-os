@@ -1,0 +1,36 @@
+/* Shared card chrome for design system preview cards.
+   Each card is its own HTML doc, ~700×<= ~400px. Skip titles —
+   the asset name renders OUTSIDE the card. Show the goods. */
+@import url('../colors_and_type.css');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--color-white);
+  color: var(--fg-primary);
+  font-family: var(--font-body);
+}
+.card {
+  width: 700px;
+  box-sizing: border-box;
+  padding: 24px;
+  background: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.card.dark {
+  background: var(--color-true-black);
+  color: var(--color-white);
+}
+.row { display: flex; gap: 12px; align-items: stretch; }
+.col { display: flex; flex-direction: column; gap: 8px; }
+.label {
+  font-family: var(--font-heading);
+  font-weight: 500;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-gray-500);
+}
+.mono { font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 12px; }

@@ -1,0 +1,37 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Badges & Tags</title>
+<link rel="stylesheet" href="_card.css">
+<style>
+  .group { display:flex; flex-direction:column; gap:8px; }
+  .row { display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+  .badge { font-family:var(--font-heading); font-weight:700; font-size:11px; letter-spacing:0.12em; text-transform:uppercase; padding:5px 10px; line-height:1; }
+  .gold { background:#F4C046; color:#221E1F; }
+  .black { background:#221E1F; color:#fff; }
+  .ghost { background:transparent; color:#221E1F; border:1.5px solid #221E1F; }
+  .gold-ghost { background:transparent; color:#221E1F; border:1.5px solid #F4C046; }
+  .status { display:inline-flex; align-items:center; gap:6px; font-family:var(--font-body); font-size:12px; }
+  .dot { width:8px; height:8px; border-radius:50%; display:inline-block; }
+</style></head>
+<body>
+<div class="card" style="padding:24px; gap:14px;">
+  <div class="group">
+    <div class="label">Tier / promo badges</div>
+    <div class="row">
+      <span class="badge gold">Recommended</span>
+      <span class="badge black">New</span>
+      <span class="badge gold">Best Value</span>
+      <span class="badge ghost">Standard</span>
+      <span class="badge gold-ghost">Premium</span>
+    </div>
+  </div>
+  <div class="group">
+    <div class="label">Status indicators</div>
+    <div class="row">
+      <span class="status"><span class="dot" style="background:#27AE60;"></span>Posted</span>
+      <span class="status"><span class="dot" style="background:#F4C046;"></span>Scheduled</span>
+      <span class="status"><span class="dot" style="background:#C0392B;"></span>Failed</span>
+      <span class="status"><span class="dot" style="background:#888;"></span>Draft</span>
+    </div>
+  </div>
+</div>
+</body></html>

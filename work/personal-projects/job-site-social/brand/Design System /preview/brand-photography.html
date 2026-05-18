@@ -1,0 +1,31 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Photo Direction</title>
+<link rel="stylesheet" href="_card.css">
+<style>
+  .grid { display:grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+  .tile { aspect-ratio: 1 / 1; position:relative; background:#1A1A1A; overflow:hidden; }
+  .tile.do::after, .tile.dont::after { content: attr(data-lbl); position:absolute; bottom:6px; left:6px; padding:4px 8px; font-family: var(--font-heading); font-weight:700; font-size:10px; letter-spacing:0.12em; text-transform:uppercase; }
+  .tile.do::after { background:#27AE60; color:#fff; }
+  .tile.dont::after { background:#C0392B; color:#fff; }
+  .placeholder { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; color:#888; font-family:var(--font-heading); font-weight:600; font-size:11px; letter-spacing:0.14em; text-transform:uppercase; text-align:center; padding: 14px; line-height:1.3; }
+  /* Stylized previews to suggest aesthetic */
+  .gritty { background: radial-gradient(ellipse at 30% 40%, #6b3a18 0%, #2b1408 60%, #000 100%); }
+  .warm   { background: linear-gradient(135deg, #d89042 0%, #6b3a18 60%, #1a0f08 100%); }
+  .bw     { background: linear-gradient(180deg, #aaa 0%, #555 50%, #1a1a1a 100%); filter: grayscale(1); }
+  .stock  { background: linear-gradient(180deg, #cfd9e3 0%, #f0f4f8 100%); }
+  .past   { background: linear-gradient(135deg, #f9e6f0 0%, #d6e4f7 100%); }
+  .corp   { background: linear-gradient(180deg, #e3e8ed 0%, #b6c2cd 100%); }
+</style></head>
+<body>
+<div class="card" style="padding:24px; gap:10px;">
+  <div class="label">Photography direction · real jobsites, gritty + warm</div>
+  <div class="grid">
+    <div class="tile do gritty" data-lbl="Gritty"><div class="placeholder">hands on tools · jobsite</div></div>
+    <div class="tile do warm" data-lbl="Warm"><div class="placeholder">golden hour shop light</div></div>
+    <div class="tile do" data-lbl="Sharp" style="background: radial-gradient(circle at 40% 60%, #888 0%, #221E1F 70%);"><div class="placeholder">high contrast · close-up</div></div>
+    <div class="tile dont stock" data-lbl="Stock"><div class="placeholder">generic stock photo</div></div>
+    <div class="tile dont past" data-lbl="Pastel"><div class="placeholder">soft pastel / gradients</div></div>
+    <div class="tile dont corp" data-lbl="Corporate"><div class="placeholder">suits / office / sterile</div></div>
+  </div>
+</div>
+</body></html>

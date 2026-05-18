@@ -6,7 +6,7 @@ facebook: None
 phone: (615) 776-3767
 email: 
 owner: 
-status: not-contacted
+status: archived-no-fit
 date-added: 2026-05-07
 fit-score: 9/10
 tier: 1

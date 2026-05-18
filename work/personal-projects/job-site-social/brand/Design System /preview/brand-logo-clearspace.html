@@ -1,0 +1,29 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Logo Clear Space</title>
+<link rel="stylesheet" href="_card.css">
+<style>
+  .frame { position:relative; padding: 60px; background: repeating-linear-gradient(45deg, #F2F2F0, #F2F2F0 6px, #EAEAE6 6px, #EAEAE6 12px); display:flex; align-items:center; justify-content:center; }
+  .inner { position:relative; padding: 60px 60px; background:#fff; }
+  /* clear space guides — dashed */
+  .guide { position:absolute; border: 1px dashed #F4C046; }
+  .top { top: 10px; left: 60px; right: 60px; height: 50px; border-bottom: none; }
+  .bot { bottom: 10px; left: 60px; right: 60px; height: 50px; border-top: none; }
+  .lef { left: 10px; top: 60px; bottom: 60px; width: 50px; border-right: none; }
+  .rig { right: 10px; top: 60px; bottom: 60px; width: 50px; border-left: none; }
+  img { width: 360px; height:auto; display:block; }
+  .lbl { position:absolute; font-family: var(--font-heading); font-weight:600; font-size:10px; letter-spacing:0.14em; text-transform:uppercase; color:#D9A52E; background:#F2F2F0; padding: 0 6px; }
+</style></head>
+<body>
+<div class="card" style="padding:24px; background:#F2F2F0;">
+  <div class="frame" style="padding:0;">
+    <div class="inner">
+      <div class="guide top"></div>
+      <div class="guide bot"></div>
+      <div class="guide lef"></div>
+      <div class="guide rig"></div>
+      <span class="lbl" style="top:32px; left:50%; transform:translateX(-50%);">= height of "J"</span>
+      <img src="../assets/logo-tight.png" alt="Jobsite Social" />
+    </div>
+  </div>
+</div>
+</body></html>

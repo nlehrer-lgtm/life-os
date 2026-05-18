@@ -1,0 +1,27 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Spacing Scale</title>
+<link rel="stylesheet" href="_card.css">
+<style>
+  .row { display:flex; align-items:flex-end; gap: 14px; }
+  .item { display:flex; flex-direction:column; align-items:center; gap:6px; }
+  .blk { background:#221E1F; }
+  .blk.gold { background:#F4C046; }
+  .nm { font-family: ui-monospace, Menlo, monospace; font-size: 10px; color:#888; }
+  .px { font-family: var(--font-heading); font-weight:600; font-size:13px; color:#221E1F; }
+</style></head>
+<body>
+<div class="card" style="padding:24px;">
+  <div class="label">Spacing scale · 4px base · industrial rhythm</div>
+  <div class="row" style="margin-top:14px;">
+    <div class="item"><div class="blk" style="width:4px; height:4px;"></div><div class="px">4</div><div class="nm">xs</div></div>
+    <div class="item"><div class="blk" style="width:8px; height:8px;"></div><div class="px">8</div><div class="nm">sm</div></div>
+    <div class="item"><div class="blk" style="width:16px; height:16px;"></div><div class="px">16</div><div class="nm">md</div></div>
+    <div class="item"><div class="blk" style="width:24px; height:24px;"></div><div class="px">24</div><div class="nm">lg</div></div>
+    <div class="item"><div class="blk" style="width:32px; height:32px;"></div><div class="px">32</div><div class="nm">xl</div></div>
+    <div class="item"><div class="blk gold" style="width:48px; height:48px;"></div><div class="px">48</div><div class="nm">2xl</div></div>
+    <div class="item"><div class="blk gold" style="width:64px; height:64px;"></div><div class="px">64</div><div class="nm">3xl</div></div>
+    <div class="item"><div class="blk gold" style="width:80px; height:80px;"></div><div class="px">80</div><div class="nm">4xl</div></div>
+    <div class="item"><div class="blk gold" style="width:100px; height:100px;"></div><div class="px">100</div><div class="nm">5xl</div></div>
+  </div>
+</div>
+</body></html>

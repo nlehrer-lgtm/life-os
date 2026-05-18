@@ -1,0 +1,47 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Pricing Card</title>
+<link rel="stylesheet" href="_card.css">
+<style>
+  .wrap { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+  .price-card { background:#fff; border:1px solid #D4D4D4; padding: 20px; display:flex; flex-direction:column; gap:10px; position:relative; }
+  .price-card.rec { background:#fff; border: 2px solid #F4C046; }
+  .accent-stripe { position:absolute; top:0; left:0; right:0; height:4px; background:#F4C046; }
+  .badge { position:absolute; top:-12px; right:14px; background:#F4C046; color:#221E1F; font-family:var(--font-heading); font-weight:700; font-size:10px; letter-spacing:0.12em; text-transform:uppercase; padding:5px 10px; }
+  .tier { font-family:var(--font-heading); font-weight:700; font-size:14px; letter-spacing:0.14em; text-transform:uppercase; color:#888; }
+  .rec .tier { color:#D9A52E; }
+  .price { font-family:var(--font-display); font-size:52px; line-height:1; color:#221E1F; letter-spacing:-0.01em; }
+  .per { font-family:var(--font-heading); font-weight:500; font-size:12px; color:#888; letter-spacing:0.1em; text-transform:uppercase; }
+  ul { margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:6px; font-family:var(--font-body); font-size:13px; color:#4A4A4A; }
+  li::before { content:"✓"; color:#F4C046; font-weight:700; margin-right:8px; }
+  .cta-primary { background:#F4C046; color:#221E1F; padding:10px 0; text-align:center; font-family:var(--font-heading); font-weight:600; font-size:12px; letter-spacing:0.1em; text-transform:uppercase; margin-top:6px; }
+  .cta-secondary { background:#fff; color:#221E1F; padding:10px 0; text-align:center; font-family:var(--font-heading); font-weight:600; font-size:12px; letter-spacing:0.1em; text-transform:uppercase; margin-top:6px; border:2px solid #221E1F; }
+</style></head>
+<body>
+<div class="card" style="padding:24px; background:#F2F2F0;">
+  <div class="wrap">
+    <div class="price-card">
+      <div class="tier">Standard</div>
+      <div><span class="price">$899</span></div>
+      <div class="per">per month</div>
+      <ul>
+        <li>3 posts/week</li>
+        <li>On-site photo shoot</li>
+      </ul>
+      <div class="cta-secondary">Choose Plan</div>
+    </div>
+    <div class="price-card rec">
+      <span class="accent-stripe"></span>
+      <div class="badge">Recommended</div>
+      <div class="tier">Premium</div>
+      <div><span class="price">$1,499</span></div>
+      <div class="per">per month</div>
+      <ul>
+        <li>4–5 posts/week</li>
+        <li>Photo + video shoots</li>
+        <li>Priority support</li>
+      </ul>
+      <div class="cta-primary">Choose Plan</div>
+    </div>
+  </div>
+</div>
+</body></html>

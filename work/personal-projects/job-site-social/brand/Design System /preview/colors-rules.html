@@ -1,0 +1,40 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Color Rules</title>
+<link rel="stylesheet" href="_card.css">
+<style>
+  .rules { display:grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  .rule { padding: 16px; display:flex; flex-direction:column; gap:8px; }
+  .rule.do { background:#F2F2F0; border-left: 4px solid #27AE60; }
+  .rule.dont { background:#F2F2F0; border-left: 4px solid #C0392B; }
+  .rule .tag { font-family: var(--font-heading); font-weight:700; font-size:11px; letter-spacing:0.14em; text-transform:uppercase; }
+  .rule.do .tag { color: #27AE60; }
+  .rule.dont .tag { color: #C0392B; }
+  .rule .txt { font-size: 13px; line-height: 1.45; color: #221E1F; }
+  .demo { height: 40px; display:flex; align-items:center; padding:0 14px; font-family:var(--font-heading); font-weight:600; font-size:12px; letter-spacing:0.1em; text-transform:uppercase; }
+</style></head>
+<body>
+<div class="card" style="padding:24px; background:#fff;">
+  <div class="rules">
+    <div class="rule do">
+      <div class="tag">Do — Gold for CTAs</div>
+      <div class="demo" style="background:#F4C046; color:#221E1F; align-self:flex-start;">Subscribe Now</div>
+      <div class="txt">Gold button fills with black text — the signature pairing. Use for primary CTAs and badges.</div>
+    </div>
+    <div class="rule do">
+      <div class="tag">Do — Gold accents on cream</div>
+      <div class="demo" style="background:#F2F2F0; color:#221E1F; border-left:4px solid #F4C046;">Gold rule · eyebrow text</div>
+      <div class="txt">Use gold as accents, dividers, eyebrows, and price callouts on a cream/white surface.</div>
+    </div>
+    <div class="rule dont">
+      <div class="tag">Don't — Gold page background</div>
+      <div class="demo" style="background:#F4C046; color:#221E1F;">Entire section in gold</div>
+      <div class="txt">Don't flood whole sections or page backgrounds with gold — it loses its punch as an accent.</div>
+    </div>
+    <div class="rule dont">
+      <div class="tag">Don't — Gold text on cream</div>
+      <div class="demo" style="background:#F2F2F0; color:#F4C046; font-size:14px;">Low-contrast gold body text</div>
+      <div class="txt">Gold doesn't carry enough contrast for body copy on light surfaces. Keep gold for fills and accents.</div>
+    </div>
+  </div>
+</div>
+</body></html>

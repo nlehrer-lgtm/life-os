@@ -1,0 +1,43 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Brand Colors</title>
+<link rel="stylesheet" href="_card.css">
+<style>
+  .swatch { flex: 1; height: 160px; display: flex; flex-direction: column; justify-content: space-between; padding: 16px; box-sizing: border-box; }
+  .swatch .name { font-family: var(--font-heading); font-weight: 700; font-size: 16px; text-transform: uppercase; letter-spacing: 0.06em; }
+  .swatch .hex { font-family: ui-monospace, Menlo, monospace; font-size: 13px; opacity: 0.85; }
+  .swatch .role { font-family: var(--font-heading); font-weight: 500; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; opacity: 0.7; }
+</style></head>
+<body>
+<div class="card" style="background:#F2F2F0; padding:0;">
+  <div class="row" style="gap:0;">
+    <div class="swatch" style="background:#F2F2F0; color:#221E1F; border-right:1px solid #D4D4D4;">
+      <div class="role">Primary surface</div>
+      <div>
+        <div class="name">Drywall Cream</div>
+        <div class="hex">#F2F2F0</div>
+      </div>
+    </div>
+    <div class="swatch" style="background:#FFFFFF; color:#221E1F; border-right:1px solid #D4D4D4;">
+      <div class="role">Surface</div>
+      <div>
+        <div class="name">Clean White</div>
+        <div class="hex">#FFFFFF</div>
+      </div>
+    </div>
+    <div class="swatch" style="background:#F4C046; color:#221E1F;">
+      <div class="role">Accent</div>
+      <div>
+        <div class="name">Jobsite Gold</div>
+        <div class="hex">#F4C046</div>
+      </div>
+    </div>
+  </div>
+  <div style="display:flex; gap:0; padding:14px 24px; background:#F2F2F0; color:#221E1F; align-items:center; justify-content:space-between; border-top:1px solid #D4D4D4;">
+    <div style="font-family:var(--font-heading); font-weight:600; font-size:12px; letter-spacing:0.16em; text-transform:uppercase;">Cream-dominant · Gold accents · Black ink</div>
+    <div style="display:flex; gap:6px; align-items:center;">
+      <span style="display:inline-block; width:18px; height:18px; background:#221E1F;"></span>
+      <span style="font-family:ui-monospace,Menlo,monospace; font-size:11px; color:#888;">Jobsite Black · #221E1F · text</span>
+    </div>
+  </div>
+</div>
+</body></html>
