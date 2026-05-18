@@ -48,3 +48,4 @@ Zero social media, no website, Brentwood location. Complete blank slate — the 
 
 ## Interaction Log
 - 2026-05-07 — Added from Manus prospect research report (May 2026)
+- 2026-05-18 — Called. Owner said they already have a social media team. Not a fit. Archived.
