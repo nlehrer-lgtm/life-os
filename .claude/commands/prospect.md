@@ -62,7 +62,7 @@ Key elements to personalize:
 
 Determine a kebab-case filename from the business name (e.g. "Wayne's Auto Shop" → `waynes-auto-shop.md`).
 
-Save to `work/blue-collar-content/prospects/[filename].md` using this format:
+Save to `work/personal-projects/job-site-social/prospects/[filename].md` using this format:
 
 ```
 ---
