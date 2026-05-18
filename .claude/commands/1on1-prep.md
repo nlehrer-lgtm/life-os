@@ -128,6 +128,17 @@ _From `running-notes.md` — what you noticed between meetings._
 
 ---
 
+## 3b. Most Recent Pre Boxing Out the Week _(Lindy only — omit this section entirely for Andrew)_
+
+_From Granola: "[meeting title]" on [meeting date]. So you don't rehash what already got covered._
+
+- **Topics covered:** [Short bullets]
+- **Decisions / direction set:** [Bullets, or "None"]
+- **Still open / carried into this week:** [Bullets, or "Nothing flagged"]
+- **Personal / connection notes:** [Anything worth remembering — energy, life context, mood]
+
+---
+
 ## 4. Open Action Items From Last Time
 
 **Your open items:**
