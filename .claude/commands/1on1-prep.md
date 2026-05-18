@@ -76,6 +76,17 @@ Look in the person's 1:1 folder for the most recent `1on1-summary-YYYY-MM-DD.md`
 
 If no summary exists yet (system is new), fall back to the most recent Granola transcript using `list_meetings` with the folder ID.
 
+### Step 5b — Pull the most recent Pre Boxing Out the Week meeting (Lindy only)
+**Only for Lindy.** Andrew does not have this meeting — skip this step for him.
+
+Call `list_meetings` with Lindy's Granola folder ID, find the single most recent meeting whose title contains "Pre boxing out the week" (case-insensitive), and call `get_meeting_transcript` for it. Read the transcript and extract:
+- Key topics discussed
+- Decisions made or directions set for the week
+- Anything carried over or still open
+- Anything personal worth remembering
+
+This meeting is recurring context, not a 1:1 debrief — don't try to convert it into action items. The goal is to walk into the 1:1 already aware of what got covered in the boxing-out session so the 1:1 doesn't rehash it.
+
 ### Step 6 — Pull growth plan milestones
 Use `get_tasks` on the person's growth plan project. For each milestone, note: name, description, completion status.
 
