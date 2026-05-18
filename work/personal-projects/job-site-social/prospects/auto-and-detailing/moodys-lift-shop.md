@@ -67,3 +67,4 @@ Their builds are clean. The work speaks for itself — lifted trucks, custom whe
 
 ## Interaction Log
 - 2026-04-18 — Researched
+- 2026-05-18 — Called Jimmy three times trying to connect. He's never been at the shop when I've called. Still trying to reach him.
