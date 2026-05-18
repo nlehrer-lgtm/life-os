@@ -145,6 +145,6 @@ In chat, give Nathaniel:
 ## Rules
 - Only include phone and email if publicly listed — never guess or fabricate
 - Never critique their social media to Nathaniel in a way that could leak into his call tone
-- Follow the cold call principles in `work/blue-collar-content/cold-call-framework.md` and `work/blue-collar-content/levi-smith-notes.md`
+- Follow the cold call principles in `work/personal-projects/job-site-social/cold-call-framework.md` and `work/personal-projects/job-site-social/levi-smith-notes.md`
 - If a field wasn't found, write N/A — don't leave it blank
 - Never overwrite an existing prospect file without asking first
