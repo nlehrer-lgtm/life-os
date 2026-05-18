@@ -5,7 +5,10 @@
 **Slack:** @Andrew McIntosh (U04CYP0017Y)
 
 ## Last Contact
-2026-04-16 — Included in MCUP Opener Brainstorm Meeting (10am), MXDaily setup and recordings, LB Podcast Recording (Jun 16). In Group DM with Nathaniel, Lindy, Bryson, and Kathryn about MCUP opener next steps — Nathaniel proposed that Andrew, Lindy, and he create a storyboard/initial pitch before presenting to Lisa. Andrew had a 1:1 with Nathaniel prep logged this week.
+2026-05-18 — Accepted MCUP Opener Touch Base / Production Launch (10am–11am CDT) with Nathaniel, LeVann, and Annie. Also joined Nathaniel's Zoom for "Messenger International prop design opportunity" meeting at 4pm.
+
+## History
+- 2026-04-16 — Included in MCUP Opener Brainstorm Meeting (10am), MXDaily setup and recordings, LB Podcast Recording (Jun 16). In Group DM with Nathaniel, Lindy, Bryson, and Kathryn about MCUP opener next steps — Nathaniel proposed that Andrew, Lindy, and he create a storyboard/initial pitch before presenting to Lisa. Andrew had a 1:1 with Nathaniel prep logged this week.
 
 ## Notes
 - Involved in MCUP opener project — part of core creative team with Nathaniel and Lindy
