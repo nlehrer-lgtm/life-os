@@ -5,6 +5,9 @@
 **Slack:** @Andrew McIntosh (U04CYP0017Y)
 
 ## Last Contact
+2026-05-19 — "Project planning - looping Andrew in earlier" at 10am (calendar). Replied to email thread "Still on your roadmap—or not right now?" (external vendor thread with vustudio.com). Also mentioned in Lindy's 1:1: Working Genius refresher needed with both Andrew and Lindy; Andrew will be invited to Lindy's quality control standards meeting with Chris and the podcast producers.
+
+## Contact History
 2026-05-18 — Accepted MCUP Opener Touch Base / Production Launch (10am–11am CDT) with Nathaniel, LeVann, and Annie. Also joined Nathaniel's Zoom for "Messenger International prop design opportunity" meeting at 4pm.
 
 ## History
