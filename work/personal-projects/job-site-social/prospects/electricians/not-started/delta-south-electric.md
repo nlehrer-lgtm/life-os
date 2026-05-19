@@ -17,7 +17,7 @@ tier: 1
 ## Overview
 - **What they do:** Licensed, bonded, insured electrical contractor for residential, commercial, and industrial work.
 - **Location:** 13000 Ancient Crest Cir, Franklin, TN 37067
-- **Owner:** Unknown
+- **Owner:** Justin Dickson
 - **Contact:** (615) 939-2706
 
 ## Social Media Audit
