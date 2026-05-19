@@ -58,7 +58,7 @@ cp "$GOPRO_FILE" "$DEST/Natty-Lght_GoPro-Footage_${TODAY}.mp4"
 if [ -n "$SCREEN_FILE" ]; then
   cp "$SCREEN_FILE" "$DEST/Natty-Lght_screen_recording_${TODAY}.mp4"
 else
-  echo "No 'Screen Recording*.mp4' found in ~/Downloads — skipping screen recording copy."
+  echo "No screen recording (Screen Recording*.mp4 or ScreenRecording*.mp4) found in ~/Downloads — skipping screen recording copy."
 fi
 ```
 
