@@ -4,8 +4,8 @@ website: https://deltasouthelectric.com
 instagram: None
 facebook: None
 phone: (615) 939-2706
-email: 
-owner: 
+email: deltasouthelectric@gmail.com
+owner: Justin Dickson
 status: not-contacted
 date-added: 2026-05-07
 fit-score: 9/10
