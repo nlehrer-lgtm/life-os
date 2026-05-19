@@ -5,7 +5,7 @@ instagram: None
 facebook: None
 phone: (615) 373-5868
 email: 
-owner: 
+owner: Rhea Little III
 status: not-contacted
 date-added: 2026-05-07
 fit-score: 10/10
