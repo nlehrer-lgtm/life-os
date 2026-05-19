@@ -17,7 +17,7 @@ tier: 1
 ## Overview
 - **What they do:** Family-owned tire and auto service center. 18 years in business, multiple ASE-certified technicians.
 - **Location:** 621 Beechcroft Rd, Spring Hill, TN 37174
-- **Owner:** Unknown (family-owned)
+- **Owner:** Travis Hooker (purchased shop from prior owner; started there in 2007)
 - **Contact:** (931) 486-3332
 
 ## Social Media Audit
