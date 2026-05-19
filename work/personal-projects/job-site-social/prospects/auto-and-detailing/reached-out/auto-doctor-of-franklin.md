@@ -17,7 +17,7 @@ tier: 1
 ## Overview
 - **What they do:** Independent auto repair shop on a high-traffic Franklin corridor.
 - **Location:** 1420 West Main St, Franklin, TN 37064
-- **Owner:** Unknown
+- **Owner:** Bill Odell
 - **Contact:** (615) 794-8280
 
 ## Social Media Audit
