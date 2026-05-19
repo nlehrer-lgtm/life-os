@@ -5,7 +5,7 @@ instagram: None
 facebook: https://facebook.com (24 likes)
 phone: (615) 881-2238
 email: 
-owner: 
+owner: Christopher Nicoara
 status: not-contacted
 date-added: 2026-05-07
 fit-score: 8/10
