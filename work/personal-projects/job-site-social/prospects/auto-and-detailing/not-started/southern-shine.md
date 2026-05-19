@@ -17,8 +17,8 @@ tier: 1
 ## Overview
 - **What they do:** Auto detailing — 23,400+ vehicles washed, 319+ mobile clients, 2,700+ vehicles coated. Fleet washing contracts including General Motors.
 - **Location:** Franklin, TN
-- **Owner:** Unknown
-- **Contact:** Not found (see southernshine.com)
+- **Owner:** Nick Turney
+- **Contact:** (615) 917-3026 / southernshineshop@gmail.com
 
 ## Social Media Audit
 
