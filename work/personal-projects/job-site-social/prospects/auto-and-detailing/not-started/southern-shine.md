@@ -3,9 +3,9 @@ business: Southern Shine
 website: https://southernshine.com
 instagram: "@southernshine615"
 facebook: https://facebook.com (limited/private)
-phone: Not found
-email: 
-owner: 
+phone: (615) 917-3026
+email: southernshineshop@gmail.com
+owner: Nick Turney
 status: not-contacted
 date-added: 2026-05-07
 fit-score: 9/10
