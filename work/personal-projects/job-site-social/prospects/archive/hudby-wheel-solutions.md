@@ -70,3 +70,4 @@ They've been consistent about posting — 106 posts is real effort. The before/a
 - May 2026 — Called twice. No answer either time.
 - 2026-05-07 — Reached Richard. He is interested in social media. Asked Nathaniel to send him some info/materials to hudbysolutions@gmail.com. Follow-up: send email with pitch deck or sample work.
 - 2026-05-18 — Emailed Richard the pitch. Awaiting response.
+- 2026-05-19 — Richard responded that he already has someone handling social media right now. Not a right fit. Archived.
