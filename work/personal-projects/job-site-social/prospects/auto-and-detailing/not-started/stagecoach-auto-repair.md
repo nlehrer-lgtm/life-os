@@ -17,7 +17,7 @@ tier: 1
 ## Overview
 - **What they do:** Small, independent, owner-operated auto repair shop in Spring Hill.
 - **Location:** 3710 John Lunn Rd, Spring Hill, TN 37174
-- **Owner:** Unknown (owner-operated)
+- **Owner:** Monty Lowery (sole owner since founding, 17+ years)
 - **Contact:** (931) 560-8174
 
 ## Social Media Audit
