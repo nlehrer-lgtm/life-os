@@ -6,9 +6,11 @@ facebook: https://www.facebook.com/hudbysolutions/
 phone: (615) 881-0590
 email: hudbysolutions@gmail.com
 owner: Richard Hayward
-status: email-follow-up
+status: archived
 date-added: 2026-04-18
+date-archived: 2026-05-19
 fit-score: 8/10
+archive-reason: Not a right fit — Richard said he already has somebody handling social media right now.
 ---
 
 # Hudby Wheel Solutions
