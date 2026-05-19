@@ -1,0 +1,229 @@
+:root {
+  /* Brand */
+  --color-brand-gold: #F4C046;
+  --color-brand-black: #221E1F;
+
+  /* Neutrals */
+  --color-true-black: #000000;
+  --color-gray-900: #1A1A1A;
+  --color-gray-700: #4A4A4A;
+  --color-gray-500: #888888;
+  --color-gray-300: #D4D4D4;
+  --color-gray-100: #F2F2F0;
+  --color-cream-deep: #EAEAE4;
+  --color-white: #FFFFFF;
+
+  /* States */
+  --color-gold-hover: #F7CE6A;
+  --color-gold-active: #D9A52E;
+  --color-error: #C0392B;
+  --color-success: #27AE60;
+  --color-info: #2980B9;
+
+  /* Semantic */
+  --bg-canvas: var(--color-gray-100);
+  --bg-surface: var(--color-white);
+  --fg-primary: var(--color-brand-black);
+  --fg-secondary: var(--color-gray-700);
+  --fg-muted: var(--color-gray-500);
+  --border-default: var(--color-gray-300);
+  --accent: var(--color-brand-gold);
+
+  /* Typography stacks — actual families injected by next/font as --font-display, --font-heading, --font-body */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --line-height-body: 1.6;
+  --line-height-heading: 1.15;
+  --line-height-display: 1.0;
+
+  --letter-spacing-display: -0.01em;
+  --letter-spacing-heading: 0.01em;
+  --letter-spacing-button: 0.08em;
+  --letter-spacing-eyebrow: 0.16em;
+
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+  --space-4xl: 80px;
+  --space-5xl: 100px;
+  --space-6xl: 120px;
+
+  /* Layout */
+  --max-width: 1200px;
+  --gutter: 20px;
+
+  /* Radii — sharp on purpose */
+  --radius-none: 0px;
+  --radius-sm: 2px;
+  --radius-md: 4px;
+
+  /* Shadows */
+  --shadow-none: none;
+  --shadow-flat: 0 1px 0 rgba(0, 0, 0, 0.04);
+  --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.06);
+  --shadow-lift: 0 8px 24px rgba(0, 0, 0, 0.10);
+
+  /* Motion */
+  --transition-fast: 200ms ease-out;
+  --transition-normal: 300ms ease-out;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--color-white);
+  color: var(--fg-primary);
+  font-family: var(--font-body), 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 16px;
+  line-height: var(--line-height-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+img { display: block; max-width: 100%; }
+button { font: inherit; cursor: pointer; }
+a { color: inherit; text-decoration: none; }
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+}
+
+.eyebrow {
+  font-family: var(--font-heading), 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: var(--letter-spacing-eyebrow);
+  text-transform: uppercase;
+  color: var(--color-gold-active);
+  margin: 0 0 var(--space-md);
+  display: inline-block;
+}
+
+.h1, h1 {
+  font-family: var(--font-display), 'Bebas Neue', 'Impact', sans-serif;
+  font-weight: 400;
+  font-size: clamp(48px, 7vw, 92px);
+  line-height: 0.95;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.h2, h2 {
+  font-family: var(--font-heading), 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: clamp(32px, 4vw, 48px);
+  line-height: 1.05;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  margin: 0 0 var(--space-lg);
+}
+
+.h3, h3 {
+  font-family: var(--font-heading), 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.2;
+  margin: 0;
+}
+
+p {
+  font-family: var(--font-body), 'Source Sans 3', sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--fg-secondary);
+  margin: 0;
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 34px;
+  font-family: var(--font-heading), 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  border: none;
+  border-radius: 0;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color var(--transition-fast), color var(--transition-fast), border-color var(--transition-fast);
+}
+.btn--primary { background: var(--color-brand-gold); color: var(--color-brand-black); }
+.btn--primary:hover { background: var(--color-gold-hover); }
+.btn--primary:active { background: var(--color-gold-active); }
+
+.btn--secondary {
+  background: transparent;
+  color: var(--color-brand-black);
+  border: 2px solid var(--color-brand-black);
+  padding: 14px 32px;
+}
+.btn--secondary:hover { background: var(--color-brand-black); color: var(--color-white); }
+
+.btn--ondark {
+  background: transparent;
+  color: var(--color-white);
+  border: 2px solid var(--color-white);
+  padding: 14px 32px;
+}
+.btn--ondark:hover { background: var(--color-white); color: var(--color-brand-black); }
+
+/* Nav link */
+.nav-link {
+  font-family: var(--font-heading), 'Oswald', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-brand-black);
+  transition: color var(--transition-fast);
+}
+.nav-link:hover { color: var(--color-gold-active); }
+.nav-link.is-active { color: var(--color-gold-active); }
+
+/* Inputs */
+.field-label {
+  font-family: var(--font-heading), 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-brand-black);
+}
+.field-input {
+  background: var(--color-white);
+  border: 1px solid var(--color-gray-300);
+  border-radius: 0;
+  padding: 14px;
+  color: var(--color-brand-black);
+  font-family: var(--font-body), sans-serif;
+  font-size: 15px;
+  transition: border-color var(--transition-fast);
+}
+.field-input:focus { outline: none; border-color: var(--color-brand-black); }
+
+/* Responsive — collapse two-column layouts on mobile */
+@media (max-width: 860px) {
+  .grid-2 { grid-template-columns: 1fr !important; }
+  .grid-3 { grid-template-columns: 1fr !important; }
+  .grid-4 { grid-template-columns: repeat(2, 1fr) !important; }
+  .footer-grid { grid-template-columns: 1fr 1fr !important; }
+  .hero-grid { grid-template-columns: 1fr !important; }
+}
