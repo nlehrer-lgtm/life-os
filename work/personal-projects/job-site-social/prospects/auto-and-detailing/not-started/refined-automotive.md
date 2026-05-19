@@ -30,3 +30,4 @@ Instagram + Facebook exist but small and new. Big opportunity to grow it fast.
 
 ## Interaction Log
 - 2026-05-07 — Added from Manus prospect research report (May 2026)
+- 2026-05-19 — Called (615) 543-1905. No answer.
