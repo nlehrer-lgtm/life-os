@@ -5,7 +5,10 @@
 **Slack:** @Lindy Wood (U01B0GYHA7K)
 
 ## Last Contact
-2026-05-05 — 1:1 with Nathaniel at 1:30pm (May 5). Also accepted AI Discernment — Full Team session (May 12, 1–1:45pm CDT). Sent updated invitation for DFH Podcast Recording on May 11, 9am–2pm CDT.
+2026-05-19 — 1:1 at 2:30pm (30 min; last one at 30 before extending to 45 going forward). Lindy opened up about sleep/anxiety — restless nights from self-imposed pressure tied to Josh's promo deliverable. Named the weight as wiring + possible PTSD from the older workspace era. This morning's Get REC'D was healing — felt heaviness lift after sleeping in. Discussed the Josh incident (he combined two scripts into one video despite Asana instructions); she addressed it directly with warmth. Working Genius refresher needed — her frustrations are Galvanizing + Invention; Nathaniel will give her draft frameworks to discern rather than blank-page invent tasks. Both And contract re-sign coming (all five shows moving to them for hook edits + packaging). Quality control system built but stalled on final producer meeting — she'll schedule it. AK taking over full episode reviews for JB/LB; Lindy moves to tech checks only. Opener casting: main actress decision due this week; Lindy offered to be backup (she has the emotional pull the role needs). Work-life balance shift is sticking — she's leaving when work is done, no guilt. Vimeo migration done.
+
+## Contact History
+2026-05-05 — 1:1 with Nathaniel at 1:30pm. Also accepted AI Discernment — Full Team session (May 12, 1–1:45pm CDT). Sent updated invitation for DFH Podcast Recording on May 11, 9am–2pm CDT.
 
 ## Contact History
 2026-04-16 — Highly active organizing day: kicked off MCUP Opener Brainstorm Meeting (10am), coordinated MXDaily recordings (AK @ 1pm, CP @ 3:30pm), scheduled LB Podcast Recording for Jun 16, updated Record MXDaily with Arden (Apr 23) and Addison (Apr 28), canceled Record MXDaily with Allie (Allie was sick), and set up a quick meeting with Nathaniel to discuss in-house pod edits (Jared/DFH editor rates going up). Completed first MXDaily recording of the day.
