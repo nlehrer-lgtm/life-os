@@ -5,7 +5,7 @@ instagram: "@southernelectrictn (1.5K followers, 79 posts)"
 facebook: https://facebook.com (523 likes, active but thin)
 phone: (615) 261-4800
 email: 
-owner: 
+owner: Lee Huie (owner); Steve Weaver (President)
 status: not-contacted
 date-added: 2026-05-07
 fit-score: 8/10
