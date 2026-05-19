@@ -4,8 +4,8 @@ website: https://kennewickelectric.com
 instagram: None
 facebook: None
 phone: (931) 777-9800
-email: 
-owner: 
+email: info@kennewickelectric.com
+owner: Ovidiu "Ovi" Nicoara
 status: not-contacted
 date-added: 2026-05-07
 fit-score: 9/10
