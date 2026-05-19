@@ -123,9 +123,94 @@ Two weeks later, the recurring agenda task is due again. The loop continues.
 - **You decide what's worth tasking.** The debrief surfaces a draft; you triage in chat; only what matters gets scheduled.
 - **Philosophy enforced.** The Developing Messengers framing — leader brings context, team member drives agenda, people-first, ask more / tell less — is baked into the prep skill itself.
 
-## Quick reference — what to say to Claude
+## Quick reference — what to say to Claude (downward 1:1s)
 
 - **Capture a mid-week note:** `/note for Lindy: <observation>` or `/note <thing about Andrew>`
 - **Two days before 1:1:** `/1on1-prep Lindy` (or `Andrew`)
+- **Read and adjust the prep before running the next step.**
 - **Morning of 1:1:** `/1on1-final Lindy`
 - **1–3 days after 1:1:** `/1on1-debrief Lindy` — then reply with the action item numbers you want scheduled (e.g., `N1, L2, L3` or `all` or `none`)
+
+---
+
+## Upward — The full loop (Arden)
+
+A separate loop, with the same skill family but the roles flipped. Cadence: weekly-ish (TBD; today's prep is the first run of this system).
+
+In this loop, **Nathaniel is the team member.** Arden is the leader. Per the framework, Nathaniel owns the agenda; Arden brings context (vision, direction, content/discipleship strategy, role alignment).
+
+### Phase 1 — Between meetings
+Whenever something surfaces that you want to raise with Arden, capture it. Two ways:
+
+- Edit `work/messenger-intl/leadership/arden/running-notes.md` directly with a quick bullet
+- Or use `/note for Arden: <thing>` (once `/note` is updated to route Arden mentions there — currently it doesn't)
+
+### Phase 2 — Your prep (a couple days before the 1:1)
+You run `/1on1-prep-arden`.
+
+The skill pulls:
+- Your running notes for Arden
+- "Arden" mentions in `notes/inbox.md`
+- Video team CONTEXT.md / STATUS.md (and discipleship team equivalents when those exist)
+- Latest Lindy and Andrew 1:1 summaries — so you can report up on how the team is doing
+- Recent journal entries and digests (last 7 days)
+- The most recent prior Arden 1:1 prep + summary (for continuity)
+- Granola transcript if a folder ID is configured (currently not — to be added when you start recording)
+
+It writes a prep doc with: personal check-in, top priorities to bring, progress since last 1:1, current challenges, wins to name, **strategic questions for Arden** (vision & direction, video team state, discipleship team state, leadership / coaching), open items from last cycle, and ad-hoc notes verbatim.
+
+### Phase 2.5 — Read and adjust the prep
+Same universal rule. Read it. Cut what doesn't belong. Sharpen what does. The glance sheet builds from your edits.
+
+### Phase 3 — Day-of glance sheet
+You run `/1on1-final-arden`. It reads the adjusted prep, asks what you most want to land, and produces a one-page glance sheet structured around what YOU will bring: open with (personal), bring these (priorities), wins to name, ask Arden (questions in priority order), if time.
+
+### Phase 4 — The 1:1 itself
+- **You drive the agenda.**
+- **Arden brings context** — vision, content/discipleship strategy, priority calls, role alignment.
+- People-first: care → clarity → direction.
+- Ask the strategic questions. Listen more than you talk.
+- Take light notes (drop them into `running-notes.md` after the meeting if useful).
+- Granola records the transcript (when you start recording).
+
+### Phase 5 — Debrief
+You run `/1on1-debrief-arden`. The skill:
+- Pulls the Granola transcript if available, otherwise asks you for a verbal recap
+- Extracts: direction Arden set, action items (yours and his), decisions, parking lot, connection moments
+- Saves a summary to `work/messenger-intl/leadership/arden/1on1-summary-YYYY-MM-DD.md` (uses the **meeting date**, not today)
+- Archives running notes into the summary and resets `running-notes.md`
+- Surfaces the full summary inline — action items numbered `N1, N2...` (yours) and `Ar1, Ar2...` (Arden's)
+- Asks: *"Which of these should I schedule as Asana tasks?"*
+
+You reply with numbers (or `all` / `none`). Your items land in your My Tasks; Arden's items become `[Follow up with Arden]` reminders in your My Tasks (until a different Asana pattern is configured for him).
+
+### Phase 6 — Cycle repeats
+
+---
+
+## Skill map (upward)
+
+| When | Tool | Where output lives |
+|---|---|---|
+| Between meetings | manual edits to `running-notes.md` (or future `/note for Arden`) | `work/messenger-intl/leadership/arden/running-notes.md` |
+| A couple days before | `/1on1-prep-arden` | `work/messenger-intl/leadership/arden/1on1-prep-YYYY-MM-DD.md` |
+| Morning of | `/1on1-final-arden` | `work/messenger-intl/leadership/arden/1on1-final-YYYY-MM-DD.md` |
+| 1–3 days after | `/1on1-debrief-arden` | Summary file + inline action items; tasks created on request |
+
+## Quick reference — what to say to Claude (upward 1:1)
+
+- **Capture a note:** edit `work/messenger-intl/leadership/arden/running-notes.md` directly (or `/note for Arden: <thing>` once routing is added)
+- **A couple days before 1:1:** `/1on1-prep-arden`
+- **Read and adjust the prep before running the next step.**
+- **Day of 1:1:** `/1on1-final-arden`
+- **1–3 days after 1:1:** `/1on1-debrief-arden` — then reply with the action item numbers you want scheduled (e.g., `N1, Ar1` or `all` or `none`)
+
+---
+
+## Standing big-ticket topics for Arden 1:1s
+
+Recurring context — these don't go away. The prep skill treats them as default surfaces unless something else takes priority:
+
+- **2030 vision** — 30 podcast shows by 2030. Video team capacity is the constraint.
+- **Studio rental / for-profit plan** — using the LED wall to generate revenue (hire contractors, get contracted by outside productions). Approved conceptually; rental policy / contract framework still vague.
+- **Leadership development on the video team** — pulling the gold out of Lindy and Andrew; creating new leaders. This is the most consistent through-line of conversations with Arden.
