@@ -1,6 +1,11 @@
-# The Biweekly 1:1 Process
+# 1:1 Processes — Downward (Team) & Upward (Arden)
 
-A complete loop, end to end. Two reports: **Lindy Wood** (Tue 2:30pm CT, biweekly) and **Andrew McIntosh** (Thu 1:30pm CT, biweekly). Tools used: Claude Code skills, Asana, Granola.
+Two complete loops, end to end.
+
+- **Downward (biweekly):** Nathaniel as the leader. Two reports — **Lindy Wood** (Tue 2:30pm CT) and **Andrew McIntosh** (Thu 1:30pm CT). Skills: `/1on1-prep`, `/1on1-final`, `/1on1-debrief`.
+- **Upward:** Nathaniel as the team member. One leader — **Arden Bevere** (VP of Discipleship). Skills: `/1on1-prep-arden`, `/1on1-final-arden`, `/1on1-debrief-arden`.
+
+Tools used across both: Claude Code skills, Asana, Granola (when recordings exist).
 
 Grounded in *Developing Messengers — The Weekly 1:1* (saved in this folder). Core philosophy:
 
@@ -10,9 +15,19 @@ Grounded in *Developing Messengers — The Weekly 1:1* (saved in this folder). C
 >
 > *"The goal is development, not direction. Ask more, tell less."*
 
+In the downward 1:1, **Lindy/Andrew drive the agenda and Nathaniel brings context.** In the upward 1:1, **Nathaniel drives the agenda and Arden brings context.** Same framework, different seat.
+
 ---
 
-## The full loop
+## Universal rule — read and adjust the prep before the glance sheet
+
+The prep doc (`/1on1-prep` or `/1on1-prep-arden`) is a **draft**, not a finished artifact. Always open it, read it, and edit it before running the day-of glance sheet skill (`/1on1-final` or `/1on1-final-arden`). Cut what doesn't belong. Sharpen what does. Add anything that surfaced after the prep was generated. The glance sheet is built from the **adjusted** prep, not the original — that's what makes it feel like yours when you walk into the room.
+
+This step applies equally to Lindy, Andrew, and Arden 1:1s.
+
+---
+
+## Downward — The full loop (Lindy & Andrew)
 
 ### Phase 1 — Between meetings (the 2 weeks)
 Whenever you notice something about Lindy or Andrew, capture it with `/note`:
