@@ -17,7 +17,7 @@ tier: 1
 ## Overview
 - **What they do:** Family-owned tire and auto service center, long-standing operation in Brentwood.
 - **Location:** 9042 Church St E, Brentwood, TN 37027
-- **Owner:** Unknown (family-owned)
+- **Owner:** Rhea Little III (third generation; also Brentwood mayor / city commissioner)
 - **Contact:** (615) 373-5868
 
 ## Social Media Audit
