@@ -5,7 +5,7 @@ instagram: Exists (small, new)
 facebook: Exists (small, new)
 phone: (615) 543-1905
 email: 
-owner: 
+owner: Andrew "Andy" Uncapher
 status: not-contacted
 date-added: 2026-05-07
 fit-score: 8/10
