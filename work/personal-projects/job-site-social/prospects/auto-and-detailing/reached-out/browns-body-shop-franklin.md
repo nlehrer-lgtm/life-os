@@ -5,7 +5,7 @@ instagram: None
 facebook: https://facebook.com (limited/private)
 phone: (615) 794-1959
 email: 
-owner: 
+owner: Aaron Stokes (owner via Fix Group parent); Robby Hampton (Franklin district manager — likely day-to-day contact)
 status: voicemail-left
 date-added: 2026-05-07
 fit-score: 8/10
