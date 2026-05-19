@@ -48,3 +48,4 @@ Family-owned, long-standing, Brentwood location (affluent customer base), zero s
 
 ## Interaction Log
 - 2026-05-07 — Added from Manus prospect research report (May 2026)
+- 2026-05-19 — Called (615) 373-5868. No answer.
