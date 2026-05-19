@@ -5,7 +5,7 @@ instagram: None
 facebook: https://facebook.com (15 followers, new/inactive)
 phone: (931) 560-8174
 email: 
-owner: 
+owner: Monty Lowery
 status: not-contacted
 date-added: 2026-05-07
 fit-score: 9/10
