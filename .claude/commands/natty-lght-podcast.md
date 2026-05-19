@@ -44,8 +44,8 @@ GOPRO_FOLDER=$(find "$GOPRO_DCIM" -type d -iname "*GOPRO*" | head -1)
 # Find most recent MP4 in GoPro folder (by modification date)
 GOPRO_FILE=$(find "$GOPRO_FOLDER" -iname "*.mp4" -type f | xargs ls -t 2>/dev/null | head -1)
 
-# Find most recent screen recording MP4 in Downloads (matches "Screen Recording*.mp4")
-SCREEN_FILE=$(find "$DOWNLOADS" -maxdepth 1 -iname "Screen Recording*.mp4" -type f | xargs ls -t 2>/dev/null | head -1)
+# Find most recent screen recording MP4 in Downloads (matches both "Screen Recording*.mp4" and "ScreenRecording*.mp4")
+SCREEN_FILE=$(find "$DOWNLOADS" -maxdepth 1 -type f \( -iname "Screen Recording*.mp4" -o -iname "ScreenRecording*.mp4" \) | xargs ls -t 2>/dev/null | head -1)
 ```
 
 Then copy with renamed filenames:
