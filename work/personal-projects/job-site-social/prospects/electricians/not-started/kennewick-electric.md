@@ -17,7 +17,7 @@ tier: 1
 ## Overview
 - **What they do:** Residential, commercial, and industrial electrical contractor. 20+ years in business, 5.0 Google rating.
 - **Location:** 1229 Hunters Point Ln, Spring Hill, TN 37174
-- **Owner:** Unknown
+- **Owner:** Ovidiu "Ovi" Nicoara (founder; certified WA-state master journeyman, 30+ years experience)
 - **Contact:** (931) 777-9800
 
 ## Social Media Audit
