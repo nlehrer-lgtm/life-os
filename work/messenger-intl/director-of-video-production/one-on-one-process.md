@@ -60,8 +60,11 @@ The skill pulls:
 
 It writes a prep doc with: how they're doing, their agenda (verbatim), your mid-week observations, open action items, a "Context to Share" section for you to fill in (vision/priorities/role alignment), growth plan compass check, questions to leave space for, and a quick diagnostics self-check from the Messenger guide.
 
+### Phase 3.5 — Read and adjust the prep
+Open the prep doc, read it, edit it. This is the most important step. (See the universal rule above.) The glance sheet you run in the next phase will be built from the adjusted prep, not the original.
+
 ### Phase 4 — Day-of glance sheet (morning of the 1:1)
-You run `/1on1-final Lindy`. It reads the prep doc, asks you what you want to make sure lands, and produces a tight one-page glance sheet for the meeting.
+You run `/1on1-final Lindy`. It reads the **adjusted** prep doc, asks you what you want to make sure lands, and produces a tight one-page glance sheet for the meeting.
 
 ### Phase 5 — The 1:1 itself
 - **They drive the agenda.**
