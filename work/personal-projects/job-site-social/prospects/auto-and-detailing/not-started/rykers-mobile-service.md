@@ -4,8 +4,8 @@ website: None
 instagram: Exists (small, recently started)
 facebook: Exists (small, recently started)
 phone: (615) 512-1457
-email: 
-owner: 
+email: rykersrepairs@gmail.com
+owner: Ryker (inferred from business name + email; not publicly confirmed)
 status: not-contacted
 date-added: 2026-05-07
 fit-score: 8/10
