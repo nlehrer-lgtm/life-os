@@ -5,7 +5,7 @@ instagram: None
 facebook: None
 phone: (615) 794-8280
 email: billo@autodoctoroffranklin.com
-owner:
+owner: Bill Odell
 status: contacted
 date-added: 2026-05-07
 fit-score: 10/10
