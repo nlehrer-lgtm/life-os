@@ -12,7 +12,7 @@ aliases:
 
 ## What it is
 
-The **[[Get REC'D|[[Get REC'D]] Meeting]]** is the [[Video Team]]'s weekly all-hands. It's the one meeting each week where the full team has extended time together to talk vision, walk through the calendar, and stay aligned as a team. It is the most important recurring meeting on the team's calendar.
+The **[[Get REC'D|Get REC'D Meeting]]** is the [[Video Team]]'s weekly all-hands. It's the one meeting each week where the full team has extended time together to talk vision, walk through the calendar, and stay aligned as a team. It is the most important recurring meeting on the team's calendar.
 
 **REC'D** stands for the team's four pillars:
 

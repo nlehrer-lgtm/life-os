@@ -41,7 +41,7 @@ Nathaniel represents **Capture** — the [[Video Team]]'s lane. He comes with:
 
 Run `/discipleship-huddle-prep` Monday morning before the 11:00 AM huddle. The skill pulls:
 
-1. Most recent Granola transcript titled "[[Discipleship Team|[[Discipleship Team]] Touch Base]] Huddle" (if any)
+1. Most recent Granola transcript titled "[[Discipleship Team|Discipleship Team Touch Base]] Huddle" (if any)
 2. Recent `notes/inbox.md` entries mentioning "discipleship"
 3. Active work project STATUS.md / CONTEXT.md files for what's currently in motion
 4. Today's relevant `work/messenger-intl/**` activity

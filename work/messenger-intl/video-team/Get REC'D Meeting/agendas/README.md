@@ -1,6 +1,6 @@
 # Get REC'D Meeting Agendas
 
-This folder holds the rolling talking points and weekly prep docs for the **[[Get REC'D|[[Get REC'D]] Meeting]]** (Tuesdays, 8:00 AM).
+This folder holds the rolling talking points and weekly prep docs for the **[[Get REC'D|Get REC'D Meeting]]** (Tuesdays, 8:00 AM).
 
 ## Workflow
 
