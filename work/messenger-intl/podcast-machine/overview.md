@@ -1,6 +1,9 @@
 ---
 title: The Podcast Machine
 updated: 2026-04-27
+aliases:
+  - Podcast Machine
+  - The Podcast Machine
 ---
 
 # The Podcast Machine
