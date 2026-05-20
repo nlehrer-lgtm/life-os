@@ -1,3 +1,11 @@
+---
+aliases:
+  - Discipleship Team
+  - Discipleship Team Touch Base
+  - Discipleship Huddle
+  - Touch Base Huddle
+---
+
 # Discipleship Team — Project Context
 
 ## What This Is
