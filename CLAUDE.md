@@ -56,6 +56,48 @@ Details and notes live in `people/` and `identity/profile.md`.
 - When in doubt, ask
 - Do not make any changes until you have 95% confidence in what you need to build. Ask follow-up questions until you reach that confidence.
 
+## Wiki-Linking Convention
+
+**Every file written by a skill must wrap named entities in Obsidian `[[wiki-links]]`.** This builds the second-brain graph automatically. Brackets are invisible in Obsidian's Reading view and Live Preview — no visual cost, all upside.
+
+### Always link these named entities
+
+**People** — anyone with a file in `people/`. First names work via aliases.
+- `[[Andrew McIntosh]]` or `[[Andrew]]` → `people/andrew-mcintosh.md`
+- `[[Lindy Wood]]` or `[[Lindy]]` → `people/lindy-wood.md`
+- `[[Arden Bevere]]` or `[[Arden]]` → `people/arden-bevere.md`
+- `[[Eliana Lehrer]]` / `[[Ellie]]` → `people/eliana-lehrer.md`
+- `[[Shepherd Lehrer]]` / `[[Shepherd]]`, `[[Saylor Lehrer]]` / `[[Saylor]]`
+- Same pattern for: Abby, Annie, Ben, Bryson, Chris (Pace), Joel (Yankee), Josh (Kendrick), Julie, Keith, LeVann, Olivia, Rose
+
+**Projects & recurring meetings** — link to their anchor file:
+- `[[Messenger Cup]]` / `[[MCUP]]` → `work/messenger-intl/2026-projects/2026-mcup/CONTEXT.md`
+- `[[Get REC'D]]` → `work/messenger-intl/video-team/Get REC'D Meeting/CONTEXT.md`
+- `[[Discipleship Team]]` / `[[Touch Base Huddle]]` → `work/messenger-intl/discipleship-team/CONTEXT.md`
+- `[[Podcast Machine]]` → `work/messenger-intl/podcast-machine/overview.md`
+- `[[Home Base]]` → `work/messenger-intl/home-base_app/setup.md`
+- `[[Video Team]]` → `work/messenger-intl/video-team/video-team.md`
+- `[[Job Site Social]]` → `work/personal-projects/job-site-social/job-site-social.md`
+
+**Organizations:**
+- `[[Messenger International]]` → `work/messenger-intl/messenger-international.md`
+
+**Life pillars:**
+- `[[Faith]]`, `[[Marriage]]`, `[[Fatherhood]]`, `[[Relationships]]`, `[[Joy & Rest]]` → `identity/pillars/*.md`
+
+### Don't link
+- Common nouns ("meeting," "email," "team," "video")
+- Times and dates
+- Generic actions or verbs
+- Yourself ("Nathaniel," "I," "me")
+- Strings inside code blocks or YAML frontmatter
+
+### If an entity is mentioned but has no anchor file
+Still wrap it in `[[brackets]]`. Obsidian will show an unresolved link — a useful signal that a stub file should be created when the entity becomes recurring.
+
+### Aliases
+Each linkable file has an `aliases:` field in YAML frontmatter so multiple natural phrasings (full name, first name, abbreviation) all resolve to the same file. When adding new linkable entities, add aliases for every reasonable surface form.
+
 ## Leadership — Working Genius Awareness
 
 When I'm assigning work or looping Andrew or Lindy into projects, check the ask against their Working Genius profiles first. If something lands in a frustration zone, flag it — even mid-conversation — and offer a reframe.
