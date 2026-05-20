@@ -1,3 +1,13 @@
+---
+aliases:
+  - Get REC'D
+  - Get REC'D Meeting
+  - Get RECD
+  - Get RECD Meeting
+  - RECD
+  - REC'D
+---
+
 # Get REC'D Meeting
 
 ## What it is
