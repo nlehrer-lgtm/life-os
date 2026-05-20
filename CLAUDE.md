@@ -56,6 +56,19 @@ Details and notes live in `people/` and `identity/profile.md`.
 - When in doubt, ask
 - Do not make any changes until you have 95% confidence in what you need to build. Ask follow-up questions until you reach that confidence.
 
+## Leadership — Working Genius Awareness
+
+When I'm assigning work to Lindy or Andrew, double-check the task against their Working Geniuses before I send it.
+
+**Lindy** — Strengths: Discernment, Tenacity. Frustrations: **Galvanizing** and **Invention**.
+- If a task asks her to *invent* a structure, system, or framework from scratch (blank-page work), flag it. She can do it — she's tenacious — but it costs her disproportionate energy and is a known source of stress.
+- Better pattern: I draft a rough framework first, then hand it to her to discern, refine, and pressure-test. That plays to her strengths and protects her from invention burnout.
+- Watch for invention-heavy language in my Asana tasks like "come up with...", "design a system for...", "create a structure for..." — those are flags to either reframe or supply a starter draft.
+
+**Andrew** — Working Genius profile TBD (refresh pending). Apply the same lens once known.
+
+If you spot me about to assign something invention-heavy to Lindy, say so — even mid-conversation. Don't let it slip by.
+
 ## Scheduling Preferences
 
 When blocking time on the calendar, avoid these windows on Monday, Tuesday, and Thursday:
