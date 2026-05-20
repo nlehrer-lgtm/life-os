@@ -1,3 +1,12 @@
+---
+aliases:
+  - Messenger Cup
+  - Messenger Cup 2026
+  - MCUP
+  - MCup
+  - mcup
+---
+
 # Messenger Cup 2026 — Project Context
 
 ## What This Is
