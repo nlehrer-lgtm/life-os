@@ -64,3 +64,19 @@ Compile rolling Get REC'D meeting talking points into a clean prep doc for the n
 - Keep bullets tight and direct — these are talking points Nathaniel will glance at during the meeting, not a script.
 - This skill produces Section 3 talking points only (Nathaniel's team-wide updates). It does not prep the icebreaker rotation or Lindy's calendar section — those aren't his to prepare.
 - Write all files to `/Users/nlehrer/Desktop/life-os/` (not any worktree path) so Obsidian sees changes immediately.
+
+
+## Wiki-Linking
+
+When writing or updating any file, wrap named entities in Obsidian `[[wiki-links]]` so the second-brain graph builds automatically.
+
+- **People** (anyone with a file in `people/`): `[[Andrew McIntosh]]`, `[[Lindy Wood]]`, `[[Arden Bevere]]`, `[[Eliana Lehrer]]`, etc. First names work via aliases (`[[Andrew]]`).
+- **Projects & meetings**: `[[Messenger Cup]]`, `[[Get REC'D]]`, `[[Discipleship Team]]`, `[[Podcast Machine]]`, `[[Home Base]]`, `[[Video Team]]`, `[[Job Site Social]]`.
+- **Organizations**: `[[Messenger International]]`.
+- **Life pillars** (when relevant): `[[Faith]]`, `[[Marriage]]`, `[[Fatherhood]]`, `[[Relationships]]`, `[[Joy & Rest]]`.
+
+Don't link: common nouns, times/dates, generic actions, yourself ("Nathaniel"/"I"), or text inside YAML frontmatter or code blocks.
+
+If you mention an entity that doesn't have an anchor file yet, still wrap it in `[[brackets]]` — Obsidian will flag it as an unresolved link, which is a useful signal.
+
+Full convention: see "Wiki-Linking Convention" in `CLAUDE.md`.

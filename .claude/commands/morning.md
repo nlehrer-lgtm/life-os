@@ -76,3 +76,19 @@ Morning brief. Review last night's digest, check the weather and calendar, and s
 - **Pressing Priorities is not a task list.** Only things with real urgency go there. If nothing is urgent, omit the section.
 - **No em dashes or en dashes.** Use commas, periods, or colons.
 - **Keep it short enough to read in 60 seconds.** Dense is good. Exhaustive is not.
+
+
+## Wiki-Linking
+
+When writing or updating any file, wrap named entities in Obsidian `[[wiki-links]]` so the second-brain graph builds automatically.
+
+- **People** (anyone with a file in `people/`): `[[Andrew McIntosh]]`, `[[Lindy Wood]]`, `[[Arden Bevere]]`, `[[Eliana Lehrer]]`, etc. First names work via aliases (`[[Andrew]]`).
+- **Projects & meetings**: `[[Messenger Cup]]`, `[[Get REC'D]]`, `[[Discipleship Team]]`, `[[Podcast Machine]]`, `[[Home Base]]`, `[[Video Team]]`, `[[Job Site Social]]`.
+- **Organizations**: `[[Messenger International]]`.
+- **Life pillars** (when relevant): `[[Faith]]`, `[[Marriage]]`, `[[Fatherhood]]`, `[[Relationships]]`, `[[Joy & Rest]]`.
+
+Don't link: common nouns, times/dates, generic actions, yourself ("Nathaniel"/"I"), or text inside YAML frontmatter or code blocks.
+
+If you mention an entity that doesn't have an anchor file yet, still wrap it in `[[brackets]]` — Obsidian will flag it as an unresolved link, which is a useful signal.
+
+Full convention: see "Wiki-Linking Convention" in `CLAUDE.md`.

@@ -62,3 +62,19 @@ Sunday evening week-ahead check-in. Highlights what's coming this week so you ca
 - Keep it tight and scannable.
 - Deduplicate: don't repeat items across sections.
 - This is a high-level view of the week, not a detailed daily breakdown.
+
+
+## Wiki-Linking
+
+When writing or updating any file, wrap named entities in Obsidian `[[wiki-links]]` so the second-brain graph builds automatically.
+
+- **People** (anyone with a file in `people/`): `[[Andrew McIntosh]]`, `[[Lindy Wood]]`, `[[Arden Bevere]]`, `[[Eliana Lehrer]]`, etc. First names work via aliases (`[[Andrew]]`).
+- **Projects & meetings**: `[[Messenger Cup]]`, `[[Get REC'D]]`, `[[Discipleship Team]]`, `[[Podcast Machine]]`, `[[Home Base]]`, `[[Video Team]]`, `[[Job Site Social]]`.
+- **Organizations**: `[[Messenger International]]`.
+- **Life pillars** (when relevant): `[[Faith]]`, `[[Marriage]]`, `[[Fatherhood]]`, `[[Relationships]]`, `[[Joy & Rest]]`.
+
+Don't link: common nouns, times/dates, generic actions, yourself ("Nathaniel"/"I"), or text inside YAML frontmatter or code blocks.
+
+If you mention an entity that doesn't have an anchor file yet, still wrap it in `[[brackets]]` — Obsidian will flag it as an unresolved link, which is a useful signal.
+
+Full convention: see "Wiki-Linking Convention" in `CLAUDE.md`.

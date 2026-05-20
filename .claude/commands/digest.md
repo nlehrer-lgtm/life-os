@@ -143,3 +143,19 @@ Generate an end-of-day digest and save it to `digests/`.
 - **Skip spam and noise.** If a message is clearly spam or an unsolicited DM, don't include it.
 - **Sections are optional.** If there's nothing for a section, omit it entirely. Don't write empty sections.
 - Be a coach: call out things the user might be avoiding or forgetting, but only verified items.
+
+
+## Wiki-Linking
+
+When writing or updating any file, wrap named entities in Obsidian `[[wiki-links]]` so the second-brain graph builds automatically.
+
+- **People** (anyone with a file in `people/`): `[[Andrew McIntosh]]`, `[[Lindy Wood]]`, `[[Arden Bevere]]`, `[[Eliana Lehrer]]`, etc. First names work via aliases (`[[Andrew]]`).
+- **Projects & meetings**: `[[Messenger Cup]]`, `[[Get REC'D]]`, `[[Discipleship Team]]`, `[[Podcast Machine]]`, `[[Home Base]]`, `[[Video Team]]`, `[[Job Site Social]]`.
+- **Organizations**: `[[Messenger International]]`.
+- **Life pillars** (when relevant): `[[Faith]]`, `[[Marriage]]`, `[[Fatherhood]]`, `[[Relationships]]`, `[[Joy & Rest]]`.
+
+Don't link: common nouns, times/dates, generic actions, yourself ("Nathaniel"/"I"), or text inside YAML frontmatter or code blocks.
+
+If you mention an entity that doesn't have an anchor file yet, still wrap it in `[[brackets]]` — Obsidian will flag it as an unresolved link, which is a useful signal.
+
+Full convention: see "Wiki-Linking Convention" in `CLAUDE.md`.

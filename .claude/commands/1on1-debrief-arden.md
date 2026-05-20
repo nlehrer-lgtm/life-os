@@ -181,3 +181,19 @@ Confirm: `Scheduled [N] tasks in your My Tasks.`
 - Use the **meeting date** for the summary filename, not today's date.
 - Surface the full summary inline so Nathaniel can review without opening the file.
 - When Granola gets configured, the manual-recap branch in Step 2 becomes the fallback rather than the default path.
+
+
+## Wiki-Linking
+
+When writing or updating any file, wrap named entities in Obsidian `[[wiki-links]]` so the second-brain graph builds automatically.
+
+- **People** (anyone with a file in `people/`): `[[Andrew McIntosh]]`, `[[Lindy Wood]]`, `[[Arden Bevere]]`, `[[Eliana Lehrer]]`, etc. First names work via aliases (`[[Andrew]]`).
+- **Projects & meetings**: `[[Messenger Cup]]`, `[[Get REC'D]]`, `[[Discipleship Team]]`, `[[Podcast Machine]]`, `[[Home Base]]`, `[[Video Team]]`, `[[Job Site Social]]`.
+- **Organizations**: `[[Messenger International]]`.
+- **Life pillars** (when relevant): `[[Faith]]`, `[[Marriage]]`, `[[Fatherhood]]`, `[[Relationships]]`, `[[Joy & Rest]]`.
+
+Don't link: common nouns, times/dates, generic actions, yourself ("Nathaniel"/"I"), or text inside YAML frontmatter or code blocks.
+
+If you mention an entity that doesn't have an anchor file yet, still wrap it in `[[brackets]]` — Obsidian will flag it as an unresolved link, which is a useful signal.
+
+Full convention: see "Wiki-Linking Convention" in `CLAUDE.md`.
