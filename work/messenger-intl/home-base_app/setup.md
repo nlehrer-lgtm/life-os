@@ -1,3 +1,10 @@
+---
+aliases:
+  - Home Base
+  - Home Base App
+  - HomeBase
+---
+
 # Home Base — Setup Guide
 
 ## Quick Start
