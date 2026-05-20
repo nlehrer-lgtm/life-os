@@ -1,6 +1,6 @@
 # Get REC'D Meeting Agendas
 
-This folder holds the rolling talking points and weekly prep docs for the **Get REC'D Meeting** (Tuesdays, 8:00 AM).
+This folder holds the rolling talking points and weekly prep docs for the **[[Get REC'D|[[Get REC'D]] Meeting]]** (Tuesdays, 8:00 AM).
 
 ## Workflow
 
@@ -11,7 +11,7 @@ This folder holds the rolling talking points and weekly prep docs for the **Get 
 
 ### During the week
 
-When Nathaniel runs `/note` and the note mentions **"Get REC'D"**, the `/note` skill routes a copy of that note into `_talking-points.md`. Items accumulate there through the week.
+When Nathaniel runs `/note` and the note mentions **"[[Get REC'D]]"**, the `/note` skill routes a copy of that note into `_talking-points.md`. Items accumulate there through the week.
 
 ### Before the meeting
 
@@ -21,7 +21,7 @@ When Nathaniel runs `/get-recd-prep`, the skill:
 2. Saves the prep doc to `YYYY-MM-DD.md` (date of the upcoming Tuesday).
 3. **Clears `_talking-points.md`** so the next week starts fresh.
 
-The prep doc covers **Section 3 of the meeting** (Nathaniel's team-wide updates) — the part he leads. It does not prep the rotating icebreaker or Lindy's calendar section.
+The prep doc covers **Section 3 of the meeting** (Nathaniel's team-wide updates) — the part he leads. It does not prep the rotating icebreaker or [[Lindy Wood|Lindy]]'s calendar section.
 
 ## File naming
 

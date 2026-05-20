@@ -6,8 +6,8 @@ aliases:
 
 # Bryson Liu
 
-**Relationship:** Coworker at Messenger International
+**Relationship:** Coworker at [[Messenger International]]
 **Email:** bliu@messengerinternational.org
 
 ## Notes
-- Collaborator on Messenger Cup — exhibit experience side. Met 2026-05-14 to talk through opener and how it blends into the exhibit.
+- Collaborator on [[Messenger Cup]] — exhibit experience side. Met 2026-05-14 to talk through opener and how it blends into the exhibit.

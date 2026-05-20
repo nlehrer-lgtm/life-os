@@ -10,7 +10,7 @@ aliases:
 # Messenger Cup 2026 — Project Context
 
 ## What This Is
-The 16th Annual Messenger Cup — Messenger International's primary annual fundraising event. Raises ~$4 million per year to fund global gospel resource distribution across 100+ nations. ~300 business leaders attend as underwriters, participants, and sponsors.
+The 16th Annual [[Messenger Cup]] — [[Messenger International]]'s primary annual fundraising event. Raises ~$4 million per year to fund global gospel resource distribution across 100+ nations. ~300 business leaders attend as underwriters, participants, and sponsors.
 
 **Dates:** July 22–25, 2026
 **Venue:** The Broadmoor Resort & Spa, Colorado Springs, CO
@@ -33,12 +33,12 @@ Video Execution Lead. Translates creative direction into deliverables, calls the
 | Person | Role |
 |--------|------|
 | Lisa Bevere | Primary creative direction — emotional tone, final vision sign-off |
-| Bryson | VP Communications — message alignment, script feedback |
+| [[Bryson Liu|Bryson]] | VP Communications — message alignment, script feedback |
 | Kathryn | Communications support — attends Lisa meetings, clarity feedback |
 | Nathaniel Lehrer | Video Execution Lead |
-| Andrew McIntosh | Editor/Director — owns edit from script through final delivery |
-| Lindy Wood | On-site floor manager — run-of-show point person |
-| Joel Yankee | Local Colorado Springs contractor — fundraiser night camera capture |
+| [[Andrew McIntosh]] | Editor/Director — owns edit from script through final delivery |
+| [[Lindy Wood]] | On-site floor manager — run-of-show point person |
+| [[Joel Yankee]] | Local Colorado Springs contractor — fundraiser night camera capture |
 
 Full people notes: `people/andrew-mcintosh.md`, `people/lindy-wood.md`
 
@@ -58,7 +58,7 @@ Full people notes: `people/andrew-mcintosh.md`, `people/lindy-wood.md`
 |-----------|------|
 | Creative direction from Lisa | Apr 8, 2026 (done) |
 | Script v2 sign-off from Lisa | Before ~May 6 (Lisa leaves for Italy) |
-| Andrew tests AI motion transfer | Before ~May 6 |
+| [[Andrew McIntosh|Andrew]] tests AI motion transfer | Before ~May 6 |
 | Film & capture | Mid-May to mid-June |
 | Edit | Mid-June to mid-July |
 | Hard lock | ~July 8, 2026 |
@@ -66,4 +66,4 @@ Full people notes: `people/andrew-mcintosh.md`, `people/lindy-wood.md`
 | Event | July 22–25, 2026 |
 
 ## Music Direction
-Primary: "Kiss the Ring" (found by Josh Kendrick) — slow cinematic build, international instrumentation, strong chime elements. The knocking in the video gradually becomes percussion syncing with the score. Lighting programmer syncs via Ableton to final video.
+Primary: "Kiss the Ring" (found by [[Josh Kendrick]]) — slow cinematic build, international instrumentation, strong chime elements. The knocking in the video gradually becomes percussion syncing with the score. Lighting programmer syncs via Ableton to final video.

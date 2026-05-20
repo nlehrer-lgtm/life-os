@@ -6,12 +6,12 @@ aliases:
 
 # Annie Duda
 
-**Relationship:** Direct report — Video team at Messenger International (editor/colorist)
+**Relationship:** Direct report — Video team at [[Messenger International]] (editor/colorist)
 **Email:** aduda@messengerinternational.org
 **Slack:** @Annie Duda (U077GD0RHC3)
 
 ## Last Contact
-2026-05-18 — Accepted MCUP Opener Touch Base / Production Launch (Mon May 18, 10am–11am CDT). In the meeting with Nathaniel, LeVann, and Andrew.
+2026-05-18 — Accepted [[Messenger Cup|MCUP]] Opener Touch Base / Production Launch (Mon May 18, 10am–11am CDT). In the meeting with Nathaniel, [[LeVann Anthony Jr|LeVann]], and [[Andrew McIntosh|Andrew]].
 
 ## History
 - 2026-05-05 — Accepted AI Discernment — Full Team session (May 12, 1–1:45pm CDT).

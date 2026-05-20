@@ -9,7 +9,7 @@ aliases:
 Nathaniel's personal side project. Blue-collar business prospecting and social media work — cold-call framework, prospect research, lead generation for small local businesses (electricians, auto repair, etc.).
 
 ## Folder
-All Job Site Social work lives in `work/personal-projects/job-site-social/`.
+All [[Job Site Social]] work lives in `work/personal-projects/job-site-social/`.
 
 ## Key Files
 - `cold-call-framework.md` — calling framework and scripts

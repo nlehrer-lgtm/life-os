@@ -8,7 +8,7 @@ aliases:
 
 # The Podcast Machine
 
-The central hub for all podcast production at Messenger International. This is where strategy, operations, team structure, and show-level work lives.
+The central hub for all podcast production at [[Messenger International]]. This is where strategy, operations, team structure, and show-level work lives.
 
 ## What We Do
 

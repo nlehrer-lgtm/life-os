@@ -6,7 +6,7 @@
 
 ## The Quick Reference Table
 
-| | **Nathaniel** | **Ellie** |
+| | **Nathaniel** | **[[Eliana Lehrer|Ellie]]** |
 |---|---|---|
 | 🟢 **Working Genius** | Enablement + Invention | Discernment + Enablement |
 | 🟡 **Competency** | Tenacity + Wonder | Galvanizing + Invention |
@@ -37,7 +37,7 @@
 ### The dance to watch
 
 - **You both deflect to the other's wants.** Two Enablers + your 9 + her 6 = constant "whatever you want, babe." This leads to doing things neither of you actually wanted. Solution: each of you names what you actually need *first,* before deferring.
-- **You can over-defer your opinion.** Your low Discernment + 9's merging means it's easy to lose track of *your own gut.* Ellie's wisdom is a gift, not a replacement for your voice. She wants to hear what *you* actually think too.
+- **You can over-defer your opinion.** Your low Discernment + 9's merging means it's easy to lose track of *your own gut.* [[Eliana Lehrer|Ellie]]'s wisdom is a gift, not a replacement for your voice. She wants to hear what *you* actually think too.
 - **Her anxiety + your withdrawal is the classic 6/9 conflict spiral.** When she gets vigilant or worried, your instinct is to go quiet. That feels like rejection to a 6. Show up — words and touch matter most when she's stressed.
 
 ---
@@ -48,7 +48,7 @@
 
 Tuesday, mid-afternoon. You're in the kitchen. *"Hey — I was thinking I might run to Home Depot in a bit. I want to grab the brackets for that wall hanging in the living room. Figured I could get it up tonight."*
 
-Ellie looks up. *"Yeah, do it. What size brackets are you getting?"*
+[[Eliana Lehrer|Ellie]] looks up. *"Yeah, do it. What size brackets are you getting?"*
 
 You pause. *"I was gonna look when I got there."*
 
@@ -56,13 +56,13 @@ You pause. *"I was gonna look when I got there."*
 
 You laugh. *"True."* You measure. You go.
 
-**Underneath:** This is the real version of you two. You're not pitching three-act adventures — your Invention shows up as small concrete moves. Ellie's Discernment doesn't veto you; it sharpens you. Five seconds of her gut-check saves a wasted trip. As a 9, you might feel a flicker of *"I had it"* — but you let it land because she's almost always right. As a 6, the fact that she pushes back at all *is* love. **The marriage isn't sweeping decisions. It's hundreds of small handoffs a week.**
+**Underneath:** This is the real version of you two. You're not pitching three-act adventures — your Invention shows up as small concrete moves. [[Eliana Lehrer|Ellie]]'s Discernment doesn't veto you; it sharpens you. Five seconds of her gut-check saves a wasted trip. As a 9, you might feel a flicker of *"I had it"* — but you let it land because she's almost always right. As a 6, the fact that she pushes back at all *is* love. **The marriage isn't sweeping decisions. It's hundreds of small handoffs a week.**
 
 ---
 
 ### 2. Friday Night — The Energy Mismatch
 
-Friday, 6:30 PM. The week was long. Shep didn't nap well. Ellie just got a text — *"We're having people over tonight if y'all want to come."*
+Friday, 6:30 PM. The week was long. Shep didn't nap well. [[Eliana Lehrer|Ellie]] just got a text — *"We're having people over tonight if y'all want to come."*
 
 She turns to you. You can already feel your shoulders. *"Do you want to go?"*
 
@@ -80,9 +80,9 @@ Real move: each of you says what you actually want *first,* before deferring. *"
 
 ### 3. The Loud Kitchen — The Handoff That Just Works
 
-Friday evening. Shep is melting down. Saylor is fussing. The kitchen is loud. Ellie is two minutes from her own edge — you can see it before she says it.
+Friday evening. Shep is melting down. [[Saylor Lehrer|Saylor]] is fussing. The kitchen is loud. [[Eliana Lehrer|Ellie]] is two minutes from her own edge — you can see it before she says it.
 
-Your Enablement instinct kicks in: you scoop Saylor, redirect Shep with something small, slide a glass of water in front of Ellie without being asked, take the next ten minutes off her plate.
+Your Enablement instinct kicks in: you scoop [[Saylor Lehrer|Saylor]], redirect Shep with something small, slide a glass of water in front of [[Eliana Lehrer|Ellie]] without being asked, take the next ten minutes off her plate.
 
 She exhales. *"Thank you."*
 
@@ -110,7 +110,7 @@ The rhythm: **you bring the calm, she brings the read, decisions get made togeth
 
 - **Words of affirmation:** specific, sincere, regular. Tell him what he's doing well — as a husband, as a dad, as a creative. Don't assume he knows.
 - **Physical touch:** hand on his back, sitting close on the couch, a real hug. As a 9 introvert, he may not always ask, but it's how he feels home.
-- **Watch out for:** Ellie's 6 vigilance can spike when stressed — when that happens, she may unintentionally critique more than affirm. Notice when that's happening and ask for what you need.
+- **Watch out for:** [[Eliana Lehrer|Ellie]]'s 6 vigilance can spike when stressed — when that happens, she may unintentionally critique more than affirm. Notice when that's happening and ask for what you need.
 
 ---
 
@@ -124,7 +124,7 @@ The risk: she does a lot of invisible holding-it-together work (remembering sche
 
 ### His Creativity + Her Non-Creative Wiring
 
-Music, storytelling, projects — these fill *your* soul. They are not how Ellie refills. **Don't expect her to be your creative collaborator on the things you make.** She can be your wise sounding board (D), your biggest supporter (E), and your honest gut-check. But she's not going to dream up the next track with you. That's okay — find creative collaborators outside the marriage for the *making,* and bring Ellie the *deciding.*
+Music, storytelling, projects — these fill *your* soul. They are not how [[Eliana Lehrer|Ellie]] refills. **Don't expect her to be your creative collaborator on the things you make.** She can be your wise sounding board (D), your biggest supporter (E), and your honest gut-check. But she's not going to dream up the next track with you. That's okay — find creative collaborators outside the marriage for the *making,* and bring [[Eliana Lehrer|Ellie]] the *deciding.*
 
 ### Her Faith and the 6 Loyalty
 

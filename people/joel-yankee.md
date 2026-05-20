@@ -11,10 +11,10 @@ aliases:
 # Joel Yankee
 
 ## Who He Is
-Joel is Messenger International's primary video contractor. He used to work at MI and was Nathaniel's boss before going independent. Now runs his own production company, Dandy Media. Nathaniel holds him in high regard — "amazing man."
+Joel is [[Messenger International]]'s primary video contractor. He used to work at MI and was Nathaniel's boss before going independent. Now runs his own production company, Dandy Media. Nathaniel holds him in high regard — "amazing man."
 
 ## What We Hire Him For
-- **Messenger Cup (annual, July)** — on-site camera capture for the main fundraiser night at the Broadmoor, Colorado Springs
+- **[[Messenger Cup]] (annual, July)** — on-site camera capture for the main fundraiser night at the Broadmoor, Colorado Springs
 - **International videography** — travels the world to capture ministry stories in the field; typically edits those videos as well
 
 ## Contact

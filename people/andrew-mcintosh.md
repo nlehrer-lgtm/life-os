@@ -6,21 +6,21 @@ aliases:
 
 # Andrew McIntosh
 
-**Relationship:** Direct report — Video team at Messenger International
+**Relationship:** Direct report — Video team at [[Messenger International]]
 **Email:** amcintosh@messengerinternational.org
 **Slack:** @Andrew McIntosh (U04CYP0017Y)
 
 ## Last Contact
-2026-05-19 — "Project planning - looping Andrew in earlier" at 10am (calendar). Replied to email thread "Still on your roadmap—or not right now?" (external vendor thread with vustudio.com). Also mentioned in Lindy's 1:1: Working Genius refresher needed with both Andrew and Lindy; Andrew will be invited to Lindy's quality control standards meeting with Chris and the podcast producers.
+2026-05-19 — "Project planning - looping Andrew in earlier" at 10am (calendar). Replied to email thread "Still on your roadmap—or not right now?" (external vendor thread with vustudio.com). Also mentioned in [[Lindy Wood|Lindy]]'s 1:1: Working Genius refresher needed with both Andrew and [[Lindy Wood|Lindy]]; Andrew will be invited to [[Lindy Wood|Lindy]]'s quality control standards meeting with Chris and the podcast producers.
 
 ## Contact History
-2026-05-18 — Accepted MCUP Opener Touch Base / Production Launch (10am–11am CDT) with Nathaniel, LeVann, and Annie. Also joined Nathaniel's Zoom for "Messenger International prop design opportunity" meeting at 4pm.
+2026-05-18 — Accepted [[Messenger Cup|MCUP]] Opener Touch Base / Production Launch (10am–11am CDT) with Nathaniel, [[LeVann Anthony Jr|LeVann]], and [[Annie Duda|Annie]]. Also joined Nathaniel's Zoom for "[[Messenger International]] prop design opportunity" meeting at 4pm.
 
 ## History
-- 2026-04-16 — Included in MCUP Opener Brainstorm Meeting (10am), MXDaily setup and recordings, LB Podcast Recording (Jun 16). In Group DM with Nathaniel, Lindy, Bryson, and Kathryn about MCUP opener next steps — Nathaniel proposed that Andrew, Lindy, and he create a storyboard/initial pitch before presenting to Lisa. Andrew had a 1:1 with Nathaniel prep logged this week.
+- 2026-04-16 — Included in [[Messenger Cup|MCUP]] Opener Brainstorm Meeting (10am), MXDaily setup and recordings, LB Podcast Recording (Jun 16). In Group DM with Nathaniel, [[Lindy Wood|Lindy]], [[Bryson Liu|Bryson]], and Kathryn about [[Messenger Cup|MCUP]] opener next steps — Nathaniel proposed that Andrew, [[Lindy Wood|Lindy]], and he create a storyboard/initial pitch before presenting to Lisa. Andrew had a 1:1 with Nathaniel prep logged this week.
 
 ## Notes
-- Involved in MCUP opener project — part of core creative team with Nathaniel and Lindy
+- Involved in [[Messenger Cup|MCUP]] opener project — part of core creative team with Nathaniel and [[Lindy Wood|Lindy]]
 - Participates in MXDaily recordings and LB Podcast productions
 
 ## Leadership Observations — Private (not yet shared)

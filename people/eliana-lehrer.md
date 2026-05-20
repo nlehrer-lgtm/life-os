@@ -10,7 +10,7 @@ aliases:
 
 **Relationship:** Wife (goes by Ellie)
 
-**Role:** Stay-at-home mom to Shepherd and Saylor
+**Role:** Stay-at-home mom to [[Shepherd Lehrer|Shepherd]] and [[Saylor Lehrer|Saylor]]
 
 ---
 
@@ -29,7 +29,7 @@ aliases:
 | 🔴 Frustration: Tenacity | Loves *finishing* what's started, but doesn't get energy from grinding through obstacles. Unfinished projects drain her. |
 | 🔴 Frustration: Wonder | Doesn't get energy from sitting in big abstract "what if?" questions. Acts on what's clear. |
 
-**Plain-English summary:** She reads people accurately and responds with exactly what they need. She's the friend everyone goes to when they want someone who *gets it.* She pours into Nathaniel, Shep, and Saylor without needing recognition. She doesn't enjoy dreaming up fresh ideas or grinding through obstacles — she enjoys sensing what's true and meeting what's needed.
+**Plain-English summary:** She reads people accurately and responds with exactly what they need. She's the friend everyone goes to when they want someone who *gets it.* She pours into Nathaniel, Shep, and [[Saylor Lehrer|Saylor]] without needing recognition. She doesn't enjoy dreaming up fresh ideas or grinding through obstacles — she enjoys sensing what's true and meeting what's needed.
 
 ### Enneagram — 6 (The Loyalist), Extroverted
 

@@ -157,4 +157,4 @@ B-roll of nations holding resources — books, materials, faces full of hope —
 
 ---
 
-*MCUP 2026 · Messenger International · Fundraiser Night*
+*[[Messenger Cup|MCUP]] 2026 · [[Messenger International]] · Fundraiser Night*
