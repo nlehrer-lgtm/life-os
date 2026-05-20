@@ -1,3 +1,9 @@
+---
+aliases:
+  - Annie Duda
+  - Annie
+---
+
 # Annie Duda
 
 **Relationship:** Direct report — Video team at Messenger International (editor/colorist)

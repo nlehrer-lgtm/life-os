@@ -1,3 +1,9 @@
+---
+aliases:
+  - Bryson Liu
+  - Bryson
+---
+
 # Bryson Liu
 
 **Relationship:** Coworker at Messenger International

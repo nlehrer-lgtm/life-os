@@ -3,6 +3,9 @@ name: Joel Yankee
 relationship: contractor / former boss
 email: joel@dandymedia.co
 company: Dandy Media
+aliases:
+  - Joel Yankee
+  - Joel
 ---
 
 # Joel Yankee

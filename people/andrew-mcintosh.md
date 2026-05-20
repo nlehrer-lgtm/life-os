@@ -1,3 +1,9 @@
+---
+aliases:
+  - Andrew McIntosh
+  - Andrew
+---
+
 # Andrew McIntosh
 
 **Relationship:** Direct report — Video team at Messenger International

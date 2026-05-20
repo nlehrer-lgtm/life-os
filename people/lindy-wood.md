@@ -1,3 +1,9 @@
+---
+aliases:
+  - Lindy Wood
+  - Lindy
+---
+
 # Lindy Wood
 
 **Relationship:** Direct report — Video team at Messenger International (producer/coordinator)

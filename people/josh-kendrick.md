@@ -1,3 +1,9 @@
+---
+aliases:
+  - Josh Kendrick
+  - Josh
+---
+
 # Josh Kendrick
 
 **Relationship:** Direct report — Video team at Messenger International

@@ -1,3 +1,10 @@
+---
+aliases:
+  - LeVann Anthony Jr
+  - LeVann Anthony
+  - LeVann
+---
+
 # LeVann Anthony Jr
 
 **Relationship:** Direct report — Video team at Messenger International

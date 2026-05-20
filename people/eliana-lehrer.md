@@ -1,3 +1,11 @@
+---
+aliases:
+  - Eliana Lehrer
+  - Eliana
+  - Ellie Lehrer
+  - Ellie
+---
+
 # Eliana Lehrer
 
 **Relationship:** Wife (goes by Ellie)

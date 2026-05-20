@@ -1,3 +1,9 @@
+---
+aliases:
+  - Arden Bevere
+  - Arden
+---
+
 # Arden Bevere
 
 **Relationship:** Colleague at Messenger International — Travel Assistant, Executive Office
