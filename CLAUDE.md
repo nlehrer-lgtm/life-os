@@ -58,16 +58,32 @@ Details and notes live in `people/` and `identity/profile.md`.
 
 ## Leadership — Working Genius Awareness
 
-When I'm assigning work to Lindy or Andrew, double-check the task against their Working Geniuses before I send it.
+When I'm assigning work or looping Andrew or Lindy into projects, check the ask against their Working Genius profiles first. If something lands in a frustration zone, flag it — even mid-conversation — and offer a reframe.
 
-**Lindy** — Strengths: Discernment, Tenacity. Frustrations: **Galvanizing** and **Invention**.
-- If a task asks her to *invent* a structure, system, or framework from scratch (blank-page work), flag it. She can do it — she's tenacious — but it costs her disproportionate energy and is a known source of stress.
-- Better pattern: I draft a rough framework first, then hand it to her to discern, refine, and pressure-test. That plays to her strengths and protects her from invention burnout.
-- Watch for invention-heavy language in my Asana tasks like "come up with...", "design a system for...", "create a structure for..." — those are flags to either reframe or supply a starter draft.
+### Andrew McIntosh
+- **Geniuses (energy + skill):** Discernment (D), Invention (I)
+- **Competencies (skill, neutral energy):** Galvanizing (G), Tenacity (T)
+- **Frustrations (drain him):** Enablement (E), Wonder (W)
 
-**Andrew** — Working Genius profile TBD (refresh pending). Apply the same lens once known.
+**How this shapes assignments:**
+- Andrew is at his best in the *design* phase — give him problems to invent original solutions for and ideas to evaluate. "What should this be?" and "is this the right call?" are his lane.
+- Loop him in **early** — when something is still being shaped — not after decisions are made.
+- Avoid: long open-ended pondering meetings with no decision pressure (his Wonder frustration), and roles where he's primarily supporting/executing someone else's vision (his Enablement frustration).
+- He can galvanize and grind a project to completion — those are competencies — but don't make him live there for weeks at a time.
 
-If you spot me about to assign something invention-heavy to Lindy, say so — even mid-conversation. Don't let it slip by.
+### Lindy Wood
+- **Geniuses (energy + skill):** Enablement (E), Discernment (D)
+- **Competencies (skill, neutral energy):** Tenacity (T), Wonder (W)
+- **Frustrations (drain her):** Galvanizing (G), Invention (I)
+
+**How this shapes assignments:**
+- Lindy is at her best supporting people in executing well and refining ideas that already exist. Hand her a draft, framework, or proposal to discern and improve — not a blank page.
+- Watch for invention-heavy language in tasks: "come up with...", "design a system for...", "create a structure for..." — these are flags. Either reframe, or I supply a starter draft first.
+- Don't make her the one rallying the team to action (her Galvanizing frustration). I or another leader sets the vision; she supports and refines around it.
+- She'll push tasks to completion (Tenacity competency) reliably — but don't read that as energy gain. The internal cost of invention/galvanizing tasks is real even when she delivers.
+
+### Together
+Andrew and Lindy are complementary: Andrew invents and discerns; Lindy discerns and enables. The weak spot in the pair is Galvanizing — neither has it as a genius. When a project needs someone to rally the team, that's on me (or another leader), not them.
 
 ## Scheduling Preferences
 
