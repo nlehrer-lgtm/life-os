@@ -1,52 +1,69 @@
-Run a monthly leadership reflection interview with Nathaniel and save his answers to the Google Doc linked in the Asana "Leadership Reflection" task.
+Run a leadership reflection interview with Nathaniel and append the entry to the rolling journal at `work/messenger-intl/leadership-reflections/leadership-reflections.md`.
 
-## Google Doc
+## Where entries live
 
-https://docs.google.com/document/d/1Z0mrMz0A0jc1q0pByCzDz2f2N7EjhyY35aHVmKucaIs/edit
+All reflections are kept in a single rolling markdown file:
 
-## Template Structure
+`/Users/nlehrer/Desktop/life-os/work/messenger-intl/leadership-reflections/leadership-reflections.md`
 
-The document follows this structure for each entry:
+Newest entry sits at the top of the file (right below the `<!-- INSERT NEW ENTRIES BELOW THIS LINE -->` marker). Older entries are below.
 
+## Entry format
+
+Each entry is an H2 section. Use this exact structure:
+
+```markdown
+## YYYY-MM-DD — [Month] [Day]th/st/nd/rd
+
+**Did I lead people more than tasks this week?**
+[answer]
+
+**One leadership win (what worked?)**
+[answer]
+
+**One leadership miss (what I'd change)**
+[answer]
+
+### People
+
+**Who did I intentionally invest in?**
+[answer]
+
+**Who needs my attention or clarity next week?**
+[answer]
+
+### Focus & Energy
+
+**What drained me?**
+[answer]
+
+**What gave me energy?**
+[answer]
+
+### Look Ahead
+
+**What is the one leadership priority next week?**
+[answer]
+
+**One behavior I will start/stop/adjust next week**
+[answer]
+
+### Reset
+- [ ] Clean up Asana (close, reschedule, reprioritize)
+- [ ] Schedule or plan the key leadership conversation
+
+**Gut check:** [Yes / No / Mixed + short reason]
+
+---
 ```
-[Month / Date Label]:
-Did I lead people more than tasks this week?
-[answer]
-One leadership win (what worked?)
-[answer]
-One leadership miss (what I'd change)
-[answer]
-People
-Who did I intentionally invest in?
-[answer]
-Who needs my attention or clarity next week?
-[answer]
-Focus & Energy
-What drained me?
-[answer]
-What gave me energy?
-[answer]
-Look Ahead
-What is the one leadership priority next week?
-[answer]
-One behavior I will start/stop/adjust next week
-[answer]
-Reset
-Clean up Asana (close, reschedule, reprioritize)
-Schedule or plan the key leadership conversation
-________________
 
-Optional (single question gut check)
-* ☐ Was this a good week of leadership? (Yes / No / Mixed)
-```
+The trailing `---` is the divider between entries. Always include it.
 
 ## Steps
 
-1. **Open the document.** Navigate to the Google Doc URL above in the browser. Confirm it loaded.
+1. **Confirm today's date.** Use the current date to determine the entry label. Format the H2 heading as `## YYYY-MM-DD — [Month] [Day]th/st/nd/rd` (e.g. `## 2026-05-21 — May 21st`). Tell Nathaniel what period you're logging.
 
-2. **Set the entry label.** Use today's date to determine the label. Format it as: `[Month] [Day]th/st/nd/rd:` (e.g. "April 9th:"). Tell the user what period you're logging.
-
-3. **Interview the user.** Ask each question below ONE AT A TIME in a conversational way. Wait for their answer before moving to the next. Don't rush — let them think.
+2. **Interview Nathaniel.** Ask each question below ONE AT A TIME in a conversational way. Wait for his answer before moving to the next. Don't rush — let him think. Reflect back briefly between questions to show you heard him; don't editorialize.
 
    Ask these questions in order:
    - "Did you lead people more than tasks this week?"
@@ -60,42 +77,33 @@ Optional (single question gut check)
    - "What's one behavior you'll start, stop, or adjust next week?"
    - "On the gut check — was this a good week of leadership? (Yes / No / Mixed)"
 
-4. **Format the entry.** Using the answers collected, format a new entry exactly matching the template structure above.
+3. **Format the entry.** Plug Nathaniel's answers into the template above exactly as he said them. Wrap any named entities in Obsidian wiki-links (see "Wiki-Linking" below). Skipped questions get `_(not recorded)_`.
 
-5. **Write to the Google Doc.**
-   - Navigate to the Google Doc in the browser (tab ID may already be open).
-   - Scroll to the very bottom of the document, just above the "Template:" section (new entries go before the template, after the last existing entry).
-   - Click at the end of the last divider line (`________________`) of the most recent entry, then press Enter a couple of times to create space.
-   - Actually: place the cursor just *before* the "Template:" heading (use Ctrl+End to go to the bottom first, then find the right position).
-   - Type or paste the new entry using the browser tools.
-   - Confirm the entry looks correct.
+4. **Insert the entry at the top of the file.**
+   - Read the current file.
+   - Use the Edit tool to insert the new entry block immediately after the line `<!-- INSERT NEW ENTRIES BELOW THIS LINE -->`. Leave one blank line between that marker and the new H2.
+   - The previously-newest entry should now be directly below the new entry's trailing `---` divider.
 
-   **Insertion strategy:**
-   - Use Find & Replace (Cmd+H) or the Find bar (Cmd+F) to locate "Template:" and position the cursor just before it.
-   - Insert a few blank lines above "Template:" and type the new entry there.
-
-6. **Confirm with the user.** Tell them the entry has been saved and briefly summarize what they wrote.
+5. **Confirm with Nathaniel.** Tell him the entry has been saved (give the file path) and summarize what he wrote in 3–5 short bullets — wins, who he invested in, priority for next week, behavior shift, gut check.
 
 ## Rules
 
-- Never fabricate or embellish the user's answers — write exactly what they said.
-- Keep formatting consistent with existing entries (look at February and February 27th examples in the doc for tone/style).
-- The "Reset" section is a checklist reminder, not a question — just include it as-is in the formatted entry.
-- If the user skips a question, leave the field blank rather than guessing.
-- The gut check answer goes in the Optional section at the end of the entry.
-
+- Never fabricate or embellish Nathaniel's answers — write exactly what he said.
+- If he skips a question, put `_(not recorded)_` rather than guessing.
+- The "Reset" section is a checklist reminder, not a question — always include it verbatim.
+- Don't open a browser, don't touch the old Google Doc — this skill is markdown-only now. (Pre-2026-05-21 entries were migrated from the Google Doc into the rolling file. If anything looks off in the migrated entries, the source of truth is the markdown file.)
 
 ## Wiki-Linking
 
-When writing or updating any file, wrap named entities in Obsidian `[[wiki-links]]` so the second-brain graph builds automatically.
+Wrap named entities in Obsidian `[[wiki-links]]` so the second-brain graph builds automatically.
 
-- **People** (anyone with a file in `people/`): `[[Andrew McIntosh]]`, `[[Lindy Wood]]`, `[[Arden Bevere]]`, `[[Eliana Lehrer]]`, etc. First names work via aliases (`[[Andrew]]`).
+- **People** (anyone with a file in `people/`): `[[Andrew]]`, `[[Lindy]]`, `[[Arden]]`, `[[Josh]]`, `[[LeVann]]`, etc. First names work via aliases.
 - **Projects & meetings**: `[[Messenger Cup]]`, `[[Get REC'D]]`, `[[Discipleship Team]]`, `[[Podcast Machine]]`, `[[Home Base]]`, `[[Video Team]]`, `[[Job Site Social]]`.
 - **Organizations**: `[[Messenger International]]`.
 - **Life pillars** (when relevant): `[[Faith]]`, `[[Marriage]]`, `[[Fatherhood]]`, `[[Relationships]]`, `[[Joy & Rest]]`.
 
 Don't link: common nouns, times/dates, generic actions, yourself ("Nathaniel"/"I"), or text inside YAML frontmatter or code blocks.
 
-If you mention an entity that doesn't have an anchor file yet, still wrap it in `[[brackets]]` — Obsidian will flag it as an unresolved link, which is a useful signal.
+If Nathaniel mentions someone or something that doesn't have an anchor file yet, still wrap it in `[[brackets]]` — Obsidian will flag it as an unresolved link, which is a useful signal.
 
 Full convention: see "Wiki-Linking Convention" in `CLAUDE.md`.
