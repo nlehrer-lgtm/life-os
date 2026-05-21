@@ -1,6 +1,6 @@
 # M Cup 2026 — Status
 
-**Last updated:** 2026-05-12
+**Last updated:** 2026-05-21
 **Current phase:** Pre-production / Production prep
 **Working script:** v5 — "The Door" (`opener-script.md`). Source PDF in Downloads: `MCUP_2026_Opener_v5_The_Same_Door.pdf`
 
@@ -11,10 +11,10 @@ _(none currently)_
 - **Hybrid:** In-house footage for most scenes. AI-generated for complex motion/action shots that are too difficult to film traditionally. [[Andrew McIntosh|Andrew]]'s final feasibility tests complete; hybrid approach confirmed.
 
 ## Upcoming
-- **May 20:** Underwriter shoot with John. Confirmed still on.
+- **TBD:** Underwriter shoot with John — being rescheduled (original May 20 date postponed)
 
 ## Open Loops
-- [ ] April 20 kick-off notes — not captured yet
+_(none currently)_
 
 ## Recently Closed
 - [x] Nations locked for Act 2 hero scenes: Nigeria (church burning), Iran (woman past soldiers), First World Nation (man through protest crowd in rain). Act 3 "rapid sequence" now intercuts those same three protagonists opening their latches, not a 12-15 nation montage (2026-05-12, per Script v5)
