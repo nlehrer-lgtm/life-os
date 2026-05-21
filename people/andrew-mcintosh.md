@@ -11,6 +11,9 @@ aliases:
 **Slack:** @Andrew McIntosh (U04CYP0017Y)
 
 ## Last Contact
+2026-05-21 — Daily Video Team Debrief (9:30am) and Video Content Quality Review (10:30am) with Nathaniel and [[Josh Kendrick|Josh]].
+
+## Contact History
 2026-05-19 — "Project planning - looping Andrew in earlier" at 10am (calendar). Replied to email thread "Still on your roadmap—or not right now?" (external vendor thread with vustudio.com). Also mentioned in [[Lindy Wood|Lindy]]'s 1:1: Working Genius refresher needed with both Andrew and [[Lindy Wood|Lindy]]; Andrew will be invited to [[Lindy Wood|Lindy]]'s quality control standards meeting with Chris and the podcast producers.
 
 ## Contact History
