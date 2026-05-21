@@ -10,6 +10,9 @@ aliases:
 **Email:** jkendrick@messengerinternational.org
 
 ## Last Contact
+2026-05-21 — Daily Video Team Debrief (9:30am) and Video Content Quality Review (10:30am) with Nathaniel and [[Andrew McIntosh|Andrew]].
+
+## Contact History
 2026-04-16 — Included in several video team events: MXDaily setup/recordings, LB Podcast Recording (Jun 16), Record MXDaily with [[Arden Bevere|Arden]] (Apr 23), Record MXDaily with Addison (Apr 28), [[Messenger Cup|MCUP]] Opener Brainstorm.
 
 ## Notes
