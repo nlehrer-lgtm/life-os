@@ -10,6 +10,9 @@ aliases:
 **Email:** jkendrick@messengerinternational.org
 
 ## Last Contact
+2026-05-26 — OOO today.
+
+## Contact History
 2026-05-21 — Daily Video Team Debrief (9:30am) and Video Content Quality Review (10:30am) with Nathaniel and [[Andrew McIntosh|Andrew]].
 
 ## Contact History
