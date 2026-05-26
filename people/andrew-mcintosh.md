@@ -11,6 +11,9 @@ aliases:
 **Slack:** @Andrew McIntosh (U04CYP0017Y)
 
 ## Last Contact
+2026-05-26 — Mentioned Nathaniel in an Asana task: "Prep team to use the Ryan Miller guest set for the YouTube Liv…" — related to YouTube Live production prep.
+
+## Contact History
 2026-05-21 — Daily Video Team Debrief (9:30am) and Video Content Quality Review (10:30am) with Nathaniel and [[Josh Kendrick|Josh]].
 
 ## Contact History
