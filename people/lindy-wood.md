@@ -11,6 +11,9 @@ aliases:
 **Slack:** @Lindy Wood (U01B0GYHA7K)
 
 ## Last Contact
+2026-05-26 — Active short film casting coordination: multiple email exchanges in the "Opportunity to Be Part of a Short Film with [[Messenger International]]" thread, including back-and-forth with external actress Amanda Mammana. Lindy sent a calendar invite for a Casting Meeting with Amanda on Thu May 28 at 10am. Also attended [[Get REC'D]] Weekly (8am).
+
+## Contact History
 2026-05-19 — 1:1 at 2:30pm (30 min; last one at 30 before extending to 45 going forward). Lindy opened up about sleep/anxiety — restless nights from self-imposed pressure tied to Josh's promo deliverable. Named the weight as wiring + possible PTSD from the older workspace era. This morning's [[Get REC'D]] was healing — felt heaviness lift after sleeping in. Discussed the Josh incident (he combined two scripts into one video despite Asana instructions); she addressed it directly with warmth. Working Genius refresher needed — her frustrations are Galvanizing + Invention; Nathaniel will give her draft frameworks to discern rather than blank-page invent tasks. Both And contract re-sign coming (all five shows moving to them for hook edits + packaging). Quality control system built but stalled on final producer meeting — she'll schedule it. AK taking over full episode reviews for JB/LB; Lindy moves to tech checks only. Opener casting: main actress decision due this week; Lindy offered to be backup (she has the emotional pull the role needs). Work-life balance shift is sticking — she's leaving when work is done, no guilt. Vimeo migration done.
 
 ## Contact History
