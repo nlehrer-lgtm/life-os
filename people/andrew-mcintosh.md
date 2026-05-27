@@ -11,6 +11,9 @@ aliases:
 **Slack:** @Andrew McIntosh (U04CYP0017Y)
 
 ## Last Contact
+2026-05-27 — Tentatively accepted Andrew / Nathaniel 1:1 for Thu Jun 11, 2026 3pm–3:45pm CDT.
+
+## Contact History
 2026-05-26 — Mentioned Nathaniel in an Asana task: "Prep team to use the Ryan Miller guest set for the YouTube Liv…" — related to YouTube Live production prep.
 
 ## Contact History
