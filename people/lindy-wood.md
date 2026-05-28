@@ -11,6 +11,9 @@ aliases:
 **Slack:** @Lindy Wood (U01B0GYHA7K)
 
 ## Last Contact
+2026-05-28 — Multiple emails: replied to "Drumroll (Messenger Int'l & AACC)" thread; active on "Opportunity to Be Part of a Short Film" thread; updated the Casting Meeting - Rob Issa to Fri May 29 11am–11:30am CDT.
+
+## Contact History
 2026-05-26 — Active short film casting coordination: multiple email exchanges in the "Opportunity to Be Part of a Short Film with [[Messenger International]]" thread, including back-and-forth with external actress Amanda Mammana. Lindy sent a calendar invite for a Casting Meeting with Amanda on Thu May 28 at 10am. Also attended [[Get REC'D]] Weekly (8am).
 
 ## Contact History
