@@ -11,6 +11,9 @@ aliases:
 **Slack:** @Andrew McIntosh (U04CYP0017Y)
 
 ## Last Contact
+2026-05-28 — Andrew / Nathaniel 1:1 at 3pm today.
+
+## Contact History
 2026-05-27 — Tentatively accepted Andrew / Nathaniel 1:1 for Thu Jun 11, 2026 3pm–3:45pm CDT.
 
 ## Contact History
