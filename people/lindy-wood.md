@@ -11,6 +11,9 @@ aliases:
 **Slack:** @Lindy Wood (U01B0GYHA7K)
 
 ## Last Contact
+2026-05-29 — Multiple emails: "Messenger International Short Film - Follow Up Details & Scheduling" thread (two messages, 11:48am and 12:47pm); sent calendar invites for [[Messenger Cup|MCUP]] Opener Photo Shoots on Mon Jun 1 — [[Amanda Mammana]] at 2pm–3pm and [[Matt Langley]] at 3pm–4pm.
+
+## Contact History
 2026-05-28 — Multiple emails: replied to "Drumroll (Messenger Int'l & AACC)" thread; active on "Opportunity to Be Part of a Short Film" thread; updated the Casting Meeting - Rob Issa to Fri May 29 11am–11:30am CDT.
 
 ## Contact History
