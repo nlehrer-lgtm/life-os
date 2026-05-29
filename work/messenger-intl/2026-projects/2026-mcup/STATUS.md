@@ -11,7 +11,7 @@ _(none currently)_
 - **Hybrid:** In-house footage for most scenes. AI-generated for complex motion/action shots that are too difficult to film traditionally. [[Andrew McIntosh|Andrew]]'s final feasibility tests complete; hybrid approach confirmed.
 
 ## Upcoming
-- **TBD:** Underwriter shoot with John — being rescheduled (original May 20 date postponed)
+_(none currently)_
 
 ## Open Loops
 _(none currently)_
