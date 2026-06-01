@@ -18,5 +18,5 @@ aliases:
 2026-05-26 — Multiple emails in the "Opportunity to Be Part of a Short Film with [[Messenger International]]" thread. Active back-and-forth with [[Lindy Wood]] coordinating interest and logistics. Casting Meeting scheduled for Thu May 28 at 10am (organized by Lindy).
 
 ## Notes
-- Being evaluated for a role in a [[Messenger International]] short film production
+- **Cast as Iranian Woman** in [[Messenger Cup|MCUP]] 2026 opener "The Door" (confirmed 2026-06-01)
 - Casting meeting Thu 2026-05-28 at 10am with Nathaniel and [[Lindy Wood]]
