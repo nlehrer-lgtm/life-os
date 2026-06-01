@@ -12,8 +12,10 @@ The video production team at [[Messenger International]]. Nathaniel leads as Dir
 ## Team Pillars: REC'D
 - **R** — Resilience
 - **E** — Excellence
-- **C** — Creativity
-- **D** — Discipleship (or the team's chosen fourth — see `Get REC'D Meeting/CONTEXT.md` for current canonical form)
+- **C** — Communication
+- **D** — Discipline
+
+Full identity doc: [[Video Team Identity|video-team-identity.md]]. Meeting context: `Get REC'D Meeting/CONTEXT.md`.
 
 ## Direct Reports
 - [[Andrew McIntosh]] — Editor / Director
