@@ -15,4 +15,5 @@ aliases:
 2026-05-28 — Casting Meeting at 4pm with Nathaniel (short film casting).
 
 ## Notes
-- Went through short film casting on May 28; selected (or strong contender) for [[Messenger Cup|MCUP]] Opener — photo shoot scheduled Jun 1
+- **Cast as First World Man** in [[Messenger Cup|MCUP]] 2026 opener "The Door" (confirmed 2026-06-01)
+- Went through short film casting on May 28; photo shoot Jun 1, 3pm
