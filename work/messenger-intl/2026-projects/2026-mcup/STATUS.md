@@ -1,8 +1,16 @@
 # M Cup 2026 — Status
 
-**Last updated:** 2026-05-21
+**Last updated:** 2026-06-01
 **Current phase:** Pre-production / Production prep
 **Working script:** v5 — "The Door" (`opener-script.md`). Source PDF in Downloads: `MCUP_2026_Opener_v5_The_Same_Door.pdf`
+
+## Casting — Decided (2026-06-01)
+- **Iranian Woman:** [[Amanda Mammana]] — confirmed; photo shoot Jun 1, 2pm
+- **First World Man:** [[Matt Langley]] — confirmed; photo shoot Jun 1, 3pm
+- **Nigerian Pastor:** [[Rob Issa]] — confirmed; photo shoot Jun 1, 4pm
+- **Dark Room figure:** [[Lindy Wood]] — confirmed; replaces [[Emily Johnson]] (passed). Lindy had previously offered as backup (per 2026-05-19 1:1).
+- **JJ Tomlin:** cast — role TBD in this file
+- **Emily Johnson:** not moving forward
 
 ## Open Decisions
 _(none currently)_
