@@ -11,6 +11,9 @@ aliases:
 **Slack:** @Lindy Wood (U01B0GYHA7K)
 
 ## Last Contact
+2026-06-02 — 1:1 with Nathaniel (1:15pm).
+
+## Contact History
 2026-06-01 — **Cast as the Dark Room figure** in [[Messenger Cup|MCUP]] 2026 opener "The Door" — replaces [[Emily Johnson]] (who is not moving forward). Lindy had offered as backup on 2026-05-19 1:1, citing the emotional pull the role needs.
 
 ## Contact History
