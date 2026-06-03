@@ -8,7 +8,7 @@
 - **Iranian Woman:** [[Amanda Mammana]] — confirmed; photo shoot Jun 1, 2pm
 - **First World Man:** [[Matt Langley]] — confirmed; photo shoot Jun 1, 3pm
 - **Nigerian Pastor:** [[Rob Issa]] — confirmed; photo shoot Jun 1, 4pm
-- **Dark Room figure:** [[Lindy Wood]] — confirmed; replaces [[Emily Johnson]] (passed). Lindy had previously offered as backup (per 2026-05-19 1:1).
+- **Dark Room figure:** [[Lindy Wood]] — confirmed; replaces [[Emily Johnson]] (passed). Lindy had previously offered as backup (per 2026-05-19 1:1). Final approval from Lisa Bevere and [[Bryson]] received 2026-06-03.
 - **JJ Tomlin:** cast — role TBD in this file
 - **Emily Johnson:** not moving forward
 
