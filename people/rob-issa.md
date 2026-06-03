@@ -9,6 +9,9 @@ aliases:
 **Relationship:** External — actor / talent being considered for [[Messenger International]] short film
 
 ## Last Contact
+2026-06-03 — [[Messenger Cup|MCUP]] Photo Shoot at 5pm (calendar event; invite sent by [[Lindy Wood]]).
+
+## Contact History
 2026-05-29 — Casting Meeting at 11am with Nathaniel (rescheduled from earlier in the week by [[Lindy Wood]]).
 
 ## Notes
