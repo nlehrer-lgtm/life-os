@@ -11,6 +11,9 @@ aliases:
 **Slack:** @Lindy Wood (U01B0GYHA7K)
 
 ## Last Contact
+2026-06-03 — Email re: Window Cleaning – Allston Building (reply). Also sent calendar invite for [[Messenger Cup|MCUP]] Rob Issa Photo Shoot today at 5pm.
+
+## Contact History
 2026-06-02 — 1:1 with Nathaniel (1:15pm). Sent calendar updates for MCUP events on Jun 4: Sacred Hospitality Brainstorm (1–1:45pm) and MCUP Opener Photo Shoot (2:30–3:30pm). OOO confirmed: Fri Jun 19.
 
 ## Contact History
