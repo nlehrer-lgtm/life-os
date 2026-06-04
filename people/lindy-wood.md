@@ -11,6 +11,9 @@ aliases:
 **Slack:** @Lindy Wood (U01B0GYHA7K)
 
 ## Last Contact
+2026-06-04 — [[Messenger Cup|MCUP]] Opener Photo Shoot (2:30pm). Lindy is cast as the Dark Room figure — this was her photo shoot session.
+
+## Contact History
 2026-06-03 — Email re: Window Cleaning – Allston Building (reply). Also sent calendar invite for [[Messenger Cup|MCUP]] Rob Issa Photo Shoot today at 5pm.
 
 ## Contact History
