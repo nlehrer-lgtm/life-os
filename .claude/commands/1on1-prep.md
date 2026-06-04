@@ -93,7 +93,7 @@ This meeting is recurring context, not a 1:1 debrief — don't try to convert it
 Use `get_tasks` on the person's growth plan project. For each milestone, note: name, description, completion status.
 
 ### Step 7 — Write the prep doc and save
-Save to the person's 1:1 folder as `1on1-prep-YYYY-MM-DD.md` (today's date — the prep date, not the meeting date).
+Save to the person's `one-on-one-documents/` subfolder as `1on1-prep-YYYY-MM-DD.md` (today's date — the prep date, not the meeting date).
 
 **Format:**
 
