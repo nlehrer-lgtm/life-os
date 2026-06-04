@@ -18,7 +18,7 @@ Use this command whenever Nathaniel asks to "finalize the 1:1", "make a glance s
 ## Steps
 
 ### Step 1 — Find and read the most recent prep file
-List files in the person's 1:1 folder and find the most recent `1on1-prep-YYYY-MM-DD.md`. Read its full contents.
+List files in the person's `one-on-one-documents/` subfolder and find the most recent `1on1-prep-YYYY-MM-DD.md`. Read its full contents.
 
 ### Step 2 — Present the prep and ask for Nathaniel's input
 Surface the key sections of the prep doc in a clean summary — don't just dump the whole thing. Then ask:
