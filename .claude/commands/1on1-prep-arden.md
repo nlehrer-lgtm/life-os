@@ -52,8 +52,8 @@ The purpose: extract big-ticket items, blockers, decisions waiting on Arden, and
 
 ### Step 4 — Pull latest Lindy and Andrew 1:1 summaries
 Look in:
-- `work/messenger-intl/video-team/1on1s/lindy-wood/` for the most recent `1on1-summary-*.md`
-- `work/messenger-intl/video-team/1on1s/andrew-mcintosh/` for the most recent `1on1-summary-*.md`
+- `work/messenger-intl/video-team/1on1s/lindy-wood/one-on-one-documents/` for the most recent `1on1-summary-*.md`
+- `work/messenger-intl/video-team/1on1s/andrew-mcintosh/one-on-one-documents/` for the most recent `1on1-summary-*.md`
 
 From each, extract:
 - Where they are growing (for upward reporting)
