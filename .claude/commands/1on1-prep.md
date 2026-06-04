@@ -23,7 +23,8 @@ This is the **two-days-before deep prep.** It is not the day-of glance sheet —
 - **Granola folder ID:** `922bfeb5-829e-4842-b7a0-db436e289aaf`
 - **Asana Growth Plan project ID:** `1211631456933613`
 - **1:1 folder:** `/Users/nlehrer/Desktop/life-os/work/messenger-intl/video-team/1on1s/andrew-mcintosh/`
-- **Running notes file:** `running-notes.md` in that folder
+- **1:1 documents subfolder:** `one-on-one-documents/` inside the 1:1 folder — all prep, final, summary, and running-notes files live here
+- **Running notes file:** `one-on-one-documents/running-notes.md`
 - **Growth Milestones:**
   1. Create fully organized VFX and VP asset library
   2. Initiate ownership for VFX/VP projects
@@ -35,7 +36,8 @@ This is the **two-days-before deep prep.** It is not the day-of glance sheet —
 - **Granola folder ID:** `5184fb61-141f-42e4-a52f-263f39c9ab6b`
 - **Asana Growth Plan project ID:** `1212886997625190`
 - **1:1 folder:** `/Users/nlehrer/Desktop/life-os/work/messenger-intl/video-team/1on1s/lindy-wood/`
-- **Running notes file:** `running-notes.md` in that folder
+- **1:1 documents subfolder:** `one-on-one-documents/` inside the 1:1 folder — all prep, final, summary, and running-notes files live here
+- **Running notes file:** `one-on-one-documents/running-notes.md`
 - **Growth Milestones:**
   1. Cultivate Clear & Compelling Communication
   2. Establish and Own a Ministry-Wide Video Quality Control System
