@@ -71,7 +71,7 @@ Build a structured pass over the transcript and capture:
 Never fabricate. If something didn't come up in the transcript, leave the section empty rather than padding it.
 
 ### Step 5 — Save the meeting summary
-Save to the person's 1:1 folder as `1on1-summary-YYYY-MM-DD.md` using **the meeting date** (not today's date — the summary belongs to the meeting it describes).
+Save to the person's `one-on-one-documents/` subfolder as `1on1-summary-YYYY-MM-DD.md` using **the meeting date** (not today's date — the summary belongs to the meeting it describes).
 
 **Format:**
 
