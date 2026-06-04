@@ -69,7 +69,7 @@ Use today's date for the filename.
 ---
 
 ## Step 4 — Save, commit, and push
-- Save the glance sheet to the person's 1:1 folder as `1on1-final-YYYY-MM-DD.md`
+- Save the glance sheet to the person's `one-on-one-documents/` subfolder as `1on1-final-YYYY-MM-DD.md`
 - Write to `/Users/nlehrer/Desktop/life-os/` (not any worktree path)
 - Commit: `git commit -m "Add 1:1 final glance sheet for [Name] — YYYY-MM-DD"`
 - Push to GitHub
