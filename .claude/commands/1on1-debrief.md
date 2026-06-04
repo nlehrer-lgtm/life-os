@@ -19,14 +19,16 @@ This skill exists so 1:1s stop revisiting the same topics week after week. Actio
 - **Granola folder ID (fallback only):** `922bfeb5-829e-4842-b7a0-db436e289aaf`
 - **Asana user GID:** `1209716385781630`
 - **1:1 folder:** `/Users/nlehrer/Desktop/life-os/work/messenger-intl/video-team/1on1s/andrew-mcintosh/`
-- **Running notes file:** `running-notes.md` in that folder
+- **1:1 documents subfolder:** `one-on-one-documents/` inside the 1:1 folder — all prep, final, summary, and running-notes files live here
+- **Running notes file:** `one-on-one-documents/running-notes.md`
 
 ### Lindy Wood
 - **Granola title pattern:** `1:1 | Lindy & Nathaniel` (match case-insensitively; also accept `1:1 | Nathaniel & Lindy` and any variant containing both "1:1" and "Lindy")
 - **Granola folder ID (fallback only):** `5184fb61-141f-42e4-a52f-263f39c9ab6b`
 - **Asana user GID:** `1209634024000757`
 - **1:1 folder:** `/Users/nlehrer/Desktop/life-os/work/messenger-intl/video-team/1on1s/lindy-wood/`
-- **Running notes file:** `running-notes.md` in that folder
+- **1:1 documents subfolder:** `one-on-one-documents/` inside the 1:1 folder — all prep, final, summary, and running-notes files live here
+- **Running notes file:** `one-on-one-documents/running-notes.md`
 
 ### Nathaniel
 - Use `"me"` as the assignee identifier when creating tasks.
