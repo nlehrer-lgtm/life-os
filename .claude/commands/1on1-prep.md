@@ -74,7 +74,7 @@ Use `get_tasks` on the person's growth plan project, filtering for incomplete ta
 These are the commitments from the last 1:1 (and possibly earlier) that haven't closed out yet. Flag any that have been open across multiple meetings as ⚠️ recurring.
 
 ### Step 5 — Read the most recent 1:1 summary
-Look in the person's 1:1 folder for the most recent `1on1-summary-YYYY-MM-DD.md`. Read it. This is the structured record of the last meeting — far better signal than re-reading the raw transcript.
+Look in the person's `one-on-one-documents/` subfolder for the most recent `1on1-summary-YYYY-MM-DD.md`. Read it. This is the structured record of the last meeting — far better signal than re-reading the raw transcript.
 
 If no summary exists yet (system is new), fall back to the most recent Granola transcript using `list_meetings` with the folder ID.
 
