@@ -72,3 +72,25 @@ aliases:
 - Distinguish between healthy challenge (private, considered, paired with alternatives) and reactive pushback (public, flooded, fear-driven)
 - Help her notice when she's flooded so she can pause before responding
 - Reaffirm that her input is genuinely valued — the issue is the channel, not the voice
+
+## Leadership Growth Focus — 2026-06-04
+
+**Captured 2026-06-04.** Two growth themes drawn from the 2026-06-02 1:1 and from [[Lindy Wood|Lindy]]'s two leadership pillars. Framework written up at [leadership-resource-make-your-leaders-job-easier](../work/messenger-intl/video-team/1on1s/lindy-wood/leadership-resource-make-your-leaders-job-easier.md). Bringing to the next 1:1 — whiteboard exercise, same shape as the one that landed with [[Andrew McIntosh|Andrew]] on 2026-05-28.
+
+### Theme 1 — Clear, early communication (to the team and to the leader)
+- The growth move: cast the full picture — what, why, who, by when — before either the team or I have to ask
+- Already showing up: morning team-calendar walkthroughs and full context up front in 1:1s (called out 2026-06-02)
+- Anchors on **Enablement**: clarity is the fastest path to the people around her thriving (her own reframe of E)
+- Anchors on **Discernment**: D decides what to include and what to leave out so the picture is clear, not long
+
+### Theme 2 — Steady through problems (not flooded by them)
+- The growth move: be the keel when the heat hits — bring structure, discernment, and calm instead of letting overwhelm flood out through her word choices
+- Re-channels the 2026-05-12 observation about public frazzled pushback into a positive frame: same D, same input — different gravity when it lands privately first, paired with options
+- Tools: name the flood to herself, buy a beat, ask "what's the next right step?", then speak
+- Anchors on **Discernment**: D runs the room once the spiral is interrupted
+
+### Why this framing lands for her
+- Lindy thrives on structure and frameworks (her own words to Nathaniel)
+- D + E are her geniuses; G + I are her frustrations — give her a draft to sharpen, not a blank page to invent
+- Keep it short, written, pinpointed (her explicit ask: long-windedness drains her D)
+- The same whiteboard format worked with [[Andrew McIntosh|Andrew]] — parity creates shared team language
