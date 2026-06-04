@@ -22,8 +22,8 @@ Capture a quick note, idea, or reminder into the inbox. No organization required
    - **Get REC'D meeting** (talking points): the note contains "Get REC'D" (case-insensitive — also match `get recd`, `get rec'd`, `getrecd`, etc.)
 
    When routing, **also** append the note verbatim to the matching file:
-   - Lindy → `/Users/nlehrer/Desktop/life-os/work/messenger-intl/video-team/1on1s/lindy-wood/running-notes.md`
-   - Andrew → `/Users/nlehrer/Desktop/life-os/work/messenger-intl/video-team/1on1s/andrew-mcintosh/running-notes.md`
+   - Lindy → `/Users/nlehrer/Desktop/life-os/work/messenger-intl/video-team/1on1s/lindy-wood/one-on-one-documents/running-notes.md`
+   - Andrew → `/Users/nlehrer/Desktop/life-os/work/messenger-intl/video-team/1on1s/andrew-mcintosh/one-on-one-documents/running-notes.md`
    - Get REC'D → `/Users/nlehrer/Desktop/life-os/work/messenger-intl/video-team/Get REC'D Meeting/agendas/_talking-points.md`
 
    Use the same format:
