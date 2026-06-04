@@ -1,6 +1,6 @@
 # Life OS
 
-This is your second brain. Markdown, git-tracked, interacted with through Claude Code.
+This is your second brain. Markdown, git-tracked, interacted with through Codex.
 
 ## About You
 
@@ -52,7 +52,7 @@ Details and notes live in `people/` and `identity/profile.md`.
 - Never delete journal entries
 - Never fabricate information about my life
 - Don't over-organize: simple is better than neat
-- Keep this CLAUDE.md updated as I share new information
+- Keep this AGENTS.md updated as I share new information
 - When in doubt, ask
 - Do not make any changes until you have 95% confidence in what you need to build. Ask follow-up questions until you reach that confidence.
 
@@ -138,18 +138,15 @@ Only schedule in these windows if there is genuinely no other available time.
 ## File Structure
 
 ```
-journal/entries/          — daily freeform journal entries
-digests/                  — end-of-day structured recaps (all digests live here — no split)
-people/                   — everyone who matters: family, colleagues, friends, mentors, mentees
-identity/                 — living profile (profile.md is the single source of truth)
-goals/                    — goal tracking and progress
-notes/inbox.md            — quick-capture inbox for ideas, reminders, and fleeting thoughts
-reminders/                — simple checklist of things to remember
-work/                     — work documents only: projects, 1:1 prep, team notes (NOT a place to categorize people)
-  work/personal-projects/ — side projects and creative work (job-site-social, music, etc.)
-health/                   — health metrics and logs
-finance/                  — bills, trackers, and financial documents
-recurring/                — recurring task checklists (home, vehicles, relationships, gifts, personal)
+journal/entries/  — daily freeform journal entries
+digests/          — end-of-day structured recaps (all digests live here — no split)
+people/           — everyone who matters: family, colleagues, friends, mentors, mentees
+identity/         — living profile (profile.md is the single source of truth)
+goals/            — goal tracking and progress
+notes/inbox.md    — quick-capture inbox for ideas, reminders, and fleeting thoughts
+reminders/        — simple checklist of things to remember
+work/             — work documents only: projects, 1:1 prep, team notes (NOT a place to categorize people)
+health/           — health metrics and logs
 ```
 
 ## Project File Standard

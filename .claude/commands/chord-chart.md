@@ -8,7 +8,7 @@ Usage: `/chord-chart [optional song name]`
 
 2. **Get the album name.** Ask: "What album does this song belong to?" Slugify both song and album names (lowercase, spaces → dashes, strip apostrophes and special characters; numbers are fine) for folder/file paths.
 
-3. **Check for an existing chart.** Build the target path: `/Users/nlehrer/Desktop/life-os/dream-projects/music/{album-slug}/{song-slug}/chord-charts/{song-slug}.md`. If the file already exists, stop and tell the user: "A chord chart for {song name} already exists at {path}. Is this the same song? If so, I won't overwrite it — let me know how you want to proceed." Wait for their answer before continuing. Do not overwrite without explicit confirmation.
+3. **Check for an existing chart.** Build the target path: `/Users/nlehrer/Desktop/life-os/work/personal-projects/music/{album-slug}/{song-slug}/chord-charts/{song-slug}.md`. If the file already exists, stop and tell the user: "A chord chart for {song name} already exists at {path}. Is this the same song? If so, I won't overwrite it — let me know how you want to proceed." Wait for their answer before continuing. Do not overwrite without explicit confirmation.
 
 4. **Get the basics in one batch.** Ask: "What's the key, tempo, and time signature?" Parse freely (e.g. "E major, 128 BPM, 4/4").
 
@@ -23,7 +23,7 @@ Usage: `/chord-chart [optional song name]`
 
 7. **Confirm before writing.** Once all sections are described, show the user a full preview of the chart in the exact format below and ask: "Look right? I'll save it to `{relative path from life-os/}`." Wait for confirmation before writing.
 
-8. **Write the file** at `/Users/nlehrer/Desktop/life-os/dream-projects/music/{album-slug}/{song-slug}/chord-charts/{song-slug}.md`. Create any missing parent folders. Use this exact format:
+8. **Write the file** at `/Users/nlehrer/Desktop/life-os/work/personal-projects/music/{album-slug}/{song-slug}/chord-charts/{song-slug}.md`. Create any missing parent folders. Use this exact format:
 
    ````markdown
    # {Song Name} — Chord Chart
@@ -51,7 +51,7 @@ Usage: `/chord-chart [optional song name]`
 9. **Push to GitHub** after writing: `cd /Users/nlehrer/Desktop/life-os && git push origin master`. The auto-save hook will commit; you just need to push.
 
 10. **Confirm** with one short line:
-    - `Saved. ✓ {Song Name} → dream-projects/music/{album-slug}/{song-slug}/chord-charts/{song-slug}.md`
+    - `Saved. ✓ {Song Name} → work/personal-projects/music/{album-slug}/{song-slug}/chord-charts/{song-slug}.md`
 
 ## Format reference (mirror this exactly)
 

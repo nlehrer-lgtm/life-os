@@ -18,7 +18,7 @@ aliases:
 
 ### Working Genius — *The Insightful Collaborator* (D + E)
 
-*Assessed 2026-05-16 via homemade test in [[notes/working-genius-test]]. Original test scored I and E tied for second; tiebreaker questions revealed E clearly.*
+*Assessed 2026-05-16 via homemade test in [[work/messenger-intl/leadership/working-genius-test]]. Original test scored I and E tied for second; tiebreaker questions revealed E clearly.*
 
 | | |
 |---|---|
@@ -70,4 +70,4 @@ See [[identity/marriage-map]] for the full picture of how Nathaniel + Ellie work
 
 ## Gift Ideas
 
-See [[people/ellie-lehrer/gift-ideas]].
+See [[people/ellie-gift-ideas]].
