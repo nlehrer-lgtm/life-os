@@ -1,4 +1,4 @@
-Interactively build a chord chart for a song. Walks through song name, album, key, tempo, time signature, and sections (with bar counts and chord progressions), then saves the chart to the dream-projects music library.
+Interactively build a chord chart for a song. Walks through song name, album, key, tempo, time signature, and sections (with bar counts and chord progressions), then saves the chart to the music library.
 
 Usage: `/chord-chart [optional song name]`
 
