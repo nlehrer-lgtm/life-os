@@ -137,6 +137,8 @@ Only schedule in these windows if there is genuinely no other available time.
 
 ## File Structure
 
+**Role context for work tasks:** For full operating context on Nathaniel's role, team, stakeholders, and systems, read `work/MPD-Nathaniel-VideoProductionDirector-v1.md` before responding to any work-related question.
+
 ```
 journal/entries/          — daily freeform journal entries
 digests/                  — end-of-day structured recaps (all digests live here — no split)
