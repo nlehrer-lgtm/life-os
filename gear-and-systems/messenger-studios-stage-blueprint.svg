@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 2700" font-family="Helvetica, Arial, sans-serif">
+
+  <!-- ============================================ -->
+  <!-- BACKGROUND                                    -->
+  <!-- ============================================ -->
+  <rect x="0" y="0" width="1700" height="2700" fill="#f7f6f1"/>
+
+  <!-- ============================================ -->
+  <!-- SHEET BORDER                                  -->
+  <!-- ============================================ -->
+  <rect x="30" y="30" width="1640" height="2640" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+  <rect x="40" y="40" width="1620" height="2620" fill="none" stroke="#1a1a1a" stroke-width="0.5"/>
+
+  <!-- ============================================ -->
+  <!-- TITLE BLOCK                                   -->
+  <!-- ============================================ -->
+  <g id="title-block">
+    <rect x="40" y="40" width="1620" height="130" fill="#1a1a1a"/>
+    <text x="70" y="95" fill="#f7f6f1" font-size="32" font-weight="700" letter-spacing="2">MESSENGER STUDIOS — PRODUCTION STAGE</text>
+    <text x="70" y="130" fill="#cfcfcf" font-size="18" letter-spacing="1">Modular 7" platform · 20' W × 12' D (center) · curved upstage edge offset 12" from LED wall</text>
+    <text x="70" y="158" fill="#9a9a9a" font-size="14">DESIGN BLUEPRINT · SHEET 1 OF 1</text>
+
+    <text x="1630" y="80" fill="#cfcfcf" font-size="13" text-anchor="end">PROJECT</text>
+    <text x="1630" y="100" fill="#f7f6f1" font-size="16" font-weight="600" text-anchor="end">Messenger Studios VP Stage</text>
+    <text x="1630" y="125" fill="#cfcfcf" font-size="13" text-anchor="end">DATE</text>
+    <text x="1630" y="145" fill="#f7f6f1" font-size="16" font-weight="600" text-anchor="end">2026-06-05</text>
+    <text x="1630" y="163" fill="#9a9a9a" font-size="12" text-anchor="end">Designed for Nathaniel Lehrer · Video Team</text>
+  </g>
+
+  <!-- ============================================ -->
+  <!-- PLAN VIEW                                     -->
+  <!-- Stage center at canvas (850, 1519)            -->
+  <!-- Scale: 1'-0" = 60px, 1" = 5px                 -->
+  <!-- ============================================ -->
+  <g id="plan-view">
+    <!-- Section header -->
+    <rect x="60" y="195" width="1580" height="36" fill="#1a1a1a"/>
+    <text x="80" y="220" fill="#f7f6f1" font-size="18" font-weight="700" letter-spacing="2">PLAN VIEW — TOP DOWN · AUDIENCE BELOW · SCALE 1'-0" = 60px (1:24)</text>
+
+    <!-- Concrete floor area (subtle background) -->
+    <rect x="80" y="250" width="1540" height="1050" fill="#ececea" stroke="#cccccc" stroke-width="0.5"/>
+
+    <!-- Compass rose / orientation -->
+    <g transform="translate(140, 320)">
+      <circle cx="0" cy="0" r="38" fill="#f7f6f1" stroke="#1a1a1a" stroke-width="1.2"/>
+      <text x="0" y="-44" font-size="11" text-anchor="middle" fill="#666">UPSTAGE</text>
+      <text x="0" y="56" font-size="11" text-anchor="middle" fill="#666">DOWNSTAGE</text>
+      <text x="-52" y="4" font-size="11" text-anchor="middle" fill="#666">SR</text>
+      <text x="52" y="4" font-size="11" text-anchor="middle" fill="#666">SL</text>
+      <polygon points="0,-28 -8,8 0,2 8,8" fill="#1a1a1a"/>
+      <text x="0" y="-6" font-size="9" text-anchor="middle" fill="#666">LED</text>
+      <text x="0" y="22" font-size="9" text-anchor="middle" fill="#666">AUD</text>
+    </g>
+
+    <!-- LED Wall arc (curved upstage) -->
+    <!-- Wall: arc center (850, 1519), R=1149px, from (196.4, 574.1) through (850, 370) to (1503.6, 574.1) -->
+    <path d="M 196.4 574.1 A 1149 1149 0 0 1 1503.6 574.1"
+          fill="none" stroke="#2ecc71" stroke-width="9" stroke-linecap="round"/>
+    <!-- LED cabinet segment ticks (decorative) -->
+    <g stroke="#1a8a4a" stroke-width="1">
+      <line x1="850" y1="370" x2="850" y2="360"/>
+      <line x1="600" y1="395" x2="595" y2="385"/>
+      <line x1="1100" y1="395" x2="1105" y2="385"/>
+      <line x1="380" y1="465" x2="370" y2="458"/>
+      <line x1="1320" y1="465" x2="1330" y2="458"/>
+      <line x1="250" y1="540" x2="240" y2="535"/>
+      <line x1="1450" y1="540" x2="1460" y2="535"/>
+    </g>
+    <text x="850" y="345" font-size="13" font-weight="700" fill="#1a8a4a" text-anchor="middle">CURVED LED WALL · 21'-9½" chord · 5° per cabinet · 6 cabinets tall (118")</text>
+
+    <!-- LED wall ends (cabinet termination ticks) -->
+    <line x1="196.4" y1="574.1" x2="186" y2="582" stroke="#1a8a4a" stroke-width="2"/>
+    <line x1="1503.6" y1="574.1" x2="1514" y2="582" stroke="#1a8a4a" stroke-width="2"/>
+
+    <!-- 12" offset gap annotation -->
+    <line x1="850" y1="375" x2="850" y2="428" stroke="#e74c3c" stroke-width="1" stroke-dasharray="3,2"/>
+    <text x="860" y="408" font-size="11" fill="#c0392b">12" gap (cable space + sightline)</text>
+
+    <!-- STAGE upstage arc (R=1089px, from (250, 610.2) through (850, 430) to (1450, 610.2)) -->
+    <!-- Drawn as part of the stage outline below -->
+
+    <!-- STAGE outline (filled) -->
+    <path d="M 250 610.2
+             A 1089 1089 0 0 1 1450 610.2
+             L 1450 1150
+             L 250 1150
+             Z"
+          fill="#3a3a3a" fill-opacity="0.18" stroke="#1a1a1a" stroke-width="3"/>
+
+    <!-- Panel grid (4'x4' = 240x240px) overlaid on stage -->
+    <g stroke="#666" stroke-width="0.7" stroke-dasharray="4,3" fill="none">
+      <!-- Vertical grid lines (columns) -->
+      <line x1="490"  y1="491" x2="490"  y2="1150"/>
+      <line x1="730"  y1="442" x2="730"  y2="1150"/>
+      <line x1="970"  y1="442" x2="970"  y2="1150"/>
+      <line x1="1210" y1="491" x2="1210" y2="1150"/>
+      <!-- Horizontal grid lines (rows) -->
+      <line x1="250" y1="910" x2="1450" y2="910"/>
+      <line x1="250" y1="670" x2="1450" y2="670"/>
+    </g>
+
+    <!-- Panel labels -->
+    <g font-size="15" font-weight="700" fill="#1a1a1a" text-anchor="middle">
+      <!-- Row 1 (downstage) -->
+      <text x="370"  y="1035">A1</text>
+      <text x="610"  y="1035">B1</text>
+      <text x="850"  y="1035">C1</text>
+      <text x="1090" y="1035">D1</text>
+      <text x="1330" y="1035">E1</text>
+      <!-- Row 2 (middle) -->
+      <text x="370"  y="795">A2</text>
+      <text x="610"  y="795">B2</text>
+      <text x="850"  y="795">C2</text>
+      <text x="1090" y="795">D2</text>
+      <text x="1330" y="795">E2</text>
+      <!-- Row 3 (upstage — curved cut) -->
+      <text x="370"  y="650" fill="#c0392b">A3*</text>
+      <text x="610"  y="600" fill="#c0392b">B3*</text>
+      <text x="850"  y="560" fill="#c0392b">C3*</text>
+      <text x="1090" y="600" fill="#c0392b">D3*</text>
+      <text x="1330" y="650" fill="#c0392b">E3*</text>
+    </g>
+    <text x="850" y="1280" font-size="12" fill="#c0392b" text-anchor="middle">* Row 3 panels have curved upstage edges — see PANEL SCHEMATIC below</text>
+
+    <!-- Cable tunnel paths (front-to-back per column, dotted blue) -->
+    <g stroke="#2980b9" stroke-width="2.5" stroke-dasharray="8,4" fill="none">
+      <line x1="370"  y1="1150" x2="370"  y2="650"/>
+      <line x1="610"  y1="1150" x2="610"  y2="600"/>
+      <line x1="850"  y1="1150" x2="850"  y2="560"/>
+      <line x1="1090" y1="1150" x2="1090" y2="600"/>
+      <line x1="1330" y1="1150" x2="1330" y2="650"/>
+    </g>
+    <text x="1480" y="900" font-size="11" fill="#2980b9">Cable tunnel</text>
+    <text x="1480" y="916" font-size="11" fill="#2980b9">6"W × 4"H per column</text>
+    <text x="1480" y="932" font-size="11" fill="#2980b9">(5 channels)</text>
+
+    <!-- Removable fascia ports on downstage face -->
+    <g fill="#e74c3c">
+      <rect x="350"  y="1146" width="40" height="8"/>
+      <rect x="590"  y="1146" width="40" height="8"/>
+      <rect x="830"  y="1146" width="40" height="8"/>
+      <rect x="1070" y="1146" width="40" height="8"/>
+      <rect x="1310" y="1146" width="40" height="8"/>
+    </g>
+    <text x="1480" y="1148" font-size="11" fill="#c0392b">Removable</text>
+    <text x="1480" y="1164" font-size="11" fill="#c0392b">fascia port</text>
+    <text x="1480" y="1180" font-size="11" fill="#c0392b">(5 total)</text>
+
+    <!-- LED strip along downstage edge -->
+    <line x1="250" y1="1156" x2="1450" y2="1156" stroke="#f39c12" stroke-width="3.5" stroke-linecap="round"/>
+    <text x="380" y="1182" font-size="11" fill="#b87410">RGB+W DMX LED STRIP — 20' continuous, in aluminum channel, frosted diffuser, points outward + down</text>
+
+    <!-- DIMENSIONS -->
+    <!-- Overall stage width (20'-0") -->
+    <g stroke="#1a1a1a" stroke-width="0.7" fill="none">
+      <line x1="250" y1="1210" x2="250" y2="1245"/>
+      <line x1="1450" y1="1210" x2="1450" y2="1245"/>
+      <line x1="250" y1="1230" x2="1450" y2="1230"/>
+      <polygon points="250,1230 262,1226 262,1234" fill="#1a1a1a"/>
+      <polygon points="1450,1230 1438,1226 1438,1234" fill="#1a1a1a"/>
+    </g>
+    <text x="850" y="1224" font-size="14" font-weight="700" text-anchor="middle">20'-0" [240"] — STAGE WIDTH (downstage)</text>
+
+    <!-- LED wall chord width (21'-9.5") -->
+    <g stroke="#1a8a4a" stroke-width="0.7" fill="none">
+      <line x1="196.4" y1="574" x2="196.4" y2="544"/>
+      <line x1="1503.6" y1="574" x2="1503.6" y2="544"/>
+      <line x1="196.4" y1="558" x2="1503.6" y2="558"/>
+      <polygon points="196.4,558 209,554 209,562" fill="#1a8a4a"/>
+      <polygon points="1503.6,558 1491,554 1491,562" fill="#1a8a4a"/>
+    </g>
+    <text x="850" y="553" font-size="12" font-weight="700" fill="#1a8a4a" text-anchor="middle">21'-9½" [261.5"] — LED WALL CHORD</text>
+
+    <!-- Stage depth at center (12'-0") -->
+    <g stroke="#1a1a1a" stroke-width="0.7" fill="none">
+      <line x1="190" y1="430" x2="225" y2="430"/>
+      <line x1="190" y1="1150" x2="225" y2="1150"/>
+      <line x1="210" y1="430" x2="210" y2="1150"/>
+      <polygon points="210,430 206,442 214,442" fill="#1a1a1a"/>
+      <polygon points="210,1150 206,1138 214,1138" fill="#1a1a1a"/>
+    </g>
+    <text x="195" y="790" font-size="13" font-weight="700" text-anchor="middle" transform="rotate(-90, 195, 790)">12'-0" [144"] — STAGE DEPTH @ CENTER</text>
+
+    <!-- Stage depth at wing (9'-0") -->
+    <g stroke="#1a1a1a" stroke-width="0.7" fill="none">
+      <line x1="1455" y1="610" x2="1490" y2="610"/>
+      <line x1="1455" y1="1150" x2="1490" y2="1150"/>
+      <line x1="1475" y1="610" x2="1475" y2="1150"/>
+      <polygon points="1475,610 1471,622 1479,622" fill="#1a1a1a"/>
+      <polygon points="1475,1150 1471,1138 1479,1138" fill="#1a1a1a"/>
+    </g>
+    <text x="1495" y="880" font-size="12" font-weight="700" text-anchor="middle" transform="rotate(90, 1495, 880)">9'-0" [108"] — DEPTH @ WING</text>
+
+    <!-- Wall sagitta (3'-4 13/16") -->
+    <text x="850" y="468" font-size="10" fill="#1a8a4a" text-anchor="middle">Wall sagitta 3'-4 13/16" (40.81")</text>
+
+    <!-- Curved upstage edge note -->
+    <text x="850" y="420" font-size="11" fill="#666" text-anchor="middle">↑ Stage upstage edge — arc R ≈ 217.85" (concentric w/ LED wall) ↑</text>
+  </g>
+
+  <!-- ============================================ -->
+  <!-- FRONT ELEVATION (Audience View)               -->
+  <!-- ============================================ -->
+  <g id="front-elevation">
+    <rect x="60" y="1330" width="1580" height="36" fill="#1a1a1a"/>
+    <text x="80" y="1355" fill="#f7f6f1" font-size="18" font-weight="700" letter-spacing="2">FRONT ELEVATION — AUDIENCE VIEW · H × 6 EXAGGERATED FOR LEGIBILITY</text>
+
+    <!-- Concrete floor line -->
+    <line x1="100" y1="1530" x2="1600" y2="1530" stroke="#1a1a1a" stroke-width="2"/>
+    <text x="100" y="1548" font-size="10" fill="#666">CONCRETE FLOOR (Studio)</text>
+
+    <!-- Stage face: 20' wide × 7" tall, scaled 1'=60px W, 1"=14px V -->
+    <!-- 20'=1200px wide, 7"=98px tall -->
+    <!-- Position: x=250 to x=1450, y=1432 to y=1530 -->
+    <rect x="250" y="1432" width="1200" height="98" fill="#1a1a1a" stroke="#000" stroke-width="1.5"/>
+
+    <!-- Fascia panels (5 sections, one per column) -->
+    <g stroke="#333" stroke-width="1">
+      <line x1="490"  y1="1432" x2="490"  y2="1530"/>
+      <line x1="730"  y1="1432" x2="730"  y2="1530"/>
+      <line x1="970"  y1="1432" x2="970"  y2="1530"/>
+      <line x1="1210" y1="1432" x2="1210" y2="1530"/>
+    </g>
+
+    <!-- Removable fascia ports (red) -->
+    <g fill="#e74c3c" stroke="#c0392b" stroke-width="1">
+      <rect x="350"  y="1450" width="40" height="62"/>
+      <rect x="590"  y="1450" width="40" height="62"/>
+      <rect x="830"  y="1450" width="40" height="62"/>
+      <rect x="1070" y="1450" width="40" height="62"/>
+      <rect x="1310" y="1450" width="40" height="62"/>
+    </g>
+    <text x="370"  y="1483" font-size="9" fill="white" text-anchor="middle" font-weight="700">PORT</text>
+    <text x="370"  y="1495" font-size="9" fill="white" text-anchor="middle" font-weight="700">A</text>
+    <text x="610"  y="1483" font-size="9" fill="white" text-anchor="middle" font-weight="700">PORT</text>
+    <text x="610"  y="1495" font-size="9" fill="white" text-anchor="middle" font-weight="700">B</text>
+    <text x="850"  y="1483" font-size="9" fill="white" text-anchor="middle" font-weight="700">PORT</text>
+    <text x="850"  y="1495" font-size="9" fill="white" text-anchor="middle" font-weight="700">C</text>
+    <text x="1090" y="1483" font-size="9" fill="white" text-anchor="middle" font-weight="700">PORT</text>
+    <text x="1090" y="1495" font-size="9" fill="white" text-anchor="middle" font-weight="700">D</text>
+    <text x="1310" y="1483" font-size="9" fill="white" text-anchor="middle" font-weight="700">PORT</text>
+    <text x="1310" y="1495" font-size="9" fill="white" text-anchor="middle" font-weight="700">E</text>
+
+    <!-- LED Strip glow under bottom lip -->
+    <defs>
+      <linearGradient id="ledGlow" x1="0" x2="0" y1="0" y2="1">
+        <stop offset="0%" stop-color="#f39c12" stop-opacity="0.95"/>
+        <stop offset="100%" stop-color="#f39c12" stop-opacity="0"/>
+      </linearGradient>
+    </defs>
+    <rect x="250" y="1530" width="1200" height="45" fill="url(#ledGlow)"/>
+    <rect x="250" y="1526" width="1200" height="6" fill="#f39c12"/>
+
+    <!-- Dimensions -->
+    <g stroke="#1a1a1a" stroke-width="0.7" fill="none">
+      <line x1="250" y1="1600" x2="250" y2="1620"/>
+      <line x1="1450" y1="1600" x2="1450" y2="1620"/>
+      <line x1="250" y1="1612" x2="1450" y2="1612"/>
+      <polygon points="250,1612 262,1608 262,1616" fill="#1a1a1a"/>
+      <polygon points="1450,1612 1438,1608 1438,1616" fill="#1a1a1a"/>
+    </g>
+    <text x="850" y="1605" font-size="14" font-weight="700" text-anchor="middle">20'-0" — FASCIA WIDTH</text>
+
+    <g stroke="#1a1a1a" stroke-width="0.7" fill="none">
+      <line x1="1470" y1="1432" x2="1490" y2="1432"/>
+      <line x1="1470" y1="1530" x2="1490" y2="1530"/>
+      <line x1="1480" y1="1432" x2="1480" y2="1530"/>
+      <polygon points="1480,1432 1476,1444 1484,1444" fill="#1a1a1a"/>
+      <polygon points="1480,1530 1476,1518 1484,1518" fill="#1a1a1a"/>
+    </g>
+    <text x="1510" y="1486" font-size="13" font-weight="700">7"</text>
+
+    <!-- Annotations -->
+    <text x="100" y="1411" font-size="13" font-weight="700" fill="#1a1a1a">MATTE BLACK FASCIA (1/2" MDF or birch ply, painted) — 5 sections × 4' wide</text>
+    <text x="100" y="1660" font-size="13" fill="#b87410" font-weight="700">RGB+W DMX LED STRIP in aluminum channel, frosted diffuser — wraps full 20' downstage face, glow points outward + down</text>
+    <text x="100" y="1680" font-size="12" fill="#c0392b">Red panels = removable fascia ports (≈4" tall × 8" wide cutouts with magnet catch) — pop out to access cable tunnel</text>
+  </g>
+
+  <!-- ============================================ -->
+  <!-- CROSS-SECTION DETAIL                          -->
+  <!-- Scale: 1" = 40px (8× plan view)               -->
+  <!-- ============================================ -->
+  <g id="section-detail">
+    <rect x="60" y="1720" width="780" height="36" fill="#1a1a1a"/>
+    <text x="80" y="1745" fill="#f7f6f1" font-size="16" font-weight="700" letter-spacing="1">SECTION DETAIL — STAGE CROSS-CUT · SCALE 1" = 40px</text>
+
+    <!-- Frame work area: x=80 to x=820, y=1770 to y=2240 -->
+    <!-- Stage profile: 7" tall × ~14" wide cross-section. 7"×40=280px tall, 14"×40=560px wide -->
+    <!-- Position stage profile: x=130 to x=690, top y=1840, bottom y=2120 -->
+
+    <!-- Concrete floor -->
+    <pattern id="concrete" patternUnits="userSpaceOnUse" width="14" height="14">
+      <rect width="14" height="14" fill="#cccccc"/>
+      <circle cx="3" cy="4" r="1" fill="#999"/>
+      <circle cx="10" cy="9" r="1.2" fill="#aaa"/>
+      <circle cx="7" cy="12" r="0.8" fill="#888"/>
+    </pattern>
+    <rect x="80" y="2120" width="760" height="80" fill="url(#concrete)" stroke="#666" stroke-width="0.5"/>
+    <text x="100" y="2180" font-size="11" fill="#444" font-weight="700">CONCRETE STUDIO FLOOR</text>
+
+    <!-- Leveling foot -->
+    <rect x="160" y="2100" width="14" height="20" fill="#777"/>
+    <rect x="155" y="2096" width="24" height="4" fill="#555"/>
+    <rect x="155" y="2080" width="6" height="20" fill="#555"/>
+    <rect x="173" y="2080" width="6" height="20" fill="#555"/>
+    <text x="100" y="2095" font-size="10" fill="#666">LEVELER</text>
+    <text x="100" y="2108" font-size="10" fill="#666">¼"–1½"</text>
+    <text x="100" y="2120" font-size="10" fill="#666">adj.</text>
+    <line x1="125" y1="2095" x2="155" y2="2098" stroke="#666" stroke-width="0.5"/>
+
+    <!-- 2x6 frame (perimeter rail, cross-section view = 1.5" wide × 5.5" tall) -->
+    <!-- 1.5"×40=60px wide, 5.5"×40=220px tall -->
+    <!-- Downstage 2x6 rail at x=620 to x=680 (60px wide), y=1880 to y=2100 (220px tall) -->
+    <rect x="620" y="1880" width="60" height="220" fill="#d4a574" stroke="#8b5a2b" stroke-width="1"/>
+    <text x="650" y="2010" font-size="10" font-weight="700" fill="#5a3a1a" text-anchor="middle">2x6 SPF</text>
+    <text x="650" y="2024" font-size="10" font-weight="700" fill="#5a3a1a" text-anchor="middle">PERIM</text>
+    <text x="650" y="2038" font-size="10" font-weight="700" fill="#5a3a1a" text-anchor="middle">RAIL</text>
+
+    <!-- Upstage 2x6 rail mirrored (left side of section) -->
+    <rect x="190" y="1880" width="60" height="220" fill="#d4a574" stroke="#8b5a2b" stroke-width="1"/>
+    <text x="220" y="2010" font-size="10" font-weight="700" fill="#5a3a1a" text-anchor="middle">2x6 SPF</text>
+    <text x="220" y="2024" font-size="10" font-weight="700" fill="#5a3a1a" text-anchor="middle">PERIM</text>
+    <text x="220" y="2038" font-size="10" font-weight="700" fill="#5a3a1a" text-anchor="middle">RAIL</text>
+
+    <!-- Cable tunnel cavity between rails (within frame) -->
+    <!-- Tunnel is 6"W × 4"H = 240px × 160px clear; show the cavity full-width here -->
+    <rect x="250" y="1920" width="370" height="160" fill="#2980b9" fill-opacity="0.15" stroke="#2980b9" stroke-width="1.5" stroke-dasharray="6,3"/>
+    <text x="435" y="1985" font-size="13" font-weight="700" fill="#2980b9" text-anchor="middle">CABLE TUNNEL CAVITY</text>
+    <text x="435" y="2005" font-size="11" fill="#2980b9" text-anchor="middle">≥ 6" wide × 4" tall clear</text>
+    <text x="435" y="2022" font-size="10" fill="#2980b9" text-anchor="middle">(joist spacing on either side accommodates this)</text>
+
+    <!-- Internal joist (cross-section visible far left/right of tunnel area — depicted lightly) -->
+    <rect x="250" y="1880" width="40" height="200" fill="#e0b885" stroke="#8b5a2b" stroke-width="0.7" opacity="0.5"/>
+    <rect x="580" y="1880" width="40" height="200" fill="#e0b885" stroke="#8b5a2b" stroke-width="0.7" opacity="0.5"/>
+    <text x="270" y="2095" font-size="8" fill="#666" text-anchor="middle">2x6 joist</text>
+    <text x="600" y="2095" font-size="8" fill="#666" text-anchor="middle">2x6 joist</text>
+
+    <!-- 3/4" Plywood deck (3/4"×40=30px tall) -->
+    <rect x="190" y="1850" width="490" height="30" fill="#e8c896" stroke="#8b5a2b" stroke-width="1"/>
+    <text x="700" y="1869" font-size="11" font-weight="700" fill="#5a3a1a">3/4" CDX plywood deck</text>
+
+    <!-- 1/4" Masonite top -->
+    <rect x="190" y="1840" width="490" height="10" fill="#1a1a1a"/>
+    <text x="700" y="1848" font-size="11" font-weight="700" fill="#1a1a1a">1/4" tempered Masonite — matte black</text>
+
+    <!-- Downstage fascia panel (1/2" thick, full 7" tall) -->
+    <!-- 1/2"×40=20px wide, 7"×40=280px tall -->
+    <rect x="680" y="1840" width="20" height="280" fill="#1a1a1a"/>
+    <text x="715" y="1985" font-size="11" font-weight="700" fill="#1a1a1a">1/2" matte black</text>
+    <text x="715" y="2000" font-size="11" font-weight="700" fill="#1a1a1a">fascia (MDF/ply)</text>
+    <text x="715" y="2018" font-size="10" fill="#666">— bolts to perim rail</text>
+    <text x="715" y="2030" font-size="10" fill="#666">— removable ports cut</text>
+    <text x="715" y="2042" font-size="10" fill="#666">  in 5 locations</text>
+
+    <!-- LED strip channel at downstage bottom corner -->
+    <rect x="700" y="2100" width="30" height="18" fill="#888" stroke="#444" stroke-width="0.7"/>
+    <rect x="702" y="2106" width="26" height="9" fill="#f39c12" opacity="0.9"/>
+    <!-- LED glow downward + outward -->
+    <defs>
+      <radialGradient id="ledGlow2" cx="50%" cy="0%" r="100%">
+        <stop offset="0%" stop-color="#f39c12" stop-opacity="0.8"/>
+        <stop offset="100%" stop-color="#f39c12" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <ellipse cx="715" cy="2120" rx="60" ry="30" fill="url(#ledGlow2)"/>
+    <text x="755" y="2110" font-size="11" font-weight="700" fill="#b87410">RGB+W DMX</text>
+    <text x="755" y="2122" font-size="11" font-weight="700" fill="#b87410">LED strip in</text>
+    <text x="755" y="2134" font-size="11" font-weight="700" fill="#b87410">alum. channel</text>
+
+    <!-- Dimensions on section -->
+    <g stroke="#1a1a1a" stroke-width="0.7" fill="none">
+      <!-- Total height 7" -->
+      <line x1="120" y1="1840" x2="150" y2="1840"/>
+      <line x1="120" y1="2120" x2="150" y2="2120"/>
+      <line x1="135" y1="1840" x2="135" y2="2120"/>
+      <polygon points="135,1840 131,1852 139,1852" fill="#1a1a1a"/>
+      <polygon points="135,2120 131,2108 139,2108" fill="#1a1a1a"/>
+    </g>
+    <text x="115" y="1985" font-size="13" font-weight="700" text-anchor="end">7"</text>
+
+    <text x="80" y="1810" font-size="13" font-weight="700">Cut looking SR → SL · Downstage on right →</text>
+
+    <!-- Stack legend -->
+    <g font-size="10" fill="#444">
+      <text x="180" y="2230">DECK STACK (top down): Masonite ¼"  +  CDX plywood ¾"  +  2x6 frame 5½"  +  leveler ½" min = <tspan font-weight="700" fill="#1a1a1a">7" total</tspan></text>
+    </g>
+  </g>
+
+  <!-- ============================================ -->
+  <!-- PANEL SCHEMATIC (15-panel layout)             -->
+  <!-- ============================================ -->
+  <g id="panel-schematic">
+    <rect x="860" y="1720" width="780" height="36" fill="#1a1a1a"/>
+    <text x="880" y="1745" fill="#f7f6f1" font-size="16" font-weight="700" letter-spacing="1">PANEL SCHEMATIC — 15 MODULAR 4'×4' DECKS · BOLT-TOGETHER</text>
+
+    <!-- 5 cols × 3 rows schematic. Each panel cell shown as a 120×120 schematic rect -->
+    <!-- Start at x=900, y=1790. Cell 120×120 with 6px gap. -->
+    <!-- Total width: 5*120 + 4*6 = 624. Total height: 3*120 + 2*6 = 372 -->
+
+    <!-- Row 1 (downstage) - 5 full panels -->
+    <g>
+      <rect x="900"  y="1790" width="120" height="120" fill="#e8e0c8" stroke="#1a1a1a" stroke-width="1.5"/>
+      <rect x="1026" y="1790" width="120" height="120" fill="#e8e0c8" stroke="#1a1a1a" stroke-width="1.5"/>
+      <rect x="1152" y="1790" width="120" height="120" fill="#e8e0c8" stroke="#1a1a1a" stroke-width="1.5"/>
+      <rect x="1278" y="1790" width="120" height="120" fill="#e8e0c8" stroke="#1a1a1a" stroke-width="1.5"/>
+      <rect x="1404" y="1790" width="120" height="120" fill="#e8e0c8" stroke="#1a1a1a" stroke-width="1.5"/>
+      <text x="960"  y="1855" text-anchor="middle" font-size="13" font-weight="700">A1</text>
+      <text x="1086" y="1855" text-anchor="middle" font-size="13" font-weight="700">B1</text>
+      <text x="1212" y="1855" text-anchor="middle" font-size="13" font-weight="700">C1</text>
+      <text x="1338" y="1855" text-anchor="middle" font-size="13" font-weight="700">D1</text>
+      <text x="1464" y="1855" text-anchor="middle" font-size="13" font-weight="700">E1</text>
+      <text x="960"  y="1874" text-anchor="middle" font-size="10" fill="#666">4'×4' full</text>
+      <text x="1086" y="1874" text-anchor="middle" font-size="10" fill="#666">4'×4' full</text>
+      <text x="1212" y="1874" text-anchor="middle" font-size="10" fill="#666">4'×4' full</text>
+      <text x="1338" y="1874" text-anchor="middle" font-size="10" fill="#666">4'×4' full</text>
+      <text x="1464" y="1874" text-anchor="middle" font-size="10" fill="#666">4'×4' full</text>
+    </g>
+
+    <!-- Row 2 (middle) - 5 full panels -->
+    <g>
+      <rect x="900"  y="1916" width="120" height="120" fill="#e8e0c8" stroke="#1a1a1a" stroke-width="1.5"/>
+      <rect x="1026" y="1916" width="120" height="120" fill="#e8e0c8" stroke="#1a1a1a" stroke-width="1.5"/>
+      <rect x="1152" y="1916" width="120" height="120" fill="#e8e0c8" stroke="#1a1a1a" stroke-width="1.5"/>
+      <rect x="1278" y="1916" width="120" height="120" fill="#e8e0c8" stroke="#1a1a1a" stroke-width="1.5"/>
+      <rect x="1404" y="1916" width="120" height="120" fill="#e8e0c8" stroke="#1a1a1a" stroke-width="1.5"/>
+      <text x="960"  y="1981" text-anchor="middle" font-size="13" font-weight="700">A2</text>
+      <text x="1086" y="1981" text-anchor="middle" font-size="13" font-weight="700">B2</text>
+      <text x="1212" y="1981" text-anchor="middle" font-size="13" font-weight="700">C2</text>
+      <text x="1338" y="1981" text-anchor="middle" font-size="13" font-weight="700">D2</text>
+      <text x="1464" y="1981" text-anchor="middle" font-size="13" font-weight="700">E2</text>
+      <text x="960"  y="2000" text-anchor="middle" font-size="10" fill="#666">4'×4' full</text>
+      <text x="1086" y="2000" text-anchor="middle" font-size="10" fill="#666">4'×4' full</text>
+      <text x="1212" y="2000" text-anchor="middle" font-size="10" fill="#666">4'×4' full</text>
+      <text x="1338" y="2000" text-anchor="middle" font-size="10" fill="#666">4'×4' full</text>
+      <text x="1464" y="2000" text-anchor="middle" font-size="10" fill="#666">4'×4' full</text>
+    </g>
+
+    <!-- Row 3 (upstage — curved cuts on upstage edge) -->
+    <!-- Show curve cutting through upstage edges of these panels -->
+    <g>
+      <!-- A3: 4'×4' with deep curve cut leaving ~1' wedge -->
+      <path d="M 900 2162 L 1020 2120 L 1020 2042 L 900 2042 Z" fill="#fceaea" stroke="#c0392b" stroke-width="1.5"/>
+      <text x="960" y="2098" text-anchor="middle" font-size="13" font-weight="700">A3</text>
+      <text x="960" y="2116" text-anchor="middle" font-size="9" fill="#c0392b">curved · 1'–3' deep</text>
+
+      <!-- B3 -->
+      <path d="M 1026 2120 L 1146 2087 L 1146 2042 L 1026 2042 Z" fill="#fceaea" stroke="#c0392b" stroke-width="1.5"/>
+      <text x="1086" y="2080" text-anchor="middle" font-size="13" font-weight="700">B3</text>
+      <text x="1086" y="2098" text-anchor="middle" font-size="9" fill="#c0392b">curved · 3'–4' deep</text>
+
+      <!-- C3 (center, near full) -->
+      <path d="M 1152 2087 Q 1212 2040 1272 2087 L 1272 2042 L 1152 2042 Z" fill="#fceaea" stroke="#c0392b" stroke-width="1.5"/>
+      <text x="1212" y="2073" text-anchor="middle" font-size="13" font-weight="700">C3</text>
+      <text x="1212" y="2091" text-anchor="middle" font-size="9" fill="#c0392b">curved · ~4' deep</text>
+
+      <!-- D3 -->
+      <path d="M 1278 2042 L 1398 2042 L 1398 2087 L 1278 2120 Z" fill="#fceaea" stroke="#c0392b" stroke-width="1.5"/>
+      <text x="1338" y="2080" text-anchor="middle" font-size="13" font-weight="700">D3</text>
+      <text x="1338" y="2098" text-anchor="middle" font-size="9" fill="#c0392b">curved · 3'–4' deep</text>
+
+      <!-- E3 -->
+      <path d="M 1404 2042 L 1524 2042 L 1524 2120 L 1404 2162 Z" fill="#fceaea" stroke="#c0392b" stroke-width="1.5"/>
+      <text x="1464" y="2098" text-anchor="middle" font-size="13" font-weight="700">E3</text>
+      <text x="1464" y="2116" text-anchor="middle" font-size="9" fill="#c0392b">curved · 1'–3' deep</text>
+    </g>
+
+    <!-- Row labels -->
+    <text x="888" y="1855" font-size="11" font-weight="700" text-anchor="end">ROW 1</text>
+    <text x="888" y="1869" font-size="9" fill="#666" text-anchor="end">DOWNSTAGE</text>
+    <text x="888" y="1981" font-size="11" font-weight="700" text-anchor="end">ROW 2</text>
+    <text x="888" y="1995" font-size="9" fill="#666" text-anchor="end">MIDDLE</text>
+    <text x="888" y="2095" font-size="11" font-weight="700" text-anchor="end">ROW 3</text>
+    <text x="888" y="2109" font-size="9" fill="#666" text-anchor="end">UPSTAGE</text>
+    <text x="888" y="2122" font-size="9" fill="#c0392b" text-anchor="end">(curved)</text>
+
+    <!-- Cable tunnel arrows showing front-to-back flow per column -->
+    <g stroke="#2980b9" stroke-width="2" fill="none" marker-end="url(#bluearrow)">
+      <defs>
+        <marker id="bluearrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+          <polygon points="0,0 6,3 0,6" fill="#2980b9"/>
+        </marker>
+      </defs>
+      <line x1="960"  y1="2180" x2="960"  y2="1788"/>
+      <line x1="1086" y1="2180" x2="1086" y2="1788"/>
+      <line x1="1212" y1="2180" x2="1212" y2="1788"/>
+      <line x1="1338" y1="2180" x2="1338" y2="1788"/>
+      <line x1="1464" y1="2180" x2="1464" y2="1788"/>
+    </g>
+    <text x="1212" y="2210" font-size="11" font-weight="700" fill="#2980b9" text-anchor="middle">Cable tunnel runs front → back through each column (5 channels total)</text>
+
+    <!-- Notes on panel system -->
+    <g font-size="11" fill="#444">
+      <text x="880" y="2260">• 10 panels are standard 4'×4' rectangles. 5 upstage panels (red) get curved cuts on their upstage edge.</text>
+      <text x="880" y="2278">• Panels bolt edge-to-edge with ⅜" carriage bolts + wing nuts (4 per joint). Dowel pins for alignment.</text>
+      <text x="880" y="2296">• Each panel has 4 corner levelers (16 total per panel × 15 panels = 60 levelers).</text>
+      <text x="880" y="2314">• Perimeter rails on adjacent panels have aligned 6"W × 4"H notches → forms continuous cable tunnel.</text>
+    </g>
+  </g>
+
+  <!-- ============================================ -->
+  <!-- MATERIALS & HARDWARE SUMMARY                  -->
+  <!-- ============================================ -->
+  <g id="materials">
+    <rect x="60" y="2360" width="1580" height="36" fill="#1a1a1a"/>
+    <text x="80" y="2385" fill="#f7f6f1" font-size="16" font-weight="700" letter-spacing="1">MATERIALS &amp; HARDWARE — TOP-LEVEL SUMMARY (full BOM in construction plan)</text>
+
+    <g font-size="13" fill="#1a1a1a">
+      <!-- Left column: lumber + sheet goods -->
+      <text x="80"  y="2418" font-weight="700">LUMBER (SPF, kiln-dried)</text>
+      <text x="80"  y="2438">• 2x6 × 8' — frame perimeter + joists — qty: ~50 boards</text>
+      <text x="80"  y="2456">• 2x6 × 4' offcuts for blocking and cable-port headers</text>
+
+      <text x="80"  y="2490" font-weight="700">SHEET GOODS</text>
+      <text x="80"  y="2510">• 4'×8' × ¾" CDX plywood — deck — qty: 8 sheets (cut to 4'×4')</text>
+      <text x="80"  y="2528">• 4'×8' × ¼" tempered Masonite — top skin — qty: 8 sheets</text>
+      <text x="80"  y="2546">• 4'×8' × ½" MDF or birch ply — fascia — qty: 3 sheets</text>
+
+      <text x="80"  y="2580" font-weight="700">FINISH</text>
+      <text x="80"  y="2600">• 1 gal matte black acrylic stage paint (Behr Ultra Pure Black, eggshell or matte)</text>
+
+      <!-- Middle column: hardware -->
+      <text x="600" y="2418" font-weight="700">HARDWARE</text>
+      <text x="600" y="2438">• ⅜" × 4" carriage bolts + wing nuts + washers — qty: ~180 (panel joints)</text>
+      <text x="600" y="2456">• #8 × 3" deck screws — qty: 1000 (frame assembly)</text>
+      <text x="600" y="2474">• #8 × 1¼" screws — qty: 500 (decking)</text>
+      <text x="600" y="2492">• #6 × ⅝" finish nails — Masonite top</text>
+      <text x="600" y="2510">• ¼"×2" dowel pins — qty: 60 (panel alignment)</text>
+      <text x="600" y="2528">• Stage leveler feet (½"–1½" adj, ¾" stud) — qty: 60</text>
+      <text x="600" y="2546">• Neodymium magnet catches (5 lb hold) — qty: 10 (fascia ports)</text>
+
+      <!-- Right column: electrical -->
+      <text x="1110" y="2418" font-weight="700">ELECTRICAL · LED STRIP</text>
+      <text x="1110" y="2438">• RGB+W LED strip, 24V, IP65, 60 LED/m — qty: 7m (~22')</text>
+      <text x="1110" y="2456">• Aluminum mounting channel w/ frosted diffuser — qty: 7m</text>
+      <text x="1110" y="2474">• 24V 200W power supply (Meanwell or equiv)</text>
+      <text x="1110" y="2492">• DMX decoder, 5ch RGBW+W (e.g. Enttec D-Pro)</text>
+      <text x="1110" y="2510">• 5-pin DMX cable to lighting board (run inside cable tunnel)</text>
+
+      <text x="1110" y="2544" font-weight="700">SAFETY · OPTIONAL</text>
+      <text x="1110" y="2564">• Non-slip rubber pads under each leveler foot</text>
+      <text x="1110" y="2582">• Edge-glow safety tape (subtle, under downstage lip)</text>
+      <text x="1110" y="2600">• Anti-slip clear coat on Masonite top (optional)</text>
+    </g>
+  </g>
+
+  <!-- ============================================ -->
+  <!-- KEY CALLOUTS / NOTES                          -->
+  <!-- ============================================ -->
+  <g id="callouts">
+    <text x="80"  y="2645" font-size="11" fill="#666" font-style="italic">PLAN VIEW SCALE 1:24 · ELEVATION HEIGHT EXAGGERATED 6× · DETAIL SECTION 1:12 · ALL DIMENSIONS NOMINAL — VERIFY ON SITE BEFORE CUTTING</text>
+    <text x="1620" y="2645" font-size="11" fill="#666" font-style="italic" text-anchor="end">REV 0 · DRAFT FOR APPROVAL · 2026-06-05</text>
+  </g>
+
+</svg>
