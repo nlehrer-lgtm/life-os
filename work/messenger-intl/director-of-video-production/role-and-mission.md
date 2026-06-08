@@ -53,6 +53,12 @@ I lead the Capture lane. That means two things:
 
 ---
 
+## The elevator pitch (2–3 sentences, per Jun 1 huddle action)
+
+> I make sure the weight of what [[Messenger International|Messenger]] has to say is never undercut by how it lands on a screen. The craft we ship — the shot, the cut, the sound, the polish — has to match the message, because the global viewer encountering [[John Bevere|John]] and Lisa for the first time deserves nothing less. My job is to hold that standard and grow a team that holds it with me.
+
+---
+
 ## The 30-second version (for the huddle)
 
 > The [[Video Team]] exists to turn the ministry's vision into footage that honors what makes it powerful. We serve the global viewer ultimately, the [[Beveres|Beveres]] directly, and this team as partners. Inside the 3 C's, Capture owns the craft of how it looks — cinematography, editing, sound, deliverable quality. That's the lane. Coordinate decides what; Create decides how it's said; Capture decides whether it's worth watching. My job is to keep that standard high and grow the team so it stays high.
