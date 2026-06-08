@@ -11,7 +11,7 @@ aliases:
 **Phone:** 719-502-6366
 
 ## Last Contact
-2026-06-05 — Record MXDaily with Arden (1:15pm, office).
+2026-06-08 — [[Discipleship Team]] Touch Base Huddle (11am).
 
 ## Contact History
 2026-06-05 — Record MXDaily with Arden (1:15pm, office).
