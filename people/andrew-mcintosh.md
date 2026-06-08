@@ -11,6 +11,9 @@ aliases:
 **Slack:** @Andrew McIntosh (U04CYP0017Y)
 
 ## Last Contact
+2026-06-08 — Daily [[Video Team]] Debrief (9:30am). Andrew working remote today.
+
+## Contact History
 2026-05-28 — Andrew / Nathaniel 1:1 at 3pm today.
 
 ## Contact History
