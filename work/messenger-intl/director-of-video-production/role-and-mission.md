@@ -55,7 +55,7 @@ I lead the Capture lane. That means two things:
 
 ## The elevator pitch (2–3 sentences, per Jun 1 huddle action)
 
-> I make sure the weight of what [[Messenger International|Messenger]] has to say is never undercut by how it lands on a screen. The craft we ship — the shot, the cut, the sound, the polish — has to match the message, because the global viewer encountering [[John Bevere|John]] and Lisa for the first time deserves nothing less. My job is to hold that standard and grow a team that holds it with me.
+> I exist to **honor** the weight of what [[Messenger International|Messenger]] has to say and **faithfully** carry it to a screen without losing its power. The craft we ship — the shot, the cut, the sound, the polish — has to match the message, because the global viewer encountering [[John Bevere|John]] and Lisa for the first time deserves nothing less. My job is to hold that standard and grow a team that holds it with me.
 
 ---
 
