@@ -6,12 +6,12 @@ aliases:
 
 # Arden Bevere
 
-**Relationship:** Colleague at [[Messenger International]] — Travel Assistant, Executive Office
+**Relationship:** VP of Discipleship at [[Messenger International]] — Nathaniel's direct lead (upward 1:1)
 **Email:** acbevere@messengerinternational.org
 **Phone:** 719-502-6366
 
 ## Last Contact
-2026-06-08 — [[Discipleship Team]] Touch Base Huddle (11am).
+2026-06-09 — Upward 1:1 at 1:15pm. Prep doc committed this morning.
 
 ## Contact History
 2026-06-05 — Record MXDaily with Arden (1:15pm, office).
