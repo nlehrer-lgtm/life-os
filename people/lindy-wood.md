@@ -11,6 +11,9 @@ aliases:
 **Slack:** @Lindy Wood (U01B0GYHA7K)
 
 ## Last Contact
+2026-06-09 — [[Get REC'D]] Weekly (8am). Nashville office day.
+
+## Contact History
 2026-06-08 — Pre Boxing Out the Week (8:30am) and Daily [[Video Team]] Debrief (9:30am).
 
 ## Contact History
