@@ -80,7 +80,7 @@ Details and notes live in `people/` and `identity/profile.md`.
 - `[[Job Site Social]]` → `work/personal-projects/job-site-social/job-site-social.md`
 
 **Organizations:**
-- `[[Messenger International]]` → `work/messenger-intl/messenger-international.md`
+- `[[Messenger International]]` → `work/messenger-intl/internal-documents/messenger-international.md`
 
 **Life pillars:**
 - `[[Faith]]`, `[[Marriage]]`, `[[Fatherhood]]`, `[[Relationships]]`, `[[Joy & Rest]]` → `identity/pillars/*.md`
