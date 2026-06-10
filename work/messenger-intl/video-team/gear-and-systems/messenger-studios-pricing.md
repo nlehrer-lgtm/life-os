@@ -15,7 +15,7 @@ metadata:
 
 For external booking inquiries. Studio operated by the [[Video Team]] at [[Messenger International]]. All bookings subject to ministry-schedule approval; ministry productions take priority.
 
-**Source:** `gear-and-systems/source-documents/Messenger Studio Pricing Sheet.pdf`
+**Source:** `work/messenger-intl/video-team/gear-and-systems/source-documents/Messenger Studio Pricing Sheet.pdf`
 
 ---
 
@@ -126,4 +126,4 @@ Responsible for:
 
 - [[messenger-studios-overview]] — Full gear, rack, and signal-flow reference
 - [[messenger-studios-led-wall]] — LED wall spec
-- `gear-and-systems/source-documents/Messenger Studio Pricing Sheet.pdf` — Source pricing sheet
+- `work/messenger-intl/video-team/gear-and-systems/source-documents/Messenger Studio Pricing Sheet.pdf` — Source pricing sheet

@@ -73,7 +73,7 @@ The 7" modular production stage sits in front of this wall. Key interface dimens
 - **Stage upstage edge offset: 12" from wall face** at every point along the curve.
 - **Stage upstage edge radius: ≈ 217.85"** (wall R minus 12").
 - **Stage width: 20'** — wall extends ~10.75" past the stage on each side.
-- See blueprint: `gear-and-systems/messenger-studios-stage-blueprint.svg`.
+- See blueprint: `work/messenger-intl/video-team/gear-and-systems/messenger-studios-stage-blueprint.svg`.
 
 ---
 

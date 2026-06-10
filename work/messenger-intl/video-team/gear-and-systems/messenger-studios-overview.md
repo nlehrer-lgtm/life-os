@@ -17,7 +17,7 @@ metadata:
 
 Boutique virtual-production studio owned by [[Messenger International]], operated by the [[Video Team]]. Designed for podcasts, commercials, promo content, and short-form cinematic productions. Built around a curved 1.9mm [[Planar]] LED wall driven by [[Unreal Engine]] virtual production.
 
-**Sources of truth (in `gear-and-systems/source-documents/`):**
+**Sources of truth (in `work/messenger-intl/video-team/gear-and-systems/source-documents/`):**
 - `MI Nashville Studio P-426 As-built.pdf` — Lux AVL Inc., Q3 2025 design-development draft (full AS-BUILT plans)
 - `Lux AVL Proposal P-426 - Loudspeakers Lighting Curtains Acoustics (2024-09-30).pdf` — initial Lux proposal: $65,785 covering loudspeakers, lighting, curtains, acoustic treatment. **Does NOT cover the video / SDI cable plant** — that scope is in a separate Lux document not yet located.
 
@@ -216,6 +216,6 @@ Pairing a smaller M/E switcher with DeckLink capture cards in dedicated PCs was 
 
 - [[messenger-studios-led-wall]] — Full LED wall spec
 - [[messenger-studios-pricing]] — Studio rate card for external bookings
-- `gear-and-systems/messenger-studios-stage-blueprint.svg` — Stage + wall blueprint
-- `gear-and-systems/source-documents/MI Nashville Studio P-426 As-built.pdf` — Source as-built (Lux AVL, Q3 2025)
-- `gear-and-systems/source-documents/Lux AVL Proposal P-426 - Loudspeakers Lighting Curtains Acoustics (2024-09-30).pdf` — initial Lux proposal (no video scope)
+- `work/messenger-intl/video-team/gear-and-systems/messenger-studios-stage-blueprint.svg` — Stage + wall blueprint
+- `work/messenger-intl/video-team/gear-and-systems/source-documents/MI Nashville Studio P-426 As-built.pdf` — Source as-built (Lux AVL, Q3 2025)
+- `work/messenger-intl/video-team/gear-and-systems/source-documents/Lux AVL Proposal P-426 - Loudspeakers Lighting Curtains Acoustics (2024-09-30).pdf` — initial Lux proposal (no video scope)
