@@ -17,7 +17,11 @@ metadata:
 
 Boutique virtual-production studio owned by [[Messenger International]], operated by the [[Video Team]]. Designed for podcasts, commercials, promo content, and short-form cinematic productions. Built around a curved 1.9mm [[Planar]] LED wall driven by [[Unreal Engine]] virtual production.
 
-**Source of truth:** `gear-and-systems/source-documents/MI Nashville Studio P-426 As-built.pdf` (Lux AVL Inc., Q3 2025 design-development draft).
+**Sources of truth (in `gear-and-systems/source-documents/`):**
+- `MI Nashville Studio P-426 As-built.pdf` — Lux AVL Inc., Q3 2025 design-development draft (full AS-BUILT plans)
+- `Lux AVL Proposal P-426 - Loudspeakers Lighting Curtains Acoustics (2024-09-30).pdf` — initial Lux proposal: $65,785 covering loudspeakers, lighting, curtains, acoustic treatment. **Does NOT cover the video / SDI cable plant** — that scope is in a separate Lux document not yet located.
+
+**⚠️ Missing source document:** A separate Lux proposal/invoice exists for the video system (SDI patch panels CTP_3x2 / CTP_2x2 / CTP_8x8 / DTP_01, BNC pulls SDI A–E, network pulls). Find it — it's where the SDI cable spec (12G vs 3G) would be itemized. Check Asana, email archives, and with [[Andrew McIntosh]].
 
 For LED wall geometry, power, and stage relationship, see [[messenger-studios-led-wall]].
 
