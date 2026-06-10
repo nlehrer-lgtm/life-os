@@ -217,4 +217,5 @@ Pairing a smaller M/E switcher with DeckLink capture cards in dedicated PCs was 
 - [[messenger-studios-led-wall]] — Full LED wall spec
 - [[messenger-studios-pricing]] — Studio rate card for external bookings
 - `gear-and-systems/messenger-studios-stage-blueprint.svg` — Stage + wall blueprint
-- `gear-and-systems/source-documents/MI Nashville Studio P-426 As-built.pdf` — Source as-built (Lux AVL)
+- `gear-and-systems/source-documents/MI Nashville Studio P-426 As-built.pdf` — Source as-built (Lux AVL, Q3 2025)
+- `gear-and-systems/source-documents/Lux AVL Proposal P-426 - Loudspeakers Lighting Curtains Acoustics (2024-09-30).pdf` — initial Lux proposal (no video scope)
