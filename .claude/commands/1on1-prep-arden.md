@@ -24,7 +24,7 @@ In this 1:1, **Nathaniel is the team member.** Arden is the leader. This prep do
 - **Strategic focus:** Overall strategy of what content gets made and how it lands across website, app, and podcast
 - **Relationship to Nathaniel:** Direct lead (Nathaniel reports to him)
 - **Granola folder ID:** _Not yet configured — Nathaniel hasn't started recording these meetings. When he does, add the folder ID here and update Step 6 to pull the latest transcript._
-- **1:1 folder:** `/Users/nlehrer/Desktop/life-os/work/messenger-intl/leadership/arden/`
+- **1:1 folder:** `/Users/nlehrer/Desktop/life-os/work/messenger-intl/leadership/my-leader/arden/`
 - **Running notes file:** `running-notes.md` in that folder
 
 ### Standing big-ticket topics (recurring context for every Arden 1:1)
@@ -35,7 +35,7 @@ In this 1:1, **Nathaniel is the team member.** Arden is the leader. This prep do
 ## Steps
 
 ### Step 1 — Read the running notes
-Read `work/messenger-intl/leadership/arden/running-notes.md`. These are Nathaniel's ad-hoc captures between 1:1s. Include them verbatim in the prep so he can scan them.
+Read `work/messenger-intl/leadership/my-leader/arden/running-notes.md`. These are Nathaniel's ad-hoc captures between 1:1s. Include them verbatim in the prep so he can scan them.
 
 ### Step 2 — Scan `notes/inbox.md` for Arden-relevant mentions
 Read `notes/inbox.md` and pull any lines that mention "Arden" (case-insensitive) OR that read like upward-1:1 topics (discipleship team coordination, role clarity, vision, for-profit plan, etc.). Include them as context — they may be things Nathaniel forgot to move into running-notes.
@@ -70,7 +70,7 @@ Read the last 7 days of:
 Surface anything that touches: energy/bandwidth/heaviness (for the personal check-in), strategic decisions made, wins worth naming, and anything blocked that Arden could unblock.
 
 ### Step 6 — Pull previous Arden 1:1 prep + summary
-Look in `work/messenger-intl/leadership/arden/` for:
+Look in `work/messenger-intl/leadership/my-leader/arden/` for:
 - Most recent `1on1-prep-*.md` (what was on his plate last time — continuity check)
 - Most recent `1on1-summary-*.md` (action items, direction Arden set)
 
@@ -87,7 +87,7 @@ Based on everything pulled, generate **specific, context-tied** questions across
 If a category has no clear question, write `[no specific question this cycle — skip in the meeting]` rather than padding.
 
 ### Step 8 — Write the prep doc
-Save to `work/messenger-intl/leadership/arden/1on1-prep-YYYY-MM-DD.md` (today's date — the prep date).
+Save to `work/messenger-intl/leadership/my-leader/arden/1on1-prep-YYYY-MM-DD.md` (today's date — the prep date).
 
 **Format:**
 

@@ -142,7 +142,7 @@ In this loop, **Nathaniel is the team member.** [[Arden Bevere|Arden]] is the le
 ### Phase 1 — Between meetings
 Whenever something surfaces that you want to raise with [[Arden Bevere|Arden]], capture it. Two ways:
 
-- Edit `work/messenger-intl/leadership/arden/running-notes.md` directly with a quick bullet
+- Edit `work/messenger-intl/leadership/my-leader/arden/running-notes.md` directly with a quick bullet
 - Or use `/note for Arden: <thing>` (once `/note` is updated to route [[Arden Bevere|Arden]] mentions there — currently it doesn't)
 
 ### Phase 2 — Your prep (a couple days before the 1:1)
@@ -177,7 +177,7 @@ You run `/1on1-final-arden`. It reads the adjusted prep, asks what you most want
 You run `/1on1-debrief-arden`. The skill:
 - Pulls the Granola transcript if available, otherwise asks you for a verbal recap
 - Extracts: direction [[Arden Bevere|Arden]] set, action items (yours and his), decisions, parking lot, connection moments
-- Saves a summary to `work/messenger-intl/leadership/arden/1on1-summary-YYYY-MM-DD.md` (uses the **meeting date**, not today)
+- Saves a summary to `work/messenger-intl/leadership/my-leader/arden/1on1-summary-YYYY-MM-DD.md` (uses the **meeting date**, not today)
 - Archives running notes into the summary and resets `running-notes.md`
 - Surfaces the full summary inline — action items numbered `N1, N2...` (yours) and `Ar1, Ar2...` ([[Arden Bevere|Arden]]'s)
 - Asks: *"Which of these should I schedule as Asana tasks?"*
@@ -192,14 +192,14 @@ You reply with numbers (or `all` / `none`). Your items land in your My Tasks; [[
 
 | When | Tool | Where output lives |
 |---|---|---|
-| Between meetings | manual edits to `running-notes.md` (or future `/note for Arden`) | `work/messenger-intl/leadership/arden/running-notes.md` |
-| A couple days before | `/1on1-prep-arden` | `work/messenger-intl/leadership/arden/1on1-prep-YYYY-MM-DD.md` |
-| Morning of | `/1on1-final-arden` | `work/messenger-intl/leadership/arden/1on1-final-YYYY-MM-DD.md` |
+| Between meetings | manual edits to `running-notes.md` (or future `/note for Arden`) | `work/messenger-intl/leadership/my-leader/arden/running-notes.md` |
+| A couple days before | `/1on1-prep-arden` | `work/messenger-intl/leadership/my-leader/arden/1on1-prep-YYYY-MM-DD.md` |
+| Morning of | `/1on1-final-arden` | `work/messenger-intl/leadership/my-leader/arden/1on1-final-YYYY-MM-DD.md` |
 | 1–3 days after | `/1on1-debrief-arden` | Summary file + inline action items; tasks created on request |
 
 ## Quick reference — what to say to Claude (upward 1:1)
 
-- **Capture a note:** edit `work/messenger-intl/leadership/arden/running-notes.md` directly (or `/note for Arden: <thing>` once routing is added)
+- **Capture a note:** edit `work/messenger-intl/leadership/my-leader/arden/running-notes.md` directly (or `/note for Arden: <thing>` once routing is added)
 - **A couple days before 1:1:** `/1on1-prep-arden`
 - **Read and adjust the prep before running the next step.**
 - **Day of 1:1:** `/1on1-final-arden`
