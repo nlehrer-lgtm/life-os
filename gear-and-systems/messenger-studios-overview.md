@@ -189,7 +189,7 @@ Pairing a smaller M/E switcher with DeckLink capture cards in dedicated PCs was 
 
 ### Open questions before ordering
 
-- [ ] **Cable plant verification** — confirm with Lux AVL whether SDI A–E pulls are 12G-rated (RG-6 / RG-11) or 3G-only (RG-59). Email Lux with the AS-BUILT in hand and ask "What gauge/type was actually pulled for SDI A–E between Studio Floor and BCast Rm ERK?" If 3G-only at full length, factor in repull cost/timeline.
+- [ ] **Cable plant verification** — confirm with Lux AVL whether SDI A–E pulls are 12G-rated (RG-6 / RG-11) or 3G-only (RG-59). The 2024-09-30 Lux proposal covers loudspeakers/lighting/curtains/acoustics only — no video line items. **First step: locate the separate Lux video proposal** (probably a later phase or change order). If not findable, email Lux with the AS-BUILT in hand and ask "What gauge/type was actually pulled for SDI A–E between Studio Floor and BCast Rm ERK? Are those runs rated for 12G-SDI (4K) or only 3G-SDI (1080p)?" If 3G-only at full length, factor in repull cost/timeline.
 - [ ] Confirm USB-C SSD spec is fast enough for 8× 2160p ISO record (HD8 record media will not keep up)
 - [ ] Confirm streaming bitrate targets — TS 4K8 H.264 vs. SRT
 - [ ] Decide future of [[Blackmagic]] Cloud Store 20TB — keep as archival/transfer storage, sell, or repurpose
