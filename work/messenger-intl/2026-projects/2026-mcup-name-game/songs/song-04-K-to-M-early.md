@@ -10,6 +10,48 @@ created: 2026-06-11
 
 # Song 4 — K to M (early) (Hip-Hop / Rap)
 
+## Lyria 3 — paste this single prompt
+
+```
+East-coast boom-bap hip-hop in the spirit of A Tribe Called Quest, Common, and 90s Nas. ~92 BPM, dusty drum break with thumping kick and crisp snare, jazzy upright bass loop, mellow Rhodes piano, vinyl crackle. Confident clear-diction male rap — measured pace so every name lands, no mumble flow. Sung hook on the chorus. Old-school, clean, no profanity. Pronounce every proper name clearly. Length 55–60 seconds.
+
+[Beat drops]
+
+[Verse 1]
+Eric and Kirra Kelly, openin' the gate
+Jordan and Kristen Kemper, never run late
+Kinley Kemper, Koa Kemper too —
+The Kemper kids about to break through
+Henry and Melinda King, that's royalty
+Mary Kruse — pure loyalty
+Billy and Lauren Leach, two of a kind
+Kyle Leach, Ryan Leach — Leach state of mind
+
+[Hook — sung]
+K, L, M — we got the flow
+Every single name, gotta know, gotta know
+K, L, M — we got the flow
+Memorize 'em now, here we go!
+
+[Verse 2]
+Brad Lomenick — leadership in the air
+Doug and Joanne Mahaffey over there
+Joel Malm — that's a one-name flex
+Pastors Josh and Shannon Marocco up next
+Patrick McNally, Diego Mesa in the spot
+Nick and Nikki Miller — yeah they got a lot
+Steve and Julie Miller, Grant Miller, Roman too
+Patrick and Christina Mitchella — Mitchell-a crew!
+
+[Outro Hook]
+K, L, M — we got the flow
+Kelly, Kemper, King, and Kruse — let it go
+Leach, Lomenick, Mahaffey, Malm
+Marocco, McNally, Mesa — keep it calm
+Miller, Mitchella — that's the whole list
+K to M — names we don't miss!
+```
+
 ## Names included (29)
 
 - **Kelly:** Eric & Kirra
