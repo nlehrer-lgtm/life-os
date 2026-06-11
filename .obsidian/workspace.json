@@ -1,22 +1,24 @@
 {
   "main": {
-    "id": "114429740ccf865f",
+    "id": "0d8ee7e29522b22e",
     "type": "split",
     "children": [
       {
-        "id": "d92b3381c4693eab",
+        "id": "5b1636040955e8bd",
         "type": "tabs",
         "children": [
           {
-            "id": "21a6692e4f63b37f",
+            "id": "07559ce66e05637a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "work/messenger-intl/video-team/1on1s/andrew-mcintosh/additional-documents/make-your-leaders-job-easier-glance-sheet.pdf"
+                "file": "CLAUDE.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "make-your-leaders-job-easier-glance-sheet"
+              "icon": "lucide-file",
+              "title": "CLAUDE"
             }
           }
         ]
@@ -25,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "e91b4dbeab585dc3",
+    "id": "9d46edcfbe5d9492",
     "type": "split",
     "children": [
       {
-        "id": "c91d875de8098ef7",
+        "id": "9d5164ed76206fa0",
         "type": "tabs",
         "children": [
           {
-            "id": "d2ae28b281bcad05",
+            "id": "5ba4d5dde596fa48",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -46,7 +48,7 @@
             }
           },
           {
-            "id": "e3a32f238971778d",
+            "id": "5f8abdb18f640507",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -63,7 +65,7 @@
             }
           },
           {
-            "id": "3509e33fd1b1ee2e",
+            "id": "7231b08829fbd8e6",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -76,23 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 421.5
+    "width": 300
   },
   "right": {
-    "id": "18317e3cc417c142",
+    "id": "9bc9a0c870b6eb76",
     "type": "split",
     "children": [
       {
-        "id": "395ce793c65fca57",
+        "id": "5e66f9f581a21f64",
         "type": "tabs",
         "children": [
           {
-            "id": "43369d03c95dea81",
+            "id": "8a4fbfcd92fe6f2d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "people/abby-lehrer.md",
+                "file": "CLAUDE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for abby-lehrer"
+              "title": "Backlinks for CLAUDE"
             }
           },
           {
-            "id": "62b2076e84e1b980",
+            "id": "4ef660ef1874830b",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "people/abby-lehrer.md",
+                "file": "CLAUDE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from abby-lehrer"
+              "title": "Outgoing links from CLAUDE"
             }
           },
           {
-            "id": "48c01f6ea6a10b42",
+            "id": "cf581286b01e3dc7",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -135,7 +137,7 @@
             }
           },
           {
-            "id": "8453417ba12c42b3",
+            "id": "a77e590f51fb5ee5",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -149,18 +151,18 @@
             }
           },
           {
-            "id": "2460adec23e91402",
+            "id": "e3b9f6efaa54a264",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "people/abby-lehrer.md",
+                "file": "CLAUDE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of abby-lehrer"
+              "title": "Outline of CLAUDE"
             }
           }
         ]
@@ -181,92 +183,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "21a6692e4f63b37f",
+  "active": "07559ce66e05637a",
   "lastOpenFiles": [
-<<<<<<< Updated upstream
-    "work/messenger-intl/video-team/1on1s/andrew-mcintosh/additional-documents/leadership-resource-make-your-leaders-job-easier.md",
-    "work/messenger-intl/leadership/arden/1on1-prep-2026-06-02.md",
-    "work/messenger-intl/video-team/1on1s/lindy-wood/leadership-resource-make-your-leaders-job-easier.md",
-    "work/messenger-intl/video-team/1on1s/lindy-wood/one-on-one-documents/running-notes.md",
-    "work/messenger-intl/video-team/1on1s/lindy-wood/one-on-one-documents/1on1-summary-2026-06-02.md",
-    "work/messenger-intl/video-team/1on1s/lindy-wood/one-on-one-documents/1on1-summary-2026-05-19.md",
-    "work/messenger-intl/video-team/1on1s/lindy-wood/one-on-one-documents/1on1-summary-2026-05-05.md",
-    "work/messenger-intl/video-team/1on1s/lindy-wood/one-on-one-documents/1on1-prep-2026-06-01.md",
-    "work/messenger-intl/video-team/1on1s/lindy-wood/one-on-one-documents/1on1-prep-2026-05-19.md",
-    "work/messenger-intl/video-team/1on1s/lindy-wood/one-on-one-documents/1on1-prep-2026-05-14.md",
-    "work/messenger-intl/video-team/1on1s/lindy-wood/one-on-one-documents/1on1-prep-2026-05-11.pdf",
-    "work/messenger-intl/video-team/1on1s/lindy-wood/additional-documents/lindy-90-day-review.md",
-    "work/messenger-intl/video-team/1on1s/lindy-wood/additional-documents/leadership-resource-make-your-leaders-job-easier.md",
-    "work/messenger-intl/video-team/1on1s/lindy-wood/additional-documents",
-    "work/messenger-intl/video-team/1on1s/lindy-wood/one-on-one-documents/1on1-final-2026-06-04.md",
-    "work/messenger-intl/video-team/1on1s/lindy-wood/one-on-one-documents/1on1-prep-2026-05-11.md",
-    "work/messenger-intl/video-team/1on1s/lindy-wood/one-on-one-documents/1on1-prep-2026-05-04.md",
-    "work/messenger-intl/video-team/1on1s/lindy-wood/one-on-one-documents/1on1-prep-2026-04-28.md",
-    "work/messenger-intl/video-team/1on1s/lindy-wood/one-on-one-documents/1on1-prep-2026-04-21.md",
-    "work/messenger-intl/video-team/1on1s/lindy-wood/one-on-one-documents/1on1-prep-2026-04-16.md",
-    "work/messenger-intl/video-team/1on1s/lindy-wood/one-on-one-documents/1on1-final-2026-05-05.md",
-    "work/messenger-intl/video-team/1on1s/lindy-wood/one-on-one-documents",
-    "work/messenger-intl/video-team/1on1s/andrew-mcintosh/additional-documents/make-your-leaders-job-easier-glance-sheet.pdf",
-    "work/messenger-intl/video-team/1on1s/andrew-mcintosh/additional-documents/glance-sheet-philosophy.md",
-    "work/messenger-intl/video-team/1on1s/andrew-mcintosh/additional-documents",
-    "work/messenger-intl/video-team/1on1s/andrew-mcintosh/one-on-one-documents/running-notes.md",
-    "work/messenger-intl/video-team/1on1s/andrew-mcintosh/one-on-one-documents/1on1-summary-2026-05-28.md",
-    "work/messenger-intl/video-team/1on1s/andrew-mcintosh/one-on-one-documents/1on1-summary-2026-05-14.md",
-    "work/messenger-intl/video-team/1on1s/andrew-mcintosh/one-on-one-documents/1on1-prep-2026-05-27.md",
-    "work/messenger-intl/video-team/1on1s/andrew-mcintosh/one-on-one-documents/1on1-prep-2026-05-12.md",
-    "work/messenger-intl/video-team/1on1s/andrew-mcintosh/one-on-one-documents/1on1-prep-2026-05-11.md",
-    "work/messenger-intl/video-team/1on1s/andrew-mcintosh/one-on-one-documents",
-    "work/messenger-intl/internal-documents/developing-messengers-weekly-1on1.pdf",
-    "work/messenger-intl/internal-documents",
-    "work/personal-projects/music/house-music-the-album/4k/chord-charts",
-    "work/personal-projects/music/house-music-the-album/4k",
-=======
-    "digests/2026-05-21.md",
-    "work/messenger-intl/leadership-reflections/leadership-reflections.md",
-    "work/messenger-intl/leadership-reflections",
-    "work/messenger-intl/video-team/video-team.md",
-    "work/messenger-intl/leadership/arden/1on1-summary-2026-05-19.md",
-    "identity/profile.md",
-    "work/personal-projects/job-site-social/job-site-social.md",
-    "identity/pillars/joy-and-rest.md",
-    "identity/pillars/relationships.md",
-    "identity/pillars/fatherhood.md",
-    "identity/pillars/marriage.md",
-    "identity/pillars/faith.md",
-    "work/messenger-intl/messenger-international.md",
-    "identity/pillars",
-    "finance/bills/hospital and medical/bills-tracker.md",
-    "finance/bills/hospital and medical",
-    "finance/bills",
-    "finance",
-    "work/messenger-intl/leadership/arden/1on1-prep-2026-05-19.md",
-    "digests/2026-05-19.md",
-    "work/personal-projects/job-site-social/prospects/auto-and-detailing/not-started/rhea-little-tire-auto.md",
-    "work/personal-projects/job-site-social/prospects/auto-and-detailing/not-started/refined-automotive.md",
-    "work/personal-projects/job-site-social/prospects/auto-and-detailing/not-started/southern-shine.md",
-    "work/messenger-intl/leadership/arden/running-notes.md",
-    "work/messenger-intl/leadership/arden",
-    "work/messenger-intl/leadership",
-    "work/personal-projects/job-site-social/prospects/archive/hudby-wheel-solutions.md",
-    "work/messenger-intl/video-team/1on1s/lindy-wood/1on1-prep-2026-05-19.md",
-    "work/messenger-intl/video-team/1on1s/lindy-wood/1on1-summary-2026-05-05.md",
-    "work/messenger-intl/video-team/1on1s/lindy-wood/1on1-prep-2026-05-14.md",
-    "dream-projects/music/house-music/4k/chord-charts/4k.md",
-    "dream-projects/music/house-music-the-album/4k/chord-charts/4k.md",
-    "dream-projects/music/house-music-the-album/4k/chord-charts",
-    "dream-projects/music/house-music-the-album/4k",
-    "dream-projects/music/house-music-the-album",
-    "digests/2026-05-18.md",
->>>>>>> Stashed changes
-    "work/personal-projects/job-site-social/brand/Design System /uploads/Jobsite-Social-Logo.png",
-    "work/personal-projects/job-site-social/brand/Design System /assets/logo-tight.png",
-    "work/personal-projects/job-site-social/brand/Design System /assets/logo-tight-dark.png",
-    "work/personal-projects/job-site-social/brand/Design System /assets/jobsite-social-logo.png",
-    "work/personal-projects/job-site-social/brand/Jobsite Social Design System /assets/logo-tight.png",
-    "work/personal-projects/job-site-social/brand/Jobsite Social Design System /assets/logo-tight-dark.png",
-    "work/personal-projects/job-site-social/brand/Jobsite Social Design System /assets/jobsite-social-logo.png",
-    "work/personal-projects/job-site-social/brand/Jobsite Social Design System /uploads/Jobsite-Social-Logo.png",
-    "work/personal-projects/job-site-social/brand/Jobsite Social Design System (2)/uploads/Jobsite-Social-Logo.png",
-    "work/personal-projects/job-site-social/brand/Jobsite Social Design System (2)/assets/logo-tight-dark.png"
+    "CONTEXT.md",
+    "CLAUDE.md",
+    "Untitled.canvas"
   ]
 }
