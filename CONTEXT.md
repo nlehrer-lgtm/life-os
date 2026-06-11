@@ -38,12 +38,17 @@ Google Calendar, Gmail, Slack, Asana, Granola (meeting transcripts), Obsidian (r
 ## File Structure
 ```
 identity/    — who I am (profile.md is source of truth)
-people/      — everyone who matters (family, colleagues, friends, mentors)
-work/        — work documents only (projects, 1:1 prep, team notes)
+people/      — everyone who matters (family, colleagues, friends, mentors, mentees)
+work/        — work documents only (projects, 1:1 prep, team notes — NOT a place to categorize people)
+  work/personal-projects/ — side projects (job-site-social, music, etc.)
 journal/     — daily freeform entries
 digests/     — structured end-of-day recaps
-goals/       — goal tracking
-notes/       — quick capture inbox
-health/      — health tracking
+goals/       — goal tracking, tied to life pillars
+notes/       — quick capture inbox (notes/inbox.md)
+recurring/   — recurring task checklists (home, vehicles, relationships, gifts)
 reminders/   — checklist of things to remember
+health/      — health tracking
+finance/     — bills, trackers, financial documents
 ```
+
+**Project file standard:** Every project folder under `work/` gets a `CONTEXT.md` (~300 word brief) and `STATUS.md` (live open decisions/blockers). Paste either into any AI tool for instant project context.
