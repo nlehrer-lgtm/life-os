@@ -260,7 +260,7 @@ Reply with any of these formats — I'll batch the changes:
 - John (JON)
 - Michelle (mi-SHELL)
 
-**OLeary** (oh-LAIR-ee) — *3 different couples share this surname*
+**OLeary** (oh-LEER-ee — rhymes with *steer*) ✓ confirmed — *3 different couples share this surname*
 - Randy (RAN-dee)
 - Andi (AN-dee)
 - Ryan (RYE-en)
