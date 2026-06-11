@@ -10,6 +10,48 @@ created: 2026-06-11
 
 # Song 5 — M (late) to Pa (Reggae)
 
+## Lyria 3 — paste this single prompt
+
+```
+Roots reggae in the vein of Bob Marley & The Wailers' Exodus era. ~76 BPM, classic one-drop drum pattern, off-beat skank guitar, warm rolling bass under every line, bubbling organ, occasional horn stab. Smooth easy male lead with mellow group harmonies on the chorus. Sunny, joyful, never rushed — like an island block party. Pronounce every proper name clearly. Length 55–60 seconds.
+
+[Reggae groove begins]
+
+[Verse 1]
+Sean and Sarah Moore — irie morning
+Steve and Dana Moore, sunshine warming
+Darrell and Lisa Morgan, hand in hand
+John and Michelle Nuzzo, walkin' the sand
+
+[Verse 2]
+OLeary family in the sweet sunlight
+Randy and Andi — keepin' it tight
+Ryan and Kayla OLeary, oh yeah
+Kyle and Bailey Oleary, everywhere
+
+[Chorus]
+M to P — every name we sing
+Moore, Morgan, Nuzzo — let it ring!
+OLeary, Otto, Owen, Pannell, Pasch
+Memorize 'em every day, every task!
+
+[Verse 3]
+Jonathan Otto, walkin' on the beach
+Chad and Leilani Owen — easy reach
+Matt and Makenzie Pannell with the kids in tow
+Adley, Georgia, Peyton — let me know!
+
+[Bridge]
+Brian Pasch and Carrie Pasch
+Spreadin' the love, makin' a splash
+
+[Final Chorus]
+M to P — every name we sing
+Moore, Morgan, Nuzzo — let it ring!
+OLeary, Otto, Owen, Pannell, Pasch
+Memorize 'em every day, every task!
+```
+
 ## Names included (24)
 
 - **Moore:** Sean & Sarah, Steve & Dana
