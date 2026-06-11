@@ -10,6 +10,7 @@ last_updated: 2026-06-11
 - **131 people** to memorize (was 98 at first cut, +33 net in 2026-06 Slack update)
 - **18 lock-screen wallpapers** generated and synced to `~/Desktop/mcup-wallpapers/`
 - Pipeline (`/tmp/make_wallpapers.py`) is stable and re-runnable on future updates
+- **7 Gemini music prompts** drafted in [`songs/`](songs/README.md) — one per alphabetical slice, each a different genre, ~60s target
 
 ## Open decisions
 
@@ -17,6 +18,7 @@ last_updated: 2026-06-11
 - [ ] **Extended family clustering** — New Kemper kids (Kinley, Koa) and new OLeary kids (Kyle&Bailey, Ryan&Kayla) sit on separate wallpapers from their parents. Reshuffle to put related people together, or leave alphabetical?
 - [ ] **Auto-rotation** — iOS doesn't natively cycle lock screens. Consider an iOS Shortcut to rotate `mcup-XX.png` on a schedule. Decide if worth setting up.
 - [ ] **Share with the team?** — Could spin this up as a tool for the rest of the [[Video Team]] / wider [[Messenger International]] staff. Worth offering?
+- [ ] **Songs — generate + audition** — Run the 7 prompts through Gemini, pick the takes that nail pronunciation, build a playlist, decide whether to share the audio with the rest of the [[Video Team]].
 
 ## Blockers
 
