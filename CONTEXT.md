@@ -23,11 +23,11 @@ Full notes in `people/`. Key relationships:
 - **Josh Kendrick, Annie Duda, LeVann Anthony** — video team members
 
 ## Current Goals
-- Grow in patience as husband and father
-- Become a great leader at Messenger International; grow toward financial security
-- Consistent at-home workouts; drink more water; balanced diet
-- Create a house music album
-- Steward mentors; invest in mentees; make time for friends
+Tracked in `goals/2026.md`, organized by life pillar. Headline goals:
+- **Marriage / Fatherhood:** Grow in patience and intentionality as husband and father
+- **Relationships:** Become a great leader at [[Messenger International]]; steward mentors, invest in mentees, make time for friends
+- **Joy & Rest:** Consistent at-home workouts, hydration, balanced diet; create a house music album; home projects (planter boxes, wall hangings, small builds)
+- **Faith:** *(no explicit goal defined yet)*
 
 ## Quick Capture
 Ideas, reminders, and fleeting thoughts: `notes/inbox.md`
