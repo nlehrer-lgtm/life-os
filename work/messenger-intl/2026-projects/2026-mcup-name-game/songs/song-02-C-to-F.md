@@ -10,6 +10,48 @@ created: 2026-06-11
 
 # Song 2 — C to F (Country-Folk)
 
+## Lyria 3 — paste this single prompt
+
+```
+Modern country-folk in the spirit of Zach Bryan and Mumford & Sons. ~96 BPM, gentle 3/4 lilt. Strummed acoustic guitar, fiddle, brushed snare, upright bass, occasional banjo. Warm male lead with female harmony on choruses. Front-porch storytelling feel — names being introduced one by one. Pronounce every proper name clearly. Length 55–60 seconds.
+
+[Verse 1]
+Chris and Amy Capehart, ridin' on through
+Steve and Lisa Casciani, hello to you
+Jeff and Ashley Charron, walkin' the line
+Brian Chu and Austin Colby, doin' just fine
+
+[Verse 2]
+David and Kathy Copeland, hand on the wheel
+Larry and Judy Copenbarger, the real deal
+The Davis family is rollin' on in —
+Micah and Andrea, where we begin
+
+[Verse 3]
+Zack and Angie Davis on the road tonight
+Asher Davis, Megan Davis — out of sight
+Amy Donnell, Scott Donnell, sister and brother
+Evelyn Douglas — there ain't no other
+
+[Chorus]
+C to F, C to F
+We're learnin' every breath
+Capehart, Casciani, Charron, Chu
+Colby, Copeland — we got you!
+
+[Verse 4]
+Josh Ferrara, kickin' up the dust
+Seth and Eileen Flook, in the Lord we trust
+Brooklyn Flook, Sayla Flook too
+Amanda and Joshua Foltz — comin' through
+
+[Final Chorus]
+C to F, C to F
+Copenbarger, Davis, Donnell next
+Douglas, Ferrara, Flook, and Foltz —
+Names we know, every one of those!
+```
+
 ## Names included (28)
 
 - **Capehart:** Chris & Amy
