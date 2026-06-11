@@ -10,7 +10,51 @@ created: 2026-06-11
 
 # Song 5 — M (late) to Pa (Reggae)
 
-## Lyria 3 — paste this single prompt
+## Lyria 3 v2 — slower tempo + O'Leery phonetic spelling (USE THIS ONE)
+
+```
+Slow dub-influenced roots reggae in the vein of Bob Marley's slower Exodus tracks and Burning Spear. ~65 BPM, classic one-drop drum pattern, off-beat skank guitar, deep rolling bass under every line, bubbling organ, gentle horn stab. Smooth easy male lead with mellow group harmonies on the chorus. Unhurried island block-party feel, every name lands clearly. Crisp clear diction on every proper name. Length 60–70 seconds.
+
+PRONUNCIATION NOTE: lyrics spell "O'Leery" so it's pronounced "oh-LEER-ee" (rhymes with "steer"), NOT "oh-LAIR-ee."
+
+[Reggae groove begins]
+
+[Verse 1]
+Sean and Sarah Moore — irie morning
+Steve and Dana Moore, sunshine warming
+Darrell and Lisa Morgan, hand in hand
+John and Michelle Nuzzo, walkin' the sand
+
+[Verse 2]
+O'Leery family in the sweet sunlight
+Randy and Andi — keepin' it tight
+Ryan and Kayla O'Leery, oh yeah
+Kyle and Bailey O'Leery, everywhere
+
+[Chorus]
+M to P — every name we sing
+Moore, Morgan, Nuzzo — let it ring!
+O'Leery, Otto, Owen, Pannell, Pasch
+Memorize 'em every day, every task!
+
+[Verse 3]
+Jonathan Otto, walkin' on the beach
+Chad and Leilani Owen — easy reach
+Matt and Makenzie Pannell with the kids in tow
+Adley, Georgia, Peyton — let me know!
+
+[Bridge]
+Brian Pasch and Carrie Pasch
+Spreadin' the love, makin' a splash
+
+[Final Chorus]
+M to P — every name we sing
+Moore, Morgan, Nuzzo — let it ring!
+O'Leery, Otto, Owen, Pannell, Pasch
+Memorize 'em every day, every task!
+```
+
+## Lyria 3 v1 (original, kept for reference)
 
 ```
 Roots reggae in the vein of Bob Marley & The Wailers' Exodus era. ~76 BPM, classic one-drop drum pattern, off-beat skank guitar, warm rolling bass under every line, bubbling organ, occasional horn stab. Smooth easy male lead with mellow group harmonies on the chorus. Sunny, joyful, never rushed — like an island block party. Pronounce every proper name clearly. Length 55–60 seconds.
