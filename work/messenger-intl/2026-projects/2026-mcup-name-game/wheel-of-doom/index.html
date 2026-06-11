@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>The Wheel of Doom — Video Team Name Game</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Creepster&family=Cinzel:wght@600;800&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --doom-red: #b00020;
+    --doom-red-glow: #ff2a3d;
+    --doom-bg: #0a0606;
+    --doom-bg-2: #150909;
+    --doom-gold: #c9a14a;
+    --doom-text: #f3e8d6;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background:
+      radial-gradient(ellipse at center, #1a0a0a 0%, var(--doom-bg) 70%, #000 100%),
+      var(--doom-bg);
+    color: var(--doom-text);
+    font-family: 'Inter', system-ui, sans-serif;
+    overflow-x: hidden;
+  }
+
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    background:
+      radial-gradient(ellipse at center, transparent 30%, rgba(0,0,0,0.85) 100%);
+    z-index: 1;
+  }
+
+  .container {
+    position: relative;
+    z-index: 2;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 20px 80px;
+    text-align: center;
+  }
+
+  h1 {
+    font-family: 'Creepster', cursive;
+    font-size: clamp(48px, 9vw, 110px);
+    color: var(--doom-red-glow);
+    margin: 0 0 4px;
+    letter-spacing: 4px;
+    text-shadow:
+      0 0 10px rgba(255, 42, 61, 0.6),
+      0 0 30px rgba(255, 42, 61, 0.4),
+      0 4px 0 #4a0010,
+      0 6px 20px rgba(0,0,0,0.9);
+    animation: flicker 4s infinite;
+  }
+
+  @keyframes flicker {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% { opacity: 1; }
+    20%, 24%, 55% { opacity: 0.75; }
+  }
+
+  .subtitle {
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+    font-size: clamp(14px, 1.6vw, 18px);
+    color: var(--doom-gold);
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    margin: 0 0 8px;
+    opacity: 0.9;
+  }
+
+  .tagline {
+    font-style: italic;
+    color: #a08070;
+    font-size: 14px;
+    margin: 0 0 28px;
+    letter-spacing: 1px;
+  }
+
+  .wheel-wrap {
+    position: relative;
+    display: inline-block;
+    margin: 10px auto 30px;
+    filter: drop-shadow(0 0 30px rgba(255, 42, 61, 0.25));
+  }
+
+  #wheel {
+    display: block;
+    max-width: 92vw;
+  }
+
+  .pointer {
+    position: absolute;
+    top: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 26px solid transparent;
+    border-right: 26px solid transparent;
+    border-top: 50px solid var(--doom-red-glow);
+    filter: drop-shadow(0 4px 8px rgba(0,0,0,0.8)) drop-shadow(0 0 10px rgba(255, 42, 61, 0.7));
+    z-index: 5;
+  }
+
+  .hub {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 35%, #2a1010, #0a0303);
+    border: 3px solid var(--doom-gold);
+    box-shadow:
+      inset 0 0 20px rgba(0,0,0,0.8),
+      0 0 20px rgba(201, 161, 74, 0.4);
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Creepster', cursive;
+    color: var(--doom-red-glow);
+    font-size: 38px;
+    text-shadow: 0 0 8px rgba(255, 42, 61, 0.8);
+  }
+
+  .spin-btn {
+    font-family: 'Cinzel', serif;
+    font-weight: 800;
+    font-size: 22px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--doom-text);
+    background: linear-gradient(180deg, var(--doom-red) 0%, #6a000f 100%);
+    border: 2px solid var(--doom-gold);
+    padding: 18px 50px;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow:
+      0 0 20px rgba(255, 42, 61, 0.4),
+      inset 0 1px 0 rgba(255,255,255,0.15);
+    transition: transform 0.1s, box-shadow 0.2s;
+  }
+
+  .spin-btn:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow:
+      0 0 35px rgba(255, 42, 61, 0.7),
+      inset 0 1px 0 rgba(255,255,255,0.2);
+  }
+
+  .spin-btn:active:not(:disabled) {
+    transform: translateY(1px);
+  }
+
+  .spin-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  /* Modal */
+  .modal-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.85);
+    backdrop-filter: blur(6px);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    padding: 20px;
+  }
+
+  .modal-backdrop.show {
+    display: flex;
+    animation: fadein 0.3s;
+  }
+
+  @keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  .modal {
+    background: linear-gradient(180deg, var(--doom-bg-2), var(--doom-bg));
+    border: 2px solid var(--doom-red);
+    border-radius: 12px;
+    padding: 50px 40px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    box-shadow:
+      0 0 60px rgba(255, 42, 61, 0.5),
+      0 20px 60px rgba(0,0,0,0.8);
+    animation: pop 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+
+  @keyframes pop {
+    0% { transform: scale(0.5) rotate(-10deg); opacity: 0; }
+    100% { transform: scale(1) rotate(0); opacity: 1; }
+  }
+
+  .modal h2 {
+    font-family: 'Creepster', cursive;
+    font-size: 42px;
+    color: var(--doom-red-glow);
+    margin: 0 0 10px;
+    letter-spacing: 3px;
+    text-shadow: 0 0 20px rgba(255, 42, 61, 0.6);
+  }
+
+  .modal .verdict-label {
+    font-family: 'Cinzel', serif;
+    color: var(--doom-gold);
+    letter-spacing: 4px;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+
+  .modal .penalty {
+    font-family: 'Cinzel', serif;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 1.3;
+    color: var(--doom-text);
+    margin: 24px 0 28px;
+    padding: 20px;
+    background: rgba(176, 0, 32, 0.15);
+    border-left: 4px solid var(--doom-red-glow);
+    border-right: 4px solid var(--doom-red-glow);
+  }
+
+  .modal .close-btn {
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--doom-text);
+    background: transparent;
+    border: 1px solid var(--doom-gold);
+    padding: 12px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+
+  .modal .close-btn:hover {
+    background: rgba(201, 161, 74, 0.15);
+  }
+
+  .footer-note {
+    margin-top: 50px;
+    font-size: 12px;
+    color: #5a4040;
+    letter-spacing: 1px;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="subtitle">Video Team Name Game</div>
+    <h1>The Wheel of Doom</h1>
+    <p class="tagline">For those who scored less than 80%. There is no escape.</p>
+
+    <div class="wheel-wrap">
+      <div class="pointer"></div>
+      <canvas id="wheel" width="640" height="640"></canvas>
+      <div class="hub">D</div>
+    </div>
+
+    <div>
+      <button class="spin-btn" id="spinBtn">Spin the Wheel</button>
+    </div>
+
+    <p class="footer-note">HR-APPROVED · INCONVENIENT · UNFORGETTABLE</p>
+  </div>
+
+  <div class="modal-backdrop" id="modal">
+    <div class="modal">
+      <h2>Your Fate</h2>
+      <div class="verdict-label">— Sealed —</div>
+      <div class="penalty" id="penaltyText">—</div>
+      <button class="close-btn" id="closeBtn">Accept Your Punishment</button>
+    </div>
+  </div>
+
+<script>
+  const penalties = [
+    "Get pied in the face (whipped cream) at the next Video Team huddle",
+    "Wear pajamas to work for a full day with an \"I FAILED THE NAME GAME\" sticker",
+    "Bring donuts for the entire Video Team next Monday morning",
+    "Sing a solo worship song (your pick) to open the next team huddle",
+    "Be the team's coffee runner for a full workday — no complaining",
+    "Wear sunglasses AND a cowboy hat all day at work — meetings included",
+    "Record a 60-second dramatic video apology to MI staff",
+    "End every Slack message you send for a full workday with \"Stay frosty 🥶\"",
+    "Wear a \"Hi, my name is ___\" sticker on your BACK all day — the team writes what it says",
+    "Wear two clearly mismatched shoes to work for the entire day",
+    "Buy lunch for one teammate of the Video Team's choosing",
+    "The Messenger Cup team chooses your Slack profile photo for one full week — whatever they want"
+  ];
+
+  const canvas = document.getElementById('wheel');
+  const ctx = canvas.getContext('2d');
+  const size = canvas.width;
+  const center = size / 2;
+  const radius = center - 10;
+  const N = penalties.length;
+  const sliceAngle = (Math.PI * 2) / N;
+
+  // Doom palette — alternating dark reds, blacks, deep golds
+  const colors = [
+    '#7a0010', '#1a0606',
+    '#5c0a14', '#0a0303',
+    '#a01020', '#2a0808',
+    '#6a000f', '#1a0606',
+    '#8a0a18', '#0e0303',
+    '#5c0a14', '#2a0808',
+    '#a01020', '#0a0303'
+  ];
+
+  let currentRotation = 0; // radians
+  let spinning = false;
+
+  function drawWheel() {
+    ctx.clearRect(0, 0, size, size);
+    ctx.save();
+    ctx.translate(center, center);
+    ctx.rotate(currentRotation);
+
+    for (let i = 0; i < N; i++) {
+      const start = i * sliceAngle;
+      const end = start + sliceAngle;
+
+      // slice
+      ctx.beginPath();
+      ctx.moveTo(0, 0);
+      ctx.arc(0, 0, radius, start, end);
+      ctx.closePath();
+      ctx.fillStyle = colors[i % colors.length];
+      ctx.fill();
+
+      // slice border
+      ctx.lineWidth = 2;
+      ctx.strokeStyle = 'rgba(201, 161, 74, 0.5)';
+      ctx.stroke();
+
+      // text
+      ctx.save();
+      ctx.rotate(start + sliceAngle / 2);
+      ctx.textAlign = 'right';
+      ctx.textBaseline = 'middle';
+      ctx.fillStyle = '#f3e8d6';
+      ctx.font = 'bold 15px Cinzel, serif';
+      ctx.shadowColor = 'rgba(0,0,0,0.9)';
+      ctx.shadowBlur = 6;
+
+      // wrap text
+      const maxChars = 28;
+      let text = penalties[i];
+      if (text.length > maxChars + 4) {
+        text = text.slice(0, maxChars) + '…';
+      }
+
+      ctx.fillText(text, radius - 20, 0);
+      ctx.restore();
+    }
+
+    // outer ring
+    ctx.beginPath();
+    ctx.arc(0, 0, radius, 0, Math.PI * 2);
+    ctx.lineWidth = 6;
+    ctx.strokeStyle = '#c9a14a';
+    ctx.shadowColor = 'rgba(201, 161, 74, 0.6)';
+    ctx.shadowBlur = 20;
+    ctx.stroke();
+
+    ctx.restore();
+  }
+
+  drawWheel();
+
+  // Audio: tick on slice pass + dramatic gong at result
+  let audioCtx;
+  function ensureAudio() {
+    if (!audioCtx) {
+      audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    }
+  }
+
+  function tick() {
+    if (!audioCtx) return;
+    const osc = audioCtx.createOscillator();
+    const gain = audioCtx.createGain();
+    osc.frequency.value = 800;
+    osc.type = 'square';
+    gain.gain.value = 0.04;
+    gain.gain.exponentialRampToValueAtTime(0.0001, audioCtx.currentTime + 0.05);
+    osc.connect(gain).connect(audioCtx.destination);
+    osc.start();
+    osc.stop(audioCtx.currentTime + 0.05);
+  }
+
+  function gong() {
+    if (!audioCtx) return;
+    const now = audioCtx.currentTime;
+    [110, 165, 220].forEach((f, i) => {
+      const osc = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+      osc.frequency.value = f;
+      osc.type = 'sine';
+      gain.gain.setValueAtTime(0.0001, now + i * 0.05);
+      gain.gain.exponentialRampToValueAtTime(0.3, now + i * 0.05 + 0.02);
+      gain.gain.exponentialRampToValueAtTime(0.0001, now + i * 0.05 + 1.8);
+      osc.connect(gain).connect(audioCtx.destination);
+      osc.start(now + i * 0.05);
+      osc.stop(now + i * 0.05 + 1.9);
+    });
+  }
+
+  function spin() {
+    if (spinning) return;
+    spinning = true;
+    ensureAudio();
+    document.getElementById('spinBtn').disabled = true;
+
+    const fullTurns = 6 + Math.random() * 3; // 6-9 full rotations
+    const targetExtra = Math.random() * Math.PI * 2;
+    const totalRotation = fullTurns * Math.PI * 2 + targetExtra;
+    const startRotation = currentRotation;
+    const duration = 5500 + Math.random() * 1000; // 5.5–6.5s
+    const startTime = performance.now();
+    let lastTickSlice = -1;
+
+    function easeOutQuart(t) {
+      return 1 - Math.pow(1 - t, 4);
+    }
+
+    function frame(now) {
+      const elapsed = now - startTime;
+      const t = Math.min(elapsed / duration, 1);
+      const eased = easeOutQuart(t);
+      currentRotation = startRotation + totalRotation * eased;
+      drawWheel();
+
+      // Tick when a new slice passes under the pointer
+      // Pointer is at the top (-PI/2 from canvas 0). Find which slice is at pointer.
+      const pointerAngle = (-Math.PI / 2 - currentRotation) % (Math.PI * 2);
+      const normalized = (pointerAngle + Math.PI * 2 * 100) % (Math.PI * 2);
+      const sliceIdx = Math.floor(normalized / sliceAngle);
+      if (sliceIdx !== lastTickSlice) {
+        if (lastTickSlice !== -1 && t < 0.95) tick();
+        lastTickSlice = sliceIdx;
+      }
+
+      if (t < 1) {
+        requestAnimationFrame(frame);
+      } else {
+        finishSpin();
+      }
+    }
+
+    requestAnimationFrame(frame);
+  }
+
+  function finishSpin() {
+    // Determine winning slice. Pointer is at top of canvas (angle -PI/2 in canvas coords).
+    // A slice i (in unrotated wheel) covers angles [i*slice, (i+1)*slice].
+    // After rotation by currentRotation, the slice now covers [i*slice + currentRotation, ...].
+    // We want to find i such that the pointer angle (-PI/2) lies within that range (mod 2PI).
+    const TWO_PI = Math.PI * 2;
+    let pointerAngle = (-Math.PI / 2 - currentRotation) % TWO_PI;
+    pointerAngle = (pointerAngle + TWO_PI * 100) % TWO_PI;
+    const winner = Math.floor(pointerAngle / sliceAngle);
+
+    setTimeout(() => {
+      gong();
+      document.getElementById('penaltyText').textContent = penalties[winner];
+      document.getElementById('modal').classList.add('show');
+    }, 400);
+  }
+
+  document.getElementById('spinBtn').addEventListener('click', spin);
+  document.getElementById('closeBtn').addEventListener('click', () => {
+    document.getElementById('modal').classList.remove('show');
+    document.getElementById('spinBtn').disabled = false;
+    spinning = false;
+  });
+</script>
+</body>
+</html>

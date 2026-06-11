@@ -49,6 +49,16 @@ Families kept together where possible; alphabetical by last name across wallpape
 - Stamps family split across W17 (Bradley, Ivy) and W18 (Mia, Molly) due to alphabetical boundary.
 - Extended families on different wallpapers: New Kemper kids (Kinley, Koa on W14–15) are separate from parents (Jordan & Kristen on W7). Same for new OLeary kids (W16) vs. parents (W9). This is a deliberate tradeoff — preserved existing layouts over family clustering so memorization isn't reset.
 
+## Wheel of Doom — Video Team preliminary quiz penalty
+
+To push the [[Video Team]] to take the name game seriously, [[Nathaniel]] is running a preliminary quiz one week before the official MI-wide quiz (target: ~2026-06-23, one week before the 2026-06-30 official date). MI's standing incentives apply on quiz day: $50 gift card for 100%, $25 gift card for 90–98%. Nathaniel layered a Video-Team-only penalty on top: anyone who scores below **80%** on the preliminary quiz must spin the **Wheel of Doom**.
+
+The wheel is a single-file static site (`wheel-of-doom/index.html`) — Creepster/Cinzel doom theme, 12 HR-approved-but-embarrassing penalties, click-tick spin audio, dramatic gong on result. Opens in any browser. Nathaniel runs it live during the preliminary quiz debrief.
+
+**Penalty list (12 slices):** pie in face · PJs + "I FAILED THE NAME GAME" sticker · donuts for the team · solo worship song at huddle · coffee runner for a workday · sunglasses + cowboy hat all day · 60-sec dramatic video apology · Slack "Stay frosty 🥶" all day · "Hi my name is ___" sticker on your BACK (team writes it) · two mismatched shoes · buy lunch for one teammate · Messenger Cup team picks your Slack profile photo for a week.
+
+Slack announcement already sent to the [[Video Team]] (`#easymoney #100percentclub #wewillbethebestteam`).
+
 ## Open decisions
 
 See `STATUS.md`.
@@ -60,6 +70,7 @@ See `STATUS.md`.
 - **Downloaded photos:** `/tmp/mcup-photos/` (all 131)
 - **Output wallpapers:** `~/Desktop/mcup-wallpapers/` (synced from `/tmp/mcup-wallpapers/`)
 - **Live name-game app:** https://mcup-name-game.up.railway.app/
+- **Wheel of Doom:** [`wheel-of-doom/index.html`](wheel-of-doom/index.html) — open in any browser to spin
 - **Slack updates channel:** `#mcup-2026-psa`
 
 ## How to refresh after a Slack update
