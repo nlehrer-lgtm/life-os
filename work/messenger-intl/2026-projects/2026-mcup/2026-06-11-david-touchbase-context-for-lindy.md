@@ -18,7 +18,7 @@ He's also exploring **building an actual schedule app** (Claude-built) instead o
 
 ## Where [[Video Team]] fits in his head
 
-David's mental model: anyone in the IC orbit doing production-adjacent work is "production" in his bucket — [[Video Team]], social media, communications floaters ([[Catherine]], [[Ally Milton|Ally]], [[Abby Darden|Abby]]). He explicitly **doesn't want to assume** we're covering things they're covering, or vice versa. He wants clarity from us before he locks the master.
+David's mental model: anyone in the IC orbit doing production-adjacent work is "production" in his bucket — [[Video Team]], social media, communications floaters ([[Kathryn]], [[Ally Milton|Ally]], [[Abby Darden|Abby]]). He explicitly **doesn't want to assume** we're covering things they're covering, or vice versa. He wants clarity from us before he locks the master.
 
 ## Personalized vs. master schedules
 
@@ -40,7 +40,7 @@ Big shift this year: [[Video Team]] is leaning into [[Sacred Hospitality]] gaps 
 
 ## Friday night Awards — important to land softly with you
 
-David asked me to put you at ease about Friday night. **[[Bryson]] and [[Catherine]] are taking point** on the Friday night Awards ceremony flow. You'll be pulled in for **context** alongside Matt and Alec (theme, working together) — **not to execute**.
+David asked me to put you at ease about Friday night. **[[Bryson]] and [[Kathryn]] are taking point** on the Friday night Awards ceremony flow. You'll be pulled in for **context** alongside Matt and Alec (theme, working together) — **not to execute**.
 
 Specifically: **Lisa Bevere** has requested something to honor **Dana and Don** on Friday night. Answers on what that looks like will come from [[Bryson]]. David said explicitly: he doesn't want you blindsided last minute the way you got pulled in year one. **It's on the radar. It's not being forgotten. You're not executing it.**
 
