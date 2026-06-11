@@ -13,7 +13,7 @@ created: 2026-06-11
 ## Lyria 3 v2 — slower tempo (USE THIS ONE)
 
 ```
-Slow, deliberate East-coast boom-bap hip-hop in the spirit of J Dilla, A Tribe Called Quest, and Madvillain's slower cuts. ~70 BPM, head-nodding pace. Dusty drum break with thumping kick and crisp snare, jazzy upright bass loop, mellow Rhodes piano, vinyl crackle. Confident male rap delivered SLOWLY — every name lands with space around it, no rushed flow. Sung hook on the chorus. Old-school, clean, no profanity. Crystal-clear diction on every proper name. Length 65–75 seconds.
+Deliberate East-coast boom-bap hip-hop in the spirit of J Dilla, A Tribe Called Quest, and Madvillain's slower cuts. ~82 BPM, mid-tempo head-nodding pace. Dusty drum break with thumping kick and crisp snare, jazzy upright bass loop, mellow Rhodes piano, vinyl crackle. Confident male rap delivered SLOWLY — every name lands with space around it, no rushed flow. Sung hook on the chorus. Old-school, clean, no profanity. Crystal-clear diction on every proper name. Length 65–75 seconds.
 
 [Beat drops]
 
