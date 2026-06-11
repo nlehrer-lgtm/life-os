@@ -4,7 +4,7 @@ Sharpen Nathaniel's adjusted Arden 1:1 prep into a tight, scannable glance sheet
 Use this command whenever Nathaniel asks to "finalize the Arden 1:1", "make a glance sheet for Arden", "Arden glance sheet", "get ready to walk into the Arden 1:1", or after `/1on1-prep-arden` when he asks to sharpen the output.
 
 ## Known File Locations
-- Prep files: `/Users/nlehrer/Desktop/life-os/work/messenger-intl/leadership/my-leader/arden/1on1-prep-*.md`
+- Prep files: `/Users/nlehrer/Desktop/life-os/work/messenger-intl/director-of-video-production/1on1s/arden-bevere/1on1-prep-*.md`
 - Final file destination: same folder, named `1on1-final-YYYY-MM-DD.md`
 
 ---
@@ -12,7 +12,7 @@ Use this command whenever Nathaniel asks to "finalize the Arden 1:1", "make a gl
 ## Steps
 
 ### Step 1 — Find and read the most recent prep file
-List files in `work/messenger-intl/leadership/my-leader/arden/` and read the most recent `1on1-prep-*.md`. **Important:** Nathaniel is expected to have manually edited the prep doc between running `/1on1-prep-arden` and running this. Read the current state of the file — do NOT regenerate it.
+List files in `work/messenger-intl/director-of-video-production/1on1s/arden-bevere/` and read the most recent `1on1-prep-*.md`. **Important:** Nathaniel is expected to have manually edited the prep doc between running `/1on1-prep-arden` and running this. Read the current state of the file — do NOT regenerate it.
 
 ### Step 2 — Present the prep and ask for Nathaniel's input
 Summarize the prep doc cleanly — don't dump the whole thing. Then ask:
@@ -67,7 +67,7 @@ Use today's date for the filename.
 ---
 
 ## Step 4 — Save, commit, push
-- Save to `work/messenger-intl/leadership/my-leader/arden/1on1-final-YYYY-MM-DD.md`
+- Save to `work/messenger-intl/director-of-video-production/1on1s/arden-bevere/1on1-final-YYYY-MM-DD.md`
 - Write to `/Users/nlehrer/Desktop/life-os/` (not any worktree path)
 - Commit: `git commit -m "Add 1:1 final glance sheet for Arden — YYYY-MM-DD"`
 - Push to GitHub

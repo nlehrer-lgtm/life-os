@@ -163,4 +163,4 @@ We are part of [[Messenger International]]. The ministry's own organizational pi
 - [[Role and Mission General|role-and-mission-general.md]] — same content, plain-English version
 - [[Get REC'D|Get REC'D Meeting/CONTEXT.md]] — weekly meeting context, format, standards
 - [[Video Team|video-team.md]] — quick-glance team overview
-- Individual 1:1 files — `work/messenger-intl/video-team/1on1s/`
+- Individual 1:1 files — `work/messenger-intl/director-of-video-production/1on1s/`

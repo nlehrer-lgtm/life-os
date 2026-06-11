@@ -6,11 +6,11 @@ Use this command whenever Nathaniel asks to "finalize the 1:1", "make a glance s
 ## Known File Locations
 
 ### Lindy Wood
-- Prep files: `/Users/nlehrer/Desktop/life-os/work/messenger-intl/video-team/1on1s/lindy-wood/one-on-one-documents/`
+- Prep files: `/Users/nlehrer/Desktop/life-os/work/messenger-intl/director-of-video-production/1on1s/lindy-wood/one-on-one-documents/`
 - Final file destination: same `one-on-one-documents/` folder, named `1on1-final-YYYY-MM-DD.md`
 
 ### Andrew McIntosh
-- Prep files: `/Users/nlehrer/Desktop/life-os/work/messenger-intl/video-team/1on1s/andrew-mcintosh/one-on-one-documents/`
+- Prep files: `/Users/nlehrer/Desktop/life-os/work/messenger-intl/director-of-video-production/1on1s/andrew-mcintosh/one-on-one-documents/`
 - Final file destination: same `one-on-one-documents/` folder, named `1on1-final-YYYY-MM-DD.md`
 
 ---

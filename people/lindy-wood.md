@@ -102,7 +102,7 @@ Andrew and Lindy are complementary: Andrew invents and discerns; Lindy enables a
 
 ## Leadership Growth Focus — 2026-06-04
 
-**Captured 2026-06-04.** Two growth themes drawn from the 2026-06-02 1:1 and from [[Lindy Wood|Lindy]]'s two leadership pillars. Framework written up at [leadership-resource-make-your-leaders-job-easier](../work/messenger-intl/video-team/1on1s/lindy-wood/leadership-resource-make-your-leaders-job-easier.md). Bringing to the next 1:1 — whiteboard exercise, same shape as the one that landed with [[Andrew McIntosh|Andrew]] on 2026-05-28.
+**Captured 2026-06-04.** Two growth themes drawn from the 2026-06-02 1:1 and from [[Lindy Wood|Lindy]]'s two leadership pillars. Framework written up at [leadership-resource-make-your-leaders-job-easier](../work/messenger-intl/director-of-video-production/1on1s/lindy-wood/leadership-resource-make-your-leaders-job-easier.md). Bringing to the next 1:1 — whiteboard exercise, same shape as the one that landed with [[Andrew McIntosh|Andrew]] on 2026-05-28.
 
 ### Theme 1 — Clear, early communication (to the team and to the leader)
 - The growth move: cast the full picture — what, why, who, by when — before either the team or I have to ask

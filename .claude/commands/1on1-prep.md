@@ -5,7 +5,7 @@ Use this command whenever Nathaniel asks to "prep my 1:1", "prep for my 1:1", "g
 
 ## Philosophy
 
-Per the *Developing Messengers — The Weekly 1:1* guide (see `work/messenger-intl/director-of-video-production/developing-messengers-weekly-1on1.pdf`):
+Per the *Developing Messengers — The Weekly 1:1* guide (see `work/messenger-intl/leadership/developing-messengers-weekly-1on1.pdf`):
 
 > **The team member owns and drives the agenda.** They bring priorities, progress, challenges, and feedback.
 >
@@ -22,7 +22,7 @@ This is the **two-days-before deep prep.** It is not the day-of glance sheet —
 ### Andrew McIntosh
 - **Granola folder ID:** `922bfeb5-829e-4842-b7a0-db436e289aaf`
 - **Asana Growth Plan project ID:** `1211631456933613`
-- **1:1 folder:** `/Users/nlehrer/Desktop/life-os/work/messenger-intl/video-team/1on1s/andrew-mcintosh/`
+- **1:1 folder:** `/Users/nlehrer/Desktop/life-os/work/messenger-intl/director-of-video-production/1on1s/andrew-mcintosh/`
 - **1:1 documents subfolder:** `one-on-one-documents/` inside the 1:1 folder — all prep, final, summary, and running-notes files live here
 - **Running notes file:** `one-on-one-documents/running-notes.md`
 - **Growth Milestones:**
@@ -35,7 +35,7 @@ This is the **two-days-before deep prep.** It is not the day-of glance sheet —
 ### Lindy Wood
 - **Granola folder ID:** `5184fb61-141f-42e4-a52f-263f39c9ab6b`
 - **Asana Growth Plan project ID:** `1212886997625190`
-- **1:1 folder:** `/Users/nlehrer/Desktop/life-os/work/messenger-intl/video-team/1on1s/lindy-wood/`
+- **1:1 folder:** `/Users/nlehrer/Desktop/life-os/work/messenger-intl/director-of-video-production/1on1s/lindy-wood/`
 - **1:1 documents subfolder:** `one-on-one-documents/` inside the 1:1 folder — all prep, final, summary, and running-notes files live here
 - **Running notes file:** `one-on-one-documents/running-notes.md`
 - **Growth Milestones:**

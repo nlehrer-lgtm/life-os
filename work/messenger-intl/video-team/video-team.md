@@ -28,7 +28,7 @@ Full identity doc: [[Video Team Identity|video-team-identity.md]]. Meeting conte
 - [[Get REC'D]] — weekly all-hands
 
 ## 1:1s
-- 1:1 files live in `work/messenger-intl/video-team/1on1s/`
+- 1:1 files live in `work/messenger-intl/director-of-video-production/1on1s/`
 
 ## Major Projects
 - [[Messenger Cup]] — annual fundraiser video execution

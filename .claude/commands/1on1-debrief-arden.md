@@ -20,7 +20,7 @@ In the upward 1:1, Nathaniel is the team member. The summary captures:
 
 ### Arden Bevere
 - **Granola folder ID:** _Not yet configured — Nathaniel doesn't currently record these meetings. When he starts, add the folder ID here and Step 2 will auto-pull. Until then, Step 2 prompts Nathaniel for a verbal recap._
-- **1:1 folder:** `/Users/nlehrer/Desktop/life-os/work/messenger-intl/leadership/my-leader/arden/`
+- **1:1 folder:** `/Users/nlehrer/Desktop/life-os/work/messenger-intl/director-of-video-production/1on1s/arden-bevere/`
 - **Running notes file:** `running-notes.md` in that folder
 
 ### Nathaniel
@@ -52,7 +52,7 @@ Ask Nathaniel:
 Wait for his response. Use his recap as the input to Step 4.
 
 ### Step 3 — Read the running notes
-Read `work/messenger-intl/leadership/my-leader/arden/running-notes.md`. These were ad-hoc notes captured between meetings. They get archived into this summary.
+Read `work/messenger-intl/director-of-video-production/1on1s/arden-bevere/running-notes.md`. These were ad-hoc notes captured between meetings. They get archived into this summary.
 
 ### Step 4 — Extract a structured summary
 From the transcript (or Nathaniel's recap), capture:
@@ -71,7 +71,7 @@ From the transcript (or Nathaniel's recap), capture:
 Never fabricate. If something didn't come up, leave the section empty rather than padding.
 
 ### Step 5 — Save the meeting summary
-Save to `work/messenger-intl/leadership/my-leader/arden/1on1-summary-YYYY-MM-DD.md` using **the meeting date**.
+Save to `work/messenger-intl/director-of-video-production/1on1s/arden-bevere/1on1-summary-YYYY-MM-DD.md` using **the meeting date**.
 
 **Format:**
 

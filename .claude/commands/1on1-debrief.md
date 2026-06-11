@@ -4,7 +4,7 @@ Debrief a 1:1 right after it happens (1–3 days post-meeting is fine). Pull the
 Use this command whenever Nathaniel asks to "debrief the 1:1", "1:1 debrief", "process the 1:1", or "wrap up the 1:1" with Andrew or Lindy.
 
 ## Philosophy
-Per the *Developing Messengers — The Weekly 1:1* guide (see `work/messenger-intl/director-of-video-production/developing-messengers-weekly-1on1.pdf`):
+Per the *Developing Messengers — The Weekly 1:1* guide (see `work/messenger-intl/leadership/developing-messengers-weekly-1on1.pdf`):
 
 > *"End each meeting by naming one specific action item per person. Open the next meeting by reviewing what was committed to. Progress requires accountability."*
 >
@@ -18,7 +18,7 @@ This skill exists so 1:1s stop revisiting the same topics week after week. Actio
 - **Granola title pattern:** `1:1 | Andrew & Nathaniel` (match case-insensitively; also accept `1:1 | Nathaniel & Andrew` and any variant containing both "1:1" and "Andrew")
 - **Granola folder ID (fallback only):** `922bfeb5-829e-4842-b7a0-db436e289aaf`
 - **Asana user GID:** `1209716385781630`
-- **1:1 folder:** `/Users/nlehrer/Desktop/life-os/work/messenger-intl/video-team/1on1s/andrew-mcintosh/`
+- **1:1 folder:** `/Users/nlehrer/Desktop/life-os/work/messenger-intl/director-of-video-production/1on1s/andrew-mcintosh/`
 - **1:1 documents subfolder:** `one-on-one-documents/` inside the 1:1 folder — all prep, final, summary, and running-notes files live here
 - **Running notes file:** `one-on-one-documents/running-notes.md`
 
@@ -26,7 +26,7 @@ This skill exists so 1:1s stop revisiting the same topics week after week. Actio
 - **Granola title pattern:** `1:1 | Lindy & Nathaniel` (match case-insensitively; also accept `1:1 | Nathaniel & Lindy` and any variant containing both "1:1" and "Lindy")
 - **Granola folder ID (fallback only):** `5184fb61-141f-42e4-a52f-263f39c9ab6b`
 - **Asana user GID:** `1209634024000757`
-- **1:1 folder:** `/Users/nlehrer/Desktop/life-os/work/messenger-intl/video-team/1on1s/lindy-wood/`
+- **1:1 folder:** `/Users/nlehrer/Desktop/life-os/work/messenger-intl/director-of-video-production/1on1s/lindy-wood/`
 - **1:1 documents subfolder:** `one-on-one-documents/` inside the 1:1 folder — all prep, final, summary, and running-notes files live here
 - **Running notes file:** `one-on-one-documents/running-notes.md`
 
