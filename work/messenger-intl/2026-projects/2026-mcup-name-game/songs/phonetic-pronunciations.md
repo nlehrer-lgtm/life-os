@@ -5,6 +5,7 @@ created: 2026-06-11
 status: awaiting Nathaniel's corrections
 ---
 
+
 # Phonetic Pronunciation Guide
 
 Best-guess phonetics for every name across all 131 cards / ~185 individuals. Nathaniel reviews → sends back corrections → I regenerate song lyrics using the corrected phonetic spellings (e.g. "Heidei" → spelled "Heidi" in the lyric block for Lyria 3 to pronounce correctly, while the canonical name stays "Heidei").
@@ -111,7 +112,7 @@ Reply with any of these formats — I'll batch the changes:
 - Asher (ASH-er)
 - Megan (MEG-en)
 
-**Donnell** (duh-NELL)
+**Donnell** (DAW-nell — first syllable like *dawn*) ✓ confirmed
 - Amy (AY-mee)
 - Scott (SKOT)
 
