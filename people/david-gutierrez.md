@@ -31,6 +31,9 @@ aliases:
 - **Video Team Systems Touch Base** — Thursdays 11:00 AM. Standing meeting between Nathaniel and David covering [[Video Team]] systems / workflow coordination.
 - **Bi-Monthly NLL** — Org-wide.
 
+## Last Contact
+2026-06-11 — Video Team Systems Touch Base (11am). Discussed [[Messenger Cup|MCUP]] master schedule build: David needs a polished [[Video Team]] schedule draft ASAP, with Kathryn/Bryson alignment first. Key decisions: hospitality time is a real part of the schedule (keep VT fluid, not locked to posts), 2+ hour gaps = real break, meals at IC all week, Friday Awards — [[Bryson Liu|Bryson]] + Kathryn lead; Lindy pulled in for context only. David prototyping a Claude-built schedule app. See `2026-06-11-david-touchbase-summary-for-lindy.md`.
+
 ## Personal
 
 - **Spouse:** Ashley (ag.anchored@gmail.com)
