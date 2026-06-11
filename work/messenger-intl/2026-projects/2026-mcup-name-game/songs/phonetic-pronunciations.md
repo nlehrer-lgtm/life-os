@@ -296,7 +296,7 @@ Reply with any of these formats — I'll batch the changes:
 **Pompa** (POM-puh)
 - Dan (DAN)
 - Merily (MAIR-i-lee)
-- Izik (EE-zik)
+- Izik (EYE-zik — like *Isaac*) ✓ confirmed
 - Simon (SY-men)
 
 **Powell** (POW-ul)
