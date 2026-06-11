@@ -10,6 +10,25 @@ aliases:
 **Email:** amcintosh@messengerinternational.org
 **Slack:** @Andrew McIntosh (U04CYP0017Y)
 
+## Working Genius
+
+> G/F/C codes are sourced from `work/messenger-intl/mi-internal-documents/staff-directory.md` — the source of truth. This section translates them into how to assign work.
+
+- **Geniuses (energy + skill):** Discernment (D), Invention (I)
+- **Frustrations (drain him):** Galvanizing (G), Wonder (W)
+- **Competencies (skill, neutral energy):** Tenacity (T), Enablement (E)
+
+### How this shapes assignments
+
+- Andrew is at his best in the **design** phase — give him problems to invent original solutions for and ideas to evaluate. "What should this be?" and "is this the right call?" are his lane.
+- Loop him in **early** — when something is still being shaped — not after decisions are made.
+- **Don't make him rally the team to action** (his Galvanizing frustration). When a project needs someone to bang the drum and drive momentum across people, that role goes to Nathaniel or another leader — not Andrew.
+- **Avoid long open-ended pondering meetings with no decision pressure** (his Wonder frustration). Bring him questions that need a verdict, not abstract "what could this be in 5 years" sessions.
+- He can support and enable other people's execution (his Enablement competency) and grind a project to completion (his Tenacity competency) — but those drain his energy faster than design work does. Don't make him live in either zone for weeks at a time.
+
+### Together with [[Lindy Wood|Lindy]]
+Andrew and Lindy are complementary: Andrew invents and discerns; Lindy enables and discerns. The weak spot in the pair is **Galvanizing** — it's a frustration for both of them. When a project needs someone to rally the team, that's on Nathaniel (or another leader), not them.
+
 ## Last Contact
 2026-06-09 — [[Get REC'D]] Weekly (8am). Nashville office day.
 
