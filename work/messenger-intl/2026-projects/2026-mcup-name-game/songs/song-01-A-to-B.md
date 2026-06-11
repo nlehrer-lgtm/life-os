@@ -10,7 +10,51 @@ created: 2026-06-11
 
 # Song 1 — A to B (90s Boy Band Pop)
 
-## Lyria 3 — paste this single prompt
+## Lyria 3 v2 — slower tempo (USE THIS ONE)
+
+```
+Late-90s boy band pop ballad in the style of *NSYNC's "This I Promise You" and Backstreet Boys' "I Want It That Way." ~80 BPM, gentle mid-slow tempo. Stacked 4-part male harmonies, lead tenor on verses delivered unhurried with space around every name, finger snaps, plucky acoustic guitar, warm kick, shimmering synth pads. Key change up before the final chorus. Studio-clean radio mix. Every proper name pronounced with crisp clear diction. Length 60–70 seconds.
+
+[Verse 1]
+Paul and Yvonne Allen, start the show
+Derick and Jessica Amsler, here we go
+Averie Amsler, Cade Amsler too
+The Amsler family steppin' on through
+
+[Verse 2]
+Bishop John Benford, leadin' the band
+Joshua Benford right by his hand
+Caleb Berkey, never far behind
+A and B's — they're on our mind
+
+[Pre-Chorus]
+The Bevere crew is comin' alive —
+Addison and Juli, Alec and Maddie
+Arden and Christian, John and Lisa
+Bevere family, all together!
+
+[Chorus]
+A to B, A to B
+Allen, Amsler — can't you see?
+Benford, Berkey, Bevere shine —
+Locked in the memory line!
+
+[Verse 3]
+Mark and Tasha Bintliff, hand in hand
+James and Sarah Birkbeck, take a stand
+Rob and Vanessa Birkbeck, family pride
+Adeline Birkbeck right by their side
+Asher Birkbeck, Skyla Birkbeck too
+Stella Birkbeck — Birkbeck crew!
+
+[Final Chorus — key change up]
+A to B, A to B
+Bintliff, Birkbeck — that's the key!
+Bevere, Berkey, Benford too —
+We know your name, we know YOU!
+```
+
+## Lyria 3 v1 (original, kept for reference)
 
 ```
 Late-90s boy band pop in the style of *NSYNC and Backstreet Boys. ~118 BPM, bright and high-energy. Stacked 4-part male harmonies, lead tenor on verses, finger snaps, plucky acoustic guitar, warm kick, shimmering synth pads. Key change before the final chorus. Joyful stadium sing-along feel. Pronounce every proper name clearly. Length 55–60 seconds.
