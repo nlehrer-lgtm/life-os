@@ -32,12 +32,7 @@ Details and notes live in `people/` and `identity/profile.md`.
 
 ## Current Goals
 
-- Grow in patience and intentionality as a husband and father
-- Become a great leader at Messenger International; grow toward financial security
-- Consistent at-home workouts (stretching, push-ups, core, squats); drink more water; balanced diet
-- Create a house music album
-- Home projects: planter boxes, wall hangings, small builds
-- Steward mentors; invest in mentees; make time for friends
+Current goals live in `goals/2026.md`, tied to life pillars. Run `/goals` to update or `/goals-review` for a deep review.
 
 ## How to Talk to Me
 
