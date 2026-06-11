@@ -10,7 +10,49 @@ created: 2026-06-11
 
 # Song 6 — Pe to Sl (80s Synth-Pop / New Wave)
 
-## Lyria 3 — paste this single prompt
+## Lyria 3 v2 — slower tempo + Eye-zik phonetic spelling (USE THIS ONE)
+
+```
+Mid-tempo 1985-style synth-pop / new wave ballad in the vein of A-ha's "Hunting High and Low," Depeche Mode's slower tracks, and Tears for Fears' tender cuts. ~90 BPM, atmospheric and unhurried (NOT a fast dance track). Gated-reverb snare with space, pulsing analog synth bass (DX7 / Juno-106), arpeggiated lead synth, lush pad chords, hand-claps on the 2 and 4. Earnest male tenor with airy female harmony on the chorus. Bright neon mood. Every name lands clearly. Crisp clear diction on every proper name. Length 60–70 seconds.
+
+PRONUNCIATION NOTE: lyrics spell "Eye-zik" so it's pronounced "EYE-zik" (like Isaac), NOT "EE-zik."
+
+[Synth arpeggio fade-in, gated snare drops]
+
+[Verse 1]
+Donna Peregrin, in the neon light
+Dan and Merily Pompa — out tonight
+Eye-zik Pompa, Simon Pompa too
+Jeff Powell, Doug Price — comin' through
+
+[Chorus]
+Pe to Sl — we got the names
+Pompa, Powell — feel the flames
+Price, Ray, Roane, Rocco — let it shine
+P to S — they're all on our mind!
+
+[Verse 2]
+Kandy Ray and Ron Roane
+Donna Rocco, never alone
+Tim and Rhonda Rogers, takin' a stroll
+Dennis and Colleen Rouse — heart and soul
+
+[Verse 3]
+Dominic and Amira Russo — start the dance
+Mark and Tina Schick — second chance
+Josh and Ashley Schilling, lights so bright
+Sienna Schilling — pure delight
+Ryan and Heidei Skinner — synth-wave dream
+Ryan Slavens — closin' the scene!
+
+[Final Chorus]
+Pe to Sl — every single name
+Rogers, Rouse, Russo, Schick — same game
+Schilling, Skinner, Slavens — locked in tight
+P to S — they all feel right!
+```
+
+## Lyria 3 v1 (original, kept for reference)
 
 ```
 1985-style synth-pop / new wave in the vein of A-ha "Take On Me," Depeche Mode, and Tears for Fears. ~128 BPM. Driving gated-reverb snare, pulsing analog synth bass (DX7 / Juno-106 vibe), arpeggiated lead synth, shimmering pad chords, hand-claps on the 2 and 4. Earnest male tenor with airy female harmony on the chorus. Bright neon mood. Pronounce every proper name clearly. Length 55–60 seconds.
