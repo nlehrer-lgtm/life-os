@@ -10,6 +10,24 @@ aliases:
 **Email:** lwood@messengerinternational.org
 **Slack:** @Lindy Wood (U01B0GYHA7K)
 
+## Working Genius
+
+> G/F/C codes are sourced from `work/messenger-intl/mi-internal-documents/staff-directory.md` — the source of truth. This section translates them into how to assign work.
+
+- **Geniuses (energy + skill):** Enablement (E), Discernment (D)
+- **Frustrations (drain her):** Galvanizing (G), Invention (I)
+- **Competencies (skill, neutral energy):** Tenacity (T), Wonder (W)
+
+### How this shapes assignments
+
+- Lindy is at her best supporting people in executing well and refining ideas that already exist. Hand her a draft, framework, or proposal to discern and improve — not a blank page.
+- **Watch for invention-heavy language in tasks**: "come up with...", "design a system for...", "create a structure for..." — these are flags. Either reframe the ask, or Nathaniel supplies a starter draft first.
+- **Don't make her the one rallying the team to action** (her Galvanizing frustration). Nathaniel or another leader sets the vision; Lindy supports and refines around it.
+- She'll push tasks to completion (her Tenacity competency) reliably — but don't read that as energy gain. The internal cost of invention or galvanizing tasks is real even when she delivers.
+
+### Together with [[Andrew McIntosh|Andrew]]
+Andrew and Lindy are complementary: Andrew invents and discerns; Lindy enables and discerns. The weak spot in the pair is **Galvanizing** — it's a frustration for both of them. When a project needs someone to rally the team, that's on Nathaniel (or another leader), not them.
+
 ## Last Contact
 2026-06-09 — [[Get REC'D]] Weekly (8am). Nashville office day.
 
