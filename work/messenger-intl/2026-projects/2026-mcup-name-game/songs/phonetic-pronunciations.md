@@ -419,7 +419,6 @@ These are the ones I'd bet are wrong:
 - **Pasch** — PASH vs. PASK?
 - **Pannell** — puh-NELL vs. PAN-ull?
 - **Unclebach** — UN-kul-bok vs. UN-kul-bahk?
-- **Donnell** — duh-NELL vs. DON-ull?
 - **Graham** — GRAM vs. GRAY-um?
 - **Joel Malm** — Joel as "JOH-el" or "JOLE"? Malm as MAHM, MALM, or MAWM?
 - **Andrea Davis** — ANN-dree-uh vs. ahn-DRAY-uh?
