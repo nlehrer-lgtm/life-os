@@ -13,7 +13,7 @@ created: 2026-06-11
 ## Lyria 3 v2 — slower tempo (USE THIS ONE)
 
 ```
-Slow modern country-folk ballad in the spirit of Zach Bryan's quieter cuts and Mumford & Sons' acoustic tracks. ~72 BPM, gentle walking pace, unhurried. Strummed acoustic guitar, fiddle, brushed snare, upright bass, occasional banjo flourish. Warm male lead with female harmony on choruses. Front-porch storytelling — every name introduced like an old friend with space to land. Crisp clear diction on every proper name. Length 60–70 seconds.
+Modern country-folk ballad in the spirit of Zach Bryan's quieter cuts and Mumford & Sons' acoustic tracks. ~88 BPM, easy mid-tempo walking pace, unhurried. Strummed acoustic guitar, fiddle, brushed snare, upright bass, occasional banjo flourish. Warm male lead with female harmony on choruses. Front-porch storytelling — every name introduced like an old friend with space to land. Crisp clear diction on every proper name. Length 60–70 seconds.
 
 [Verse 1]
 Chris and Amy Capehart, ridin' on through
