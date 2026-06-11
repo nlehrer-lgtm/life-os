@@ -12,15 +12,7 @@ See `identity/profile.md` for the full profile.
 
 ## Family & Key People
 
-- Ellie (Eliana) — Wife
-- Shepherd — Son
-- Saylor — Kid
-- Keith & Julie Lehrer — Birth parents
-- Rose Lehrer — Stepmom
-- Ben, Abby, Olivia Lehrer — Siblings
-- Josh, Andrew, Annie, Lindy, LeVann - members under my leadership at work
-
-Details and notes live in `people/` and `identity/profile.md`.
+People — family, direct reports, mentors, friends, mentees — live in `people/`, one markdown file each. Relationships are captured in each file's `**Relationship:**` line. Personal identity (Nathaniel's wiring, marriage dynamics, etc.) lives in `identity/profile.md`.
 
 ## Life Pillars
 
