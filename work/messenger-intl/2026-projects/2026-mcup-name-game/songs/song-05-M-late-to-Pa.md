@@ -13,7 +13,7 @@ created: 2026-06-11
 ## Lyria 3 v2 — slower tempo + O'Leery phonetic spelling (USE THIS ONE)
 
 ```
-Slow dub-influenced roots reggae in the vein of Bob Marley's slower Exodus tracks and Burning Spear. ~65 BPM, classic one-drop drum pattern, off-beat skank guitar, deep rolling bass under every line, bubbling organ, gentle horn stab. Smooth easy male lead with mellow group harmonies on the chorus. Unhurried island block-party feel, every name lands clearly. Crisp clear diction on every proper name. Length 60–70 seconds.
+Dub-influenced roots reggae in the vein of Bob Marley's slower Exodus tracks and Burning Spear. ~80 BPM, classic one-drop drum pattern, off-beat skank guitar, deep rolling bass under every line, bubbling organ, gentle horn stab. Smooth easy male lead with mellow group harmonies on the chorus. Unhurried island block-party feel, every name lands clearly. Crisp clear diction on every proper name. Length 60–70 seconds.
 
 PRONUNCIATION NOTE: lyrics spell "O'Leery" so it's pronounced "oh-LEER-ee" (rhymes with "steer"), NOT "oh-LAIR-ee."
 
