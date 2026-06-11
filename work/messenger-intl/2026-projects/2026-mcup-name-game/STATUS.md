@@ -31,3 +31,4 @@ None.
 - **2026-06-11** — Redesigned cell from 522×250 wide rectangle to 270×270 square to guarantee no face gets cut off (37 of 98 face bboxes wouldn't fit in the wide aspect).
 - **2026-06-11** — Tightened safe zones after first lock-screen test showed clock overlapping the top photo row and camera/flashlight buttons obscuring the bottom row.
 - **2026-06-11** — Source data updated via `#mcup-2026-psa` Slack: Eric & Candace → Eric Johnson, Doug + Joanne Mahaffey combined, 34 net-new people. Re-pulled all photos, added W14–W18.
+- **2026-06-11** — Drafted 7 Gemini music prompts covering all 131 cards (182 individuals). One genre per song: 90s boy band, country-folk, Motown, hip-hop, reggae, 80s synth-pop, bluegrass. Lives in `songs/`.
