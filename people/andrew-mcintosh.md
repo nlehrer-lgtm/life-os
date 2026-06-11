@@ -30,6 +30,9 @@ aliases:
 Andrew and Lindy are complementary: Andrew invents and discerns; Lindy enables and discerns. The weak spot in the pair is **Galvanizing** — it's a frustration for both of them. When a project needs someone to rally the team, that's on Nathaniel (or another leader), not them.
 
 ## Last Contact
+2026-06-11 — Andrew / Nathaniel 1:1 (3pm). Andrew is on 2-week New England vacation, joined remotely. Key topics: [[Messenger Cup|MCUP]] opener progress (~halfway, pacing/structure feedback given), cross-training cadence proposal (20–30 min teach-each-other sessions post-MCUP), studio paint + studio-for-profit still stalled awaiting [[Arden Bevere|Arden]] conversations, growth-plan Asana pillars reviewed. Andrew also on standby for tonight's "You Are Called" YouTube Live shoot as Unreal backup. Strong 1:1 — engaged, light energy. See `1on1-summary-2026-06-11.md` for full debrief.
+
+## Contact History
 2026-06-09 — [[Get REC'D]] Weekly (8am). Nashville office day.
 
 ## Contact History
