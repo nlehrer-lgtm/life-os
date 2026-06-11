@@ -11,6 +11,7 @@ last_updated: 2026-06-11
 - **18 lock-screen wallpapers** generated and synced to `~/Desktop/mcup-wallpapers/`
 - Pipeline (`/tmp/make_wallpapers.py`) is stable and re-runnable on future updates
 - **7 Gemini music prompts** drafted in [`songs/`](songs/README.md) — one per alphabetical slice, each a different genre, ~60s target
+- **Wheel of Doom built** ([`wheel-of-doom/index.html`](wheel-of-doom/index.html)) — 12 HR-approved penalties for [[Video Team]] preliminary quiz (sub-80% spinners). Single static file, opens in any browser.
 
 ## Open decisions
 
