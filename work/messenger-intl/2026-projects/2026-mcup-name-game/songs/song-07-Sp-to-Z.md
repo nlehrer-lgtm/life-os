@@ -10,7 +10,55 @@ created: 2026-06-11
 
 # Song 7 — Sp to Z (Bluegrass / Americana)
 
-## Lyria 3 — paste this single prompt
+## Lyria 3 v2 — slower tempo (USE THIS ONE)
+
+```
+Mid-tempo bluegrass / Americana like Old Crow Medicine Show's ballads and Punch Brothers' quieter tunes. ~100 BPM, walking pace (slower than typical bluegrass so every name lands). Acoustic guitar, three-finger banjo roll, fiddle lead, mandolin chops on 2 and 4, slap upright bass. Lead male tenor with country twang, harmony stack on chorus. Joyful, foot-stomping finale of a seven-song series — end big with the punchline "one hundred thirty-one names." Crisp clear diction on every proper name. Length 70–80 seconds.
+
+[Fiddle + banjo intro — moderate pickin']
+
+[Verse 1]
+Ben and Corley Spell, leadin' the parade
+Bear Spell, Daisy Spell, runnin' through the glade
+Scout Spell, Wilder Spell — the Spell kids five
+Bringin' all that mountain energy alive!
+
+[Verse 2]
+Bradley Stamps and Ivy Stamps come along
+Mia Stamps and Molly Stamps — Stamps family song
+Alison Stansberry, Isaiah too
+Stansberrys ridin' through!
+
+[Chorus]
+S to Z, all the way home
+Spell, Stamps, Stansberry won't roam
+Turkington, Unclebach — pickin' the strings
+Final stretch and the banjo sings!
+
+[Verse 3]
+Lynton and Judy Turkington, take the floor
+Scott and Darlene Unclebach — open the door
+Lin and Bernice Weaver, family bound
+Bransen Weaver pickin' up the sound
+Lyle and Ronda Wells, kindred kin
+JP West and John West — come on in!
+
+[Verse 4]
+Landon Wiggs, Valerie Biswas Wiggs
+Jordie Winstead, dancin' the jigs
+Crislenny Ynfante — ridin' on through
+Caleb Zimmerman, the end is in view!
+Cohen Zwanziger, Joseph Zwanziger close us out —
+That's the whole list — without a doubt!
+
+[Final Chorus — full band shout]
+S to Z, every single name —
+Spell to Zwanziger — we played the game!
+One hundred thirty-one names, every face we see —
+Messenger Cup, we know YOU and ME!
+```
+
+## Lyria 3 v1 (original, kept for reference)
 
 ```
 High-energy bluegrass / Americana like Old Crow Medicine Show and Punch Brothers. ~150 BPM, breakneck pickin' tempo. Driving acoustic guitar, three-finger banjo roll, fiddle lead, mandolin chops on 2 and 4, slap upright bass. Lead male tenor with country twang, harmony stack on chorus. Joyful, foot-stomping finale — this is the closer of a seven-song series, end big with the punchline "one hundred thirty-one names." Pronounce every proper name clearly. Length 60–70 seconds.
