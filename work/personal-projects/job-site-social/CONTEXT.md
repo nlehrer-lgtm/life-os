@@ -23,6 +23,7 @@ Open work: see `STATUS.md`.
 | Path | Purpose |
 |------|---------|
 | `job-site-social.md` | User-facing overview + folder map (the `[[Job Site Social]]` alias points here) |
+| `business-spec.md` | Shareable business spec + explainer. The "what we do, where we're at, where we're going" doc — safe to send to a partner, mentor, or prospect. |
 | `cold-call-framework.md` | Calling framework and scripts |
 | `new_prospects_report.md` | Current prospect pipeline |
 | `manus-research-brief.md` | Research notes (Manus AI) |
