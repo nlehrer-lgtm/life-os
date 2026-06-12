@@ -435,10 +435,49 @@
     });
   }
 
+  // DOOM track — fade in on spin, fade out over the gong
+  const doomTrack = document.getElementById('doomTrack');
+  const DOOM_TARGET_VOL = 0.7;
+  let doomFadeTimer = null;
+
+  function fadeDoom(from, to, durationMs, onDone) {
+    if (doomFadeTimer) clearInterval(doomFadeTimer);
+    const steps = 30;
+    const stepMs = durationMs / steps;
+    let i = 0;
+    doomTrack.volume = Math.max(0, Math.min(1, from));
+    doomFadeTimer = setInterval(() => {
+      i++;
+      const v = from + (to - from) * (i / steps);
+      doomTrack.volume = Math.max(0, Math.min(1, v));
+      if (i >= steps) {
+        clearInterval(doomFadeTimer);
+        doomFadeTimer = null;
+        if (onDone) onDone();
+      }
+    }, stepMs);
+  }
+
+  function startDoomTrack() {
+    doomTrack.currentTime = 0;
+    doomTrack.volume = 0;
+    const p = doomTrack.play();
+    if (p && p.catch) p.catch(() => {});
+    fadeDoom(0, DOOM_TARGET_VOL, 1000);
+  }
+
+  function stopDoomTrack() {
+    const startVol = doomTrack.volume;
+    fadeDoom(startVol, 0, 1900, () => {
+      doomTrack.pause();
+    });
+  }
+
   function spin() {
     if (spinning) return;
     spinning = true;
     ensureAudio();
+    startDoomTrack();
     document.getElementById('spinBtn').disabled = true;
 
     const fullTurns = 6 + Math.random() * 3; // 6-9 full rotations
