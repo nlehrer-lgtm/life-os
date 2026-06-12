@@ -66,8 +66,14 @@ His reputation is real and hard-earned. 4.9 stars, people in reviews calling him
 "That's honestly the best kind of business, and it tells me everything I need to know about how you operate. All I'm doing is putting that same word-of-mouth on video — so the person who's new to Spring Hill, or whose neighbor just recommended you, can go look you up and immediately see exactly what your regulars already know. You've already done the hard part. I'm just making sure the right people can find it."
 
 ## Interaction Log
-- 2026-04-20 — Researched
+- 2026-04-20 — Researched.
 - May 2026 — First call: David picked up. Call went well; he said he'd call back.
 - May 2026 — Second call: Spoke with receptionist. She left a note for David. Still no callback.
 - 2026-05-11 — Still waiting on response from David.
-- Next step: Possible in-person visit within the next couple of weeks.
+- Early June 2026 — David showed initial interest in conversation but dropped off communication around 2026-06-05.
+- 2026-06-12 — No further response. Marked as dropped-off.
+
+## Next Step
+- Do not actively chase. The original cold-call read still holds: David is word-of-mouth first and may not see social media as a priority.
+- Optional: one final in-person drop-in at the shop within the next 30 days — same-day decision-maker is in the building, and a face-to-face is the only thing that hasn't been tried.
+- If no progress after that visit, move to dormant. Reapproach in Q4 2026 with a portfolio that includes the [[Hushed Lawn Care]] case study (a local Spring Hill business getting real results carries more weight than a free-trial pitch).
