@@ -62,6 +62,13 @@ Their concept is genuinely interesting — electric equipment, quiet service, in
 **How to handle it:**
 "That's exactly the approach I take — I stay completely out of the way. Most clients say they barely notice I'm there. Your crew just does their thing. I float in the background and grab what I need. I'm not trying to turn it into a production shoot — I'm trying to capture what you're already doing."
 
-## Interaction Log
+## Engagement Log
 - 2026-04-09 — Researched
-- May 2026 — Initial call: Zac is interested. Currently nailing down details of what a partnership could look like.
+- May 2026 — Initial call: Zac interested. Nailed down partnership details.
+- 2026-05-05 — Quote sent: $750/month, single-month, no retainer (`quotes/hushed-lawn-care-quote.md`).
+- May–June 2026 — **Month 1 delivered.** Posted content regularly across the month.
+- 2026-06-12 — About to renew for month 2 at same $750 rate. First repeat customer — proof the model can hold past the free-trial month.
+
+## Notes for Month 2
+- Same rate, same scope. Use this month to start logging what content performs (saves, comments, profile visits, DMs/leads) so there's data on the table when month 3 / a rate conversation comes up.
+- Zac is the first paying repeat client. Treat this account as the case study — capture before/after follower counts, engagement, and any inbound leads he attributes to the content.
