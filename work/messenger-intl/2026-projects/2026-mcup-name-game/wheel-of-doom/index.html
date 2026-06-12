@@ -526,15 +526,7 @@
   }
 
   function finishSpin() {
-    // Determine winning slice. Pointer is at top of canvas (angle -PI/2 in canvas coords).
-    // A slice i (in unrotated wheel) covers angles [i*slice, (i+1)*slice].
-    // After rotation by currentRotation, the slice now covers [i*slice + currentRotation, ...].
-    // We want to find i such that the pointer angle (-PI/2) lies within that range (mod 2PI).
-    const TWO_PI = Math.PI * 2;
-    let pointerAngle = (-Math.PI / 2 - currentRotation) % TWO_PI;
-    pointerAngle = (pointerAngle + TWO_PI * 100) % TWO_PI;
-    const winner = Math.floor(pointerAngle / sliceAngle);
-
+    const winner = pendingWinner;
     setTimeout(() => {
       gong();
       stopDoomTrack();
