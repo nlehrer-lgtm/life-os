@@ -5,13 +5,18 @@ instagram: N/A (linked on site, handle unknown — search for @hushedlawncare)
 facebook: N/A (linked on site, URL unknown)
 phone: 615-996-9479
 email: zac@hushedlawncare.com
-owner: Zac (last name unknown)
-status: in-talks
+owner: Zac Musgrove
+status: active-client
 date-added: 2026-04-09
+client-since: 2026-05
+rate: $750/month
+industry: landscaping-lawn
 fit-score: 9/10
 ---
 
-# HUSHED Lawn Care
+# HUSHED Lawn Care — Active Client
+
+> **Status (2026-06-12):** Active client. Completed first paid month of content. About to renew for month 2 at the same rate.
 
 ## Overview
 - **What they do:** Quiet, premium residential lawn mowing using commercial-grade electric equipment in Williamson County, TN.
