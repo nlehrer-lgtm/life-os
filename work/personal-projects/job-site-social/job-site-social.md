@@ -13,6 +13,7 @@ All [[Job Site Social]] work lives in `work/personal-projects/job-site-social/`.
 
 ## Key Files
 - `business-spec.md` — shareable business spec + explainer (the "what we do, where we're at, where we're going" doc)
+- `business-audit-2026-06.md` — June 2026 consulting teardown: pricing math, gaps + fixes, target clientele tiers, three growth plays, panel vote, 30-day punch list
 - `cold-call-framework.md` — calling framework and scripts
 - `new_prospects_report.md` — current prospect pipeline
 - `prospects/clients/` — active paying clients
