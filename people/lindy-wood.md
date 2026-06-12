@@ -29,7 +29,10 @@ aliases:
 Andrew and Lindy are complementary: Andrew invents and discerns; Lindy enables and discerns. The weak spot in the pair is **Galvanizing** — it's a frustration for both of them. When a project needs someone to rally the team, that's on Nathaniel (or another leader), not them.
 
 ## Last Contact
-2026-06-11 — Email: sent calendar invite for "We Need to Talk" Podcast Recording with John Bevere, Thu Jun 25 10am–11am CDT. Also the recipient of a [[Messenger Cup|MCUP]] schedule coordination action items doc from today's [[David Gutierrez|David]] touch base — needs to align with [[Bryson Liu|Bryson]] and Kathryn on production roles and deliver a polished [[Video Team]] schedule to David.
+2026-06-12 — Asana: mentioned Nathaniel in task "Build Video Team Dropbox home base for important documents & files." Also: time off request for Jun 19 is pending Nathaniel's approval (from Auris notification).
+
+## Contact History
+2026-06-11 — Email: sent calendar invite for "We Need to Talk" Podcast Recording with [[John Bevere]], Thu Jun 25 10am–11am CDT. Also the recipient of a [[Messenger Cup|MCUP]] schedule coordination action items doc from today's [[David Gutierrez|David]] touch base — needs to align with [[Bryson Liu|Bryson]] and Kathryn on production roles and deliver a polished [[Video Team]] schedule to David.
 
 ## Contact History
 2026-06-09 — [[Get REC'D]] Weekly (8am). Nashville office day.
