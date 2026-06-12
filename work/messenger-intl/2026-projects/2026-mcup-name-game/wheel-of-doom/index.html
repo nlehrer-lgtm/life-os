@@ -531,6 +531,7 @@
 
     setTimeout(() => {
       gong();
+      stopDoomTrack();
       document.getElementById('penaltyText').textContent = penalties[winner];
       document.getElementById('modal').classList.add('show');
     }, 400);
