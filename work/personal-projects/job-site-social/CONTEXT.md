@@ -27,7 +27,8 @@ Open work: see `STATUS.md`.
 | `new_prospects_report.md` | Current prospect pipeline |
 | `manus-research-brief.md` | Research notes (Manus AI) |
 | `levi-smith-notes.md` | Notes from conversations with Levi Smith |
-| `prospects/` | Per-business research files, organized by industry (auto-and-detailing, electricians, flooring-epoxy, landscaping-lawn, pressure-washing, roofing, archive) |
+| `prospects/clients/` | Paying clients (each file represents an active engagement). |
+| `prospects/` | Per-business research files, organized by industry (auto-and-detailing, electricians, flooring-epoxy, landscaping-lawn, pressure-washing, roofing, archive). Each industry folder has `not-started/`, `reached-out/`, and `in-conversation/` subfolders. |
 | `brand/` | Brand assets — Design System, website |
 | `quotes/` | Customer quotes and proposals |
 | `website/` | Web app (Next.js — `app/`, `public/`, `node_modules/`) |
