@@ -6,10 +6,12 @@ facebook: https://www.facebook.com/people/Melton-Auto-Styling-and-Protection/615
 phone: (629) 209-1792
 email: Melton.adam1@gmail.com
 owner: Adam Melton (inferred from email)
-status: warm
+status: ghosting-post-shoot
 date-added: 2026-04-18
 fit-score: 10/10
 ---
+
+> **Status (2026-06-12):** Shoot completed and went well. Pricing conversation hit tension — Adam's budget appears too thin for the standard rate. He has gone silent and is not responding to outreach. Open to discounting if he ever resurfaces, but not chasing further for now.
 
 # Melton Auto Styling and Protection
 
