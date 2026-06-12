@@ -66,6 +66,18 @@ The quality and range of services — PPF and ceramic coating are high-skill, hi
 "That's exactly why the first month is free — no risk, no commitment. You get to see what it looks like and whether it moves the needle before you ever spend a dollar. Most guys I work with say it starts paying for itself within the first few bookings. And for a service like yours, one new ceramic coating job covers more than a month of content."
 
 ## Interaction Log
-- 2026-04-18 — Researched
-- May 2026 — Called Adam. He expressed interest. Said to reconnect after his vacation (currently on vacation as of 2026-05-05).
-- 2026-05-18 — Adam is back from vacation. Emailed and called him — haven't been able to reach him. Still trying to follow up.
+- 2026-04-18 — Researched.
+- May 2026 — Called Adam. Expressed interest. Said to reconnect after his vacation (on vacation as of 2026-05-05).
+- 2026-05-18 — Adam back from vacation. Emailed and called — no response yet.
+- Late May / early June 2026 — Connected and ran the shoot. **Shoot went well** — captured the kind of content the model promises (PPF, ceramic, detail work).
+- Pricing conversation — sensed clear tension when the rate came up. Confirms the original concern: revenue under $500K means there's not real budget for a $1,500/month retainer, and possibly not even for a $750/month one.
+- 2026-06-12 — Adam has gone silent. Not responding to follow-ups. Willing to discount if he resurfaces.
+
+## What Went Wrong (and What to Learn)
+- **The shoot was the easy part — pricing broke the deal.** Adam's a solo operator in early-growth mode. The free-trial sequence proved the product but didn't move him to a number he could swallow.
+- **The fit score (10/10) overweighted "content potential" and underweighted "budget reality."** Going forward, the budget filter (~$1M revenue floor, marketing-spend culture in the $1K–$2.5K/month range) needs to gate prospects *before* the shoot, not after. A great-looking shop is not the same as a buyer.
+- **No fast-revival lever once it stalled.** If a pricing-tension stall is going to be a recurring failure mode, it's worth pre-deciding the discount floor (e.g., a deferred-payment or quarterly-flat-rate option) instead of negotiating from scratch each time.
+
+## Next Step
+- Stop active outreach for now. Re-evaluate in 90 days (~2026-09) — if Melton's business has grown by then, a re-approach at a tailored rate could work.
+- Keep the shoot footage organized; if Adam resurfaces, having edited samples ready will lower the friction to close.
