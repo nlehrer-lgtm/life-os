@@ -7,7 +7,7 @@
 - **[[Hushed Lawn Care]]** (Zac Musgrove) — $750/month. Completed month 1. Renewing month 2 as of 2026-06-12. First repeat customer. → `prospects/clients/hushed-lawn-care.md`
 
 ## Open Decisions
-- **Pricing floor.** Standard rate is $1,500/month, but Hushed landed at $750 and Melton stalled at the pricing conversation. Worth pre-deciding a floor (and the conditions to flex below it) instead of negotiating from scratch each call.
+- **Pricing floor.** Standard rate is $1,500/month, but Hushed landed at $750 and Melton stalled at the pricing conversation. Worth pre-deciding a floor (and the conditions to flex below it) instead of negotiating from scratch each call. → **Recommendation on the table (2026-06 audit):** $950 content-only / $1,500 full management, $750 absolute floor, price named *before* the free shoot. See `business-audit-2026-06.md`.
 - **Budget filter at top of funnel.** Melton was a 10/10 fit on content potential but never had the budget for the model. Going forward, gate prospects on revenue / marketing-spend culture before doing a shoot, not after.
 
 ## Open Loops
