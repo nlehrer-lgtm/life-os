@@ -12,8 +12,10 @@ Nathaniel's personal side project. Blue-collar business prospecting and social m
 All [[Job Site Social]] work lives in `work/personal-projects/job-site-social/`.
 
 ## Key Files
+- `business-spec.md` — shareable business spec + explainer (the "what we do, where we're at, where we're going" doc)
 - `cold-call-framework.md` — calling framework and scripts
 - `new_prospects_report.md` — current prospect pipeline
+- `prospects/clients/` — active paying clients
 - `prospects/` — per-business research files
 - `manus-research-brief.md` — research notes
 - `levi-smith-notes.md` — notes from conversations with Levi Smith
