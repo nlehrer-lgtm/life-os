@@ -14,7 +14,7 @@ The user-facing project overview lives in `job-site-social.md` (linked by the `[
 
 ## Current Phase
 
-Active. Pipeline running through `prospects/` per-industry subfolders. Cold-call framework documented; brand and website assets in development.
+Active with first paying repeat client. [[Hushed Lawn Care]] (Zac Musgrove, $750/mo) completed month 1 and is renewing month 2 as of 2026-06-12. Pipeline running through `prospects/` per-industry subfolders. Cold-call framework documented; brand and website assets in development.
 
 Open work: see `STATUS.md`.
 
