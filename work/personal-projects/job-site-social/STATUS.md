@@ -21,6 +21,7 @@
 - Continue working the recommended call order in `new_prospects_report.md` (next up: Tansil Heating and Cooling, Stagecoach Auto Repair, Spring Hill Automotive Center).
 
 ## Recently Closed / Updated
+- 2026-06-12 — Full business audit + growth plan written → `business-audit-2026-06.md` (pricing math, 10 gaps with fixes, clientele tiers, three growth plays, panel vote, 30-day punch list).
 - 2026-06-12 — [[Hushed Lawn Care]] moved from `in-conversation/` to new `clients/` folder. First paying repeat client.
 - 2026-06-12 — [[Melton Auto Styling]] marked `ghosting-post-shoot` after pricing tension.
 - 2026-06-12 — [[Beechcroft Automotive]] marked `dropped-off` after going silent.
