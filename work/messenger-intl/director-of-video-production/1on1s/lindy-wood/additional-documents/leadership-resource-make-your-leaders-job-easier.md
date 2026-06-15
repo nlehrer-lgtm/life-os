@@ -7,8 +7,8 @@ tags: [leadership, 1on1, lindy, framework]
 
 **From:** Nathaniel
 **For:** [[Lindy Wood|Lindy]]
-**Built from:** Our 1:1 on 2026-06-02
-**Purpose:** A short, structured reference you can come back to. You said you thrive on frameworks — here's one tailored to your Geniuses (D + E), focused on the two edges we've been circling: **clear-early communication** and **calm-under-pressure leadership**.
+**Built from:** Our last several 1:1s + your three growth-plan pillars in Asana
+**Purpose:** A short, structured reference you can come back to. You said you thrive on frameworks — here's one tailored to your Geniuses (D + E), pulled straight from the pillars already on your growth plan: **clear & compelling communication**, **leading steady through pressure**, and **developing the team**.
 
 ---
 

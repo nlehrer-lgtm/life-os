@@ -1,0 +1,92 @@
+<svg width="100%" viewBox="0 0 680 560" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Whiteboard: Making my leader's job easier — a framework for Lindy</title>
+<desc>A hand-drawn whiteboard. Title: what does it mean to make my leader's job easier. Section 1, the leader's job in four buckets: problem-solving, coordinating and planning (already on Lindy), approvals, strategic vision. Section 2, three tools: Picture over Pieces (clarity early), Steady over Flooded (calm in the heat), Private over Public (sharp concerns). Her geniuses D and E circled; frustrations G and I steered around. Bottom banner: clarity early, calm always.</desc>
+<style>
+  text{font-family:'Marker Felt','Chalkboard SE','Comic Sans MS','Segoe Print',cursive;}
+  .ttl{font-size:18px;font-weight:600;fill:#29292b}
+  .h{font-size:16px;font-weight:600;fill:#245ea6}
+  .sub{font-size:12.5px;fill:#8a8a82}
+  .b{font-size:14.5px;fill:#29292b}
+  .tool{font-size:16px;font-weight:600;fill:#29292b}
+  .tag{font-size:12.5px;font-weight:600}
+  .ex{font-size:12.5px;font-style:italic;fill:#8a8a82}
+  .gen{font-size:18px;font-weight:600;fill:#245ea6}
+  .ban{font-size:20px;font-weight:700;fill:#2c8a52}
+  .blu{fill:#245ea6}.grn{fill:#2c8a52}.cor{fill:#c0473a}.amb{fill:#c8861f}
+  .mk{fill:none;stroke-linecap:round;stroke-linejoin:round}
+</style>
+
+<rect x="12" y="12" width="656" height="536" rx="16" fill="#fbfbf8" stroke="#c4c8cb" stroke-width="6"/>
+<rect x="18" y="18" width="644" height="524" rx="12" fill="none" stroke="#e6e8e9" stroke-width="1.2"/>
+
+<text class="ttl" x="340" y="50" text-anchor="middle">What does it mean to make my leader's job easier?</text>
+<path class="mk" d="M100,63 C 220,58 330,67 430,61 S 552,60 580,64" stroke="#c8861f" stroke-width="2.6"/>
+
+<circle cx="54" cy="100" r="12" fill="none" stroke="#245ea6" stroke-width="2.2"/>
+<text class="h" x="54" y="105" text-anchor="middle">1</text>
+<text class="h" x="74" y="98">MY LEADER'S JOB</text>
+<text class="sub" x="74" y="114">— what fills his day</text>
+
+<path class="mk" d="M52,147 l11,-1" stroke="#29292b" stroke-width="2.2"/>
+<text class="b" x="68" y="151">Problem-solving</text>
+<path class="mk" d="M52,186 l11,-1" stroke="#29292b" stroke-width="2.2"/>
+<text class="b" x="68" y="190">Coordinating / planning</text>
+<text class="sub grn" x="80" y="207">→ already on you ✓</text>
+<path class="mk" d="M52,236 l11,-1" stroke="#29292b" stroke-width="2.2"/>
+<text class="b" x="68" y="240">Approvals</text>
+<path class="mk" d="M52,275 l11,-1" stroke="#29292b" stroke-width="2.2"/>
+<text class="b" x="68" y="279">Strategic vision</text>
+<text class="sub amb" x="80" y="296">★ where freed time goes</text>
+<text class="sub blu" x="60" y="344">I take #1 + #2 → he gets #4</text>
+
+<path class="mk" d="M270,92 C 266,170 274,250 270,320 S 268,372 271,398" stroke="#cfcfc8" stroke-width="2"/>
+
+<circle cx="292" cy="100" r="12" fill="none" stroke="#245ea6" stroke-width="2.2"/>
+<text class="h" x="292" y="105" text-anchor="middle">2</text>
+<text class="h" x="312" y="98">HOW TO MAKE IT EASIER</text>
+<text class="sub" x="312" y="114">— 3 tools, tuned to your wiring</text>
+
+<path class="mk" d="M290,138 l0,52" stroke="#245ea6" stroke-width="3"/>
+<text class="tool" x="304" y="150">I.  Picture <tspan class="cor">&gt;</tspan> Pieces</text>
+<path class="mk" d="M304,158 C 338,155 378,160 402,157" stroke="#245ea6" stroke-width="2"/>
+<text class="tag blu" x="304" y="174">WHAT · clarity early</text>
+<text class="ex" x="304" y="190">“full context + ‘anything unclear by ___?’”</text>
+
+<path class="mk" d="M290,220 l0,52" stroke="#2c8a52" stroke-width="3"/>
+<text class="tool" x="304" y="232">II.  Steady <tspan class="cor">&gt;</tspan> Flooded</text>
+<path class="mk" d="M304,240 C 344,237 386,242 408,239" stroke="#2c8a52" stroke-width="2"/>
+<text class="tag grn" x="304" y="256">HOW · calm in the heat</text>
+<text class="ex" x="304" y="272">name it · buy a beat · “next right step?”</text>
+
+<path class="mk" d="M290,302 l0,52" stroke="#c0473a" stroke-width="3"/>
+<text class="tool" x="304" y="314">III.  Private <tspan class="cor">&gt;</tspan> Public</text>
+<path class="mk" d="M304,322 C 346,319 390,324 418,321" stroke="#c0473a" stroke-width="2"/>
+<text class="tag cor" x="304" y="338">WHERE · sharp concerns</text>
+<text class="ex" x="304" y="354">2 options to me — before the team room</text>
+
+<text class="sub" x="120" y="368" text-anchor="middle">YOUR GENIUSES</text>
+<ellipse cx="120" cy="402" rx="42" ry="22" fill="none" stroke="#245ea6" stroke-width="2.4"/>
+<ellipse cx="120" cy="402" rx="45" ry="25" fill="none" stroke="#245ea6" stroke-width="1" opacity="0.45"/>
+<text class="gen" x="120" y="409" text-anchor="middle">D · E</text>
+<text class="b" x="180" y="398">discernment</text>
+<text class="b" x="180" y="416">+ enablement</text>
+
+<path class="mk" d="M345,374 l0,40" stroke="#deded6" stroke-width="1.4" stroke-dasharray="2 4"/>
+
+<text class="sub" x="406" y="384">frustrations:</text>
+<text class="tool cor" x="406" y="411">G · I</text>
+<path class="mk" d="M403,406 C 428,403 448,409 470,405" stroke="#c0473a" stroke-width="2"/>
+<text class="sub cor" x="476" y="411">→ steer around these</text>
+
+<path class="mk" d="M188,452 C 280,448 400,449 492,452 C 500,462 501,480 498,488 C 400,493 280,492 188,490 C 181,480 180,460 188,452 Z" stroke="#2c8a52" stroke-width="2.6"/>
+<path class="mk" d="M192,456 C 282,452 400,453 488,456" stroke="#2c8a52" stroke-width="1" opacity="0.4"/>
+<text class="ban" x="340" y="479" text-anchor="middle">Clarity early.  Calm always.</text>
+
+<text class="sub" x="340" y="522" text-anchor="middle">a working framework — for Lindy, from Nathaniel</text>
+
+<g transform="translate(556,506) rotate(-14)">
+  <rect x="0" y="0" width="62" height="12" rx="3" fill="#c0473a"/>
+  <rect x="55" y="2" width="11" height="8" rx="2" fill="#9c372d"/>
+  <rect x="-7" y="2" width="8" height="8" rx="2" fill="#2b2b2b"/>
+</g>
+</svg>
