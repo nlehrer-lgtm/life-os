@@ -333,7 +333,7 @@ Now bolt the 15 panels together in place, in front of the LED wall.
 
 The skirt is the black face the audience sees, with pop-out doors to reach the cable tunnels.
 
-![[stage-build-fig5-fascia-led.svg]]
+![[stage-build-fig6-fascia-led.svg]]
 *Figure 6 — Front skirt: 5 sections of ½" black MDF, each with a magnet-held access door over a cable tunnel, LED channel along the bottom.*
 
 1. You already cut **five 48" × 7"** skirt pieces from the ½" MDF (painted black).
