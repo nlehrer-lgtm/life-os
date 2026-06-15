@@ -354,10 +354,10 @@ Low-voltage (24V) and safe to handle. If you're unsure about the DMX address, ha
 2. **Lay the strip:** peel-and-stick the **RGB+W strip** into the channel. Keep it as one continuous run if you can; if you must cut, only cut on the marked cut-lines and rejoin with solderless connectors.
 3. **Snap on the frosted diffuser.**
 4. **Wire it** (all low-voltage):
-   - **120V wall outlet → 24V power supply** (just plug it in — no hardwiring).
-   - **Power supply 24V+ / 24V− → DMX decoder** input (match + to +, − to −).
-   - **DMX decoder outputs → strip pads** (V+, R, G, B, W — match the labels).
-   - **5-pin DMX cable** from the decoder's DMX-in to a DMX-out on the lighting board. Run it through the cable tunnel.
+    - **120V wall outlet → 24V power supply** (just plug it in — no hardwiring).
+    - **Power supply 24V+ / 24V− → DMX decoder** input (match + to +, − to −).
+    - **DMX decoder outputs → strip pads** (V+, R, G, B, W — match the labels).
+    - **5-pin DMX cable** from the decoder's DMX-in to a DMX-out on the lighting board. Run it through the cable tunnel.
 5. **Set the DMX address** on the decoder and patch it on the board (supervisor confirms).
 6. **Test** all colors + white before tucking the wiring away. Route the power supply and decoder into a tunnel bay, reachable through a skirt door.
 
