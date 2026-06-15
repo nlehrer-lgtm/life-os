@@ -347,7 +347,7 @@ The skirt is the black face the audience sees, with pop-out doors to reach the c
 
 Low-voltage (24V) and safe to handle. If you're unsure about the DMX address, have your **Virtual Production / Unreal supervisor** set it (they run the lighting board).
 
-![[stage-build-fig5-fascia-led.svg]]
+![[stage-build-fig6-fascia-led.svg]]
 *Figure 6 (again) — The aluminum LED channel mounts along the bottom of the front skirt, glow pointing out and down.*
 
 1. **Mount the channel:** screw the aluminum channel along the **bottom of the front skirt**, full 20', glow facing **out and slightly down**. Cut channel to length with a hacksaw; corners can butt.
