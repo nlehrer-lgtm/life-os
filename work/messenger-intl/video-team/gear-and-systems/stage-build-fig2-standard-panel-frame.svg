@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 720" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="720" fill="#f7f6f1"/>
+  <rect x="12" y="12" width="776" height="696" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+
+  <rect x="12" y="12" width="776" height="56" fill="#1a1a1a"/>
+  <text x="34" y="40" fill="#f7f6f1" font-size="22" font-weight="700" letter-spacing="1">FIGURE 3 — SQUARE PANEL FRAME (TOP VIEW)</text>
+  <text x="34" y="60" fill="#cfcfcf" font-size="13">48" × 48" · scale 1" = 10px · same frame for all 15 panels</text>
+
+  <!-- Panel area: x 140-620, y 130-610 (480px = 48") -->
+  <!-- light fill -->
+  <rect x="140" y="130" width="480" height="480" fill="#fbfaf6" stroke="#ddd" stroke-width="0.5"/>
+
+  <!-- Cable tunnel channel (open) x 350-410, full depth -->
+  <rect x="350" y="130" width="60" height="480" fill="#2980b9" fill-opacity="0.10" stroke="#2980b9" stroke-width="1.2" stroke-dasharray="6,3"/>
+  <text x="380" y="375" font-size="12" font-weight="700" fill="#2980b9" text-anchor="middle" transform="rotate(-90,380,375)">CABLE TUNNEL · 6" clear</text>
+
+  <!-- Rails (wood) -->
+  <!-- back rail (top) -->
+  <rect x="140" y="130" width="480" height="15" fill="#d4a574" stroke="#8b5a2b" stroke-width="1"/>
+  <!-- front rail (bottom) -->
+  <rect x="140" y="595" width="480" height="15" fill="#d4a574" stroke="#8b5a2b" stroke-width="1"/>
+  <!-- side rails -->
+  <rect x="140" y="145" width="15" height="450" fill="#d4a574" stroke="#8b5a2b" stroke-width="1"/>
+  <rect x="605" y="145" width="15" height="450" fill="#d4a574" stroke="#8b5a2b" stroke-width="1"/>
+  <!-- tunnel rails -->
+  <rect x="335" y="145" width="15" height="450" fill="#d4a574" stroke="#8b5a2b" stroke-width="1"/>
+  <rect x="410" y="145" width="15" height="450" fill="#d4a574" stroke="#8b5a2b" stroke-width="1"/>
+  <!-- blocking -->
+  <rect x="155" y="378" width="180" height="15" fill="#e0b885" stroke="#8b5a2b" stroke-width="0.8"/>
+  <rect x="425" y="378" width="180" height="15" fill="#e0b885" stroke="#8b5a2b" stroke-width="0.8"/>
+
+  <!-- notch markers in front/back rail where tunnel passes -->
+  <rect x="350" y="130" width="60" height="15" fill="none" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <rect x="350" y="595" width="60" height="15" fill="none" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="3,2"/>
+
+  <!-- corner leveler blocks -->
+  <g fill="#b98a55" stroke="#8b5a2b" stroke-width="0.8">
+    <rect x="155" y="145" width="55" height="55"/>
+    <rect x="550" y="145" width="55" height="55"/>
+    <rect x="155" y="540" width="55" height="55"/>
+    <rect x="550" y="540" width="55" height="55"/>
+  </g>
+  <g font-size="9" fill="#5a3a1a" text-anchor="middle">
+    <text x="182" y="176">LEVELER</text>
+    <text x="182" y="187">BLOCK</text>
+    <text x="577" y="176">LEVELER</text>
+    <text x="577" y="187">BLOCK</text>
+    <text x="182" y="571">LEVELER</text>
+    <text x="577" y="571">LEVELER</text>
+  </g>
+
+  <!-- member labels -->
+  <text x="380" y="125" font-size="11" font-weight="700" fill="#5a3a1a" text-anchor="middle">BACK RAIL 48" (notched)</text>
+  <text x="380" y="627" font-size="11" font-weight="700" fill="#5a3a1a" text-anchor="middle">FRONT RAIL 48" (notched)</text>
+  <text x="147" y="370" font-size="10" font-weight="700" fill="#5a3a1a" text-anchor="middle" transform="rotate(-90,147,370)">SIDE RAIL 45"</text>
+  <text x="613" y="370" font-size="10" font-weight="700" fill="#5a3a1a" text-anchor="middle" transform="rotate(90,613,370)">SIDE RAIL 45"</text>
+  <text x="342" y="240" font-size="9" font-weight="700" fill="#5a3a1a" text-anchor="middle" transform="rotate(-90,342,240)">TUNNEL RAIL 45"</text>
+  <text x="417" y="240" font-size="9" font-weight="700" fill="#5a3a1a" text-anchor="middle" transform="rotate(90,417,240)">TUNNEL RAIL 45"</text>
+  <text x="245" y="389" font-size="9" font-weight="700" fill="#5a3a1a" text-anchor="middle">BLOCKING 18"</text>
+  <text x="515" y="389" font-size="9" font-weight="700" fill="#5a3a1a" text-anchor="middle">BLOCKING 18"</text>
+
+  <!-- ===== DIMENSIONS ===== -->
+  <!-- overall width (below) -->
+  <g stroke="#1a1a1a" stroke-width="0.7" fill="none">
+    <line x1="140" y1="650" x2="140" y2="672"/>
+    <line x1="620" y1="650" x2="620" y2="672"/>
+    <line x1="140" y1="662" x2="620" y2="662"/>
+    <polygon points="140,662 152,658 152,666" fill="#1a1a1a"/>
+    <polygon points="620,662 608,658 608,666" fill="#1a1a1a"/>
+  </g>
+  <text x="380" y="657" font-size="13" font-weight="700" text-anchor="middle">48"-0" — PANEL WIDTH</text>
+
+  <!-- tunnel 6" gap dim (below, inner) -->
+  <g stroke="#2980b9" stroke-width="0.7" fill="none">
+    <line x1="350" y1="616" x2="350" y2="640"/>
+    <line x1="410" y1="616" x2="410" y2="640"/>
+    <line x1="350" y1="630" x2="410" y2="630"/>
+    <polygon points="350,630 360,627 360,633" fill="#2980b9"/>
+    <polygon points="410,630 400,627 400,633" fill="#2980b9"/>
+  </g>
+  <text x="455" y="634" font-size="11" font-weight="700" fill="#2980b9">6" tunnel</text>
+
+  <!-- overall depth (left) -->
+  <g stroke="#1a1a1a" stroke-width="0.7" fill="none">
+    <line x1="110" y1="130" x2="88" y2="130"/>
+    <line x1="110" y1="610" x2="88" y2="610"/>
+    <line x1="100" y1="130" x2="100" y2="610"/>
+    <polygon points="100,130 96,142 104,142" fill="#1a1a1a"/>
+    <polygon points="100,610 96,598 104,598" fill="#1a1a1a"/>
+  </g>
+  <text x="92" y="375" font-size="13" font-weight="700" text-anchor="middle" transform="rotate(-90,92,375)">48"-0" — PANEL DEPTH</text>
+
+  <!-- side bay 18" dim (top) -->
+  <g stroke="#1a1a1a" stroke-width="0.6" fill="none">
+    <line x1="155" y1="118" x2="155" y2="100"/>
+    <line x1="335" y1="118" x2="335" y2="100"/>
+    <line x1="155" y1="108" x2="335" y2="108"/>
+    <polygon points="155,108 164,105 164,111" fill="#1a1a1a"/>
+    <polygon points="335,108 326,105 326,111" fill="#1a1a1a"/>
+  </g>
+  <text x="245" y="98" font-size="10" font-weight="700" text-anchor="middle">18" bay</text>
+
+  <!-- orientation -->
+  <text x="660" y="600" font-size="12" font-weight="700" fill="#1a1a1a">FRONT</text>
+  <text x="655" y="614" font-size="10" fill="#666">(downstage)</text>
+  <text x="662" y="142" font-size="12" font-weight="700" fill="#1a1a1a">BACK</text>
+  <text x="657" y="156" font-size="10" fill="#666">(upstage)</text>
+
+  <text x="34" y="700" font-size="11" fill="#666" font-style="italic">Screws: 3× #8×3" at each rail joint · deck screwed down every 8" (not over the tunnel).</text>
+</svg>

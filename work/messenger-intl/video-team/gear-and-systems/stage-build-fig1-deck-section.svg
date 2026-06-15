@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 540" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="860" height="540" fill="#f7f6f1"/>
+  <rect x="12" y="12" width="836" height="516" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <rect x="12" y="12" width="836" height="56" fill="#1a1a1a"/>
+  <text x="34" y="40" fill="#f7f6f1" font-size="22" font-weight="700" letter-spacing="1">FIGURE 1 — ONE PANEL IN CROSS-SECTION</text>
+  <text x="34" y="60" fill="#cfcfcf" font-size="13">The 7" stack · scale 1" = 40px · cut looking along the panel</text>
+
+  <!-- ============ STACK (40px per inch vertical) ============ -->
+  <!-- Masonite 1/4"=10px : y 130-140 -->
+  <!-- Plywood 3/4"=30px  : y 140-170 -->
+  <!-- 2x6 frame 5.5"=220 : y 170-390 -->
+  <!-- Leveler 1/2"=20px  : y 390-410 -->
+
+  <!-- concrete floor -->
+  <pattern id="concrete" patternUnits="userSpaceOnUse" width="14" height="14">
+    <rect width="14" height="14" fill="#cccccc"/>
+    <circle cx="3" cy="4" r="1" fill="#999"/>
+    <circle cx="10" cy="9" r="1.2" fill="#aaa"/>
+    <circle cx="7" cy="12" r="0.8" fill="#888"/>
+  </pattern>
+  <rect x="120" y="410" width="540" height="60" fill="url(#concrete)" stroke="#666" stroke-width="0.5"/>
+  <text x="130" y="450" font-size="12" fill="#444" font-weight="700">CONCRETE STUDIO FLOOR</text>
+
+  <!-- Left perimeter rail (2x6 in section: 1.5"=60px wide) x 200-260 -->
+  <rect x="200" y="170" width="60" height="220" fill="#d4a574" stroke="#8b5a2b" stroke-width="1.2"/>
+  <text x="230" y="285" font-size="12" font-weight="700" fill="#5a3a1a" text-anchor="middle">2x6</text>
+  <text x="230" y="300" font-size="12" font-weight="700" fill="#5a3a1a" text-anchor="middle">SIDE</text>
+  <text x="230" y="315" font-size="12" font-weight="700" fill="#5a3a1a" text-anchor="middle">RAIL</text>
+
+  <!-- Tunnel rail (1.5"=60px) x 480-540 -->
+  <rect x="480" y="170" width="60" height="220" fill="#d4a574" stroke="#8b5a2b" stroke-width="1.2"/>
+  <text x="510" y="293" font-size="11" font-weight="700" fill="#5a3a1a" text-anchor="middle">TUNNEL</text>
+  <text x="510" y="308" font-size="11" font-weight="700" fill="#5a3a1a" text-anchor="middle">RAIL</text>
+
+  <!-- Cable tunnel cavity between rails (open) -->
+  <rect x="260" y="250" width="220" height="140" fill="#2980b9" fill-opacity="0.12" stroke="#2980b9" stroke-width="1.4" stroke-dasharray="6,3"/>
+  <text x="370" y="318" font-size="13" font-weight="700" fill="#2980b9" text-anchor="middle">CABLE TUNNEL</text>
+  <text x="370" y="336" font-size="11" fill="#2980b9" text-anchor="middle">6" wide × 4" tall clear</text>
+
+  <!-- Plywood deck 3/4"=30px spanning x 200-540 (over rails + tunnel) -->
+  <rect x="200" y="140" width="340" height="30" fill="#e8c896" stroke="#8b5a2b" stroke-width="1"/>
+  <!-- Masonite 1/4"=10px -->
+  <rect x="200" y="130" width="340" height="10" fill="#1a1a1a"/>
+
+  <!-- Leveler foot under the side rail (1/2"=20px) -->
+  <rect x="216" y="390" width="28" height="20" fill="#777" stroke="#555" stroke-width="0.8"/>
+  <rect x="210" y="406" width="40" height="5" fill="#555"/>
+  <rect x="225" y="372" width="10" height="20" fill="#888" stroke="#555" stroke-width="0.6"/>
+  <text x="120" y="392" font-size="11" fill="#666">¾" stud</text>
+  <text x="120" y="405" font-size="11" fill="#666">threads</text>
+  <text x="120" y="418" font-size="11" fill="#666">into block</text>
+
+  <!-- ============ LAYER CALLOUTS (right side) ============ -->
+  <g font-size="13" fill="#1a1a1a">
+    <line x1="540" y1="135" x2="690" y2="135" stroke="#1a1a1a" stroke-width="0.6"/>
+    <text x="696" y="139" font-weight="700">¼" Masonite — matte black top skin</text>
+
+    <line x1="540" y1="155" x2="690" y2="155" stroke="#1a1a1a" stroke-width="0.6"/>
+    <text x="696" y="159" font-weight="700">¾" CDX plywood deck</text>
+
+    <line x1="540" y1="280" x2="690" y2="280" stroke="#1a1a1a" stroke-width="0.6"/>
+    <text x="696" y="276" font-weight="700">2x6 SPF frame</text>
+    <text x="696" y="292" fill="#666" font-size="11">(actual 1½" × 5½")</text>
+
+    <line x1="250" y1="400" x2="690" y2="400" stroke="#1a1a1a" stroke-width="0.6" stroke-dasharray="3,2"/>
+    <text x="696" y="404" font-weight="700">Leveler foot (½"–1½" adj.)</text>
+  </g>
+
+  <!-- ============ DIMENSIONS (left) ============ -->
+  <!-- per-layer ticks -->
+  <g stroke="#1a1a1a" stroke-width="0.7" fill="none">
+    <!-- total 7" -->
+    <line x1="90" y1="130" x2="115" y2="130"/>
+    <line x1="90" y1="410" x2="115" y2="410"/>
+    <line x1="100" y1="130" x2="100" y2="410"/>
+    <polygon points="100,130 96,142 104,142" fill="#1a1a1a"/>
+    <polygon points="100,410 96,398 104,398" fill="#1a1a1a"/>
+  </g>
+  <text x="84" y="274" font-size="16" font-weight="700" text-anchor="end">7"</text>
+  <text x="84" y="292" font-size="11" fill="#666" text-anchor="end">TOTAL</text>
+
+  <!-- Note -->
+  <text x="34" y="500" font-size="12" fill="#666" font-style="italic">Stack math: ¼" + ¾" + 5½" + ½" = 7.0" at the leveler's lowest setting. Turn the feet up (to 1½") to level on an uneven floor.</text>
+</svg>
