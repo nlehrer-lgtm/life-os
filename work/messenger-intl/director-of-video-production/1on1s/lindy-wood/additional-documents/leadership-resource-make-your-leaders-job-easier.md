@@ -193,9 +193,13 @@ This isn't one-way. From our recent 1:1s:
 
 ---
 
-## Whiteboard plan (for our next 1:1)
+## Whiteboard plan (for our next 1:1 — Thu 6/18)
 
-What to sketch on the whiteboard, in order — same shape as the one that worked with [[Andrew McIntosh|Andrew]] on 2026-05-28, with the tools swapped for yours.
+Here's the board, drawn out — sketch it live with her, same shape as the one that worked with [[Andrew McIntosh|Andrew]] on 2026-05-28, with the tools swapped for hers. Snap a photo when you're done and send it to her, just like you did for [[Andrew McIntosh|Andrew]].
+
+![[lindy-whiteboard-diagram.svg]]
+
+_Text version of the board (if you're sketching from notes):_
 
 ```
 What does it mean to make my leader's job easier?
