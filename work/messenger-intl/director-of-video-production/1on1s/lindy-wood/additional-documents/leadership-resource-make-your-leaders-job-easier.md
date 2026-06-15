@@ -14,13 +14,17 @@ tags: [leadership, 1on1, lindy, framework]
 
 ## Recap — Why we're doing this
 
-Two themes keep showing up across our last several 1:1s. I want to name them clearly, give you tools for each, and put them in your hands.
+Three things keep showing up across our last several 1:1s — and they line up almost exactly with the three pillars already on your Asana growth plan. I want to name them, give you one tool for each, and put them in your hands.
 
-1. **Bring clarity early** — to the team and to me. Cast the full picture before either of us has to dig for it. You've already started this — your morning team-calendar walkthroughs and the full context you've been giving me up front in 1:1s are exactly the move. We're naming it, sharpening it, and widening it.
+1. **Bring clarity early** — to the team and to me. Cast the full picture before either of us has to dig for it. You've already started this — your morning team-calendar walkthroughs and the full context you've been giving me up front in 1:1s are exactly the move. We're naming it, sharpening it, and widening it. _(Your pillar: Cultivate Clear & Compelling Communication.)_
 
-2. **Stay steady when the heat hits** — confidently and joyfully get through problems instead of letting them drown you. Bring the structure, the discernment, and the calm. The seat you sit in is hot by definition. Your job in the storm is to be the keel, not the wave.
+2. **Stay steady when the heat hits** — confidently and joyfully get through problems instead of letting them drown you. Bring the structure, the discernment, and the calm. The seat you sit in is hot by definition. Your job in the storm is to be the keel, not the wave. _(Your pillar: Lead Steady Through Pressure and Problems — the one we added June 4.)_
 
-Both themes map straight onto your Working Geniuses — **D**iscernment and **E**nablement — and pull *away* from your frustrations (Galvanizing + Invention). Tools below, not abstractions.
+3. **Route hard things to the right room** — when you genuinely disagree with a direction, bring it to me first, paired with options, before it lands in the team meeting. Same input, different gravity depending on where it's said. _(This one guards the first pillar — it keeps your communication landing as discernment, not veto.)_
+
+All three map straight onto your Working Geniuses — **D**iscernment and **E**nablement — and pull *away* from your frustrations (Galvanizing + Invention). Tools below, not abstractions.
+
+**A note on your third pillar — _Lead, Develop & Resource the Editing Team._** I didn't make it a fourth tool on purpose. Developing [[Josh Kendrick|Josh]], [[Annie Duda|Annie]], and [[LeVann Anthony Jr|LeVann]] isn't a separate move — it's the *fruit* of the three above. Every bit of clarity, steadiness, and trust you build is what lets them own more. That pillar gets its own airtime in our 1:1s (it's most of what we're navigating with [[Josh Kendrick|Josh]] right now), so it didn't need its own slot on the board.
 
 We also touched:
 - **Pre-production / production SOPs as your real lane** — the details "living in your head" deserve a system. You started with [[LeVann Anthony Jr|LeVann]] on the Dropbox flow; keep going.
