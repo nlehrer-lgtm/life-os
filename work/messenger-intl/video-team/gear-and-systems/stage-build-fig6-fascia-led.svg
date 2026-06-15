@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 600" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="980" height="600" fill="#f7f6f1"/>
+  <rect x="12" y="12" width="956" height="576" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+
+  <rect x="12" y="12" width="956" height="56" fill="#1a1a1a"/>
+  <text x="34" y="40" fill="#f7f6f1" font-size="22" font-weight="700" letter-spacing="1">FIGURE 6 — FRONT SKIRT, ACCESS DOORS &amp; LED STRIP</text>
+  <text x="34" y="60" fill="#cfcfcf" font-size="13">Audience view · width 1' = 40px, height 1" = 14px (height shown larger for clarity)</text>
+
+  <!-- skirt 20' x 7" : x100-900, y120-218 -->
+  <rect x="100" y="120" width="800" height="98" fill="#1a1a1a" stroke="#000" stroke-width="1.5"/>
+  <!-- section dividers -->
+  <g stroke="#444" stroke-width="1.2">
+    <line x1="260" y1="120" x2="260" y2="218"/>
+    <line x1="420" y1="120" x2="420" y2="218"/>
+    <line x1="580" y1="120" x2="580" y2="218"/>
+    <line x1="740" y1="120" x2="740" y2="218"/>
+  </g>
+
+  <!-- access doors (8"x4") centered in each 4' section -->
+  <g fill="#e74c3c" stroke="#c0392b" stroke-width="1">
+    <rect x="166.7" y="141" width="26.7" height="56"/>
+    <rect x="326.7" y="141" width="26.7" height="56"/>
+    <rect x="486.7" y="141" width="26.7" height="56"/>
+    <rect x="646.7" y="141" width="26.7" height="56"/>
+    <rect x="806.7" y="141" width="26.7" height="56"/>
+  </g>
+  <!-- magnet catches: 2 per door -->
+  <g fill="#f1c40f" stroke="#9a7d0a" stroke-width="0.6">
+    <circle cx="170" cy="169" r="3"/><circle cx="190" cy="169" r="3"/>
+    <circle cx="330" cy="169" r="3"/><circle cx="350" cy="169" r="3"/>
+    <circle cx="490" cy="169" r="3"/><circle cx="510" cy="169" r="3"/>
+    <circle cx="650" cy="169" r="3"/><circle cx="670" cy="169" r="3"/>
+    <circle cx="810" cy="169" r="3"/><circle cx="830" cy="169" r="3"/>
+  </g>
+  <g font-size="9" fill="#fff" text-anchor="middle" font-weight="700">
+    <text x="180" y="172">DOOR</text><text x="340" y="172">DOOR</text><text x="500" y="172">DOOR</text><text x="660" y="172">DOOR</text><text x="820" y="172">DOOR</text>
+  </g>
+  <g font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="700">
+    <text x="180" y="113">A</text><text x="340" y="113">B</text><text x="500" y="113">C</text><text x="660" y="113">D</text><text x="820" y="113">E</text>
+  </g>
+
+  <!-- floor line + LED glow -->
+  <defs>
+    <linearGradient id="glow" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f39c12" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#f39c12" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="100" y="214" width="800" height="5" fill="#f39c12"/>
+  <rect x="100" y="219" width="800" height="40" fill="url(#glow)"/>
+  <line x1="60" y1="218" x2="930" y2="218" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="70" y="234" font-size="10" fill="#666">CONCRETE FLOOR</text>
+
+  <!-- labels/callouts -->
+  <text x="100" y="100" font-size="13" font-weight="700" fill="#1a1a1a">MATTE BLACK SKIRT — ½" MDF — 5 sections × 4'</text>
+  <line x1="193" y1="169" x2="250" y2="300" stroke="#c0392b" stroke-width="0.5"/>
+  <text x="255" y="300" font-size="12" font-weight="700" fill="#c0392b">Access door: 8" wide × 4" tall</text>
+  <text x="255" y="316" font-size="11" fill="#666">held by 2 magnet catches (yellow) — pops out by hand to reach the cable tunnel</text>
+  <text x="255" y="270" font-size="12" font-weight="700" fill="#b87410">RGB+W DMX LED strip in aluminum channel + frosted diffuser — full 20', glow out + down</text>
+
+  <!-- ===== dimensions ===== -->
+  <g stroke="#1a1a1a" stroke-width="0.7" fill="none">
+    <line x1="100" y1="350" x2="100" y2="372"/>
+    <line x1="900" y1="350" x2="900" y2="372"/>
+    <line x1="100" y1="362" x2="900" y2="362"/>
+    <polygon points="100,362 112,358 112,366" fill="#1a1a1a"/>
+    <polygon points="900,362 888,358 888,366" fill="#1a1a1a"/>
+  </g>
+  <text x="500" y="357" font-size="13" font-weight="700" text-anchor="middle">20'-0" — SKIRT WIDTH</text>
+
+  <!-- ===== channel section detail ===== -->
+  <rect x="540" y="400" width="400" height="172" fill="#fff" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="560" y="422" font-size="13" font-weight="700" fill="#1a1a1a">LED CHANNEL — bottom corner detail</text>
+
+  <!-- skirt face slab (vertical) -->
+  <rect x="600" y="436" width="18" height="120" fill="#1a1a1a"/>
+  <text x="595" y="500" font-size="10" fill="#1a1a1a" text-anchor="end" transform="rotate(-90,595,500)">½" MDF skirt</text>
+  <!-- floor -->
+  <line x1="560" y1="556" x2="930" y2="556" stroke="#666" stroke-width="1.5"/>
+  <text x="565" y="568" font-size="9" fill="#666">floor</text>
+  <!-- aluminum channel mounted near bottom, pointing out+down -->
+  <g transform="translate(618,520) rotate(35)">
+    <rect x="0" y="-14" width="40" height="28" fill="#aaa" stroke="#555" stroke-width="1"/>
+    <rect x="3" y="-9" width="34" height="9" fill="#f39c12"/>
+    <rect x="3" y="0" width="34" height="6" fill="#fff" fill-opacity="0.7" stroke="#bbb" stroke-width="0.5"/>
+  </g>
+  <text x="700" y="455" font-size="11" fill="#666">aluminum channel</text>
+  <line x1="698" y1="458" x2="650" y2="512" stroke="#666" stroke-width="0.4"/>
+  <text x="700" y="475" font-size="11" fill="#b87410" font-weight="700">strip + frosted diffuser</text>
+  <line x1="700" y1="478" x2="662" y2="520" stroke="#666" stroke-width="0.4"/>
+  <!-- glow arrows out+down -->
+  <g stroke="#f39c12" stroke-width="2" fill="none">
+    <line x1="665" y1="540" x2="710" y2="556" marker-end="url(#ar)"/>
+    <line x1="660" y1="548" x2="690" y2="566" marker-end="url(#ar)"/>
+  </g>
+  <defs><marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><polygon points="0,0 6,3 0,6" fill="#f39c12"/></marker></defs>
+  <text x="720" y="556" font-size="11" fill="#b87410" font-weight="700">glow out + down</text>
+
+  <!-- wiring note -->
+  <text x="34" y="432" font-size="12" font-weight="700" fill="#1a1a1a">Wiring (all 24V, low-voltage):</text>
+  <text x="34" y="452" font-size="11" fill="#444">120V outlet → 24V power supply</text>
+  <text x="34" y="470" font-size="11" fill="#444">→ DMX decoder (match +/−)</text>
+  <text x="34" y="488" font-size="11" fill="#444">→ strip pads V+, R, G, B, W</text>
+  <text x="34" y="506" font-size="11" fill="#444">DMX cable: decoder → lighting board</text>
+  <text x="34" y="532" font-size="10.5" fill="#666" font-style="italic">Supervisor sets the DMX</text>
+  <text x="34" y="546" font-size="10.5" fill="#666" font-style="italic">address &amp; board patch.</text>
+</svg>
