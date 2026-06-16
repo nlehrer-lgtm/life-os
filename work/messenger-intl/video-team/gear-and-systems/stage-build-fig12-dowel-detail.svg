@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 560" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="wd" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#e0bd8f"/><stop offset="50%" stop-color="#d3ad77"/><stop offset="100%" stop-color="#c39a60"/>
+    </linearGradient>
+    <linearGradient id="wd2" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#d8b482"/><stop offset="100%" stop-color="#c197582"/>
+    </linearGradient>
+    <linearGradient id="dwl" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#e7cفa0"/><stop offset="18%" stop-color="#f0dcb6"/>
+      <stop offset="55%" stop-color="#d9b884"/><stop offset="100%" stop-color="#b88f54"/>
+    </linearGradient>
+    <radialGradient id="endgrain" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#efdcb8"/><stop offset="100%" stop-color="#c39a60"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="820" height="560" fill="#f7f6f1"/>
+  <rect x="12" y="12" width="796" height="56" fill="#1a1a1a"/>
+  <text x="30" y="40" fill="#f7f6f1" font-size="21" font-weight="700" letter-spacing="1">FIGURE 12 — DOWEL PIN (CLOSE-UP)</text>
+  <text x="30" y="58" fill="#cfcfcf" font-size="12.5">Top-down cut-through of a seam · 2 dowels per seam · keeps neighbouring panel tops flush</text>
+
+  <text x="30" y="98" font-size="13" font-weight="700" fill="#1a1a1a">TOP VIEW — deck removed to show the dowels inside the seam</text>
+
+  <!-- left & right rails (top-down) -->
+  <rect x="70" y="150" width="290" height="300" fill="url(#wd)" stroke="#8b5a2b" stroke-width="1.2"/>
+  <rect x="360" y="150" width="290" height="300" fill="url(#wd2)" stroke="#8b5a2b" stroke-width="1.2"/>
+  <!-- seam -->
+  <line x1="360" y1="140" x2="360" y2="462" stroke="#5a3a1a" stroke-width="2.4"/>
+  <text x="360" y="478" font-size="12" font-weight="700" fill="#5a3a1a" text-anchor="middle">seam — panels butt here</text>
+
+  <text x="215" y="430" font-size="13" font-weight="700" fill="#5a3a1a" text-anchor="middle">LEFT PANEL RAIL</text>
+  <text x="505" y="430" font-size="13" font-weight="700" fill="#5a3a1a" text-anchor="middle">RIGHT PANEL RAIL</text>
+
+  <!-- two dowels crossing the seam -->
+  <!-- hole outlines (drilled bore) -->
+  <g fill="none" stroke="#7a5navy" stroke-width="0.8" stroke-dasharray="4,3">
+    <rect x="313" y="214" width="94" height="20" rx="9" stroke="#9a7b50"/>
+    <rect x="313" y="314" width="94" height="20" rx="9" stroke="#9a7b50"/>
+  </g>
+  <!-- dowels -->
+  <g stroke="#8a6a3a" stroke-width="0.8">
+    <rect x="315" y="216" width="90" height="16" rx="8" fill="url(#dwl)"/>
+    <rect x="315" y="316" width="90" height="16" rx="8" fill="url(#dwl)"/>
+  </g>
+  <!-- seam line over dowels -->
+  <line x1="360" y1="216" x2="360" y2="232" stroke="#5a3a1a" stroke-width="1.2" stroke-dasharray="2,2"/>
+  <line x1="360" y1="316" x2="360" y2="332" stroke="#5a3a1a" stroke-width="1.2" stroke-dasharray="2,2"/>
+
+  <!-- dimensions: 2" total + 1"/1" -->
+  <g stroke="#c0392b" stroke-width="0.8" fill="none">
+    <line x1="315" y1="196" x2="315" y2="210"/><line x1="405" y1="196" x2="405" y2="210"/>
+    <line x1="360" y1="196" x2="360" y2="210"/>
+    <line x1="315" y1="203" x2="405" y2="203"/>
+    <polygon points="315,203 325,200 325,206" fill="#c0392b"/>
+    <polygon points="405,203 395,200 395,206" fill="#c0392b"/>
+  </g>
+  <text x="338" y="192" font-size="10.5" fill="#c0392b" font-weight="700">1"</text>
+  <text x="378" y="192" font-size="10.5" fill="#c0392b" font-weight="700">1"</text>
+  <text x="412" y="225" font-size="12" fill="#c0392b" font-weight="700">¼"×2" dowel pin (×2 per seam)</text>
+  <text x="412" y="328" font-size="11.5" fill="#666">drill ¼" holes 1" deep in each rail,</text>
+  <text x="412" y="343" font-size="11.5" fill="#666">tap dowel halfway into one side,</text>
+  <text x="412" y="358" font-size="11.5" fill="#666">neighbour slides on → tops stay flush.</text>
+
+  <!-- ===== inset: pictorial dowel-in-hole ===== -->
+  <rect x="560" y="402" width="248" height="146" fill="#fff" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="572" y="422" font-size="12" font-weight="700" fill="#1a1a1a">What one dowel looks like</text>
+  <!-- wood block face -->
+  <polygon points="572,500 690,500 690,440 572,440" fill="url(#wd)" stroke="#8b5a2b" stroke-width="1"/>
+  <polygon points="690,440 718,424 718,484 690,500" fill="#bb8a52" stroke="#8b5a2b" stroke-width="1"/>
+  <polygon points="572,440 690,440 718,424 600,424" fill="#e6c592" stroke="#8b5a2b" stroke-width="1"/>
+  <!-- hole -->
+  <ellipse cx="636" cy="470" rx="9" ry="9" fill="#3a2a14"/>
+  <!-- dowel protruding -->
+  <rect x="636" y="461" width="70" height="18" rx="9" fill="url(#dwl)" stroke="#8a6a3a" stroke-width="0.8" transform="rotate(-9,636,470)"/>
+  <ellipse cx="704" cy="459" rx="5" ry="9" fill="url(#endgrain)" stroke="#8a6a3a" stroke-width="0.6" transform="rotate(-9,704,459)"/>
+  <text x="724" y="452" font-size="10.5" fill="#666" text-anchor="end">dowel</text>
+
+  <text x="30" y="536" font-size="11.5" fill="#666" font-style="italic">Dowels carry no load — they only line the panels up so the walking surface has no lips at the seams. The ⅜" carriage bolts do the clamping (Figure 5).</text>
+</svg>
