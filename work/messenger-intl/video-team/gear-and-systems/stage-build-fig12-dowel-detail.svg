@@ -5,10 +5,10 @@
       <stop offset="0%" stop-color="#e0bd8f"/><stop offset="50%" stop-color="#d3ad77"/><stop offset="100%" stop-color="#c39a60"/>
     </linearGradient>
     <linearGradient id="wd2" x1="0" x2="0" y1="0" y2="1">
-      <stop offset="0%" stop-color="#d8b482"/><stop offset="100%" stop-color="#c197582"/>
+      <stop offset="0%" stop-color="#d8b482"/><stop offset="100%" stop-color="#c19758"/>
     </linearGradient>
     <linearGradient id="dwl" x1="0" x2="0" y1="0" y2="1">
-      <stop offset="0%" stop-color="#e7cفa0"/><stop offset="18%" stop-color="#f0dcb6"/>
+      <stop offset="0%" stop-color="#e7cfa0"/><stop offset="18%" stop-color="#f0dcb6"/>
       <stop offset="55%" stop-color="#d9b884"/><stop offset="100%" stop-color="#b88f54"/>
     </linearGradient>
     <radialGradient id="endgrain" cx="50%" cy="45%" r="60%">
