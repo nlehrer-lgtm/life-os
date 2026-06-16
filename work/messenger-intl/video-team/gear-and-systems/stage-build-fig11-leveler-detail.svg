@@ -20,8 +20,8 @@
     </pattern>
   </defs>
 
-  <rect x="0" y="0" width="800" height="640" fill="#f7f6f1"/>
-  <rect x="12" y="12" width="776" height="56" fill="#1a1a1a"/>
+  <rect x="0" y="0" width="872" height="640" fill="#f7f6f1"/>
+  <rect x="12" y="12" width="848" height="56" fill="#1a1a1a"/>
   <text x="30" y="40" fill="#f7f6f1" font-size="21" font-weight="700" letter-spacing="1">FIGURE 11 — LEVELER FOOT (CLOSE-UP, CUT-THROUGH)</text>
   <text x="30" y="58" fill="#cfcfcf" font-size="12.5">One of 4 per panel · threads into a doubled 2x6 corner block · turn to level</text>
 
