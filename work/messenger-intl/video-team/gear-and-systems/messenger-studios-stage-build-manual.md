@@ -377,6 +377,42 @@ Low-voltage (24V) and safe to handle. If you're unsure about the DMX address, ha
 
 ---
 
+## Part 12 — Built views & detail close-ups
+
+Here's what the pieces look like once built — each panel, the whole assembled stage, the bare frame, and the leveler and dowel up close. These are dimensioned 3D illustrations. **For true photographs, Appendix C has ready-to-paste prompts** you can run in any photorealistic image generator.
+
+### A finished square panel — Rows 1 & 2
+
+![[stage-build-fig7-panel-3d.svg]]
+*Figure 7 — A built 4'×4' panel: matte-black Masonite top, layered edge (¼" skin / ¾" ply / 2x6 frame), four leveler feet, and the 6"×4" cable-tunnel mouth centered on the front edge.*
+
+### A finished curved panel — Row 3
+
+![[stage-build-fig8-curved-panel-3d.svg]]
+*Figure 8 — A built Row-3 panel (B3). The front edge and tunnel mouth stay straight; only the back edge is cut to the arc. D3 is the mirror; A3/E3 are cut deeper toward the wings.*
+
+### The full stage, assembled
+
+![[stage-build-fig9-full-stack-3d.svg]]
+*Figure 9 — All 15 panels bolted together in front of the curved LED wall. The black skirt and warm LED glow face the audience; the curved back row holds the even 12" gap to the wall.*
+
+### The overall frame — decks removed
+
+![[stage-build-fig10-frame-3d.svg]]
+*Figure 10 — The entire stage framing with decks off: the perimeter rails plus the front-to-back tunnel rails in every column, and the Row-3 backs cut to the arc. (Mid-bay blocking omitted here for clarity.)*
+
+### Leveler foot — close-up
+
+![[stage-build-fig11-leveler-detail.svg]]
+*Figure 11 — The ¾" leveler stud threads into a doubled 2x6 corner block (via the T-nut that comes with the foot). The exposed stud gives ½"–1½" of height adjustment for leveling.*
+
+### Dowel pin — close-up
+
+![[stage-build-fig12-dowel-detail.svg]]
+*Figure 12 — Two ¼"×2" dowels per seam, 1" into each rail. They carry no load — they only align neighboring panels so the walking surface has no lips. The carriage bolts (Figure 5) do the clamping.*
+
+---
+
 ## Maintenance & knock-down
 
 Because it's bolted (not glued), the stage comes apart:
