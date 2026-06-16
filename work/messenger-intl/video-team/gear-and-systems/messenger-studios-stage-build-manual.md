@@ -454,6 +454,32 @@ For confidence, here's what was checked and confirmed against the blueprint:
 
 ---
 
+## Appendix C — Photorealistic render prompts
+
+The figures in this manual are dimensioned diagrams. If you want **true photo-quality images**, paste any prompt below into a photorealistic image generator (Midjourney, DALL·E, Adobe Firefly, ChatGPT image, etc.). Each one is grounded in the real dimensions and materials, and is self-contained — copy a whole block. Suggested aspect ratios are noted.
+
+> **Tip:** if results look "cartoony," add `--style raw` (Midjourney) or append *"photorealistic, physically based rendering, not an illustration, not a render"* to push toward realism. For Midjourney add the aspect flag, e.g. `--ar 16:9`.
+
+**1 — Finished square panel** · *suggest 16:9*
+> Photorealistic studio product photograph of a single 4-foot by 4-foot modular stage platform, 7 inches tall, on a polished sealed-concrete floor. Matte black tempered-Masonite top surface; the visible edge clearly shows three layers — a thin black skin over three-quarter-inch plywood over a light SPF 2x6 wood frame. Four adjustable black metal swivel leveler feet at the corners. A 6-inch-wide by 4-inch-tall rectangular cable-tunnel opening centered on the front edge. Three-quarter view, soft diffused studio lighting, realistic soft shadow, shallow depth of field, ultra-detailed, 8k, 35mm lens.
+
+**2 — Finished curved panel** · *suggest 16:9*
+> Photorealistic studio product photograph of a 4-foot-wide modular stage platform, 7 inches tall, on polished concrete. The front edge is straight with a centered 6-inch-wide by 4-inch-tall cable-tunnel opening; the back edge is cut to a smooth shallow curve (a gentle arc). Matte black Masonite top; layered edge showing black skin over plywood over a light SPF 2x6 frame; black swivel leveler feet at the corners. Three-quarter angle that clearly shows the curved back edge. Soft diffused studio lighting, realistic shadows, shallow depth of field, ultra-detailed, 8k.
+
+**3 — Full assembled stage in the studio** · *suggest 21:9 or 16:9*
+> Photorealistic wide cinematic hero shot of a 20-foot-wide, 7-inch-tall matte-black modular performance stage assembled from 15 panels, inside a boutique virtual-production film studio. The back row of the stage is curved and follows a large curved 1.9mm LED video wall roughly 10 feet tall standing 12 inches behind it, the wall softly glowing a neutral blue gradient. The matte-black front skirt faces the camera with a continuous thin warm-white LED glow line running along the floor. Polished concrete floor, cinematic soft studio lighting with gentle atmospheric haze, professional architectural photography, three-quarter front view, ultra-detailed, 8k.
+
+**4 — Leveler foot, macro** · *suggest 1:1 or 4:5*
+> Extreme close-up macro photograph of an adjustable stage leveler foot at the corner of a black modular stage platform: a three-quarter-inch zinc threaded stud screwed up into a light wooden 2x6 frame block, a round black swivel foot pad with a non-slip rubber base resting on concrete, the stud partly extended to reveal clean threads. Crisp detail, shallow depth of field, soft directional side light, photorealistic, 8k, macro lens.
+
+**5 — Dowel pin, macro** · *suggest 4:5*
+> Close-up photograph of a birch wooden dowel pin, one-quarter-inch diameter and 2 inches long, half-inserted into a drilled hole in the edge of a light SPF 2x6 stage-platform rail, with a second matching rail beside it about to slide onto the dowel. Clean woodworking detail, warm wood tones, soft light, shallow depth of field, photorealistic, 8k, macro lens.
+
+**6 — Overall frame, decks removed** · *suggest 16:9*
+> Photorealistic three-quarter construction-documentation photograph of the wooden skeleton frame of a 20-foot modular stage with the plywood tops removed, on a polished concrete studio floor: a grid of light SPF 2x6 lumber frames, each a 4-foot square, with an open front-to-back channel left down the middle of each column for cables; the back row of frames cut to a shallow curve. Even soft lighting, sharp focus throughout, ultra-detailed, 8k.
+
+---
+
 ## Related files
 
 - [Stage blueprint](messenger-studios-stage-blueprint.svg) — the design drawing this manual builds
