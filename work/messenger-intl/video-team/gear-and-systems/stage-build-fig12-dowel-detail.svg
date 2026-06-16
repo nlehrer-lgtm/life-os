@@ -30,8 +30,8 @@
   <line x1="360" y1="140" x2="360" y2="462" stroke="#5a3a1a" stroke-width="2.4"/>
   <text x="360" y="478" font-size="12" font-weight="700" fill="#5a3a1a" text-anchor="middle">seam — panels butt here</text>
 
-  <text x="215" y="430" font-size="13" font-weight="700" fill="#5a3a1a" text-anchor="middle">LEFT PANEL RAIL</text>
-  <text x="505" y="430" font-size="13" font-weight="700" fill="#5a3a1a" text-anchor="middle">RIGHT PANEL RAIL</text>
+  <text x="215" y="400" font-size="13" font-weight="700" fill="#5a3a1a" text-anchor="middle">LEFT PANEL RAIL</text>
+  <text x="478" y="400" font-size="13" font-weight="700" fill="#5a3a1a" text-anchor="middle">RIGHT PANEL RAIL</text>
 
   <!-- two dowels crossing the seam -->
   <!-- hole outlines (drilled bore) -->
