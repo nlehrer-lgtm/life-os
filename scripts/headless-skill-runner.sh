@@ -46,10 +46,10 @@ JOURNAL_YESTERDAY=$(cat "$REPO_DIR/journal/entries/$YESTERDAY"* 2>/dev/null || e
 # Git activity (current repo only)
 GIT_DATA=$(cd "$REPO_DIR" && git log --since="midnight" --oneline 2>/dev/null || echo "NO_GIT_DATA")
 
-# Weather (NYC defaults, override with LIFEOS_LAT/LIFEOS_LON env vars)
-LAT="${LIFEOS_LAT:-40.7128}"
-LON="${LIFEOS_LON:--74.0060}"
-TZ_NAME=$(readlink /etc/localtime 2>/dev/null | sed 's|.*/zoneinfo/||' || echo "America/New_York")
+# Weather (Spring Hill, TN defaults, override with LIFEOS_LAT/LIFEOS_LON env vars)
+LAT="${LIFEOS_LAT:-35.7512}"
+LON="${LIFEOS_LON:--86.9300}"
+TZ_NAME=$(readlink /etc/localtime 2>/dev/null | sed 's|.*/zoneinfo/||' || echo "America/Chicago")
 WEATHER_DATA=$(curl -s "https://api.open-meteo.com/v1/forecast?latitude=${LAT}&longitude=${LON}&daily=temperature_2m_max,temperature_2m_min,weathercode&hourly=temperature_2m,weathercode&temperature_unit=fahrenheit&timezone=${TZ_NAME}&forecast_days=1" 2>/dev/null || echo "WEATHER_ERROR")
 
 # People and work files for context
