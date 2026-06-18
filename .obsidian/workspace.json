@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5b1636040955e8bd",
+        "id": "ad71598c7771094f",
         "type": "tabs",
         "children": [
           {
-            "id": "07559ce66e05637a",
+            "id": "7239e4ee116020c5",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "work/messenger-intl/video-team/gear-and-systems/source-documents/MI Nashville Studio P-426 As-built.pdf"
+                "file": "work/messenger-intl/director-of-video-production/1on1s/lindy-wood/one-on-one-documents/1on1-prep-2026-06-15.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "MI Nashville Studio P-426 As-built"
+              "icon": "lucide-file",
+              "title": "1on1-prep-2026-06-15"
             }
           }
         ]
@@ -181,8 +183,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "07559ce66e05637a",
+  "active": "7239e4ee116020c5",
   "lastOpenFiles": [
+    "work/messenger-intl/video-team/gear-and-systems/source-documents/MI Nashville Studio P-426 As-built.pdf",
     "work/messenger-intl/video-team/gear-and-systems/source-documents/Messenger Studio Pricing Sheet.pdf",
     "work/messenger-intl/video-team/gear-and-systems/stage-build-fig9-full-stack-3d.svg",
     "work/messenger-intl/video-team/gear-and-systems/stage-build-fig8-curved-panel-3d.svg",
@@ -228,7 +231,6 @@
     "work/messenger-intl/director-of-video-production/1on1s/lindy-wood/one-on-one-documents/1on1-prep-2026-05-11.pdf",
     "work/messenger-intl/director-of-video-production/1on1s/andrew-mcintosh/additional-documents/make-your-leaders-job-easier-glance-sheet.pdf",
     "work/messenger-intl/director-of-video-production/1on1s/lindy-wood/one-on-one-documents",
-    "work/messenger-intl/director-of-video-production/1on1s/lindy-wood/additional-documents",
     "Untitled.canvas"
   ]
 }
