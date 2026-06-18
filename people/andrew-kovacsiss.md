@@ -10,7 +10,7 @@ aliases:
 **Email:** akovacsiss@messengerinternational.org
 
 ## Last Contact
-2026-06-18 — Sent updated calendar invite for Podcast Team Alignment (10:30am–11:45am CDT).
+2026-06-18 — Podcast Team Alignment meeting (10:30am–11:45am CDT). No transcript captured. Also sent updated calendar invite this morning. Follow up: capture decisions from this session.
 
 ## Contact History
 2026-05-19 — Taking over full episode reviews for JB/LB podcasts; [[Lindy Wood|Lindy]] moves to tech checks only as a result.
