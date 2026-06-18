@@ -34,15 +34,14 @@ Ask Nathaniel for the meeting date if not stated in his prompt. The summary file
 
 ### Step 2 — Pull or capture what was discussed
 
-**If a Granola folder ID is configured for Arden** (check the "Known People & Resources" section above):
-- Call `list_meetings` with Arden's folder ID
-- Find the most recent meeting whose title matches Nathaniel's 1:1 with Arden (titles like "1:1 | Arden", "Arden 1:1", etc.)
-- Call `get_meeting_transcript` for that meeting
-- If `list_meetings` returns nothing relevant, fall back to `query_granola_meetings` searching for "Arden"
+**Always search Granola by title first** — Nathaniel records these meetings even though no folder ID is configured for Arden, and folder filtering is unreliable. Do this before falling back to a manual recap:
 
-**If no Granola folder ID is configured (current state):**
-Ask Nathaniel:
-> "I don't have a Granola recording for this 1:1 yet. Give me a quick recap of what got discussed — bullet form is fine. Specifically:
+1. Call `list_meetings` (time range covering the meeting date — `this_week` or a custom range; **no `folder_id`**) and scan the returned titles for Nathaniel's 1:1 with Arden. Titles vary — match anything like "Nathaniel - Arden 1 on 1", "1:1 | Arden", "Arden 1:1", etc. The participant `acbevere@messengerinternational.org` ([[Arden Bevere]]) is a reliable confirmation signal.
+2. When you find the matching meeting on (or near) the meeting date, call `get_meeting_transcript` for its ID. Use the transcript as the input to Step 4.
+3. If `list_meetings` returns nothing relevant, fall back to `query_granola_meetings` searching for "Arden".
+
+**Only if no Granola recording turns up after searching**, ask Nathaniel for a verbal recap:
+> "I couldn't find a Granola recording for this 1:1. Give me a quick recap of what got discussed — bullet form is fine. Specifically:
 > - Top topics that got real airtime
 > - Direction or strategic calls Arden made
 > - Action items (yours and his)

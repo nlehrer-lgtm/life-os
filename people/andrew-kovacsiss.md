@@ -1,0 +1,22 @@
+---
+aliases:
+  - Andrew Kovacsiss
+  - AK
+---
+
+# Andrew Kovacsiss
+
+**Relationship:** Podcast strategist / external collaborator at [[Messenger International]]
+**Email:** akovacsiss@messengerinternational.org
+
+## Last Contact
+2026-06-18 — Sent updated calendar invite for Podcast Team Alignment (10:30am–11:45am CDT).
+
+## Contact History
+2026-05-19 — Taking over full episode reviews for JB/LB podcasts; [[Lindy Wood|Lindy]] moves to tech checks only as a result.
+2026-04-16 — MXDaily recording coordination (1pm slot).
+
+## Notes
+- Known internally as "AK"
+- Owns podcast strategy and episode review workflow for [[Messenger International]] podcasts
+- Key collaborator on [[Video Team]] podcast productions (DFH, LB, MXDaily)
