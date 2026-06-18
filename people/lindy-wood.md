@@ -29,6 +29,9 @@ aliases:
 Andrew and Lindy are complementary: Andrew invents and discerns; Lindy enables and discerns. The weak spot in the pair is **Galvanizing** — it's a frustration for both of them. When a project needs someone to rally the team, that's on Nathaniel (or another leader), not them.
 
 ## Last Contact
+2026-06-18 — 1:1 with Nathaniel (1:30pm). Also: OOO tomorrow (Jun 19) — potential conflict with DFH Podcast Recording 9am–2:30pm where she is scheduled to run the floor. Resolve before EOD.
+
+## Contact History
 2026-06-17 — Email: sent updated invite with a note for DFH Podcast Recording, Fri Jun 19, 9am–2:30pm CDT. Auris notification: her time off for Fri Jun 19 is pending Nathaniel's approval.
 
 ## Contact History
