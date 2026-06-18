@@ -34,6 +34,20 @@ We also touched:
 
 ---
 
+## How each tool runs on your Working Genius
+
+Your engine is **D + E** (Discernment + Enablement). This framework is built to get both showing up at full strength — and to keep you *out* of your frustration zones, **G + I** (Galvanizing + Invention), which is usually what floods you in the first place.
+
+| Tool | Runs on | The move |
+| --- | --- | --- |
+| **Picture, not Pieces** | **Enablement** (+ D) | This one *fires* your genius. You said E is "wanting the people around me to thrive" — early clarity is the fastest way to make that happen. D decides what to include so it's a picture, not a data dump. |
+| **Steady, not Flooded** | **Discernment** (protected) | Your judgment is the most valuable thing you hand me — and the first thing that drowns when you flood. Steady keeps D at the wheel. The flood usually *starts* when a big-sounding ask drags you toward G or I — catch that, and re-anchor on D + E. |
+| **Private, not Public** | **Discernment** (aimed) | Same judgment, two rooms. Public + frazzled = D lands as a *force*. Private + considered = D lands as a *gift*. |
+
+The honest shape of it: one tool *exercises* your genius (Enablement), two *protect and aim* it (Discernment) — and all three deliberately route around **G + I**. You're never asked to galvanize the team or invent from a blank page. (That's the difference from [[Andrew McIntosh|Andrew]]'s version, where each tool fired his Invention + Discernment directly.)
+
+---
+
 ## The Framework
 
 Context first, then three tools.
