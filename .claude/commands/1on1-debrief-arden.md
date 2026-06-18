@@ -19,7 +19,7 @@ In the upward 1:1, Nathaniel is the team member. The summary captures:
 ## Known People & Resources
 
 ### Arden Bevere
-- **Granola folder ID:** _Not yet configured — Nathaniel doesn't currently record these meetings. When he starts, add the folder ID here and Step 2 will auto-pull. Until then, Step 2 prompts Nathaniel for a verbal recap._
+- **Granola:** Nathaniel **does** record these meetings (titles like "Nathaniel - Arden 1 on 1"), but no folder ID is configured — and folder filtering is unreliable anyway. Step 2 always searches by **title** across all meetings, confirming via participant `acbevere@messengerinternational.org`. No folder ID needed.
 - **1:1 folder:** `/Users/nlehrer/Desktop/life-os/work/messenger-intl/director-of-video-production/1on1s/arden-bevere/`
 - **Running notes file:** `running-notes.md` in that folder
 
