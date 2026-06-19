@@ -19,4 +19,4 @@ aliases:
 
 **Open decisions / TODO:** See [STATUS.md](STATUS.md). Top item: write the full live event SOP.
 
-**Reference docs:** Debrief log lives in this folder (`debriefs/`). Gear details: `../gear-and-systems/`.
+**Reference docs:** Debrief log lives in this folder (`debriefs/`). Gear details: `../../gear-and-systems/`.
