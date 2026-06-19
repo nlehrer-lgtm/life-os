@@ -32,6 +32,9 @@ Andrew and Lindy are complementary: Andrew invents and discerns; Lindy enables a
 2026-06-18 — 1:1 with Nathaniel (1:30pm). Also: OOO tomorrow (Jun 19) — potential conflict with DFH Podcast Recording 9am–2:30pm where she is scheduled to run the floor. Resolve before EOD.
 
 ## Contact History
+2026-06-18 — Email (9:39pm CDT): sent second updated invite for DFH Podcast Recording — time adjusted to **8:30am–3pm** (previously 9am–2:30pm). OOO Jun 19 confirmed.
+
+## Contact History
 2026-06-17 — Email: sent updated invite with a note for DFH Podcast Recording, Fri Jun 19, 9am–2:30pm CDT. Auris notification: her time off for Fri Jun 19 is pending Nathaniel's approval.
 
 ## Contact History
