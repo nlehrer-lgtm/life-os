@@ -10,6 +10,9 @@ aliases:
 **Email:** akovacsiss@messengerinternational.org
 
 ## Last Contact
+2026-06-19 — DFH Podcast Recording (8:30am–3pm CDT). AK is the podcast floor lead for DFH recordings; [[Lindy Wood|Lindy]] was OOO, so he covered floor coordination today.
+
+## Contact History
 2026-06-18 — Podcast Team Alignment meeting (10:30am–11:45am CDT). No transcript captured. Also sent updated calendar invite this morning. Follow up: capture decisions from this session.
 
 ## Contact History
