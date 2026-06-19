@@ -61,7 +61,7 @@ Current goals live in `goals/2026.md`, tied to life pillars. Run `/goals` to upd
 - `[[Messenger Cup]]` / `[[MCUP]]` → `work/messenger-intl/2026-projects/2026-mcup/CONTEXT.md`
 - `[[Get REC'D]]` → `work/messenger-intl/video-team/Get REC'D Meeting/CONTEXT.md`
 - `[[Discipleship Team]]` / `[[Touch Base Huddle]]` → `work/messenger-intl/discipleship-team/CONTEXT.md`
-- `[[Podcast Machine]]` → `work/messenger-intl/podcast-machine/overview.md`
+- `[[Podcast Machine]]` → `work/messenger-intl/video-team/podcast-content/podcast-machine/overview.md`
 - `[[Home Base]]` → `work/messenger-intl/home-base_app/setup.md`
 - `[[Video Team]]` → `work/messenger-intl/video-team/video-team.md`
 - `[[Job Site Social]]` → `work/personal-projects/job-site-social/job-site-social.md`
