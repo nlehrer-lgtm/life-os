@@ -34,3 +34,12 @@ Full identity doc: [[Video Team Identity|video-team-identity.md]]. Meeting conte
 - [[Messenger Cup]] — annual fundraiser video execution
 - [[Podcast Machine]] — podcast production workflow
 - [[Home Base]] — internal app
+
+## Recurring Content Responsibilities
+The recurring categories of work the team produces each year. Each has its own folder + `CONTEXT.md`.
+- [[Podcast Content|podcast-content]] — podcast production (workflow source of truth: [[Podcast Machine]])
+- [[Event Content|event-content]] — promo, in-event, and recap content tied to events
+- [[Marketing Content|marketing-content]] — testimonials & creative videos for fundraising/marketing
+- [[Live Events|live-events]] — YouTube lives / in-person live streams
+- [[Book Marketing|book-marketing]] — book trailers & book marketing content
+- [[Course Content|course-content]] — course curriculum tapings (prep → shoot → edit)
