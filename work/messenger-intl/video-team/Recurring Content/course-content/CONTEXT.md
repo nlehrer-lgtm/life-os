@@ -10,4 +10,4 @@ aliases:
 
 **Current phase:** Folder established. SOP/templates TBD.
 
-**Reference:** Related — [[Video Team]] gear & systems (`../gear-and-systems/`).
+**Reference:** Related — [[Video Team]] gear & systems (`../../gear-and-systems/`).
