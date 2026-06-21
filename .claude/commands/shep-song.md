@@ -1,4 +1,4 @@
-Turn a saying from Shepherd into a copy-paste-ready Lyra (Gemini) music prompt — simple, catchy, kid-friendly lyrics with your exact chorus as the hook and ultra-short verses, wrapped in a style directive that locks the genre, voice, reference artist, and length. Asks for anything missing before drafting. Chat-only — writes no files.
+Turn a saying from Shepherd into a copy-paste-ready Lyra (Gemini) music prompt — simple, catchy, kid-friendly lyrics with your exact chorus as the hook and ultra-short verses, wrapped in a style directive that locks the genre, the specific singing voice (its tone and character), reference artist, and length. Asks for anything missing before drafting. Chat-only — writes no files.
 
 Usage: `/shep-song [saying or any details you already have]`
 
