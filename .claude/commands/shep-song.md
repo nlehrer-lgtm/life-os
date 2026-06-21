@@ -6,7 +6,7 @@ Usage: `/shep-song [saying or any details you already have]`
 
 One single prompt block you paste into Lyra's prompt box. It contains two things woven together:
 
-1. A **style/production directive** — genre (+ reference artist/song), voice type, tempo/feel, genre-signature instruments, mood, "kid-friendly but professionally produced," and hard guardrails on length and structure.
+1. A **style/production directive** — genre (+ reference artist/song), a vivid voice (tone/texture, plus ethnicity/age/register where it fits), tempo/feel, genre-signature instruments, mood, "kid-friendly but professionally produced," and hard guardrails on length and structure.
 2. The **full lyrics** — your exact chorus repeated as the hook, two tiny verses, a short bridge, and a big final chorus, with section tags.
 
 Writing the actual lyrics is the whole point: it's the only reliable way to keep verses short, keep the words simple, and guarantee the chorus is exactly your phrase. Lyra performs what's written instead of inventing a long, boring song.
