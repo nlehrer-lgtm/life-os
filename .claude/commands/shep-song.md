@@ -33,7 +33,7 @@ Writing the actual lyrics is the whole point: it's the only reliable way to keep
 
 1. **Parse the prompt args** and map whatever the user gave to the inputs above.
 
-2. **Ask for everything missing in ONE batch** — don't dribble questions out one at a time. You are 99% sure only when you know: the exact chorus words, the genre (ideally with a reference), the voice, and enough about the subject to write verses. If the chorus phrasing is ambiguous, ask whether the chorus is the phrase repeated or a short hook built around it.
+2. **Ask for everything missing in ONE batch** — don't dribble questions out one at a time. You are 99% sure only when you know: the exact chorus words, the genre (ideally with a reference), a **vivid voice** (tone/texture, gender, and — where it fits — ethnicity, age, and register; never a bare "male"/"female"), and enough about the subject to write verses. If the chorus phrasing is ambiguous, ask whether the chorus is the phrase repeated or a short hook built around it.
 
 3. **Draft the lyrics** following the brevity rules:
    - **Chorus = the exact phrase, verbatim**, as the hook. Repeat it (typically 2–4 times per chorus).
