@@ -43,7 +43,7 @@ Writing the actual lyrics is the whole point: it's the only reliable way to keep
 
 4. **Build the style/production directive.** Include, in plain prose:
    - Genre, and if a reference was given, "in the style of [artist/song]" — but also translate it into **descriptive sonic traits** (tempo/feel, 2–4 signature instruments, production vibe, vocal character). Describe the qualities; never tell the tool to "copy/clone [artist] exactly."
-   - The voice type.
+   - **The voice — always vivid and specific.** Lead with the descriptor: tone/texture, gender, and — where it fits — ethnicity/cultural character, age, and register (e.g., "deep African American male lead," "raspy 30-something female lead," "pure baritone female lead"). This line must always be present; never reduce it to a bare "male"/"female."
    - Mood/energy.
    - "Catchy, professionally produced, clean and modern, simple enough for a toddler to sing along."
    - **Guardrails:** target length (e.g., "keep the whole song under ~2 minutes"), "get to the first chorus fast and repeat the hook," "lift through a short bridge into a big final chorus," "these are the complete lyrics — perform them as written; do not add extra verses or long instrumental breaks beyond what's written," and "the chorus words must be exactly '[phrase]'."
