@@ -7,7 +7,7 @@ Usage: `/shep-song [saying or any details you already have]`
 One single prompt block you paste into Lyra's prompt box. It contains two things woven together:
 
 1. A **style/production directive** — genre (+ reference artist/song), voice type, tempo/feel, genre-signature instruments, mood, "kid-friendly but professionally produced," and hard guardrails on length and structure.
-2. The **full lyrics** — your exact chorus repeated as the hook, plus 1–2 tiny verses, with section tags.
+2. The **full lyrics** — your exact chorus repeated as the hook, two tiny verses, a short bridge, and a big final chorus, with section tags.
 
 Writing the actual lyrics is the whole point: it's the only reliable way to keep verses short, keep the words simple, and guarantee the chorus is exactly your phrase. Lyra performs what's written instead of inventing a long, boring song.
 
@@ -18,7 +18,7 @@ Writing the actual lyrics is the whole point: it's the only reliable way to keep
 1. **Chorus phrase** — the exact words Shepherd says (or the exact chorus line the user wants). This becomes the hook, *verbatim*.
 2. **Genre** — the musical style. Always ask if there's an artist or song it should sound like ("Anyone or any song you want it to feel like?"). A reference makes the sound far better.
 3. **Voice** — male, female, choir, kids' choir, duet, group of guys, solo + backing kids, etc.
-4. **What it's about / the vibe** — enough to write 1–2 tiny verses: when he says it, what it's about, and the mood.
+4. **What it's about / the vibe** — enough to write two tiny verses and a short bridge: when he says it, what it's about, and the mood.
 
 **Optional — use the defaults, but grab them if the user offers:**
 
@@ -26,7 +26,7 @@ Writing the actual lyrics is the whole point: it's the only reliable way to keep
 - **Tone/mood** — silly, sweet, hyped-up, gentle, triumphant.
 - **Tempo / energy** — default: upbeat and bouncy.
 - **Must-include images, words, or lines.**
-- **Length** — default: very short, under ~90 seconds. Honor "even shorter" / "a little longer."
+- **Length** — default: very short, around 90 seconds to ~2 minutes. Honor "even shorter" / "a little longer."
 - **How the phrase is used in the chorus** — default: the phrase IS the repeated hook. If it's unclear whether the chorus should be the phrase alone (repeated) or a short line *built around* the phrase, ask. Either way the exact phrase must appear unchanged.
 
 ## Steps
@@ -37,16 +37,16 @@ Writing the actual lyrics is the whole point: it's the only reliable way to keep
 
 3. **Draft the lyrics** following the brevity rules:
    - **Chorus = the exact phrase, verbatim**, as the hook. Repeat it (typically 2–4 times per chorus).
-   - **1–2 verses max**, each just **2 short lines**. Simple, concrete, toddler-friendly words. Singable. Light, natural rhyme — never force it.
-   - **Structure:** tiny intro → Verse 1 → Chorus → (optional Verse 2 → Chorus) → short outro. Get to the chorus within the first few seconds.
-   - **No bridge, no third verse, no long instrumental breaks.** Brevity is the feature.
+   - **Two verses**, each just **2 short lines**. Simple, concrete, toddler-friendly words. Singable. Light, natural rhyme — never force it.
+   - **Structure:** tiny intro → Verse 1 → Chorus → Verse 2 → Chorus → short Bridge → big Final Chorus → short outro. The final chorus is the biggest (fuller vocals/energy); get to the *first* chorus within the first few seconds.
+   - **Keep every section tiny** — verses are 2 lines; the bridge is short (2 lines or a brief build/breakdown that lifts into the final chorus). No extra verses beyond these and no long instrumental breaks — brevity is still the feature, even with the bridge.
 
 4. **Build the style/production directive.** Include, in plain prose:
    - Genre, and if a reference was given, "in the style of [artist/song]" — but also translate it into **descriptive sonic traits** (tempo/feel, 2–4 signature instruments, production vibe, vocal character). Describe the qualities; never tell the tool to "copy/clone [artist] exactly."
    - The voice type.
    - Mood/energy.
    - "Catchy, professionally produced, clean and modern, simple enough for a toddler to sing along."
-   - **Guardrails:** target length (e.g., "keep the whole song under ~90 seconds"), "get to the chorus fast and repeat the hook," "these are the complete lyrics — sing them as written, do not add extra verses, bridges, or long instrumental sections," and "the chorus words must be exactly '[phrase]'."
+   - **Guardrails:** target length (e.g., "keep the whole song under ~2 minutes"), "get to the first chorus fast and repeat the hook," "lift through a short bridge into a big final chorus," "these are the complete lyrics — perform them as written; do not add extra verses or long instrumental breaks beyond what's written," and "the chorus words must be exactly '[phrase]'."
 
 5. **Assemble ONE single prompt block** (Lyra uses one box): the style/production directive paragraph first, then the tagged lyrics. See the template.
 
@@ -59,7 +59,7 @@ Writing the actual lyrics is the whole point: it's the only reliable way to keep
 ## Output template (mirror this shape)
 
 ````
-[One paragraph: catchy, professionally produced {genre} song for little kids — {sonic traits: tempo/feel, signature instruments, production vibe}. {Voice} lead{, backing details}. In the style of {reference}, {vocal character}. Clean, modern, easy for a toddler to sing along. Keep the whole song under ~{length}: short intro, get to the chorus fast, repeat the hook. These are the complete lyrics — sing them as written; do not add extra verses, bridges, or long instrumental breaks. The chorus words must be exactly "{phrase}".]
+[One paragraph: catchy, professionally produced {genre} song for little kids — {sonic traits: tempo/feel, signature instruments, production vibe}. {Voice} lead{, backing details}. In the style of {reference}, {vocal character}. Clean, modern, easy for a toddler to sing along. Keep the whole song under ~{length}: short intro, get to the first chorus fast, repeat the hook, lift through a short bridge into a big final chorus. These are the complete lyrics — perform them as written; do not add extra verses or long instrumental breaks. The chorus words must be exactly "{phrase}".]
 
 [Intro – brief]
 
@@ -70,12 +70,20 @@ Writing the actual lyrics is the whole point: it's the only reliable way to keep
 {phrase}, {phrase},
 {short hook line ending on the phrase}
 
-[Verse 2]   (optional)
+[Verse 2]
 {two short, simple lines}
 
 [Chorus]
 {phrase}, {phrase},
 {short hook line ending on the phrase}
+
+[Bridge – short, contrasting build]
+{two short lines that lift into the final chorus}
+
+[Final Chorus – big, fuller vocals/energy]
+{phrase}, {phrase},
+{short hook line ending on the phrase}
+{phrase}, {phrase}!
 
 [Outro – brief]
 {phrase}!
@@ -86,7 +94,7 @@ Writing the actual lyrics is the whole point: it's the only reliable way to keep
 Input: *saying "yellow bus" → Latin pop, female voice, he loves yellow school buses.*
 
 ````
-Catchy, professionally produced Latin pop song for little kids — bright and sunny, ~100 BPM reggaeton-tinged groove, warm acoustic guitar, light brass stabs, shaker and congas, big sing-along hook. Female lead vocal, joyful and playful, in the style of modern bright Latin pop (clean and kid-safe — not explicit). Clean, polished, and modern, but simple enough for a toddler to sing along. Keep the whole song under 90 seconds: short intro, get to the chorus fast, and repeat the hook. These are the complete lyrics — sing them as written; do not add extra verses, bridges, or long instrumental breaks. The chorus words must be exactly "yellow bus".
+Catchy, professionally produced Latin pop song for little kids — bright and sunny, ~100 BPM reggaeton-tinged groove, warm acoustic guitar, light brass stabs, shaker and congas, big sing-along hook. Female lead vocal, joyful and playful, in the style of modern bright Latin pop (clean and kid-safe — not explicit). Clean, polished, and modern, but simple enough for a toddler to sing along. Keep the whole song under ~2 minutes: short intro, get to the first chorus fast, repeat the hook, lift through a short bridge into a big final chorus. These are the complete lyrics — perform them as written; do not add extra verses or long instrumental breaks. The chorus words must be exactly "yellow bus".
 
 [Intro – 2 bars, guitar + shaker]
 
@@ -108,6 +116,16 @@ Yellow bus, yellow bus,
 Come and ride along with us!
 Yellow bus, yellow bus!
 
+[Bridge – stripped back, claps building]
+Hop on up and find your seat,
+Here we go down the street!
+
+[Final Chorus – full band, backing vocals, biggest energy]
+Yellow bus, yellow bus,
+Come and ride along with us!
+Yellow bus, yellow bus,
+Yellow bus, yellow bus!
+
 [Outro]
 Yellow bus... beep beep!
 ````
@@ -116,8 +134,9 @@ Yellow bus... beep beep!
 
 - **Chat-only. Write no files.** Output the prompt and stop.
 - **The chorus is the user's exact words, verbatim.** Never reword, expand, or "improve" the phrase itself.
-- **Verses are tiny** — 2 lines, simple words, fast to the chorus. The point is to NOT give the AI room to make it long and boring.
-- **Default to very short** (~60–90 sec). Always state the length cap and the exact structure inside the prompt so Lyra can't sprawl.
+- **Verses are tiny** — 2 lines, simple words, fast to the chorus; keep the bridge short too. The point is to NOT give the AI room to make it long and boring.
+- **Bridge then big final chorus.** Every song ends with a short bridge after the second chorus that builds into one bigger final chorus, then a brief outro.
+- **Default to very short** (~90 sec–2 min). Always state the length cap and the exact structure inside the prompt so Lyra can't sprawl.
 - **One single prompt block** — Lyra uses one box. Style directive first, then tagged lyrics. Don't split into separate sections.
 - **Calibrate vocabulary to Shepherd** (toddler/preschool) unless told otherwise.
 - **Artist references:** describe the sound and say "in the style of." Never instruct the tool to copy an artist exactly.
