@@ -94,7 +94,7 @@ Writing the actual lyrics is the whole point: it's the only reliable way to keep
 Input: *saying "yellow bus" → Latin pop, female voice, he loves yellow school buses.*
 
 ````
-Catchy, professionally produced Latin pop song for little kids — bright and sunny, ~100 BPM reggaeton-tinged groove, warm acoustic guitar, light brass stabs, shaker and congas, big sing-along hook. Female lead vocal, joyful and playful, in the style of modern bright Latin pop (clean and kid-safe — not explicit). Clean, polished, and modern, but simple enough for a toddler to sing along. Keep the whole song under ~2 minutes: short intro, get to the first chorus fast, repeat the hook, lift through a short bridge into a big final chorus. These are the complete lyrics — perform them as written; do not add extra verses or long instrumental breaks. The chorus words must be exactly "yellow bus".
+Catchy, professionally produced Latin pop song for little kids — bright and sunny, ~100 BPM reggaeton-tinged groove, warm acoustic guitar, light brass stabs, shaker and congas, big sing-along hook. Warm, bright young Latina female lead, joyful and playful, in the style of modern bright Latin pop (clean and kid-safe — not explicit). Clean, polished, and modern, but simple enough for a toddler to sing along. Keep the whole song under ~2 minutes: short intro, get to the first chorus fast, repeat the hook, lift through a short bridge into a big final chorus. These are the complete lyrics — perform them as written; do not add extra verses or long instrumental breaks. The chorus words must be exactly "yellow bus".
 
 [Intro – 2 bars, guitar + shaker]
 
