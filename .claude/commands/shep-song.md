@@ -139,5 +139,6 @@ Yellow bus... beep beep!
 - **Default to very short** (~90 sec–2 min). Always state the length cap and the exact structure inside the prompt so Lyra can't sprawl.
 - **One single prompt block** — Lyra uses one box. Style directive first, then tagged lyrics. Don't split into separate sections.
 - **Calibrate vocabulary to Shepherd** (toddler/preschool) unless told otherwise.
+- **Always specify a vivid singing voice.** Every prompt names the voice with real character — tone/texture, gender, and — where it fits — ethnicity/cultural character, age, and register (e.g., "deep African American male," "raspy 30's female," "pure baritone female"). Never ship a generic "male/female" voice line; if that's all the user gives, ask for the texture and character first.
 - **Artist references:** describe the sound and say "in the style of." Never instruct the tool to copy an artist exactly.
 - **If you don't have the exact chorus, genre, voice, and subject, ask before drafting.** Don't guess.
