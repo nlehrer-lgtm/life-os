@@ -59,7 +59,7 @@ Writing the actual lyrics is the whole point: it's the only reliable way to keep
 ## Output template (mirror this shape)
 
 ````
-[One paragraph: catchy, professionally produced {genre} song for little kids — {sonic traits: tempo/feel, signature instruments, production vibe}. {Voice} lead{, backing details}. In the style of {reference}, {vocal character}. Clean, modern, easy for a toddler to sing along. Keep the whole song under ~{length}: short intro, get to the first chorus fast, repeat the hook, lift through a short bridge into a big final chorus. These are the complete lyrics — perform them as written; do not add extra verses or long instrumental breaks. The chorus words must be exactly "{phrase}".]
+[One paragraph: catchy, professionally produced {genre} song for little kids — {sonic traits: tempo/feel, signature instruments, production vibe}. {Vivid voice descriptor — tone/texture + gender, plus ethnicity/age/register where it fits} lead{, backing details}. In the style of {reference}, {vocal character}. Clean, modern, easy for a toddler to sing along. Keep the whole song under ~{length}: short intro, get to the first chorus fast, repeat the hook, lift through a short bridge into a big final chorus. These are the complete lyrics — perform them as written; do not add extra verses or long instrumental breaks. The chorus words must be exactly "{phrase}".]
 
 [Intro – brief]
 
