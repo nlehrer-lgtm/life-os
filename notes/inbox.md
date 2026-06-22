@@ -36,3 +36,6 @@ What I told him is basically a mixture of things, which I will attach as the scr
 
 ## 2026-06-11 11:52
 I want to have a meeting with the [[Video Team]] about on-set clarity and how we can level up professionalism when it comes to camera setup and set floor. This might need to be a bigger conversation where we bring in [[Andrew Kovacsiss|Andrew Kavasis]] and talk about where we have talent go when they first arrive. We need to make sure they funnel through the right places so that they don't feel like they have nowhere to land, or that the first thing they see is a techy mess rather than a beautiful lobby or something where they can be greeted and have a conversation in
+
+## 2026-06-22 11:40
+next year we need to have opener done 1 month out
