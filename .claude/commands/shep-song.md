@@ -133,6 +133,8 @@ Yellow bus... beep beep!
 ## Important
 
 - **Chat-only. Write no files.** Output the prompt and stop.
+- **Real song in the genre, not a kids' song.** Produce an authentic track in whatever genre is asked — a real country song, a real Latin pop song, a real R&B song — never a "kids' [genre]" novelty. The simplicity lives in the *words and the length*, not in dumbing down the production or the voice.
+- **Keep it clean.** Family-friendly and non-explicit by default — these come from Shepherd's sayings. Just don't brand or style it as a children's song.
 - **The chorus is the user's exact words, verbatim.** Never reword, expand, or "improve" the phrase itself.
 - **Verses are tiny** — 2 lines, simple words, fast to the chorus; keep the bridge short too. The point is to NOT give the AI room to make it long and boring.
 - **Bridge then big final chorus.** Every song ends with a short bridge after the second chorus that builds into one bigger final chorus, then a brief outro.
