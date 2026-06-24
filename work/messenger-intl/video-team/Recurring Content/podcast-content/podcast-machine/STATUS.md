@@ -1,7 +1,7 @@
 # [[Podcast Machine]] — Status
 
-**Last updated:** 2026-06-10
-**Current phase:** Structure in place; content sparse
+**Last updated:** 2026-06-24
+**Current phase:** Parked — not moving forward right now (decision 2026-06-24)
 
 ## Open Decisions
 _(none currently logged)_
