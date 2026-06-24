@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lindy Growth Tools — Working Genius Whiteboard</title>
+<!-- Animated recreation of the whiteboard Nathaniel drew live in the 6/18/2026 1:1 with Lindy.
+     Source of truth: leadership-resource-make-your-leaders-job-easier.md -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --board:#fbfbf8; --ink:#29292b; --muted:#8a8a82;
+    --red:#c0473a; --green:#2c8a52; --blue:#245ea6; --amber:#c8861f;
+    --marker:"Permanent Marker","Marker Felt","Chalkboard SE","Comic Sans MS",cursive;
+    --hand:"Caveat","Marker Felt","Chalkboard SE","Comic Sans MS",cursive;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{
+    background:#e7e7df;
+    background-image:radial-gradient(#dfdfd6 1px,transparent 1px);
+    background-size:22px 22px;
+    min-height:100vh;
+    display:flex; flex-direction:column; align-items:center;
+    padding:28px 16px 56px;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink);
+  }
+  .stage{width:100%; max-width:880px;}
+  .topbar{display:flex; justify-content:space-between; align-items:flex-end; gap:12px; margin:0 4px 12px;}
+  .kicker{font-size:13px; letter-spacing:.06em; text-transform:uppercase; color:var(--muted);}
+  .kicker b{color:var(--red); font-weight:600;}
+  .replay{
+    border:1.5px solid #cfcfc6; background:#fff; color:#5f5e5a;
+    font:600 13px/1 -apple-system,Segoe UI,Roboto,sans-serif;
+    padding:8px 14px; border-radius:999px; cursor:pointer; display:inline-flex; align-items:center; gap:7px;
+    transition:border-color .15s, color .15s, transform .05s;
+  }
+  .replay:hover{border-color:var(--green); color:var(--green);}
+  .replay:active{transform:scale(.96);}
+  .replay svg{width:15px; height:15px;}
+  .board{
+    width:100%;
+    background:var(--board);
+    border-radius:18px;
+    box-shadow:0 1px 0 #fff inset, 0 18px 40px -22px rgba(0,0,0,.35), 0 2px 6px rgba(0,0,0,.06);
+    border:1px solid #e3e3da;
+    overflow:hidden;
+  }
+  .board svg{display:block; width:100%; height:auto;}
+  .legend-note{margin:14px 6px 0; text-align:center; font-size:13px; color:var(--muted); line-height:1.6;}
+  .legend-note b{color:var(--ink); font-weight:600;}
+
+  /* ---- animation engine ---- */
+  .a,.u,.p{opacity:0}
+  .u,.p{transform-box:fill-box; transform-origin:center}
+  .dpath{stroke-dasharray:1; stroke-dashoffset:1}
+  @keyframes a{from{opacity:0}to{opacity:1}}
+  @keyframes u{from{opacity:0; transform:translateY(15px)}to{opacity:1; transform:translateY(0)}}
+  @keyframes p{from{opacity:0; transform:scale(.55)}to{opacity:1; transform:scale(1)}}
+  @keyframes dr{to{stroke-dashoffset:0}}
+  .run .a{animation:a .5s ease both; animation-delay:var(--d,0s)}
+  .run .u{animation:u .55s cubic-bezier(.2,.7,.3,1) both; animation-delay:var(--d,0s)}
+  .run .p{animation:p .5s cubic-bezier(.2,1.45,.4,1) both; animation-delay:var(--d,0s)}
+  .run .dpath{animation:dr .75s ease forwards; animation-delay:var(--d,0s)}
+  @media (prefers-reduced-motion:reduce){
+    .a,.u,.p{opacity:1 !important; transform:none !important; animation:none !important}
+    .dpath{stroke-dashoffset:0 !important; animation:none !important}
+  }
+</style>
+</head>
+<body>
+  <div class="stage">
+    <div class="topbar">
+      <div class="kicker"><b>Lindy's Growth Plan</b> &nbsp;·&nbsp; sketched live in our 1:1 — June 18, 2026</div>
+      <button class="replay" id="replay" aria-label="Replay animation">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg>
+        Replay
+      </button>
+    </div>
+
+    <div class="board run" id="board">
+      <svg viewBox="0 0 820 1020" role="img" xmlns="http://www.w3.org/2000/svg">
+        <title>Lindy's three growth tools and the Working Genius payoff each one unlocks</title>
+        <desc>A whiteboard. Title: Lindy Growth Tools. Her geniuses are D and E (Discernment and Enablement). A three-row table lists Tool 1 Picture versus Pieces (clarity early) keyed to WHAT, Tool 2 Steady not Flooded (calm in chaos) keyed to HOW, and Tool 3 Private versus Public (sharp concerns) keyed to WHERE. Green arrows connect each tool to its payoff: tool 1 helps people thrive with clarity and decides what info is needed; tool 2 protects discernment; tool 3 sets up discernment to land as a gift, not a force. The board closes with the line: Clarity early. Calm always.</desc>
+
+        <defs>
+          <marker id="gh" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M1.5,1.5 L8,5 L1.5,8.5" fill="none" stroke="#2c8a52" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+          </marker>
+        </defs>
+
+        <style>
+          .t-title{font-family:var(--marker); fill:var(--red)}
+          .t-sub{font-family:var(--marker); fill:var(--red)}
+          .t-tool{font-family:var(--hand); font-weight:700; fill:var(--ink)}
+          .t-num{font-family:var(--hand); font-weight:700; fill:var(--red)}
+          .t-prin{font-family:var(--hand); font-weight:700; fill:var(--ink)}
+          .t-conn{font-family:var(--hand); font-weight:500; fill:var(--red); opacity:.7}
+          .t-paren{font-family:var(--hand); font-weight:500; fill:var(--muted)}
+          .t-key{font-family:var(--marker); fill:var(--red)}
+          .t-pay{font-family:var(--hand); font-weight:500; fill:#1f4d33}
+          .t-gen{font-family:var(--marker); fill:var(--blue)}
+          .t-chip{font-family:var(--marker); fill:#fff}
+          .t-cap{font-family:var(--marker); fill:var(--green)}
+          .stroke-r{fill:none; stroke:var(--red); stroke-linecap:round; stroke-linejoin:round}
+          .stroke-g{fill:none; stroke:var(--green); stroke-linecap:round; stroke-linejoin:round}
+        </style>
+
+        <!-- ===== TITLE ===== -->
+        <text class="t-title u" style="--d:.35s" x="410" y="78" text-anchor="middle" font-size="42">Lindy Growth Tools</text>
+        <path class="stroke-a dpath d" style="--d:.7s" d="M250,99 C 320,92 400,104 470,96 C 522,90 556,100 572,95" pathLength="1" stroke="#c8861f" stroke-width="3.6" fill="none" stroke-linecap="round"/>
+
+        <!-- ===== GENIUSES BADGE ===== -->
+        <text class="t-sub u" style="--d:1.05s" x="410" y="152" text-anchor="middle" font-size="24">Lindy's Geniuses</text>
+        <g class="a" style="--d:1.3s">
+          <text class="t-sub" x="316" y="206" text-anchor="middle" font-size="34">[</text>
+          <text class="t-sub" x="406" y="204" text-anchor="middle" font-size="26">+</text>
+          <text class="t-sub" x="496" y="206" text-anchor="middle" font-size="34">]</text>
+        </g>
+        <g class="p" style="--d:1.4s">
+          <rect x="344" y="176" width="42" height="42" rx="11" fill="var(--blue)"/>
+          <text class="t-chip" x="365" y="207" text-anchor="middle" font-size="24">D</text>
+        </g>
+        <g class="p" style="--d:1.55s">
+          <rect x="426" y="176" width="42" height="42" rx="11" fill="var(--blue)"/>
+          <text class="t-chip" x="447" y="207" text-anchor="middle" font-size="24">E</text>
+        </g>
+        <text class="a" style="--d:1.75s" x="410" y="252" text-anchor="middle" font-size="15" fill="#8a8a82" font-family="-apple-system,Segoe UI,Roboto,sans-serif">
+          <tspan fill="#245ea6" font-weight="600">D</tspan> = Discernment &#160;&#160;&#160;·&#160;&#160;&#160; <tspan fill="#245ea6" font-weight="600">E</tspan> = Enablement
+        </text>
+
+        <!-- ===== TOOLS TABLE ===== -->
+        <!-- table frame + dividers (drawn) -->
+        <path class="dpath d" style="--d:1.95s" d="M190,314 H760 V542 H190 Z" pathLength="1" fill="none" stroke="#c0473a" stroke-width="2.6" stroke-linejoin="round"/>
+        <path class="dpath d" style="--d:2.1s" d="M190,390 H760" pathLength="1" fill="none" stroke="#c0473a" stroke-width="2"/>
+        <path class="dpath d" style="--d:2.18s" d="M190,466 H760" pathLength="1" fill="none" stroke="#c0473a" stroke-width="2"/>
+        <path class="dpath d" style="--d:2.26s" d="M600,314 V542" pathLength="1" fill="none" stroke="#c0473a" stroke-width="2"/>
+
+        <!-- green tie-bracket grouping the three tools (from the board) -->
+        <path class="stroke-g dpath d" style="--d:2.3s" d="M88,350 C 78,352 78,360 78,366 V498 C 78,506 80,512 90,514" stroke-width="2.4" pathLength="1"/>
+
+        <!-- ROW 1 -->
+        <g class="u" style="--d:2.35s">
+          <text class="t-num" x="142" y="367" text-anchor="middle" font-size="25">Tool #1</text>
+          <g transform="translate(202,338)">
+            <rect class="stroke-r" x="0" y="2" width="34" height="26" rx="3" stroke-width="2.4"/>
+            <circle class="stroke-r" cx="9" cy="10" r="3.2" stroke-width="2"/>
+            <path class="stroke-r" d="M3,27 L14,15 L21,22 L27,13 L32,27" stroke-width="2.2"/>
+          </g>
+          <text class="t-prin" x="252" y="361" font-size="27">Picture <tspan class="t-conn" font-size="20">vs.</tspan> Pieces</text>
+          <text class="t-paren" x="252" y="382" font-size="18">clarity early</text>
+        </g>
+        <text class="t-key p" style="--d:2.55s" x="680" y="372" text-anchor="middle" font-size="30">WHAT</text>
+
+        <!-- ROW 2 -->
+        <g class="u" style="--d:2.7s">
+          <text class="t-num" x="142" y="443" text-anchor="middle" font-size="25">Tool #2</text>
+          <g transform="translate(204,412)">
+            <circle class="stroke-r" cx="15" cy="5" r="4" stroke-width="2.4"/>
+            <path class="stroke-r" d="M15,9 V32" stroke-width="2.6"/>
+            <path class="stroke-r" d="M7,15 H23" stroke-width="2.4"/>
+            <path class="stroke-r" d="M4,24 C5.5,31 11,33 15,33 C19,33 24.5,31 26,24" stroke-width="2.4"/>
+          </g>
+          <text class="t-prin" x="252" y="437" font-size="27">Steady <tspan class="t-conn" font-size="20">not</tspan> Flooded</text>
+          <text class="t-paren" x="252" y="458" font-size="18">calm in chaos</text>
+        </g>
+        <text class="t-key p" style="--d:2.9s" x="680" y="448" text-anchor="middle" font-size="30">HOW</text>
+
+        <!-- ROW 3 -->
+        <g class="u" style="--d:3.05s">
+          <text class="t-num" x="142" y="519" text-anchor="middle" font-size="25">Tool #3</text>
+          <g transform="translate(203,489)">
+            <rect class="stroke-r" x="1" y="2" width="13" height="26" rx="2.5" stroke-width="2.2"/>
+            <circle cx="11" cy="16" r="1.6" fill="var(--red)"/>
+            <rect class="stroke-r" x="18" y="2" width="13" height="26" rx="2.5" stroke-width="2.2"/>
+            <circle cx="21" cy="16" r="1.6" fill="var(--red)"/>
+          </g>
+          <text class="t-prin" x="252" y="513" font-size="27">Private <tspan class="t-conn" font-size="20">vs.</tspan> Public</text>
+          <text class="t-paren" x="252" y="534" font-size="18">sharp concerns</text>
+        </g>
+        <text class="t-key p" style="--d:3.25s" x="680" y="524" text-anchor="middle" font-size="30">WHERE</text>
+
+        <!-- ===== GREEN PAYOFF ARROWS ===== -->
+        <path class="stroke-g dpath d" style="--d:3.45s" d="M96,372 C 66,440 66,560 84,632" stroke-width="2.6" pathLength="1" marker-end="url(#gh)"/>
+        <path class="stroke-g dpath d" style="--d:3.9s"  d="M96,448 C 60,524 60,648 84,714" stroke-width="2.6" pathLength="1" marker-end="url(#gh)"/>
+        <path class="stroke-g dpath d" style="--d:4.3s"  d="M96,524 C 54,616 54,720 84,790" stroke-width="2.6" pathLength="1" marker-end="url(#gh)"/>
+
+        <!-- ===== PAYOFF BOXES ===== -->
+        <!-- payoff 1 -->
+        <g class="u" style="--d:3.7s">
+          <rect x="90" y="600" width="668" height="74" rx="12" fill="#eef7f0" stroke="var(--green)" stroke-width="2.4"/>
+          <circle cx="120" cy="637" r="13" fill="var(--green)"/>
+          <text class="t-chip" x="120" y="644" text-anchor="middle" font-size="17" font-family="var(--marker)">1</text>
+          <text class="t-pay" x="146" y="631" font-size="22">Help people thrive with clarity <tspan class="t-gen" font-size="19">(E)</tspan></text>
+          <text class="t-pay" x="146" y="657" font-size="22">Decide what info is needed vs. not <tspan class="t-gen" font-size="19">(D)</tspan></text>
+          <g transform="translate(710,626)">
+            <circle class="stroke-g" cx="0" cy="0" r="5.5" stroke-width="2"/>
+            <path class="stroke-g" d="M0,-11 V-8 M0,8 V11 M-11,0 H-8 M8,0 H11 M-7.8,-7.8 L-5.6,-5.6 M7.8,7.8 L5.6,5.6 M-7.8,7.8 L-5.6,5.6 M7.8,-7.8 L5.6,-5.6" stroke-width="1.9"/>
+          </g>
+        </g>
+        <!-- payoff 2 -->
+        <g class="u" style="--d:4.15s">
+          <rect x="90" y="688" width="430" height="60" rx="12" fill="#eef7f0" stroke="var(--green)" stroke-width="2.4"/>
+          <circle cx="120" cy="718" r="13" fill="var(--green)"/>
+          <text class="t-chip" x="120" y="725" text-anchor="middle" font-size="17" font-family="var(--marker)">2</text>
+          <text class="t-pay" x="146" y="726" font-size="22">Protect Discernment <tspan class="t-gen" font-size="19">(D)</tspan></text>
+          <g transform="translate(484,718)">
+            <path class="stroke-g" d="M0,-12 L11,-8 V0 C11,8 6,11 0,13 C-6,11 -11,8 -11,0 V-8 Z" stroke-width="2"/>
+            <path class="stroke-g" d="M-4.5,0 L-1,3.5 L5,-4" stroke-width="2"/>
+          </g>
+        </g>
+        <!-- payoff 3 -->
+        <g class="u" style="--d:4.55s">
+          <rect x="90" y="762" width="668" height="60" rx="12" fill="#eef7f0" stroke="var(--green)" stroke-width="2.4"/>
+          <circle cx="120" cy="792" r="13" fill="var(--green)"/>
+          <text class="t-chip" x="120" y="799" text-anchor="middle" font-size="17" font-family="var(--marker)">3</text>
+          <text class="t-pay" x="146" y="800" font-size="22">Sets up Discernment to land as a <tspan fill="#1d6e43" font-weight="700">gift</tspan>, not a <tspan fill="#a33c2c" font-weight="700">force</tspan></text>
+          <g transform="translate(712,782)">
+            <rect class="stroke-g" x="-12" y="-2" width="24" height="15" rx="2" stroke-width="2"/>
+            <rect class="stroke-g" x="-13.5" y="-8" width="27" height="6.5" rx="1.5" stroke-width="2"/>
+            <path class="stroke-g" d="M0,-8 V13" stroke-width="2"/>
+            <path class="stroke-g" d="M0,-8 C-2,-13 -8,-13 -7,-9 C-6,-7 -2,-8 0,-8 C2,-8 6,-7 7,-9 C8,-13 2,-13 0,-8" stroke-width="1.8"/>
+          </g>
+        </g>
+
+        <!-- ===== CAPSTONE ===== -->
+        <text class="t-cap p" style="--d:4.95s" x="410" y="892" text-anchor="middle" font-size="32">Clarity early. Calm always.</text>
+        <path class="stroke-g dpath d" style="--d:5.2s" d="M286,907 C 345,901 405,912 462,904 C 502,899 532,907 546,903" pathLength="1" stroke-width="3" fill="none"/>
+
+        <!-- footnote -->
+        <text class="a" style="--d:5.45s" x="410" y="968" text-anchor="middle" font-size="13" fill="#9b9b92" font-family="-apple-system,Segoe UI,Roboto,sans-serif">
+          All three tools play to your geniuses (D · E) and steer around your frustrations (G · I).
+        </text>
+      </svg>
+    </div>
+
+    <p class="legend-note">
+      <b>WHAT · HOW · WHERE</b> — three moves, one posture. Tool 1 fires your <b>Enablement</b>; tools 2 &amp; 3 protect and aim your <b>Discernment</b>.
+    </p>
+  </div>
+
+  <script>
+    (function(){
+      var board = document.getElementById('board');
+      var btn = document.getElementById('replay');
+      btn.addEventListener('click', function(){
+        board.classList.remove('run');
+        void board.getBoundingClientRect();
+        board.classList.add('run');
+      });
+    })();
+  </script>
+</body>
+</html>
