@@ -213,6 +213,8 @@ Here's the board, drawn out — sketch it live with her, same shape as the one t
 
 ![[lindy-whiteboard-diagram.svg]]
 
+_Animated version of the board as actually drawn in the 6/18 1:1 (open in a browser):_ [[lindy-growth-tools.html|Lindy Growth Tools — animated whiteboard]]
+
 _Text version of the board (if you're sketching from notes):_
 
 ```
