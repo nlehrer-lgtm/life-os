@@ -3,7 +3,9 @@
 _Live open decisions and blockers. Update after every significant live event or decision._
 
 ## Open
-- [ ] Write the full **Live Event SOP** (Nathaniel owns) — capture the start-to-finish workflow, not just the gotchas in the debriefs.
+_(none currently)_
+
+> Live Event SOP cleared 2026-06-24: Nathaniel plans a batch of [[Video Team]] SOPs later, but it is not an active task right now.
 
 ## Recently learned (see latest debrief)
 - ATEM bit rate readout = actual MB/s being pushed online; a low/dropping number is not automatically a connection loss.
