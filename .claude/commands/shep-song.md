@@ -17,7 +17,7 @@ Writing the actual lyrics is the whole point: it's the only reliable way to keep
 
 1. **Chorus phrase** — the exact words Shepherd says (or the exact chorus line the user wants). This becomes the hook, *verbatim*.
 2. **Genre** — the musical style. Always ask if there's an artist or song it should sound like ("Anyone or any song you want it to feel like?"). A reference makes the sound far better.
-3. **Voice** — a *vivid* description of the singing voice, never just "male" or "female." Always pin down **tone/texture, gender, and — where it fits — ethnicity/cultural character, age, and register**: e.g., "deep African American male," "raspy 30's female," "pure baritone female," "bright young gospel tenor," "warm kids' choir." If the user offers only a bare "male"/"female," push for the texture and character before drafting — the voice line is what makes the song land. Vocal composition (choir, duet, group of guys, solo + backing kids) belongs here too.
+3. **Voice** — a *vivid* description of the singing voice, never just "male" or "female." Always pin down **tone/texture, gender, and — where it fits — ethnicity/cultural character, age, and register**: e.g., "deep African American male," "raspy 30's female," "pure baritone female," "bright young gospel tenor," "smoky soul alto." If the user offers only a bare "male"/"female," push for the texture and character before drafting — the voice line is what makes the song land. Vocal composition (choir, duet, group of guys, solo + backing harmonies) belongs here too.
 4. **What it's about / the vibe** — enough to write two tiny verses and a short bridge: when he says it, what it's about, and the mood.
 
 **Optional — use the defaults, but grab them if the user offers:**
