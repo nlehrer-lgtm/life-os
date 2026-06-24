@@ -37,7 +37,7 @@ Writing the actual lyrics is the whole point: it's the only reliable way to keep
 
 3. **Draft the lyrics** following the brevity rules:
    - **Chorus = the exact phrase, verbatim**, as the hook. Repeat it (typically 2–4 times per chorus).
-   - **Two verses**, each just **2 short lines**. Simple, concrete, toddler-friendly words. Singable. Light, natural rhyme — never force it.
+   - **Two verses**, each just **2 short lines**. Simple, concrete, everyday words — plain and singable, not childish. Light, natural rhyme — never force it.
    - **Structure:** tiny intro → Verse 1 → Chorus → Verse 2 → Chorus → short Bridge → big Final Chorus → short outro. The final chorus is the biggest (fuller vocals/energy); get to the *first* chorus within the first few seconds.
    - **Keep every section tiny** — verses are 2 lines; the bridge is short (2 lines or a brief build/breakdown that lifts into the final chorus). No extra verses beyond these and no long instrumental breaks — brevity is still the feature, even with the bridge.
 
