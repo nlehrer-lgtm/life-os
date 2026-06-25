@@ -236,19 +236,19 @@ Dropbox installs a real folder on each Mac (at `~/Library/CloudStorage/Dropbox`,
 
 ## 10. Setup — what YOU (the admin) do, once
 
-1. **Make the folder** in Dropbox: `~/Dropbox/video-team-os/`.
+1. **Make the folder** in Dropbox: `~/Dropbox/Video Team OS/`.
 2. **Build the structure** inside it (the skeleton above) — by hand in Finder, or let Claude Code create it all in one shot.
-3. **Force it to sync locally:** right-click `video-team-os/` in Finder → **"Make Available Offline."** (Dropbox can store files as cloud-only *placeholders*; Claude Code can't read a placeholder — it needs the real file on disk. Markdown is tiny, so this costs almost nothing. Heavy media can stay online-only.)
+3. **Force it to sync locally:** right-click `Video Team OS/` in Finder → **"Make Available Offline."** (Dropbox can store files as cloud-only *placeholders*; Claude Code can't read a placeholder — it needs the real file on disk. Markdown is tiny, so this costs almost nothing. Heavy media can stay online-only.)
 4. **Point git at it** (your machine only):
    ```
-   cd ~/Dropbox/video-team-os
+   cd ~/Dropbox/"Video Team OS"
    git init
    xattr -w com.dropbox.ignored 1 .git
    ```
-   Then connect a GitHub repo as the remote (same as Life OS) for history + offsite backup.
+   Then connect a GitHub repo as the remote (same as Life OS) for history + offsite backup. _(The folder name has spaces, so it's quoted in the terminal.)_
 5. **Point Claude Code at it:**
    ```
-   cd ~/Dropbox/video-team-os
+   cd ~/Dropbox/"Video Team OS"
    claude
    ```
    Done. That's the entire "link."
@@ -258,7 +258,7 @@ Dropbox installs a real folder on each Mac (at `~/Library/CloudStorage/Dropbox`,
 ### Tier 1 — Everyone (read + contribute) — *no AI required*
 
 1. Have the Dropbox desktop app installed and signed into the team account (most already do).
-2. The `video-team-os/` folder shows up automatically in Finder — Dropbox synced it.
+2. The `Video Team OS/` folder shows up automatically in Finder — Dropbox synced it.
 3. Right-click it → **"Make Available Offline"** (one time, so it's fast and works offline).
 4. To read nicely, open the folder in **Obsidian** (free) — it renders the markdown and makes `[[links]]` clickable. Or just open files in TextEdit.
 5. To contribute: open `inbox.md`, type a note, save. Dropbox syncs it to me. That's the whole ritual.
