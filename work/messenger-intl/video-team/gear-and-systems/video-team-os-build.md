@@ -181,40 +181,40 @@ Every turn of this loop is a deposit. Nadella's compound interest. **The test of
 
 ## 8. Proposed folder structure (first draft)
 
-The folder structure *is* the strategy (Van Clief). Deliberately simple — over-organizing kills adoption. Mirrors what works in [[Life OS]].
+The folder structure *is* the strategy (Van Clief). Deliberately simple — over-organizing kills adoption. Mirrors what works in [[Life OS]]. **Folders are numbered** so they sort in an intentional order (who → how → what → rhythm → memory → kit) instead of alphabetically; the three `00_` files pin to the top.
 
 ```
 video-team-os/                    ← lives in Dropbox, tracked by git
-  README.md                       ← what this is, how to use it, the rules
-  CONTEXT.md                      ← the team's "load this and you're oriented" brief
-  inbox.md                        ← where teammates drop raw notes
-  identity/
+  00_README.md                    ← what this is, how to use it, the rules + folder map
+  00_CONTEXT.md                   ← the team's "load this and you're oriented" brief
+  00_inbox.md                     ← where teammates drop raw notes
+  01_identity/
     rec-d-pillars.md              ← Resilience, Excellence, Communication, Discipline
     who-we-serve.md               ← end viewer → Beveres → partners
     standards.md                  ← the quality bar, written down
-  people/
+  02_people/
     lindy-wood.md                 ← role, working genius, how to work with them
     andrew-mcintosh.md
     josh-kendrick.md
     annie-duda.md
     levann-anthony.md
-  sop/                            ← the "how we do it" — the biggest win
+  03_sops/                        ← the "how we do it" — the biggest win
     shoot-prep.md
     edit-workflow.md
     sound-design.md
     color.md
     deliverable-standards.md
     podcast-machine.md
-  gear-and-systems/               ← Messenger Studios, stage build, etc.
-  projects/
+  04_projects/
     messenger-cup/                ← CONTEXT.md + STATUS.md per project
     podcast-machine/
-  decisions/
-    decision-log.md               ← "we decided X because Y" — institutional memory
-  debriefs/
-    YYYY-MM-DD-<project>.md        ← what we learned, what to do differently
-  meetings/
+  05_meetings/
     get-recd/                     ← rolling notes + talking points
+  06_decisions/
+    decision-log.md               ← "we decided X because Y" — institutional memory
+  07_debriefs/
+    _template.md                  ← copy → rename YYYY-MM-DD-<project>.md
+  08_gear-and-systems/            ← Messenger Studios, stage build, etc.
 ```
 
 Two files per project — **CONTEXT.md** (the brief) and **STATUS.md** (live decisions/blockers) — is already my project standard. It makes any folder paste-able into any AI window and instantly loadable. We extend that pattern team-wide.
