@@ -184,38 +184,40 @@ Every turn of this loop is a deposit. Nadella's compound interest. **The test of
 The folder structure *is* the strategy (Van Clief). Deliberately simple — over-organizing kills adoption. Mirrors what works in [[Life OS]]. **Folders are numbered** so they sort in an intentional order (who → how → what → rhythm → memory → kit) instead of alphabetically; the three `00_` files pin to the top.
 
 ```
-video-team-os/                    ← lives in Dropbox, tracked by git
+Video Team OS/                    ← lives in Dropbox, tracked by git
   00_README.md                    ← what this is, how to use it, the rules + folder map
   00_CONTEXT.md                   ← the team's "load this and you're oriented" brief
-  00_inbox.md                     ← where teammates drop raw notes
-  01_identity/
-    rec-d-pillars.md              ← Resilience, Excellence, Communication, Discipline
-    who-we-serve.md               ← end viewer → Beveres → partners
-    standards.md                  ← the quality bar, written down
-  02_people/
-    lindy-wood.md                 ← role, working genius, how to work with them
-    andrew-mcintosh.md
-    josh-kendrick.md
-    annie-duda.md
-    levann-anthony.md
-  03_sops/                        ← the "how we do it" — the biggest win
-    shoot-prep.md
-    edit-workflow.md
-    sound-design.md
-    color.md
-    deliverable-standards.md
-    podcast-machine.md
-  04_projects/
-    messenger-cup/                ← CONTEXT.md + STATUS.md per project
-    podcast-machine/
-  05_meetings/
-    get-recd/                     ← rolling notes + talking points
-  06_decisions/
-    decision-log.md               ← "we decided X because Y" — institutional memory
-  07_debriefs/
-    _template.md                  ← copy → rename YYYY-MM-DD-<project>.md
-  08_gear-and-systems/            ← Messenger Studios, stage build, etc.
+  00_Inbox.md                     ← where teammates drop raw notes
+  01_Identity/
+    REC-D-Pillars.md              ← Resilience, Excellence, Communication, Discipline
+    Who-We-Serve.md               ← end viewer → Beveres → partners
+    Standards.md                  ← the quality bar, written down
+  02_People/
+    Lindy-Wood.md                 ← role, working genius, how to work with them
+    Andrew-McIntosh.md
+    Josh-Kendrick.md
+    Annie-Duda.md
+    LeVann-Anthony.md
+  03_SOPs/                        ← the "how we do it" — the biggest win
+    Shoot-Prep.md
+    Edit-Workflow.md
+    Sound-Design.md
+    Color.md
+    Deliverable-Standards.md
+    Podcast-Machine.md
+  04_Projects/
+    Messenger-Cup/                ← CONTEXT.md + STATUS.md per project
+    Podcast-Machine/
+  05_Meetings/
+    Get-RECD/                     ← rolling notes + talking points
+  06_Decisions/
+    Decision-Log.md               ← "we decided X because Y" — institutional memory
+  07_Debriefs/
+    _Template.md                  ← copy → rename YYYY-MM-DD-<project>.md
+  08_Gear-And-Systems/            ← Messenger Studios, stage build, etc.
 ```
+
+> **Naming:** Title Case with hyphens, numeric folder prefixes, the three `00_` orientation files pinned to top. The home folder is `Video Team OS` (with spaces) — so terminal paths to it must be quoted, e.g. `cd ~/Dropbox/"Video Team OS"`.
 
 Two files per project — **CONTEXT.md** (the brief) and **STATUS.md** (live decisions/blockers) — is already my project standard. It makes any folder paste-able into any AI window and instantly loadable. We extend that pattern team-wide.
 
