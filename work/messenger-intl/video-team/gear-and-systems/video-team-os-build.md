@@ -140,9 +140,9 @@ So: **one Dropbox folder, three layers of value.** Team gets sync + readability.
  ╔══════════════════════════ DROPBOX ══════════════════════════╗
  ║              (auto-syncs to every teammate's Mac)            ║
  ║   ┌──────────────────────────┐   ┌───────────────────────┐  ║
- ║   │  video-team-os (BRAIN)   │   │   media library       │  ║
+ ║   │  Video Team OS (BRAIN)   │   │   media library       │  ║
  ║   │  context · SOPs ·        │   │   footage & exports   │  ║
- ║   │  standards · inbox.md    │   │   stay here           │  ║
+ ║   │  Standards · 00_Inbox    │   │   stay here           │  ║
  ║   └──────────────────────────┘   └───────────────────────┘  ║
  ╚════════════════════════╤═══════════════╤════════════════════╝
                           │  Dropbox sync │  (both ways)
