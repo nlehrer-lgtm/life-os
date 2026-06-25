@@ -297,9 +297,9 @@ They do **not** need git. They can be read-only askers.
 # 1. Walk into your Dropbox folder
 cd ~/Dropbox
 
-# 2. Create the brain folder
-mkdir video-team-os
-cd video-team-os
+# 2. Create the brain folder (quotes because the name has spaces)
+mkdir "Video Team OS"
+cd "Video Team OS"
 
 # 3. Start version history here
 git init
@@ -307,9 +307,9 @@ git init
 # 4. Tell Dropbox NOT to sync git's hidden history folder (run once)
 xattr -w com.dropbox.ignored 1 .git
 
-# 5. (in Finder) right-click video-team-os → "Make Available Offline"
+# 5. (in Finder) right-click "Video Team OS" → "Make Available Offline"
 
-# 6. Connect your GitHub backup (replace with your repo URL)
+# 6. Connect your GitHub backup (replace with your repo URL; repo name stays a slug)
 git remote add origin https://github.com/<you>/video-team-os.git
 
 # 7. Start Claude Code in this folder
