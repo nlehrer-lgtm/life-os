@@ -268,7 +268,7 @@ This is what I train the team on — basically "use a Finder folder and jot note
 ### Tier 2 — Power users who want to *ask* the brain
 
 1. Install an AI tool that can read a local folder — **Claude Code** (terminal) or **Claude Desktop** (app, friendlier).
-2. Point it at their own local copy: `~/Dropbox/video-team-os/`.
+2. Point it at their own local copy: `~/Dropbox/Video Team OS/`.
 3. Ask away. Because Dropbox keeps their copy current, they're always querying the latest brain.
 
 They do **not** need git. They can be read-only askers.
