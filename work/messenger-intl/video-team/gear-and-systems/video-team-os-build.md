@@ -261,7 +261,7 @@ Dropbox installs a real folder on each Mac (at `~/Library/CloudStorage/Dropbox`,
 2. The `Video Team OS/` folder shows up automatically in Finder — Dropbox synced it.
 3. Right-click it → **"Make Available Offline"** (one time, so it's fast and works offline).
 4. To read nicely, open the folder in **Obsidian** (free) — it renders the markdown and makes `[[links]]` clickable. Or just open files in TextEdit.
-5. To contribute: open `inbox.md`, type a note, save. Dropbox syncs it to me. That's the whole ritual.
+5. To contribute: open `00_Inbox.md`, type a note, save. Dropbox syncs it to me. That's the whole ritual.
 
 This is what I train the team on — basically "use a Finder folder and jot notes." ~15 minutes, can be a Get REC'D segment.
 
