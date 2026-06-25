@@ -349,7 +349,7 @@ By now the brain is rich enough that the value is obvious and the contribution r
 
 ## 17. First concrete steps (next two weeks)
 
-1. **Stand up the folder** — create `video-team-os/` inside Dropbox, `git init`, point Claude Code at it (Section 14 checklist).
+1. **Stand up the folder** — create `Video Team OS/` inside Dropbox, `git init`, point Claude Code at it (Section 14 checklist).
 2. **Write the three anchor files** — `README.md`, `CONTEXT.md`, `identity/rec-d-pillars.md`. Seed from [[Video Team Identity]].
 3. **Migrate the low-hanging gold** — move the scattered SOP/workflow files into `sop/` with clean names. Rough is fine; structure beats polish.
 4. **Pick one live project** (likely [[Messenger Cup]]) and run its CONTEXT.md + STATUS.md inside the brain as the proof-of-concept.
