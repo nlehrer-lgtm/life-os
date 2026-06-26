@@ -20,7 +20,7 @@ last_updated: 2026-06-26
 - [ ] **Auto-rotation** — iOS doesn't natively cycle lock screens. Consider an iOS Shortcut to rotate `mcup-XX.png` on a schedule. Decide if worth setting up.
 - [ ] **Share with the team?** — Could spin this up as a tool for the rest of the [[Video Team]] / wider [[Messenger International]] staff. Worth offering?
 - [ ] **Songs — generate + audition** — Run the 7 prompts through Gemini, pick the takes that nail pronunciation, build a playlist, decide whether to share the audio with the rest of the [[Video Team]].
-- [ ] **Preliminary [[Video Team]] quiz date** — Lock the date (~one week before 2026-06-30 MI-wide quiz). Confirm logistics: who hosts, where, how the quiz is administered, who tracks scores against the 80% threshold.
+- [x] **Preliminary [[Video Team]] quiz date — DECIDED (2026-06-26):** running it at the [[Get REC'D]] meeting on Tuesday, June 30. Still to confirm: how the quiz is administered in that slot and who tracks scores against the 80% threshold.
 - [ ] **Wheel of Doom enforcement** — Confirm with [[Video Team]] who's the witness/enforcer for each penalty. Pie-in-face, costume days, and "sticker on your back" all need a buddy to make it real.
 
 ## Blockers
