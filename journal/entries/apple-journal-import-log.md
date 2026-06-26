@@ -16,6 +16,7 @@ Tracking the migration of voice-journal transcripts from the macOS Journal app i
 | 2026-01-28 | 1 (7:15 AM) | [[2026-01-28]] |
 | 2026-01-23 | 1 (7:31 AM) | [[2026-01-23]] |
 | 2026-01-07 | 1 (7:39 AM) | [[2026-01-07]] |
+| 2026-01-01 | 2 (8:32 AM, 8:39 AM) | [[2026-01-01]] |
 
 ## Skipped — needs audio download / re-attempt ✗
 
