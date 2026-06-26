@@ -33,4 +33,4 @@ Tracking the migration of voice-journal transcripts from the macOS Journal app i
 
 ## Resume point
 
-Paused after **December 2025** (all of 2026 + Dec 2025 captured). Next session picks up at **November 2025** — first entry is a 5:48 recording from Mon, Nov (≈Nov 1x), starting "Shepherd slept in his new bed last night... I am in Shepherd's nursery this morning looking at an empty crib...". Scroll down past the Dec 9 entry to the "November 2025" header to continue.
+In progress through **October 2025**. November 2025 fully captured (Nov 17, Nov 11). First October entry captured: **Oct 29** (13:58 recording). Next session continues **down from Oct 29** into the rest of October 2025 — next entry below Oct 29 in the feed, then keep going oldest-ward. Scroll position: feed is sitting at the October 2025 entries.
