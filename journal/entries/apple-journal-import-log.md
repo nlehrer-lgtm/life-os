@@ -25,3 +25,7 @@ Tracking the migration of voice-journal transcripts from the macOS Journal app i
 |------|--------|---------|
 | 2026-06-03 | "Couldn't Transcribe Audio" | "All right, we are officially into June. And um... We got some sun again..." |
 | 2026-04-09 | "Couldn't Transcribe Audio" | "Wow. Um, I have no words for how much time has passed since my last entry. It's embarrassing, but, regardless, I want to make one today and just keep moving forward." |
+
+## Resume point
+
+Paused after **December 2025** (all of 2026 + Dec 2025 captured). Next session picks up at **November 2025** — first entry is a 5:48 recording from Mon, Nov (≈Nov 1x), starting "Shepherd slept in his new bed last night... I am in Shepherd's nursery this morning looking at an empty crib...". Scroll down past the Dec 9 entry to the "November 2025" header to continue.
