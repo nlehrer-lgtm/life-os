@@ -1,6 +1,6 @@
 ---
 project: 2026 M-Cup Name Game
-last_updated: 2026-06-11
+last_updated: 2026-06-26
 ---
 
 # Status — 2026 M-Cup Name Game
