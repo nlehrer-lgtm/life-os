@@ -37,6 +37,7 @@ Tracking the migration of voice-journal transcripts from the macOS Journal app i
 |------|--------|---------|
 | 2026-04-09 | "Couldn't Transcribe Audio" | "Wow. Um, I have no words for how much time has passed since my last entry. It's embarrassing, but, regardless, I want to make one today and just keep moving forward." |
 | 2025-09-25 | Transcript only partially available — pane renders just "Psalm says." (audio likely not downloaded from iCloud); 11:39 recording. | "Some says 'M heart trusts in him, and I am helped.' I'll be honest with you right now. I'm uncomfortable..." |
+| 2025-07-16 (rec 1 of 2, 7:06 AM, 4:08) | "Couldn't Transcribe Audio" — only the 1st of 2 recordings. Recording 2 (7:11 AM) WAS captured in [[2025-07-16]]. Re-attempt rec 1 after audio download. | "Oh man. It's Messenger Cup season and work has been a blend of stress and also amazing. I don't know if that was good grammar there, but it's been a blend of stress and amazing..." |
 
 *2026-06-03 was originally skipped ("Couldn't Transcribe Audio") but Nathaniel supplied the transcript manually — now captured above.*
 
