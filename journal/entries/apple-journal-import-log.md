@@ -24,8 +24,9 @@ Tracking the migration of voice-journal transcripts from the macOS Journal app i
 
 | Date | Reason | Preview |
 |------|--------|---------|
-| 2026-06-03 | "Couldn't Transcribe Audio" | "All right, we are officially into June. And um... We got some sun again..." |
 | 2026-04-09 | "Couldn't Transcribe Audio" | "Wow. Um, I have no words for how much time has passed since my last entry. It's embarrassing, but, regardless, I want to make one today and just keep moving forward." |
+
+*2026-06-03 was originally skipped ("Couldn't Transcribe Audio") but Nathaniel supplied the transcript manually — now captured above.*
 
 ## Resume point
 
