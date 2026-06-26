@@ -41,6 +41,7 @@ Tracking the migration of voice-journal transcripts from the macOS Journal app i
 | 2025-09-25 | Transcript only partially available — pane renders just "Psalm says." (audio likely not downloaded from iCloud); 11:39 recording. | "Some says 'M heart trusts in him, and I am helped.' I'll be honest with you right now. I'm uncomfortable..." |
 | 2025-07-16 (rec 1 of 2, 7:06 AM, 4:08) | "Couldn't Transcribe Audio" — only the 1st of 2 recordings. Recording 2 (7:11 AM) WAS captured in [[2025-07-16]]. Re-attempt rec 1 after audio download. | "Oh man. It's Messenger Cup season and work has been a blend of stress and also amazing. I don't know if that was good grammar there, but it's been a blend of stress and amazing..." |
 | 2025-06-24 (6:53 AM, 5:56) | "Couldn't Transcribe Audio" — audio not downloaded from iCloud. | "If I'm not going to write down some of these things that I think about in the morning... I'm resolute that I will say them, is the proper way, is it? I resolved that I will say them, I don't know..." |
+| 2025-06-23 (6:50 AM, 11:54) | "Couldn't Transcribe Audio" — audio not downloaded from iCloud. | "It is Monday, June 23 and there's due condensation on the window in front of me. It's very humid and it's been very hot this week. And it's been a fun week..." |
 
 *2026-06-03 was originally skipped ("Couldn't Transcribe Audio") but Nathaniel supplied the transcript manually — now captured above.*
 
