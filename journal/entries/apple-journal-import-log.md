@@ -22,6 +22,8 @@ Tracking the migration of voice-journal transcripts from the macOS Journal app i
 | 2025-08-26 | 1 (6:34 AM) | [[2025-08-26]] |
 | 2025-08-21 | 1 (6:14 AM) | [[2025-08-21]] |
 | 2025-08-13 | 1 (6:48 AM) | [[2025-08-13]] |
+| 2025-07-16 | 2 (7:06 AM rec 1 = untranscribable, see Skipped; 7:11 AM rec 2 captured) | [[2025-07-16]] |
+| 2025-07-10 | 1 (7:09 AM) | [[2025-07-10]] |
 | 2026-06-03 | 1 (6:55 AM) — *transcript provided manually; app couldn't auto-transcribe* | [[2026-06-03]] |
 | 2026-05-28 | 2 (7:09 AM, 7:14 AM) | [[2026-05-28]] |
 | 2026-04-16 | 1 (6:21 AM) | [[2026-04-16]] |
