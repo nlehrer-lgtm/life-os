@@ -45,4 +45,4 @@ Tracking the migration of voice-journal transcripts from the macOS Journal app i
 
 ## Resume point
 
-In progress through **July 2025**. Fully captured back through August 2025: Nov (17, 11), Oct (29, 24), Sep (29, 11, 8), Aug (29, 26, 21, 13). Sep 25 logged as Skipped (partial transcript). Next session continues **down into July 2025** — first July entry is a **multi-recording entry (two cards: 4:08 + 1:47)**, then keep going oldest-ward. Scroll position: feed is sitting at the July 2025 entries.
+In progress through **June 2025**. Fully captured back through July 2025: Nov (17, 11), Oct (29, 24), Sep (29, 11, 8), Aug (29, 26, 21, 13), Jul (16 rec 2, 10). Skipped: Sep 25 (partial transcript), Jul 16 rec 1 (Couldn't Transcribe Audio). Next session continues **down into June 2025** — first June entry is a **5:56 recording**, then keep going oldest-ward. Scroll position: feed is sitting at the June 2025 entries.
