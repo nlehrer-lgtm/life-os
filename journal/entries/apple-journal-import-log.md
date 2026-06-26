@@ -50,6 +50,6 @@ Tracking the migration of voice-journal transcripts from the macOS Journal app i
 
 ## Resume point
 
-In progress through **May 2025**. Captured back through June 2025: Nov (17, 11), Oct (29, 24), Sep (29, 11, 8), Aug (29, 26, 21, 13), Jul (16 rec 2, 10), Jun (16). Skipped (Couldn't Transcribe Audio — audio not downloaded from iCloud): Sep 25, Jul 16 rec 1, Jun 24, Jun 23. Next session continues **down into May 2025** — first May entry is a **12:12 recording (has transcript)**, then keep going oldest-ward.
+In progress through **April 2025**. Captured back through May 2025: Nov (17, 11), Oct (29, 24), Sep (29, 11, 8), Aug (29, 26, 21, 13), Jul (16 rec 2, 10), Jun (16), May (29, 21). Skipped (Couldn't Transcribe Audio — audio not downloaded from iCloud): Sep 25, Jul 16 rec 1, Jun 24, Jun 23. Next session continues **down into April 2025** — first April entry is a **multi-recording entry (two cards: 1:51 + 7:03, both have ⊡)**, then keep going oldest-ward.
 
 **Speed tip (learned this run):** In the feed, a small transcript icon (⊡) appears right after the duration (e.g. "7:15 · ⊡") ONLY when a transcript exists. Entries showing just the duration (no ⊡) are "Couldn't Transcribe Audio" — skip them without opening. From ~June 2025 backward, more entries lack downloaded audio, so use the ⊡ filter to target the transcribable ones. (Confirmed: detail view of a no-transcript entry shows only the Share button, no "•••" menu.)
