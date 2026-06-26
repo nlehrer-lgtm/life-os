@@ -20,12 +20,14 @@ _(none currently)_
 - **Hybrid:** In-house footage for most scenes. AI-generated for complex motion/action shots that are too difficult to film traditionally. [[Andrew McIntosh|Andrew]]'s final feasibility tests complete; hybrid approach confirmed.
 
 ## Upcoming
-_(none currently)_
+- **Finish the opener by July 6–7** (two weeks before the event), per [[Lisa Bevere|Lisa]]'s approved timeline.
 
 ## Open Loops
-_(none currently)_
+- [ ] **Prepare the AI artwork for the Dana story** (auction centerpiece)
+- [ ] **Decide reshoots:** Mon/Tue/Wed AM shoot or pivot fully to past footage + AI (incl. re-shooting [[Lindy Wood|Lindy]])
 
 ## Recently Closed
+- [x] **Showed [[Lisa Bevere|Lisa]] the reworked opener cut — approved.** Thumbs-up to keep moving forward; she set the final due date two weeks out from the event (July 6–7) (2026-06-26)
 - [x] Nations locked for Act 2 hero scenes: Nigeria (church burning), Iran (woman past soldiers), First World Nation (man through protest crowd in rain). Act 3 "rapid sequence" now intercuts those same three protagonists opening their latches, not a 12-15 nation montage (2026-05-12, per Script v5)
 - [x] Music decision: "Kiss the Ring" as primary (2026-05-12)
 - [x] Script v3 sign-off from Lisa Bevere — approved. Direction: make the "doors" in the script feel like opportunities (2026-05-12)
