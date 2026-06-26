@@ -11,6 +11,7 @@ Tracking the migration of voice-journal transcripts from the macOS Journal app i
 | Date | Recordings | File |
 |------|-----------|------|
 | 2026-06-17 | 2 (8:34 AM, 8:40 AM) | [[2026-06-17]] |
+| 2026-06-03 | 1 (6:55 AM) — *transcript provided manually; app couldn't auto-transcribe* | [[2026-06-03]] |
 | 2026-05-28 | 2 (7:09 AM, 7:14 AM) | [[2026-05-28]] |
 | 2026-04-16 | 1 (6:21 AM) | [[2026-04-16]] |
 | 2026-01-28 | 1 (7:15 AM) | [[2026-01-28]] |
