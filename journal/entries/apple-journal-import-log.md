@@ -13,9 +13,13 @@ Tracking the migration of voice-journal transcripts from the macOS Journal app i
 | 2026-06-17 | 2 (8:34 AM, 8:40 AM) | [[2026-06-17]] |
 | 2026-05-28 | 2 (7:09 AM, 7:14 AM) | [[2026-05-28]] |
 | 2026-04-16 | 1 (6:21 AM) | [[2026-04-16]] |
+| 2026-01-28 | 1 (7:15 AM) | [[2026-01-28]] |
+| 2026-01-23 | 1 (7:31 AM) | [[2026-01-23]] |
+| 2026-01-07 | 1 (7:39 AM) | [[2026-01-07]] |
 
 ## Skipped — needs audio download / re-attempt ✗
 
 | Date | Reason | Preview |
 |------|--------|---------|
-| 2026-06-03 | "Couldn't Transcribe Audio" (audio not downloaded locally) | "All right, we are officially into June. And um... We got some sun again..." |
+| 2026-06-03 | "Couldn't Transcribe Audio" | "All right, we are officially into June. And um... We got some sun again..." |
+| 2026-04-09 | "Couldn't Transcribe Audio" | "Wow. Um, I have no words for how much time has passed since my last entry. It's embarrassing, but, regardless, I want to make one today and just keep moving forward." |
