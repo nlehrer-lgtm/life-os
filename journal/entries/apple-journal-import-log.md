@@ -38,4 +38,4 @@ Tracking the migration of voice-journal transcripts from the macOS Journal app i
 
 ## Resume point
 
-In progress through **October 2025**. November 2025 fully captured (Nov 17, Nov 11). First October entry captured: **Oct 29** (13:58 recording). Next session continues **down from Oct 29** into the rest of October 2025 — next entry below Oct 29 in the feed, then keep going oldest-ward. Scroll position: feed is sitting at the October 2025 entries.
+In progress through **August 2025**. Fully captured back through September 2025: Nov (17, 11), Oct (29, 24), Sep (29, 11, 8). Sep 25 logged as Skipped (partial transcript). Next session continues **down into August 2025** — first August entry is **Aug 29** (13:11 recording, "Almost the end of August here... gonna play golf today with Matt and Kenny"), then keep going oldest-ward. Scroll position: feed is sitting at the August 2025 entries.
