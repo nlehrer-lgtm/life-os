@@ -1,6 +1,6 @@
 # M Cup 2026 — Status
 
-**Last updated:** 2026-06-26
+**Last updated:** 2026-06-30
 **Current phase:** Production / opener build
 **Working script:** v5 — "The Door" (`opener-script.md`). Source PDF in Downloads: `MCUP_2026_Opener_v5_The_Same_Door.pdf`
 **Opener due:** July 6–7, 2026 (two weeks out from the event). [[Lisa Bevere|Lisa]] approved this deadline along with her thumbs-up on the reworked cut (2026-06-26).
