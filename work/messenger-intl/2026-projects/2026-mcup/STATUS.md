@@ -28,6 +28,7 @@ _(none currently)_
 - [ ] **Decide reshoots:** Mon/Tue/Wed AM shoot or pivot fully to past footage + AI (incl. re-shooting [[Lindy Wood|Lindy]])
 
 ## Recently Closed
+- [x] **[[Lisa Bevere|Lisa]] delivered the first draft of the Dana script** (poem-style, west Texas to Africa) — unblocks the brainstorm and AI artwork/animation (2026-06-29)
 - [x] **Showed [[Lisa Bevere|Lisa]] the reworked opener cut — approved.** Thumbs-up to keep moving forward; she set the final due date two weeks out from the event (July 6–7) (2026-06-26)
 - [x] Nations locked for Act 2 hero scenes: Nigeria (church burning), Iran (woman past soldiers), First World Nation (man through protest crowd in rain). Act 3 "rapid sequence" now intercuts those same three protagonists opening their latches, not a 12-15 nation montage (2026-05-12, per Script v5)
 - [x] Music decision: "Kiss the Ring" as primary (2026-05-12)
