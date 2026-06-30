@@ -13,6 +13,25 @@
 - **JJ Tomlin:** cast — role TBD in this file
 - **Emily Johnson:** not moving forward
 
+## Friday Awards Ceremony — Video Flow (updated 2026-06-30)
+_Distinct from the Thursday "The Door" opener above. Covers the Friday, July 24 Awards Ceremony & Dessert Reception. Decisions from the 2026-06-30 meeting with [[Lisa Bevere|Lisa]], [[Arden Bevere|Arden]], [[Bryson]] — full notes: `2026-06-30-awards-night-flow-lisa-bryson-arden.md`._
+
+- **MAJOR CHANGE — the Don/Dana honoring video is no longer the awards opener.** It moves to the **end of the night** as the impact close, ending with the final number raised. Playing it cold before the lighthearted awards would land flat and feel disrespectful.
+- **NEW order of the night:** (1) **Recap video = opener** (recap normally plays at the end — flipped this year); (2) [[Matt]] & Alec host awards + all prizes; (3) [[John Bevere|John]] & Lisa take stage, introduce the honoring segment; (4) [[Phil]] & [[Mary]] come up to honor **Dana** and **Don**; (5) **honoring/impact video** plays, ending on the final number; (6) celebration on stage + John & Lisa close in prayer.
+- **Editors:** [[Annie]] → recap (opener). [[Josh Kendrick|Josh]] → honoring video.
+
+### Awards-night Open Loops
+- [ ] **Recap video (opener) — [[Annie]]:** highlights of the banquet/Thursday night; no final-number pressure (that lives in the honoring video now). Must be **done before Friday night begins** — only Friday morning to edit.
+- [ ] **Honoring video (closer) — [[Josh Kendrick|Josh]]:** rework per edit notes →
+  - [ ] Less Don & Dana / less Africa-heavy; show the moment, don't linger; broaden to all nations + everyone in the room.
+  - [ ] Remove anyone not attending this year; swap in this-year footage (not yet shot — placeholder).
+  - [ ] Keep final number as the end reveal; drop the real number in day-of before load-in (current number is placeholder).
+  - [ ] Cut the "two climaxes" tail — end strong after the number. Reword "you gave everything" (reads like martyrdom). Land "people of perseverance" wording with Lisa (she's uneasy; brand guide says "people of perseverance").
+  - [ ] Restore "they need more, they cry for more" line — Bryson to thread with [[Kathryn]], [[Joel Yankee|Joel]], Josh (likely version confusion).
+  - [ ] Shot swaps: Bibles shot → distribution shot ([[Vanessa]]'s Bibles); another B-roll round per Catherine's comments.
+- [ ] **Transition into the honoring moment:** [[Lisa Bevere|Lisa]] exploring a spoken/scripture setup ("unless a seed falls to the ground") out of the silly awards. John will want input (unavailable now).
+- [ ] **Hard timing:** all shots in the honoring video by ~4 PM Friday; final number is the last thing added before load-in.
+
 ## Open Decisions
 _(none currently)_
 
