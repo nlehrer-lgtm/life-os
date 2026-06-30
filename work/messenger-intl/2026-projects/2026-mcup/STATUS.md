@@ -23,7 +23,8 @@ _(none currently)_
 - **Finish the opener by July 6–7** (two weeks before the event), per [[Lisa Bevere|Lisa]]'s approved timeline.
 
 ## Open Loops
-- [ ] **Prepare the AI artwork for the Dana story** (auction centerpiece)
+- [ ] **Brainstorm the Dana video** — [[Lisa Bevere|Lisa]]'s first-draft script is in hand (poem-style, west Texas to Africa). Brainstorm block scheduled for 11:30am, 2026-06-30; Asana task due 2026-06-30.
+- [ ] **Prepare the AI artwork for the Dana story** (auction centerpiece) — unblocked now that Lisa's script has landed; flows out of the brainstorm.
 - [ ] **Decide reshoots:** Mon/Tue/Wed AM shoot or pivot fully to past footage + AI (incl. re-shooting [[Lindy Wood|Lindy]])
 
 ## Recently Closed
